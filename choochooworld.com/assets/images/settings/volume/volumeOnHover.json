@@ -1,0 +1,972 @@
+{"frames": [
+
+{
+	"filename": "icon-volume-on-hover_000.png",
+	"frame": {"x":1,"y":1,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_001.png",
+	"frame": {"x":87,"y":1,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_002.png",
+	"frame": {"x":173,"y":1,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_003.png",
+	"frame": {"x":259,"y":1,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_004.png",
+	"frame": {"x":345,"y":1,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_005.png",
+	"frame": {"x":1,"y":75,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_006.png",
+	"frame": {"x":87,"y":75,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_007.png",
+	"frame": {"x":173,"y":75,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_008.png",
+	"frame": {"x":259,"y":75,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_009.png",
+	"frame": {"x":345,"y":75,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_010.png",
+	"frame": {"x":1,"y":149,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_011.png",
+	"frame": {"x":87,"y":149,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_012.png",
+	"frame": {"x":173,"y":149,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_013.png",
+	"frame": {"x":259,"y":149,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_014.png",
+	"frame": {"x":345,"y":149,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_015.png",
+	"frame": {"x":1,"y":223,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_016.png",
+	"frame": {"x":87,"y":223,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_017.png",
+	"frame": {"x":173,"y":223,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_018.png",
+	"frame": {"x":259,"y":223,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_019.png",
+	"frame": {"x":345,"y":223,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_020.png",
+	"frame": {"x":1,"y":297,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_021.png",
+	"frame": {"x":87,"y":297,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_022.png",
+	"frame": {"x":173,"y":297,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_023.png",
+	"frame": {"x":259,"y":297,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_024.png",
+	"frame": {"x":345,"y":297,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_025.png",
+	"frame": {"x":1,"y":371,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_026.png",
+	"frame": {"x":87,"y":371,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_027.png",
+	"frame": {"x":173,"y":371,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_028.png",
+	"frame": {"x":259,"y":371,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_029.png",
+	"frame": {"x":345,"y":371,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_030.png",
+	"frame": {"x":1,"y":445,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_031.png",
+	"frame": {"x":87,"y":445,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_032.png",
+	"frame": {"x":173,"y":445,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_033.png",
+	"frame": {"x":259,"y":445,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_034.png",
+	"frame": {"x":345,"y":445,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_035.png",
+	"frame": {"x":1,"y":519,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_036.png",
+	"frame": {"x":87,"y":519,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_037.png",
+	"frame": {"x":173,"y":519,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_038.png",
+	"frame": {"x":259,"y":519,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_039.png",
+	"frame": {"x":345,"y":519,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_040.png",
+	"frame": {"x":1,"y":593,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_041.png",
+	"frame": {"x":87,"y":593,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_042.png",
+	"frame": {"x":173,"y":593,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_043.png",
+	"frame": {"x":259,"y":593,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_044.png",
+	"frame": {"x":345,"y":593,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_045.png",
+	"frame": {"x":1,"y":667,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_046.png",
+	"frame": {"x":87,"y":667,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_047.png",
+	"frame": {"x":173,"y":667,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_048.png",
+	"frame": {"x":259,"y":667,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_049.png",
+	"frame": {"x":345,"y":667,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_050.png",
+	"frame": {"x":1,"y":741,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_051.png",
+	"frame": {"x":87,"y":741,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_052.png",
+	"frame": {"x":173,"y":741,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_053.png",
+	"frame": {"x":259,"y":741,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_054.png",
+	"frame": {"x":345,"y":741,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_055.png",
+	"frame": {"x":1,"y":815,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_056.png",
+	"frame": {"x":87,"y":815,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_057.png",
+	"frame": {"x":173,"y":815,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_058.png",
+	"frame": {"x":259,"y":815,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_059.png",
+	"frame": {"x":345,"y":815,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_060.png",
+	"frame": {"x":1,"y":889,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_061.png",
+	"frame": {"x":87,"y":889,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_062.png",
+	"frame": {"x":173,"y":889,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_063.png",
+	"frame": {"x":259,"y":889,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_064.png",
+	"frame": {"x":345,"y":889,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_065.png",
+	"frame": {"x":1,"y":963,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_066.png",
+	"frame": {"x":87,"y":963,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_067.png",
+	"frame": {"x":173,"y":963,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_068.png",
+	"frame": {"x":259,"y":963,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_069.png",
+	"frame": {"x":345,"y":963,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_070.png",
+	"frame": {"x":1,"y":1037,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_071.png",
+	"frame": {"x":87,"y":1037,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_072.png",
+	"frame": {"x":173,"y":1037,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_073.png",
+	"frame": {"x":259,"y":1037,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_074.png",
+	"frame": {"x":345,"y":1037,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_075.png",
+	"frame": {"x":1,"y":1111,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_076.png",
+	"frame": {"x":87,"y":1111,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_077.png",
+	"frame": {"x":173,"y":1111,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_078.png",
+	"frame": {"x":259,"y":1111,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_079.png",
+	"frame": {"x":345,"y":1111,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_080.png",
+	"frame": {"x":1,"y":1185,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_081.png",
+	"frame": {"x":87,"y":1185,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_082.png",
+	"frame": {"x":173,"y":1185,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_083.png",
+	"frame": {"x":259,"y":1185,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_084.png",
+	"frame": {"x":345,"y":1185,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_085.png",
+	"frame": {"x":1,"y":1259,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_086.png",
+	"frame": {"x":87,"y":1259,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_087.png",
+	"frame": {"x":173,"y":1259,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_088.png",
+	"frame": {"x":259,"y":1259,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_089.png",
+	"frame": {"x":345,"y":1259,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_090.png",
+	"frame": {"x":1,"y":1333,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_091.png",
+	"frame": {"x":87,"y":1333,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_092.png",
+	"frame": {"x":173,"y":1333,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_093.png",
+	"frame": {"x":259,"y":1333,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_094.png",
+	"frame": {"x":345,"y":1333,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_095.png",
+	"frame": {"x":1,"y":1407,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_096.png",
+	"frame": {"x":87,"y":1407,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_097.png",
+	"frame": {"x":173,"y":1407,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_098.png",
+	"frame": {"x":259,"y":1407,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_099.png",
+	"frame": {"x":345,"y":1407,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_100.png",
+	"frame": {"x":1,"y":1481,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_101.png",
+	"frame": {"x":87,"y":1481,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_102.png",
+	"frame": {"x":173,"y":1481,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_103.png",
+	"frame": {"x":259,"y":1481,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_104.png",
+	"frame": {"x":345,"y":1481,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_105.png",
+	"frame": {"x":1,"y":1555,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_106.png",
+	"frame": {"x":87,"y":1555,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_107.png",
+	"frame": {"x":173,"y":1555,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_108.png",
+	"frame": {"x":259,"y":1555,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_109.png",
+	"frame": {"x":345,"y":1555,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_110.png",
+	"frame": {"x":1,"y":1629,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_111.png",
+	"frame": {"x":87,"y":1629,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_112.png",
+	"frame": {"x":173,"y":1629,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_113.png",
+	"frame": {"x":259,"y":1629,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_114.png",
+	"frame": {"x":345,"y":1629,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_115.png",
+	"frame": {"x":1,"y":1703,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_116.png",
+	"frame": {"x":87,"y":1703,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_117.png",
+	"frame": {"x":173,"y":1703,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_118.png",
+	"frame": {"x":259,"y":1703,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+},
+{
+	"filename": "icon-volume-on-hover_119.png",
+	"frame": {"x":345,"y":1703,"w":84,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":72},
+	"sourceSize": {"w":84,"h":72}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "volumeOnHover.png",
+	"format": "RGBA8888",
+	"size": {"w":430,"h":1776},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:362517dac5eb538582d7c727abff166d:5afeffe4ae95a21cc02d90d242a7ed94:9d74fcab0854b1fd76aecf48943ab61a$"
+}
+}
