@@ -1,0 +1,196 @@
+{"frames": [
+
+{
+	"filename": "Afraid-1.png",
+	"frame": {"x":1,"y":1,"w":203,"h":102},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":206,"y":323,"w":203,"h":102},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-2.png",
+	"frame": {"x":206,"y":1,"w":204,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":204,"y":305,"w":204,"h":121},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-3.png",
+	"frame": {"x":1,"y":147,"w":217,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":196,"y":277,"w":217,"h":147},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-4.png",
+	"frame": {"x":220,"y":147,"w":239,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":174,"y":269,"w":239,"h":159},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-5.png",
+	"frame": {"x":724,"y":147,"w":253,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":160,"y":260,"w":253,"h":169},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-6.png",
+	"frame": {"x":268,"y":318,"w":261,"h":182},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":151,"y":247,"w":261,"h":182},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-7.png",
+	"frame": {"x":531,"y":318,"w":263,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":150,"y":233,"w":263,"h":196},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-8.png",
+	"frame": {"x":308,"y":966,"w":263,"h":234},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":148,"y":199,"w":263,"h":234},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-9.png",
+	"frame": {"x":605,"y":1203,"w":286,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":129,"y":183,"w":286,"h":252},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-10.png",
+	"frame": {"x":306,"y":1203,"w":297,"h":240},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":179,"w":297,"h":240},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-11.png",
+	"frame": {"x":573,"y":966,"w":306,"h":235},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":105,"y":167,"w":306,"h":235},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-12.png",
+	"frame": {"x":1,"y":1203,"w":303,"h":235},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":167,"w":303,"h":235},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-13.png",
+	"frame": {"x":1,"y":738,"w":308,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":171,"w":308,"h":223},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-14.png",
+	"frame": {"x":1,"y":966,"w":305,"h":228},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":108,"y":166,"w":305,"h":228},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-15.png",
+	"frame": {"x":311,"y":738,"w":298,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":110,"y":168,"w":298,"h":226},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-16.png",
+	"frame": {"x":611,"y":738,"w":270,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":113,"y":167,"w":270,"h":226},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-17.png",
+	"frame": {"x":538,"y":516,"w":267,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":112,"y":170,"w":267,"h":220},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-18.png",
+	"frame": {"x":1,"y":516,"w":266,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":169,"w":266,"h":216},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-19.png",
+	"frame": {"x":269,"y":516,"w":267,"h":217},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":169,"w":267,"h":217},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-20.png",
+	"frame": {"x":1,"y":318,"w":265,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":170,"w":265,"h":176},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-21.png",
+	"frame": {"x":461,"y":147,"w":261,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":116,"y":167,"w":261,"h":164},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-22.png",
+	"frame": {"x":661,"y":1,"w":245,"h":144},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":119,"y":166,"w":245,"h":144},
+	"sourceSize": {"w":512,"h":512}
+},
+{
+	"filename": "Afraid-23.png",
+	"frame": {"x":412,"y":1,"w":247,"h":138},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":167,"w":247,"h":138},
+	"sourceSize": {"w":512,"h":512}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "afraid.png",
+	"format": "RGBA8888",
+	"size": {"w":978,"h":1456},
+	"scale": "0.25",
+	"smartupdate": "$TexturePacker:SmartUpdate:3d1edd6c229ad5e963b373ba551a020d:e31732500c945c1d51c37522ab3f2bd6:1772a598ea0300fd1bad85b141657a07$"
+}
+}

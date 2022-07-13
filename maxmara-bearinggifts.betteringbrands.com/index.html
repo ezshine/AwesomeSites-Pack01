@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>MaxMara | Bearing Gift</title>
+        <meta name="description" content="Bearing Gift" />
+
+        <!-- open graph -->
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="MaxMara | Bearing Gift" />
+        <meta property="og:description" content="Bearing Gift" />
+        <meta property="og:image" content="https://d2aderkbbkendf.cloudfront.net/share.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="MaxMara | Bearing Gift" />
+        <meta name="twitter:description" content="Bearing Gift" />
+        <meta name="twitter:image" content="https://d2aderkbbkendf.cloudfront.net/share.jpg" />
+
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://d2aderkbbkendf.cloudfront.net/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://d2aderkbbkendf.cloudfront.net/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://d2aderkbbkendf.cloudfront.net/favicons/favicon-16x16.png" />
+        <link rel="manifest" href="https://d2aderkbbkendf.cloudfront.net/favicons/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- basepath -->
+        <script>
+            var basePath = "https://d2aderkbbkendf.cloudfront.net/";
+        </script>
+
+        <!-- font -->
+        <style>
+            @font-face {
+                font-family: "MaxMaraFontFamily";
+                src: url("/assets/fonts/Rutan-Bold.woff") format("woff"), url("/assets/fonts/Rutan-Bold.woff2");
+                font-weight: 700;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: "MaxMaraFontFamily";
+                src: url("/assets/fonts/Rutan-DemiBold.woff") format("woff"), url("/assets/fonts/Rutan-DemiBold.woff2");
+                font-weight: 600;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: "MaxMaraFontFamily";
+                src: url("/assets/fonts/Rutan-Regular.woff") format("woff"), url("/assets/fonts/Rutan-Regular.woff2");
+                font-weight: 400;
+                font-style: normal;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="app"></canvas>
+
+        <div id="ui"></div>
+
+        <script src="/assets/js/index.js"></script>
+        <script src="/assets/js/ui.js"></script>
+
+        <script>
+            var webglApi = window.webglApi; /* a global variable for this homepage graphic */
+            var canvas = document.getElementById("app");
+            var time = +new Date() / 1000;
+            var inputXY;
+            var gui;
+            var raf;
+            var downX = -1;
+            var downY = -1;
+            var lastMoveX = -1;
+            var lastMoveY = -1;
+            var downTime = 0;
+            var isDown = false;
+            var pressedInfo = null;
+            var urlParams = {};
+            var animations = { percent: 0 };
+            var skipLoadingAnimation = false;
+
+            /* some dev test paramaters */
+            if (window.URLSearchParams) {
+                urlParams = new URLSearchParams(window.location.search);
+                skipLoadingAnimation = !!parseInt(urlParams.get("skipLoadingAnimation"), 10);
+                webglApi.properties.sceneFIndex = parseInt(urlParams.get("skipToScene"), 10) || 0;
+                webglApi.properties.useTestOverview = !!parseInt(urlParams.get("useTestOverview"), 10);
+            }
+
+            if (webglApi.checkIsSupported()) {
+                webglApi.preInit(
+                    {
+                        WORKER_PATH: basePath + "assets/js/",
+                        VISUAL_PATH: basePath + "assets/visual/",
+                        IMAGE_PATH: basePath + "assets/images/",
+                        CROSS_ORIGIN: {
+                            [basePath]: "anonymous"
+                        },
+
+                        /* product */
+                        PRODUCTS: {
+                            scene3: [
+                                { theme: "default", img: "scene3/scene3_1.jpg", sku: "p-1016049306001" },
+                                { theme: "default", img: "scene3/scene3_2.jpg", sku: "p-1016049306002" },
+                                { theme: "default", img: "scene3/scene3_3.jpg", sku: "p-1016139906001" },
+                                { theme: "default", img: "scene3/scene3_5.jpg", sku: "p-1546119306001" },
+                                { theme: "default", img: "scene3/scene3_6.jpg", sku: "p-4516209306001" },
+                                { theme: "default", img: "scene3/scene3_7.jpg", sku: "p-4516209306001" },
+                                { theme: "default", img: "scene3/scene3_8.jpg", sku: "p-4568019306001" },
+                                { theme: "default", img: "scene3/scene3_9.jpg", sku: "p-1016269306001" },
+                                { theme: "default", img: "scene3/scene3_10.jpg", sku: "p-1016269306001" },
+                                { theme: "default", img: "scene3/scene3_11.jpg", sku: "p-1016269306001" }
+                            ],
+                            scene4: [
+                                { theme: "cobalt", img: "scene4/cobalt/cobalt_1.jpg", sku: "p-1016049306006" },
+                                { theme: "cobalt", img: "scene4/cobalt/cobalt_2.jpg", sku: "p-1016049306006" },
+                                { theme: "cobalt", img: "scene4/cobalt/cobalt_3.jpg", sku: "p-1546109306006" },
+                                { theme: "cobalt", img: "scene4/cobalt/cobalt_4.jpg", sku: "p-4516199306006" },
+                                { theme: "cobalt", img: "scene4/cobalt/cobalt_5.jpg", sku: "p-4568029306006" },
+
+                                { theme: "torquoise", img: "scene4/torquoise/torquoise_1.jpg", sku: "p-1016049306007" },
+                                { theme: "torquoise", img: "scene4/torquoise/torquoise_2.jpg", sku: "p-1016129606007" },
+                                { theme: "torquoise", img: "scene4/torquoise/torquoise_3.jpg", sku: "p-1546109306007" },
+                                { theme: "torquoise", img: "scene4/torquoise/torquoise_4.jpg", sku: "p-4516199306007" },
+                                { theme: "torquoise", img: "scene4/torquoise/torquoise_5.jpg", sku: "p-4568029306007" },
+
+                                { theme: "coral", img: "scene4/coral/coral_1.jpg", sku: "p-1016049306009" },
+                                { theme: "coral", img: "scene4/coral/coral_2.jpg", sku: "p-1546109306009" },
+                                { theme: "coral", img: "scene4/coral/coral_3.jpg", sku: "p-4516199306009" },
+                                { theme: "coral", img: "scene4/coral/coral_4.jpg", sku: "p-4568029306009" },
+
+                                { theme: "yellow", img: "scene4/yellow/yellow_1.jpg", sku: "p-4568029306009" },
+                                { theme: "yellow", img: "scene4/yellow/yellow_2.jpg", sku: "p-1546109306010" }
+                            ],
+                            scene6: [
+                                { theme: "default", img: "scene6/scene6_1.png", sku: "p-4578039306001" },
+                                { theme: "default", img: "scene6/scene6_2.png", sku: "p-4578049306006" },
+                                { theme: "default", img: "scene6/scene6_3.png", sku: "p-4578049306007" },
+                                { theme: "default", img: "scene6/scene6_4.png", sku: "p-4578049306009" },
+                                { theme: "default", img: "scene6/scene6_5.png", sku: "p-4728019306006" },
+                                { theme: "default", img: "scene6/scene6_6.png", sku: "p-4728019306007" },
+                                { theme: "default", img: "scene6/scene6_7.png", sku: "p-4728019306009" },
+                                { theme: "default", img: "scene6/scene6_8.png", sku: "p-4728019306010" },
+                                { theme: "default", img: "scene6/scene6_9.png", sku: "p-4728029306001" },
+                                { theme: "default", img: "scene6/scene6_10.png", sku: "p-4758019306001" },
+                                { theme: "default", img: "scene6/scene6_11.png", sku: "p-4758019306002" },
+                                { theme: "default", img: "scene6/scene6_12.png", sku: "p-4758029306001" }
+                            ]
+                        },
+                        canvas: canvas
+                    },
+                    function(percent) {
+                        TweenLite.to(animations, skipLoadingAnimation ? 0 : 1, {
+                            percent: percent,
+                            onUpdate: function() {
+                                /* emitter */
+                                window.emitter.emit("loader", Math.floor(animations.percent * 100));
+                            },
+                            onComplete: function() {
+                                if (animations.percent == 1) {
+                                    init();
+                                }
+                            }
+                        });
+                    }
+                );
+                window.addEventListener("resize", onResize);
+                onResize();
+                loop();
+            } else {
+                /* No WebGL support here. */
+            }
+
+            function init() {
+                webglApi.init({
+                    canvas: canvas
+                });
+
+                if ("ontouchstart" in window) {
+                    document.documentElement.addEventListener("touchstart", getTouchBound(onDown));
+                    document.documentElement.addEventListener("touchmove", getTouchBound(onMove));
+                    document.documentElement.addEventListener("touchend", getTouchBound(onUp));
+                } else {
+                    document.documentElement.addEventListener("mousedown", onDown);
+                    document.documentElement.addEventListener("mousemove", onMove);
+                    document.documentElement.addEventListener("mouseup", onUp);
+                }
+
+                TweenLite.to(webglApi.properties, skipLoadingAnimation ? 0 : 1, {
+                    opacity: 1
+                });
+
+                setTimeout(() => {
+                    /* emitter */
+                    window.emitter.emit("ready");
+                });
+            }
+
+            function onDown(evt) {
+                inputXY = getInputXY(evt);
+                lastMoveX = downX = inputXY.x;
+                lastMoveY = downY = inputXY.y;
+                downTime = +new Date();
+                isDown = true;
+                pressedInfo = pressedInfo || webglApi.hitTest(downX, downY);
+
+                if (pressedInfo && pressedInfo.id && pressedInfo.id.indexOf("letter") > -1) {
+                    let letterIndex = parseInt(pressedInfo.id.substr(7));
+                    webglApi.properties.onLetterPopped.dispatch(letterIndex);
+                }
+
+                onMove(evt);
+            }
+
+            function onMove(evt) {
+                inputXY = getInputXY(evt);
+                webglApi.setMouse(inputXY.x, inputXY.y, isDown);
+
+                if (pressedInfo && pressedInfo.id == "cog") {
+                    webglApi.properties.cogwheelRotationSpeed += (inputXY.x - lastMoveX) * 3;
+                }
+
+                lastMoveX = inputXY.x;
+                lastMoveY = inputXY.y;
+            }
+
+            function onUp(evt) {
+                inputXY = getInputXY(evt);
+                isDown = false;
+                var isClicked = Math.abs(inputXY.x - downX) < 40 && Math.abs(inputXY.y - downY) < 40 && +new Date() - downTime < 200;
+                webglApi.setMouse(downX, downY, isDown, isClicked);
+
+                if (isClicked && pressedInfo) {
+                    /* emitter */
+                    window.emitter.emit("click", pressedInfo);
+
+                    if (pressedInfo.id == "lift_btn") {
+                        webglApi.properties.onLiftBtnClicked.dispatch();
+                    } else if (pressedInfo.id == "lift-product" && pressedInfo.product) {
+                        /* emitter */
+                        window.emitter.emit("open-product", pressedInfo.product);
+                    } else if (pressedInfo.id == "gift-product" && pressedInfo.product) {
+                        /* emitter */
+                        window.emitter.emit("open-product", pressedInfo.product);
+                    } else if (pressedInfo.id == "swing") {
+                        webglApi.properties.onSeesawClicked.dispatch();
+                    }
+                }
+                pressedInfo = null;
+            }
+
+            function getInputXY(evt) {
+                var rect = canvas.getBoundingClientRect();
+                var xy = {
+                    x: evt.clientX - rect.left,
+                    y: evt.clientY - rect.top
+                };
+
+                /* normalize the mouse position into viewport coord: -1 to 1 */
+                return {
+                    x: ((evt.clientX - rect.left) / rect.width) * 2 - 1,
+                    y: 1 - ((evt.clientY - rect.top) / rect.height) * 2
+                };
+            }
+
+            function getTouchBound(fn) {
+                return function(evt) {
+                    fn.call(this, evt.changedTouches[0] || evt.touches[0]);
+                };
+            }
+
+            function goToOffsetScene(offset) {
+                let sceneFIndex = Math.max(0, Math.min(7, Math.round(webglApi.properties.sceneFIndex + offset || 0)));
+
+                TweenLite.to(webglApi.properties, 0.8 + Math.abs(sceneFIndex - webglApi.properties.sceneFIndex), {
+                    sceneFIndex: sceneFIndex,
+                    ease: "easeInOutSine",
+                    onComplete: () => {
+                        /* emitter */
+                        window.emitter.emit("scene", webglApi.properties.sceneFIndex);
+                    }
+                });
+            }
+
+            function onResize() {
+                /* resize the web canvas to the screen size */
+                webglApi.resize(window.innerWidth, window.innerHeight);
+            }
+
+            function loop() {
+                raf = requestAnimationFrame(loop);
+                render();
+            }
+
+            function render() {
+                var newTime = +new Date() / 1000;
+                var deltaTime = newTime - time;
+
+                /* pass delta time in second into the api */
+                webglApi.render(deltaTime);
+                time = newTime;
+            }
+        </script>
+    </body>
+</html>

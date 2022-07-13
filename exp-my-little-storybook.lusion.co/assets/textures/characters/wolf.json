@@ -1,0 +1,44 @@
+{"frames": [
+
+{
+	"filename": "0.png",
+	"frame": {"x":1,"y":1,"w":180,"h":199},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":28,"w":180,"h":199},
+	"sourceSize": {"w":240,"h":240}
+},
+{
+	"filename": "1.png",
+	"frame": {"x":183,"y":1,"w":180,"h":199},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":28,"w":180,"h":199},
+	"sourceSize": {"w":240,"h":240}
+},
+{
+	"filename": "2.png",
+	"frame": {"x":183,"y":1,"w":180,"h":199},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":28,"w":180,"h":199},
+	"sourceSize": {"w":240,"h":240}
+},
+{
+	"filename": "3.png",
+	"frame": {"x":1,"y":1,"w":180,"h":199},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":28,"w":180,"h":199},
+	"sourceSize": {"w":240,"h":240}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "wolf.png",
+	"format": "RGBA8888",
+	"size": {"w":364,"h":201},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:0c23cff3e43fea18dbe9e45a334ed1a0:2e0a82b1cbfb5d0c81dc11f988118e78:6aa8f2d37925a18e990d23a498f81618$"
+}
+}

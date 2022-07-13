@@ -8,3 +8,8 @@
 - therace.montblanclegend.com
 - atmos.leeroy.ca
 - choochooworld.com
+- exp-my-little-storybook.lusion.co
+- operanorth.co.uk/turn-of-the-screw-immersive-trailer
+- exp-gemini.lusion.co
+- maxmara-bearinggifts.betteringbrands.com
+- exp-infinite-passerella.lusion.co
