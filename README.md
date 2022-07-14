@@ -17,3 +17,4 @@
 - lamborghini.com/cn-en/3d
 - guccibelovedbounce.gucci.com
 - www.foosballworldcup18.com
+- play.gl
