@@ -1,0 +1,53 @@
+{
+  "landing": {
+    "hello": "嗨",
+    "intro": "欢迎来到",
+    "title": "古驰宠儿Bounce游戏",
+    "text": [
+      "精彩即将上演！",
+      "让麦克风从一个方块跳到另一个方块，确保准时抵达。"
+    ]
+  },
+
+  "tutorial": {
+    "hold": [
+      ["长按", "准备跳跃。"],
+      ["点击并长按，", "准备跳跃。"]
+    ],
+    "jump": "按住的时间越长，跳得越高。"
+  },
+
+  "combo": {
+    "message": "在中间降落漂亮的一跃",
+    "popup": "连击"
+  },
+
+  "bags": {
+    "jackie": "Jackie",
+    "marmont": "Marmont",
+    "dionysus": "Dionysus",
+    "horsebit": "Horsebit"
+  },
+
+  "buttons": {
+    "start": "开始游戏",
+    "restart": "开始新游戏"
+  },
+
+  "gameover": {
+    "message": "游戏结束",
+    "user": "您的得分"
+  },
+  
+  "ranking": {
+    "position": "排名",
+    "score": "得分"
+  },
+
+  "share": {
+    "title": "我获得了{score}的得分",
+    "text": "在Gucci App畅玩 {name}"
+  },
+
+  "privacy": "Cookies和隐私政策"
+}

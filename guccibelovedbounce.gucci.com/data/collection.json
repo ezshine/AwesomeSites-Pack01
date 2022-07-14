@@ -1,0 +1,249 @@
+{
+  "player": {
+    "glb": "assets/glb/microphone.glb"
+  },
+
+  "boxes": [
+    {
+      "glb": "assets/glb/on-air-cube.glb",
+      "sound": "onair-v1",
+      "size": "single",
+      "score": 1,
+      "prob": 1
+    },
+    {
+      "glb": "assets/glb/wood-cube.glb",
+      "sound": "block",
+      "size": "single",
+      "score": 1,
+      "prob": 3
+    },
+    {
+      "glb": "assets/glb/puff-yellow.glb",
+      "sound": "block",
+      "size": "single",
+      "score": 1,
+      "prob": 3
+    },
+    {
+      "glb": "assets/glb/puff-green.glb",
+      "sound": "block",
+      "size": "single",
+      "score": 1,
+      "prob": 3
+    },
+    {
+      "glb": "assets/glb/tv-cube.glb",
+      "sound": "block",
+      "size": "single",
+      "score": 1,
+      "prob": 2,
+      "textures": [
+        "01-tv",
+        "02-tv",
+        "03-tv",
+        "04-tv",
+        "05-tv",
+        "06-tv"
+      ]
+    },
+    {
+      "glb": "assets/glb/left-double-applause-cube.glb",
+      "bag": "bag-jackie",
+      "sound": "applause-v2",
+      "size": "double",
+      "side": "left",
+      "score": 3,
+      "prob": 1
+    },
+    {
+      "glb": "assets/glb/left-double-on-air-cube.glb",
+      "bag": "bag-horsebit",
+      "sound": "onair-v1",
+      "size": "double",
+      "side": "left",
+      "score": 3,
+      "prob": 1
+    },
+    {
+      "glb": "assets/glb/left-double-recording-cube.glb",
+      "bag": "bag-marmont-black",
+      "sound": "recording",
+      "size": "double",
+      "side": "left",
+      "score": 3,
+      "prob": 1
+    },
+    {
+      "glb": "assets/glb/right-double-on-air-orange-cube.glb",
+      "bag": "bag-marmont-white",
+      "sound": "onair-v2",
+      "size": "double",
+      "side": "right",
+      "score": 3,
+      "prob": 1
+    },
+    {
+      "glb": "assets/glb/right-double-wood-table.glb",
+      "bag": "bag-dionysus",
+      "sound": "bagjump",
+      "size": "double",
+      "side": "right",
+      "score": 3,
+      "prob": 1
+    }
+  ],
+
+  "bags": [
+    {
+      "glb": "assets/glb/bag-dionysus.glb",
+      "name": "bag-dionysus",
+      "key": "dionysus"
+    },
+    {
+      "glb": "assets/glb/bag-horsebit.glb",
+      "name": "bag-horsebit",
+      "key": "horsebit"
+    },
+    {
+      "glb": "assets/glb/bag-jackie.glb",
+      "name": "bag-jackie",
+      "key": "jackie"
+    },
+    {
+      "glb": "assets/glb/bag-marmont-black.glb",
+      "name": "bag-marmont-black",
+      "key": "marmont"
+    },
+    {
+      "glb": "assets/glb/bag-marmont-white.glb",
+      "name": "bag-marmont-white",
+      "key": "marmont"
+    }
+  ],
+
+  "sounds": [
+    {
+      "source": "assets/audio/1_mic_caricamento.mp3",
+      "name": "hold",
+      "volume": 1, 
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/2_mic_salto.mp3",
+      "name": "jump", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/4_mic_caduta_v2.mp3",
+      "name": "fall", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/3_mic_atterraggio.mp3",
+      "name": "block", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/5_borsa_salto.mp3",
+      "name": "bagjump", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/6_applauso_v1.mp3",
+      "name": "applause-v1", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/6_applauso_v2.mp3",
+      "name": "applause-v2", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/7_cassetta.mp3",
+      "name": "recording", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/8_OnAir_v1.mp3",
+      "name": "onair-v1", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/9_OnAir_v2.mp3",
+      "name": "onair-v2", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/10_combo_1.mp3",
+      "name": "combo-v1", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/11_combo_2.mp3",
+      "name": "combo-v2", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/12_gameover.mp3",
+      "name": "gameover", 
+      "volume": 1,
+      "loop": false,
+      "playbackRate": 1
+    },
+    {
+      "source": "assets/audio/Gucci_beloved_music_2.mp3",
+      "name": "ambient", 
+      "volume": 0.3,
+      "loop": true,
+      "playbackRate": 1
+    }
+  ],
+
+  "textures": [
+    {
+      "source": "assets/textures/01-tv.jpg"
+    },
+    {
+      "source": "assets/textures/02-tv.jpg"
+    },
+    {
+      "source": "assets/textures/03-tv.jpg"
+    },
+    {
+      "source": "assets/textures/04-tv.jpg"
+    },
+    {
+      "source": "assets/textures/05-tv.jpg"
+    },
+    {
+      "source": "assets/textures/06-tv.jpg"
+    },
+    {
+      "source": "assets/textures/spark.png"
+    }
+  ]
+}

@@ -13,3 +13,7 @@
 - exp-gemini.lusion.co
 - maxmara-bearinggifts.betteringbrands.com
 - exp-infinite-passerella.lusion.co
+- yelloworld.pinkyellow.com
+- lamborghini.com/cn-en/3d
+- guccibelovedbounce.gucci.com
+- www.foosballworldcup18.com

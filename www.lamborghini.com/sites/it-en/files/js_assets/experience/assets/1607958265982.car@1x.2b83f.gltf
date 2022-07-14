@@ -1,0 +1,4102 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                89
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Alcantara.001"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Alcantara"
+        },
+        {
+            "mesh" : 1,
+            "name" : "BF_COOLING_SISTEM.001"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "BF_COOLING_SISTEM"
+        },
+        {
+            "mesh" : 2,
+            "name" : "Lambo_car_CARBONIO_INTERNO.001"
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "Lambo_car_CARBONIO_INTERNO"
+        },
+        {
+            "mesh" : 3,
+            "name" : "LW_CARBONIO_INTERNO.001"
+        },
+        {
+            "children" : [
+                6
+            ],
+            "name" : "LW_CARBONIO_INTERNO"
+        },
+        {
+            "mesh" : 4,
+            "name" : "LW_CARBONIO_POSTERIORE.001"
+        },
+        {
+            "children" : [
+                8
+            ],
+            "name" : "LW_CARBONIO_POSTERIORE"
+        },
+        {
+            "children" : [
+                5,
+                7,
+                9
+            ],
+            "name" : "CARBONIO_INTERNO",
+            "translation" : [
+                0,
+                0.008833703584969044,
+                0
+            ]
+        },
+        {
+            "mesh" : 5,
+            "name" : "CARROZZERIA.001"
+        },
+        {
+            "children" : [
+                11
+            ],
+            "name" : "CARROZZERIA"
+        },
+        {
+            "mesh" : 6,
+            "name" : "LW_CARBONIO_CARROZZERIA.001"
+        },
+        {
+            "children" : [
+                13
+            ],
+            "name" : "LW_CARBONIO_CARROZZERIA"
+        },
+        {
+            "children" : [
+                12,
+                14
+            ],
+            "name" : "Carrozzeria",
+            "translation" : [
+                0,
+                0.008833703584969044,
+                0
+            ]
+        },
+        {
+            "mesh" : 7,
+            "name" : "Carrozzeria_interna_nera1.001"
+        },
+        {
+            "children" : [
+                16
+            ],
+            "name" : "Carrozzeria_interna_nera1",
+            "translation" : [
+                0,
+                0.008833703584969044,
+                0
+            ]
+        },
+        {
+            "mesh" : 8,
+            "name" : "cuciture_bottoni.001"
+        },
+        {
+            "children" : [
+                18
+            ],
+            "name" : "cuciture_bottoni"
+        },
+        {
+            "mesh" : 9,
+            "name" : "dettagli_interni.001"
+        },
+        {
+            "children" : [
+                20
+            ],
+            "name" : "dettagli_interni"
+        },
+        {
+            "mesh" : 10,
+            "name" : "BLOOM_fari"
+        },
+        {
+            "mesh" : 11,
+            "name" : "fari.001"
+        },
+        {
+            "children" : [
+                22,
+                23
+            ],
+            "name" : "fari"
+        },
+        {
+            "mesh" : 12,
+            "name" : "interni_palastica_nera1.001"
+        },
+        {
+            "children" : [
+                25
+            ],
+            "name" : "interni_palastica_nera1",
+            "translation" : [
+                0,
+                0.008833703584969044,
+                0
+            ]
+        },
+        {
+            "mesh" : 13,
+            "name" : "LW_WIDESCREEN_ALLEGERITO.001"
+        },
+        {
+            "children" : [
+                27
+            ],
+            "name" : "LW_WIDESCREEN_ALLEGERITO"
+        },
+        {
+            "mesh" : 14,
+            "name" : "Plastica_Lucida_Azzurro.001"
+        },
+        {
+            "children" : [
+                29
+            ],
+            "name" : "Plastica_Lucida_Azzurro"
+        },
+        {
+            "mesh" : 15,
+            "name" : "BF_BRAKING_FEELING_CCMR.001"
+        },
+        {
+            "children" : [
+                31
+            ],
+            "name" : "BF_BRAKING_FEELING_CCMR"
+        },
+        {
+            "mesh" : 16,
+            "name" : "LW_MAGNESIUM_RIMS2.001"
+        },
+        {
+            "children" : [
+                33
+            ],
+            "name" : "LW_MAGNESIUM_RIMS2"
+        },
+        {
+            "mesh" : 17,
+            "name" : "RUOTE1.001"
+        },
+        {
+            "children" : [
+                35
+            ],
+            "name" : "RUOTE1"
+        },
+        {
+            "children" : [
+                32,
+                34,
+                36
+            ],
+            "name" : "Ruote"
+        },
+        {
+            "mesh" : 18,
+            "name" : "no_bloom_vetro_car"
+        },
+        {
+            "mesh" : 19,
+            "name" : "BLOOM_vetro_car"
+        },
+        {
+            "children" : [
+                38,
+                39
+            ],
+            "name" : "vetro_car"
+        },
+        {
+            "children" : [
+                1,
+                3,
+                10,
+                15,
+                17,
+                19,
+                21,
+                24,
+                26,
+                28,
+                30,
+                37,
+                40
+            ],
+            "name" : "Fatto"
+        },
+        {
+            "mesh" : 20,
+            "name" : "asta_cofango.001"
+        },
+        {
+            "children" : [
+                42
+            ],
+            "name" : "asta_cofango"
+        },
+        {
+            "mesh" : 21,
+            "name" : "cofango_black_interior.001",
+            "translation" : [
+                0,
+                0.007582023739814758,
+                -2.202587604522705
+            ]
+        },
+        {
+            "children" : [
+                44
+            ],
+            "name" : "cofango_black_interior"
+        },
+        {
+            "mesh" : 22,
+            "name" : "cofango_fanali.001",
+            "translation" : [
+                0,
+                0.007582023739814758,
+                -2.202587604522705
+            ]
+        },
+        {
+            "children" : [
+                46
+            ],
+            "name" : "cofango_fanali"
+        },
+        {
+            "name" : "cofango_finestrini"
+        },
+        {
+            "mesh" : 23,
+            "name" : "LW_CARBONIO_COFANGO_1.001",
+            "translation" : [
+                0,
+                -0.17652194201946259,
+                -2.202587604522705
+            ]
+        },
+        {
+            "children" : [
+                49
+            ],
+            "name" : "LW_CARBONIO_COFANGO_1"
+        },
+        {
+            "mesh" : 24,
+            "name" : "LW_CARBONIO_COFANGO_2.001",
+            "translation" : [
+                0,
+                0.007582023739814758,
+                -2.202587604522705
+            ]
+        },
+        {
+            "children" : [
+                51
+            ],
+            "name" : "LW_CARBONIO_COFANGO_2"
+        },
+        {
+            "children" : [
+                45,
+                47,
+                48,
+                50,
+                52
+            ],
+            "name" : "CAR_COFANGO",
+            "translation" : [
+                0,
+                -0.007582023739814758,
+                2.202587604522705
+            ]
+        },
+        {
+            "mesh" : 25,
+            "name" : "porta_dx_alcantara.001",
+            "translation" : [
+                0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                54
+            ],
+            "name" : "porta_dx_alcantara"
+        },
+        {
+            "mesh" : 26,
+            "name" : "porta_dx_black_interior.001",
+            "translation" : [
+                0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                56
+            ],
+            "name" : "porta_dx_black_interior"
+        },
+        {
+            "mesh" : 27,
+            "name" : "porta_dx_carbonio.001",
+            "translation" : [
+                0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                58
+            ],
+            "name" : "porta_dx_carbonio"
+        },
+        {
+            "mesh" : 28,
+            "name" : "porta_dx_cuciture_bottoni.001",
+            "translation" : [
+                0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                60
+            ],
+            "name" : "porta_dx_cuciture_bottoni"
+        },
+        {
+            "mesh" : 29,
+            "name" : "porta_dx_dettagli_interni.001",
+            "translation" : [
+                0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                62
+            ],
+            "name" : "porta_dx_dettagli_interni"
+        },
+        {
+            "mesh" : 30,
+            "name" : "porta_dx_plastica_nera.001",
+            "translation" : [
+                0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                64
+            ],
+            "name" : "porta_dx_plastica_nera"
+        },
+        {
+            "mesh" : 31,
+            "name" : "porta_dx_vetro.001",
+            "translation" : [
+                0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                66
+            ],
+            "name" : "porta_dx_vetro"
+        },
+        {
+            "mesh" : 32,
+            "name" : "PORTA_SX.001",
+            "translation" : [
+                0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                68
+            ],
+            "name" : "PORTA_SX"
+        },
+        {
+            "children" : [
+                55,
+                57,
+                59,
+                61,
+                63,
+                65,
+                67,
+                69
+            ],
+            "name" : "CAR_DOOR_DX",
+            "translation" : [
+                -0.8783410787582397,
+                0.4732407331466675,
+                0.731907844543457
+            ]
+        },
+        {
+            "mesh" : 33,
+            "name" : "PORTA_SX.003",
+            "translation" : [
+                -0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                71
+            ],
+            "name" : "PORTA_SX.002"
+        },
+        {
+            "mesh" : 34,
+            "name" : "porta_sx_alcantara.001",
+            "translation" : [
+                -0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                73
+            ],
+            "name" : "porta_sx_alcantara"
+        },
+        {
+            "mesh" : 35,
+            "name" : "porta_sx_black_interior.001",
+            "translation" : [
+                -0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                75
+            ],
+            "name" : "porta_sx_black_interior"
+        },
+        {
+            "mesh" : 36,
+            "name" : "porta_sx_carbonio.001",
+            "translation" : [
+                -0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                77
+            ],
+            "name" : "porta_sx_carbonio"
+        },
+        {
+            "mesh" : 37,
+            "name" : "porta_sx_cuciture_bottoni.001",
+            "translation" : [
+                -0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                79
+            ],
+            "name" : "porta_sx_cuciture_bottoni"
+        },
+        {
+            "mesh" : 38,
+            "name" : "porta_sx_dettagli_interni.001",
+            "translation" : [
+                -0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                81
+            ],
+            "name" : "porta_sx_dettagli_interni"
+        },
+        {
+            "mesh" : 39,
+            "name" : "porta_sx_plastica_nera.001",
+            "translation" : [
+                -0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                83
+            ],
+            "name" : "porta_sx_plastica_nera"
+        },
+        {
+            "mesh" : 40,
+            "name" : "porta_sx_vetri.001",
+            "translation" : [
+                -0.8783410787582397,
+                -0.4732407331466675,
+                -0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                85
+            ],
+            "name" : "porta_sx_vetri"
+        },
+        {
+            "children" : [
+                72,
+                74,
+                76,
+                78,
+                80,
+                82,
+                84,
+                86
+            ],
+            "name" : "CAR_DOOR_SX",
+            "translation" : [
+                0.8783410787582397,
+                0.4732407331466675,
+                0.731907844543457
+            ]
+        },
+        {
+            "children" : [
+                43,
+                53,
+                70,
+                87
+            ],
+            "name" : "Lambo_porte",
+            "translation" : [
+                0,
+                0.1929376870393753,
+                0
+            ]
+        },
+        {
+            "children" : [
+                41,
+                88
+            ],
+            "name" : "Lambo_car",
+            "translation" : [
+                0,
+                -0.008833703584969044,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "mat_alcantara",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "mat_cooling_sistem.001",
+            "normalTexture" : {
+                "index" : 3,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 4,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 5,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 4,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "index" : 6,
+                "texCoord" : 0
+            },
+            "name" : "mat_carbonio",
+            "normalTexture" : {
+                "index" : 7,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 8,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 9,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 8,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "mat_carrozzeria",
+            "normalTexture" : {
+                "index" : 10,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 11,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 12,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 11,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "mat_black_interior",
+            "normalTexture" : {
+                "index" : 13,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 14,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 15,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 14,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "mat_cuciture_bottoni_no_bake",
+            "normalTexture" : {
+                "index" : 16,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 17,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 18,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 17,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "index" : 19,
+                "texCoord" : 0
+            },
+            "name" : "mat_dettagli_interni",
+            "normalTexture" : {
+                "index" : 20,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 21,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 22,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 21,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "index" : 23,
+                "texCoord" : 0
+            },
+            "name" : "mat_fanali",
+            "normalTexture" : {
+                "index" : 24,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 25,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 26,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 25,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "mat_plastica_nera",
+            "normalTexture" : {
+                "index" : 27,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 28,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 29,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 28,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "mat_vetro_car",
+            "normalTexture" : {
+                "index" : 30,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 31,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 32,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 31,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "mat_plastica_lucida_e_azzurro",
+            "normalTexture" : {
+                "index" : 33,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 34,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 35,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 34,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "mat_wheels",
+            "normalTexture" : {
+                "index" : 36,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 37,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 38,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 37,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Alcantara",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "BF_COOLING_SISTEM",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Lambo_car_CARBONIO_INTERNO",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "LW_CARBONIO_INTERNO.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "indices" : 15,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "LW_CARBONIO_POSTERIORE",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 16,
+                        "NORMAL" : 17,
+                        "TEXCOORD_0" : 18
+                    },
+                    "indices" : 19,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "CARROZZERIA.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 20,
+                        "NORMAL" : 21,
+                        "TEXCOORD_0" : 22
+                    },
+                    "indices" : 23,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "name" : "LW_CARBONIO_CARROZZERIA.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 24,
+                        "NORMAL" : 25,
+                        "TEXCOORD_0" : 26
+                    },
+                    "indices" : 27,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "name" : "Carrozzeria_interna_nera1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 28,
+                        "NORMAL" : 29,
+                        "TEXCOORD_0" : 30
+                    },
+                    "indices" : 31,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "name" : "cuciture_bottoni",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 32,
+                        "NORMAL" : 33,
+                        "TEXCOORD_0" : 34
+                    },
+                    "indices" : 35,
+                    "material" : 5
+                }
+            ]
+        },
+        {
+            "name" : "dettagli_interni.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 36,
+                        "NORMAL" : 37,
+                        "TEXCOORD_0" : 38
+                    },
+                    "indices" : 39,
+                    "material" : 6
+                }
+            ]
+        },
+        {
+            "name" : "fari",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 40,
+                        "NORMAL" : 41,
+                        "TEXCOORD_0" : 42
+                    },
+                    "indices" : 43,
+                    "material" : 7
+                }
+            ]
+        },
+        {
+            "name" : "fari.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 44,
+                        "NORMAL" : 45,
+                        "TEXCOORD_0" : 46
+                    },
+                    "indices" : 47,
+                    "material" : 7
+                }
+            ]
+        },
+        {
+            "name" : "interni_palastica_nera1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 48,
+                        "NORMAL" : 49,
+                        "TEXCOORD_0" : 50
+                    },
+                    "indices" : 51,
+                    "material" : 8
+                }
+            ]
+        },
+        {
+            "name" : "LW_WIDESCREEN_ALLEGERITO.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 52,
+                        "NORMAL" : 53,
+                        "TEXCOORD_0" : 54
+                    },
+                    "indices" : 55,
+                    "material" : 9
+                }
+            ]
+        },
+        {
+            "name" : "Plastica_Lucida_Azzurro.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 56,
+                        "NORMAL" : 57,
+                        "TEXCOORD_0" : 58
+                    },
+                    "indices" : 59,
+                    "material" : 10
+                }
+            ]
+        },
+        {
+            "name" : "BF_BRAKING_FEELING_CCMR",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 60,
+                        "NORMAL" : 61,
+                        "TEXCOORD_0" : 62
+                    },
+                    "indices" : 63,
+                    "material" : 11
+                }
+            ]
+        },
+        {
+            "name" : "LW_MAGNESIUM_RIMS2",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 64,
+                        "NORMAL" : 65,
+                        "TEXCOORD_0" : 66
+                    },
+                    "indices" : 67,
+                    "material" : 11
+                }
+            ]
+        },
+        {
+            "name" : "RUOTE1.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 68,
+                        "NORMAL" : 69,
+                        "TEXCOORD_0" : 70
+                    },
+                    "indices" : 71,
+                    "material" : 11
+                }
+            ]
+        },
+        {
+            "name" : "vetro_car",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 72,
+                        "NORMAL" : 73,
+                        "TEXCOORD_0" : 74
+                    },
+                    "indices" : 75,
+                    "material" : 9
+                }
+            ]
+        },
+        {
+            "name" : "vetro_car.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 76,
+                        "NORMAL" : 77,
+                        "TEXCOORD_0" : 78
+                    },
+                    "indices" : 79,
+                    "material" : 9
+                }
+            ]
+        },
+        {
+            "name" : "asta_cofango.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 80,
+                        "NORMAL" : 81,
+                        "TEXCOORD_0" : 82
+                    },
+                    "indices" : 83,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "name" : "cofango_black_interior.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 84,
+                        "NORMAL" : 85,
+                        "TEXCOORD_0" : 86
+                    },
+                    "indices" : 87,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "name" : "cofango_fanali",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 88,
+                        "NORMAL" : 89,
+                        "TEXCOORD_0" : 90
+                    },
+                    "indices" : 91,
+                    "material" : 7
+                }
+            ]
+        },
+        {
+            "name" : "LW_CARBONIO_COFANGO_1.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 92,
+                        "NORMAL" : 93,
+                        "TEXCOORD_0" : 94
+                    },
+                    "indices" : 95,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "name" : "LW_CARBONIO_COFANGO_2.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 96,
+                        "NORMAL" : 97,
+                        "TEXCOORD_0" : 98
+                    },
+                    "indices" : 99,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "porta_dx_alcantara.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 100,
+                        "NORMAL" : 101,
+                        "TEXCOORD_0" : 102
+                    },
+                    "indices" : 103,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "porta_dx_black_interior.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 104,
+                        "NORMAL" : 105,
+                        "TEXCOORD_0" : 106
+                    },
+                    "indices" : 107,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "name" : "porta_dx_carbonio.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 108,
+                        "NORMAL" : 109,
+                        "TEXCOORD_0" : 110
+                    },
+                    "indices" : 111,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "porta_dx_cuciture_bottoni.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 112,
+                        "NORMAL" : 113,
+                        "TEXCOORD_0" : 114
+                    },
+                    "indices" : 115,
+                    "material" : 5
+                }
+            ]
+        },
+        {
+            "name" : "porta_dx_dettagli_interni.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 116,
+                        "NORMAL" : 117,
+                        "TEXCOORD_0" : 118
+                    },
+                    "indices" : 119,
+                    "material" : 6
+                }
+            ]
+        },
+        {
+            "name" : "porta_dx_plastica_nera.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 120,
+                        "NORMAL" : 121,
+                        "TEXCOORD_0" : 122
+                    },
+                    "indices" : 123,
+                    "material" : 8
+                }
+            ]
+        },
+        {
+            "name" : "porta_dx_vetro.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 124,
+                        "NORMAL" : 125,
+                        "TEXCOORD_0" : 126
+                    },
+                    "indices" : 127,
+                    "material" : 9
+                }
+            ]
+        },
+        {
+            "name" : "PORTA_SX",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 128,
+                        "NORMAL" : 129,
+                        "TEXCOORD_0" : 130
+                    },
+                    "indices" : 131,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "name" : "PORTA_SX.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 132,
+                        "NORMAL" : 133,
+                        "TEXCOORD_0" : 134
+                    },
+                    "indices" : 135,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "name" : "porta_sx_alcantara.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 136,
+                        "NORMAL" : 137,
+                        "TEXCOORD_0" : 138
+                    },
+                    "indices" : 139,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "porta_sx_black_interior",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 140,
+                        "NORMAL" : 141,
+                        "TEXCOORD_0" : 142
+                    },
+                    "indices" : 143,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "name" : "porta_sx_carbonio",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 144,
+                        "NORMAL" : 145,
+                        "TEXCOORD_0" : 146
+                    },
+                    "indices" : 147,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "porta_sx_cuciture_bottoni",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 148,
+                        "NORMAL" : 149,
+                        "TEXCOORD_0" : 150
+                    },
+                    "indices" : 151,
+                    "material" : 5
+                }
+            ]
+        },
+        {
+            "name" : "porta_sx_dettagli_interni",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 152,
+                        "NORMAL" : 153,
+                        "TEXCOORD_0" : 154
+                    },
+                    "indices" : 155,
+                    "material" : 6
+                }
+            ]
+        },
+        {
+            "name" : "porta_sx_plastica_nera",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 156,
+                        "NORMAL" : 157,
+                        "TEXCOORD_0" : 158
+                    },
+                    "indices" : 159,
+                    "material" : 8
+                }
+            ]
+        },
+        {
+            "name" : "porta_sx_vetri",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 160,
+                        "NORMAL" : 161,
+                        "TEXCOORD_0" : 162
+                    },
+                    "indices" : 163,
+                    "material" : 9
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        },
+        {
+            "source" : 4
+        },
+        {
+            "source" : 5
+        },
+        {
+            "source" : 6
+        },
+        {
+            "source" : 7
+        },
+        {
+            "source" : 8
+        },
+        {
+            "source" : 9
+        },
+        {
+            "source" : 10
+        },
+        {
+            "source" : 11
+        },
+        {
+            "source" : 12
+        },
+        {
+            "source" : 13
+        },
+        {
+            "source" : 14
+        },
+        {
+            "source" : 15
+        },
+        {
+            "source" : 16
+        },
+        {
+            "source" : 17
+        },
+        {
+            "source" : 18
+        },
+        {
+            "source" : 19
+        },
+        {
+            "source" : 20
+        },
+        {
+            "source" : 21
+        },
+        {
+            "source" : 22
+        },
+        {
+            "source" : 23
+        },
+        {
+            "source" : 24
+        },
+        {
+            "source" : 25
+        },
+        {
+            "source" : 26
+        },
+        {
+            "source" : 27
+        },
+        {
+            "source" : 28
+        },
+        {
+            "source" : 29
+        },
+        {
+            "source" : 30
+        },
+        {
+            "source" : 31
+        },
+        {
+            "source" : 32
+        },
+        {
+            "source" : 33
+        },
+        {
+            "source" : 34
+        },
+        {
+            "source" : 35
+        },
+        {
+            "source" : 36
+        },
+        {
+            "source" : 37
+        },
+        {
+            "source" : 38
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_alcantara_normal",
+            "uri" : "carTexture@1x/mat_alcantara_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_alcantara_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_alcantara_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_alcantara_baseColor",
+            "uri" : "carTexture@1x/mat_alcantara_baseColor.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_cooling_sistem_normal",
+            "uri" : "carTexture@1x/mat_cooling_sistem_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_cooling_sistem_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_cooling_sistem_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_cooling_sistem_baseColor",
+            "uri" : "carTexture@1x/mat_cooling_sistem_baseColor.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_carbonio_emissive",
+            "uri" : "carTexture@1x/mat_carbonio_emissive.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_carbonio_normal",
+            "uri" : "carTexture@1x/mat_carbonio_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_carbonio_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_carbonio_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_carbonio_baseColor",
+            "uri" : "carTexture@1x/mat_carbonio_baseColor.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_carrozzeria_normal",
+            "uri" : "carTexture@1x/mat_carrozzeria_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_carrozzeria_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_carrozzeria_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_carrozzeria_baseColor",
+            "uri" : "carTexture@1x/mat_carrozzeria_baseColor.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_black_interior_normal",
+            "uri" : "carTexture@1x/mat_black_interior_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_black_interior_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_black_interior_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_black_interior_baseColor",
+            "uri" : "carTexture@1x/mat_black_interior_baseColor.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_cuciture_bottoni_no_bake_normal",
+            "uri" : "carTexture@1x/mat_cuciture_bottoni_no_bake_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_cuciture_bottoni_no_bake_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_cuciture_bottoni_no_bake_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_cuciture_bottoni_no_bake_baseColor",
+            "uri" : "carTexture@1x/mat_cuciture_bottoni_no_bake_baseColor.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_dettagli_interni_emissive",
+            "uri" : "carTexture@1x/mat_dettagli_interni_emissive.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_dettagli_interni_normal",
+            "uri" : "carTexture@1x/mat_dettagli_interni_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_dettagli_interni_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_dettagli_interni_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_dettagli_interni_baseColor",
+            "uri" : "carTexture@1x/mat_dettagli_interni_baseColor.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_fanali_emissive",
+            "uri" : "carTexture@1x/mat_fanali_emissive.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_fanali_normal",
+            "uri" : "carTexture@1x/mat_fanali_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_fanali_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_fanali_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_fanali_baseColor",
+            "uri" : "carTexture@1x/mat_fanali_baseColor.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_plastica_nera_normal",
+            "uri" : "carTexture@1x/mat_plastica_nera_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_plastica_nera_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_plastica_nera_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_plastica_nera_baseColor",
+            "uri" : "carTexture@1x/mat_plastica_nera_baseColor.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_vetro_car_normal",
+            "uri" : "carTexture@1x/mat_vetro_car_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_vetro_car_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_vetro_car_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_vetro_car_baseColor",
+            "uri" : "carTexture@1x/mat_vetro_car_baseColor.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_plastica_lucida_e_azzurro_normal",
+            "uri" : "carTexture@1x/mat_plastica_lucida_e_azzurro_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_plastica_lucida_e_azzurro_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_plastica_lucida_e_azzurro_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_plastica_lucida_e_azzurro_baseColor",
+            "uri" : "carTexture@1x/mat_plastica_lucida_e_azzurro_baseColor.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_wheels_normal",
+            "uri" : "carTexture@1x/mat_wheels_normal.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_wheels_occlusionRoughnessMetallic",
+            "uri" : "carTexture@1x/mat_wheels_occlusionRoughnessMetallic.png?v=1607958265982"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "mat_wheels_baseColor",
+            "uri" : "carTexture@1x/mat_wheels_baseColor.png?v=1607958265982"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 15105,
+            "max" : [
+                0.809922456741333,
+                1.1597613096237183,
+                1.171260118484497
+            ],
+            "min" : [
+                -0.8099223375320435,
+                0.17227430641651154,
+                -0.7026065587997437
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 15105,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 15105,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 63168,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 18182,
+            "max" : [
+                0.7875294089317322,
+                0.968472957611084,
+                1.4026161432266235
+            ],
+            "min" : [
+                -0.7875292897224426,
+                0.1583816409111023,
+                -1.5863579511642456
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 18182,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 18182,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 46410,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 3471,
+            "max" : [
+                0.7201563119888306,
+                1.0478705167770386,
+                1.1386971473693848
+            ],
+            "min" : [
+                -0.7201563119888306,
+                0.16607511043548584,
+                -0.5541038513183594
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 3471,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 3471,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 14484,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 2165,
+            "max" : [
+                0.8409209251403809,
+                1.1769109964370728,
+                -0.9607234001159668
+            ],
+            "min" : [
+                -0.8409209251403809,
+                0.8996303081512451,
+                -2.262173652648926
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 2165,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 2165,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 11514,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 16,
+            "componentType" : 5126,
+            "count" : 5443,
+            "max" : [
+                0.6562406420707703,
+                1.1417368650436401,
+                -1.7944083213806152
+            ],
+            "min" : [
+                -0.6562405824661255,
+                0.1444077491760254,
+                -2.261683464050293
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 17,
+            "componentType" : 5126,
+            "count" : 5443,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 18,
+            "componentType" : 5126,
+            "count" : 5443,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 19,
+            "componentType" : 5123,
+            "count" : 12996,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 20,
+            "componentType" : 5126,
+            "count" : 2635,
+            "max" : [
+                0.9614614248275757,
+                1.1592776775360107,
+                1.1447291374206543
+            ],
+            "min" : [
+                -0.9614614248275757,
+                0.12694942951202393,
+                -1.0713481903076172
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 21,
+            "componentType" : 5126,
+            "count" : 2635,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 22,
+            "componentType" : 5126,
+            "count" : 2635,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 23,
+            "componentType" : 5123,
+            "count" : 11616,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 24,
+            "componentType" : 5126,
+            "count" : 8706,
+            "max" : [
+                0.9675544500350952,
+                1.2054932117462158,
+                0.8527355194091797
+            ],
+            "min" : [
+                -0.96755450963974,
+                0.1745913028717041,
+                -2.2059412002563477
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 25,
+            "componentType" : 5126,
+            "count" : 8706,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 26,
+            "componentType" : 5126,
+            "count" : 8706,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 27,
+            "componentType" : 5123,
+            "count" : 42693,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 28,
+            "componentType" : 5126,
+            "count" : 48619,
+            "max" : [
+                0.9654827117919922,
+                1.1945087909698486,
+                2.1689484119415283
+            ],
+            "min" : [
+                -0.9654827117919922,
+                -0.008833885192871094,
+                -2.2615537643432617
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 29,
+            "componentType" : 5126,
+            "count" : 48619,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 30,
+            "componentType" : 5126,
+            "count" : 48619,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 31,
+            "componentType" : 5123,
+            "count" : 159456,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 32,
+            "componentType" : 5126,
+            "count" : 3004,
+            "max" : [
+                0.6859191656112671,
+                1.0902386903762817,
+                0.9173465967178345
+            ],
+            "min" : [
+                -0.7325959205627441,
+                0.22490543127059937,
+                -0.5979002118110657
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 33,
+            "componentType" : 5126,
+            "count" : 3004,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 34,
+            "componentType" : 5126,
+            "count" : 3004,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 35,
+            "componentType" : 5123,
+            "count" : 7362,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 36,
+            "componentType" : 5126,
+            "count" : 3758,
+            "max" : [
+                0.9254248142242432,
+                1.0507175922393799,
+                1.4729167222976685
+            ],
+            "min" : [
+                -0.9254248142242432,
+                0.18377670645713806,
+                -2.1998867988586426
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 37,
+            "componentType" : 5126,
+            "count" : 3758,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 38,
+            "componentType" : 5126,
+            "count" : 3758,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 39,
+            "componentType" : 5123,
+            "count" : 12612,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 40,
+            "componentType" : 5126,
+            "count" : 5815,
+            "max" : [
+                0.8466177582740784,
+                0.8520209193229675,
+                1.9779964685440063
+            ],
+            "min" : [
+                -0.8466177582740784,
+                0.4813237488269806,
+                -2.19976544380188
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 41,
+            "componentType" : 5126,
+            "count" : 5815,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 42,
+            "componentType" : 5126,
+            "count" : 5815,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 43,
+            "componentType" : 5123,
+            "count" : 15642,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 44,
+            "componentType" : 5126,
+            "count" : 76,
+            "max" : [
+                0.9622102379798889,
+                0.8638566136360168,
+                -1.7167385816574097
+            ],
+            "min" : [
+                -0.9622102379798889,
+                0.5566296577453613,
+                -2.132309675216675
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 45,
+            "componentType" : 5126,
+            "count" : 76,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 46,
+            "componentType" : 5126,
+            "count" : 76,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 47,
+            "componentType" : 5123,
+            "count" : 156,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 48,
+            "componentType" : 5126,
+            "count" : 17489,
+            "max" : [
+                0.8096070289611816,
+                1.1291979551315308,
+                1.1132564544677734
+            ],
+            "min" : [
+                -0.8096069693565369,
+                0.16231310367584229,
+                -0.6433215141296387
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 49,
+            "componentType" : 5126,
+            "count" : 17489,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 50,
+            "componentType" : 5126,
+            "count" : 17489,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 51,
+            "componentType" : 5123,
+            "count" : 54924,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 52,
+            "componentType" : 5126,
+            "count" : 212,
+            "max" : [
+                0.7092254161834717,
+                1.0949339866638184,
+                1.1741849184036255
+            ],
+            "min" : [
+                -0.7092253565788269,
+                0.8189239501953125,
+                0.4493332803249359
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 53,
+            "componentType" : 5126,
+            "count" : 212,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 54,
+            "componentType" : 5126,
+            "count" : 212,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 55,
+            "componentType" : 5123,
+            "count" : 888,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 56,
+            "componentType" : 5126,
+            "count" : 7138,
+            "max" : [
+                0.8786447644233704,
+                0.9039883613586426,
+                0.6662703156471252
+            ],
+            "min" : [
+                -0.8786447644233704,
+                0.1792677640914917,
+                -0.5561084747314453
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 57,
+            "componentType" : 5126,
+            "count" : 7138,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 58,
+            "componentType" : 5126,
+            "count" : 7138,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 59,
+            "componentType" : 5123,
+            "count" : 26586,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 60,
+            "componentType" : 5126,
+            "count" : 1837,
+            "max" : [
+                0.8683179020881653,
+                0.5501367449760437,
+                1.35457444190979
+            ],
+            "min" : [
+                -0.876029372215271,
+                0.16591525077819824,
+                -1.6264402866363525
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 61,
+            "componentType" : 5126,
+            "count" : 1837,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 62,
+            "componentType" : 5126,
+            "count" : 1837,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 63,
+            "componentType" : 5123,
+            "count" : 5016,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 64,
+            "componentType" : 5126,
+            "count" : 29554,
+            "max" : [
+                0.962020218372345,
+                0.6489089131355286,
+                1.4479278326034546
+            ],
+            "min" : [
+                -0.9691554307937622,
+                0.07236988097429276,
+                -1.7224739789962769
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 65,
+            "componentType" : 5126,
+            "count" : 29554,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 66,
+            "componentType" : 5126,
+            "count" : 29554,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 67,
+            "componentType" : 5123,
+            "count" : 108120,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 68,
+            "componentType" : 5126,
+            "count" : 2976,
+            "max" : [
+                0.9591558575630188,
+                0.7144867777824402,
+                1.510928988456726
+            ],
+            "min" : [
+                -0.9662911891937256,
+                0.008421248756349087,
+                -1.788051962852478
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 69,
+            "componentType" : 5126,
+            "count" : 2976,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 70,
+            "componentType" : 5126,
+            "count" : 2976,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 71,
+            "componentType" : 5123,
+            "count" : 14112,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 72,
+            "componentType" : 5126,
+            "count" : 384,
+            "max" : [
+                0.8135506510734558,
+                1.0702201128005981,
+                0.9005799889564514
+            ],
+            "min" : [
+                -0.8135506510734558,
+                0.7763056755065918,
+                -2.135596752166748
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 73,
+            "componentType" : 5126,
+            "count" : 384,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 74,
+            "componentType" : 5126,
+            "count" : 384,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 75,
+            "componentType" : 5123,
+            "count" : 1398,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 76,
+            "componentType" : 5126,
+            "count" : 842,
+            "max" : [
+                0.8547069430351257,
+                0.859212338924408,
+                1.98055899143219
+            ],
+            "min" : [
+                -0.8547069430351257,
+                0.49085551500320435,
+                -2.19976544380188
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 77,
+            "componentType" : 5126,
+            "count" : 842,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 78,
+            "componentType" : 5126,
+            "count" : 842,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 79,
+            "componentType" : 5123,
+            "count" : 3600,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 80,
+            "componentType" : 5126,
+            "count" : 682,
+            "max" : [
+                -0.4231266379356384,
+                0.538601279258728,
+                1.866124153137207
+            ],
+            "min" : [
+                -0.6550585031509399,
+                0.3724093437194824,
+                1.244415283203125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 81,
+            "componentType" : 5126,
+            "count" : 682,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 82,
+            "componentType" : 5126,
+            "count" : 682,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 83,
+            "componentType" : 5123,
+            "count" : 2202,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 84,
+            "componentType" : 5126,
+            "count" : 3762,
+            "max" : [
+                0.9585494995117188,
+                0.6061869859695435,
+                2.1986236572265625
+            ],
+            "min" : [
+                -0.9585494995117188,
+                -0.054630160331726074,
+                0.8168210983276367
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 85,
+            "componentType" : 5126,
+            "count" : 3762,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 86,
+            "componentType" : 5126,
+            "count" : 3762,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 87,
+            "componentType" : 5123,
+            "count" : 11472,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 88,
+            "componentType" : 5126,
+            "count" : 58,
+            "max" : [
+                0.9570736885070801,
+                0.3200432062149048,
+                1.6303753852844238
+            ],
+            "min" : [
+                -0.9570736885070801,
+                0.28357958793640137,
+                1.4872674942016602
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 89,
+            "componentType" : 5126,
+            "count" : 58,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 90,
+            "componentType" : 5126,
+            "count" : 58,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 91,
+            "componentType" : 5123,
+            "count" : 138,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 92,
+            "componentType" : 5126,
+            "count" : 5913,
+            "max" : [
+                0.9648056030273438,
+                0.8165283203125,
+                2.260160446166992
+            ],
+            "min" : [
+                -0.9648056030273438,
+                0.12718725204467773,
+                0.735267162322998
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 93,
+            "componentType" : 5126,
+            "count" : 5913,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 94,
+            "componentType" : 5126,
+            "count" : 5913,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 95,
+            "componentType" : 5123,
+            "count" : 28110,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 96,
+            "componentType" : 5126,
+            "count" : 15431,
+            "max" : [
+                0.9626846313476562,
+                0.6308755874633789,
+                2.262756109237671
+            ],
+            "min" : [
+                -0.962684690952301,
+                -0.05489146709442139,
+                0.735267162322998
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 97,
+            "componentType" : 5126,
+            "count" : 15431,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 98,
+            "componentType" : 5126,
+            "count" : 15431,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 99,
+            "componentType" : 5123,
+            "count" : 51771,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 100,
+            "componentType" : 5126,
+            "count" : 147,
+            "max" : [
+                -0.7033043503761292,
+                0.47914350032806396,
+                0.3157787322998047
+            ],
+            "min" : [
+                -0.7816781401634216,
+                0.39291107654571533,
+                0.15398216247558594
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 101,
+            "componentType" : 5126,
+            "count" : 147,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 102,
+            "componentType" : 5126,
+            "count" : 147,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 103,
+            "componentType" : 5123,
+            "count" : 492,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 104,
+            "componentType" : 5126,
+            "count" : 633,
+            "max" : [
+                -0.7244136333465576,
+                0.6983741521835327,
+                0.7323431968688965
+            ],
+            "min" : [
+                -1.1107861995697021,
+                0.4771389961242676,
+                -0.3696150779724121
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 105,
+            "componentType" : 5126,
+            "count" : 633,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 106,
+            "componentType" : 5126,
+            "count" : 633,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 107,
+            "componentType" : 5123,
+            "count" : 2856,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 108,
+            "componentType" : 5126,
+            "count" : 766,
+            "max" : [
+                -0.680859386920929,
+                0.665174126625061,
+                0.6378383636474609
+            ],
+            "min" : [
+                -0.8209882378578186,
+                0.13169372081756592,
+                -0.3457164764404297
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 109,
+            "componentType" : 5126,
+            "count" : 766,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 110,
+            "componentType" : 5126,
+            "count" : 766,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 111,
+            "componentType" : 5123,
+            "count" : 3954,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 112,
+            "componentType" : 5126,
+            "count" : 120,
+            "max" : [
+                -0.7003461122512817,
+                0.5728744268417358,
+                0.4730405807495117
+            ],
+            "min" : [
+                -0.8101146221160889,
+                0.2835041284561157,
+                -0.48534345626831055
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 113,
+            "componentType" : 5126,
+            "count" : 120,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 114,
+            "componentType" : 5126,
+            "count" : 120,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 115,
+            "componentType" : 5123,
+            "count" : 225,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 116,
+            "componentType" : 5126,
+            "count" : 147,
+            "max" : [
+                -0.6956697702407837,
+                0.5906299352645874,
+                0.5577554702758789
+            ],
+            "min" : [
+                -0.8256886005401611,
+                0.20785462856292725,
+                -0.49430179595947266
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 117,
+            "componentType" : 5126,
+            "count" : 147,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 118,
+            "componentType" : 5126,
+            "count" : 147,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 119,
+            "componentType" : 5123,
+            "count" : 534,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 120,
+            "componentType" : 5126,
+            "count" : 888,
+            "max" : [
+                -0.6924760341644287,
+                0.6575267314910889,
+                0.7260432243347168
+            ],
+            "min" : [
+                -0.9043195843696594,
+                0.05061507225036621,
+                -0.5613718032836914
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 121,
+            "componentType" : 5126,
+            "count" : 888,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 122,
+            "componentType" : 5126,
+            "count" : 888,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 123,
+            "componentType" : 5123,
+            "count" : 3282,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 124,
+            "componentType" : 5126,
+            "count" : 168,
+            "max" : [
+                -0.6100557446479797,
+                0.8832244873046875,
+                0.6496009826660156
+            ],
+            "min" : [
+                -0.8233734369277954,
+                0.5610270500183105,
+                -0.3655118942260742
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 125,
+            "componentType" : 5126,
+            "count" : 168,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 126,
+            "componentType" : 5126,
+            "count" : 168,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 127,
+            "componentType" : 5123,
+            "count" : 600,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 128,
+            "componentType" : 5126,
+            "count" : 934,
+            "max" : [
+                -0.7210171818733215,
+                0.6566343307495117,
+                0.7649807929992676
+            ],
+            "min" : [
+                -0.9397287964820862,
+                0.020902514457702637,
+                -0.5970363616943359
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 129,
+            "componentType" : 5126,
+            "count" : 934,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 130,
+            "componentType" : 5126,
+            "count" : 934,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 131,
+            "componentType" : 5123,
+            "count" : 3921,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 132,
+            "componentType" : 5126,
+            "count" : 935,
+            "max" : [
+                0.9397287368774414,
+                0.6566343307495117,
+                0.7649807929992676
+            ],
+            "min" : [
+                0.7210172414779663,
+                0.020902514457702637,
+                -0.5970363616943359
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 133,
+            "componentType" : 5126,
+            "count" : 935,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 134,
+            "componentType" : 5126,
+            "count" : 935,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 135,
+            "componentType" : 5123,
+            "count" : 3921,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 136,
+            "componentType" : 5126,
+            "count" : 155,
+            "max" : [
+                0.7816781401634216,
+                0.47914350032806396,
+                0.3157787322998047
+            ],
+            "min" : [
+                0.7033044099807739,
+                0.39291107654571533,
+                0.15398216247558594
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 137,
+            "componentType" : 5126,
+            "count" : 155,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 138,
+            "componentType" : 5126,
+            "count" : 155,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 139,
+            "componentType" : 5123,
+            "count" : 492,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 140,
+            "componentType" : 5126,
+            "count" : 647,
+            "max" : [
+                1.1107861995697021,
+                0.6983741521835327,
+                0.7323431968688965
+            ],
+            "min" : [
+                0.7244136333465576,
+                0.4771389961242676,
+                -0.3696150779724121
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 141,
+            "componentType" : 5126,
+            "count" : 647,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 142,
+            "componentType" : 5126,
+            "count" : 647,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 143,
+            "componentType" : 5123,
+            "count" : 2856,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 144,
+            "componentType" : 5126,
+            "count" : 767,
+            "max" : [
+                0.8209881782531738,
+                0.665174126625061,
+                0.6378383636474609
+            ],
+            "min" : [
+                0.680859386920929,
+                0.13169372081756592,
+                -0.3457164764404297
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 145,
+            "componentType" : 5126,
+            "count" : 767,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 146,
+            "componentType" : 5126,
+            "count" : 767,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 147,
+            "componentType" : 5123,
+            "count" : 3954,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 148,
+            "componentType" : 5126,
+            "count" : 186,
+            "max" : [
+                0.8101146221160889,
+                0.5728744268417358,
+                0.4730405807495117
+            ],
+            "min" : [
+                0.700346052646637,
+                0.2835041284561157,
+                -0.48534345626831055
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 149,
+            "componentType" : 5126,
+            "count" : 186,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 150,
+            "componentType" : 5126,
+            "count" : 186,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 151,
+            "componentType" : 5123,
+            "count" : 393,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 152,
+            "componentType" : 5126,
+            "count" : 147,
+            "max" : [
+                0.8256886005401611,
+                0.5906299352645874,
+                0.5577554702758789
+            ],
+            "min" : [
+                0.6956697702407837,
+                0.20785462856292725,
+                -0.49430179595947266
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 153,
+            "componentType" : 5126,
+            "count" : 147,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 154,
+            "componentType" : 5126,
+            "count" : 147,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 155,
+            "componentType" : 5123,
+            "count" : 534,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 156,
+            "componentType" : 5126,
+            "count" : 958,
+            "max" : [
+                0.9043195247650146,
+                0.6575267314910889,
+                0.7260432243347168
+            ],
+            "min" : [
+                0.6924760341644287,
+                0.05061507225036621,
+                -0.5613718032836914
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 157,
+            "componentType" : 5126,
+            "count" : 958,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 158,
+            "componentType" : 5126,
+            "count" : 958,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 159,
+            "componentType" : 5123,
+            "count" : 3462,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 160,
+            "componentType" : 5126,
+            "count" : 168,
+            "max" : [
+                0.8233734369277954,
+                0.8832244873046875,
+                0.6496009826660156
+            ],
+            "min" : [
+                0.6100558042526245,
+                0.5610270500183105,
+                -0.3655118942260742
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 161,
+            "componentType" : 5126,
+            "count" : 168,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 162,
+            "componentType" : 5126,
+            "count" : 168,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 163,
+            "componentType" : 5123,
+            "count" : 600,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 181260,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 181260,
+            "byteOffset" : 181260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 120840,
+            "byteOffset" : 362520
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 126336,
+            "byteOffset" : 483360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 218184,
+            "byteOffset" : 609696
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 218184,
+            "byteOffset" : 827880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 145456,
+            "byteOffset" : 1046064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 92820,
+            "byteOffset" : 1191520
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 41652,
+            "byteOffset" : 1284340
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 41652,
+            "byteOffset" : 1325992
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27768,
+            "byteOffset" : 1367644
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28968,
+            "byteOffset" : 1395412
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25980,
+            "byteOffset" : 1424380
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25980,
+            "byteOffset" : 1450360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17320,
+            "byteOffset" : 1476340
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23028,
+            "byteOffset" : 1493660
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 65316,
+            "byteOffset" : 1516688
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 65316,
+            "byteOffset" : 1582004
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 43544,
+            "byteOffset" : 1647320
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25992,
+            "byteOffset" : 1690864
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31620,
+            "byteOffset" : 1716856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31620,
+            "byteOffset" : 1748476
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 21080,
+            "byteOffset" : 1780096
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23232,
+            "byteOffset" : 1801176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 104472,
+            "byteOffset" : 1824408
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 104472,
+            "byteOffset" : 1928880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 69648,
+            "byteOffset" : 2033352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 85386,
+            "byteOffset" : 2103000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 583428,
+            "byteOffset" : 2188388
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 583428,
+            "byteOffset" : 2771816
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 388952,
+            "byteOffset" : 3355244
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 318912,
+            "byteOffset" : 3744196
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36048,
+            "byteOffset" : 4063108
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36048,
+            "byteOffset" : 4099156
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24032,
+            "byteOffset" : 4135204
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14724,
+            "byteOffset" : 4159236
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45096,
+            "byteOffset" : 4173960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45096,
+            "byteOffset" : 4219056
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30064,
+            "byteOffset" : 4264152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25224,
+            "byteOffset" : 4294216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 69780,
+            "byteOffset" : 4319440
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 69780,
+            "byteOffset" : 4389220
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 46520,
+            "byteOffset" : 4459000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31284,
+            "byteOffset" : 4505520
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 912,
+            "byteOffset" : 4536804
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 912,
+            "byteOffset" : 4537716
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 608,
+            "byteOffset" : 4538628
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 312,
+            "byteOffset" : 4539236
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 209868,
+            "byteOffset" : 4539548
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 209868,
+            "byteOffset" : 4749416
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 139912,
+            "byteOffset" : 4959284
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 109848,
+            "byteOffset" : 5099196
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2544,
+            "byteOffset" : 5209044
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2544,
+            "byteOffset" : 5211588
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1696,
+            "byteOffset" : 5214132
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1776,
+            "byteOffset" : 5215828
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 85656,
+            "byteOffset" : 5217604
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 85656,
+            "byteOffset" : 5303260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57104,
+            "byteOffset" : 5388916
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 53172,
+            "byteOffset" : 5446020
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22044,
+            "byteOffset" : 5499192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22044,
+            "byteOffset" : 5521236
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14696,
+            "byteOffset" : 5543280
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10032,
+            "byteOffset" : 5557976
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 354648,
+            "byteOffset" : 5568008
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 354648,
+            "byteOffset" : 5922656
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 236432,
+            "byteOffset" : 6277304
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 216240,
+            "byteOffset" : 6513736
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35712,
+            "byteOffset" : 6729976
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35712,
+            "byteOffset" : 6765688
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23808,
+            "byteOffset" : 6801400
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28224,
+            "byteOffset" : 6825208
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4608,
+            "byteOffset" : 6853432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4608,
+            "byteOffset" : 6858040
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3072,
+            "byteOffset" : 6862648
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2796,
+            "byteOffset" : 6865720
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10104,
+            "byteOffset" : 6868516
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10104,
+            "byteOffset" : 6878620
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6736,
+            "byteOffset" : 6888724
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7200,
+            "byteOffset" : 6895460
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8184,
+            "byteOffset" : 6902660
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8184,
+            "byteOffset" : 6910844
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5456,
+            "byteOffset" : 6919028
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4404,
+            "byteOffset" : 6924484
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45144,
+            "byteOffset" : 6928888
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45144,
+            "byteOffset" : 6974032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30096,
+            "byteOffset" : 7019176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22944,
+            "byteOffset" : 7049272
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 696,
+            "byteOffset" : 7072216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 696,
+            "byteOffset" : 7072912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 464,
+            "byteOffset" : 7073608
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 276,
+            "byteOffset" : 7074072
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 70956,
+            "byteOffset" : 7074348
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 70956,
+            "byteOffset" : 7145304
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 47304,
+            "byteOffset" : 7216260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 56220,
+            "byteOffset" : 7263564
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 185172,
+            "byteOffset" : 7319784
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 185172,
+            "byteOffset" : 7504956
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 123448,
+            "byteOffset" : 7690128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 103542,
+            "byteOffset" : 7813576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1764,
+            "byteOffset" : 7917120
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1764,
+            "byteOffset" : 7918884
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1176,
+            "byteOffset" : 7920648
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 984,
+            "byteOffset" : 7921824
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7596,
+            "byteOffset" : 7922808
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7596,
+            "byteOffset" : 7930404
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5064,
+            "byteOffset" : 7938000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5712,
+            "byteOffset" : 7943064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9192,
+            "byteOffset" : 7948776
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9192,
+            "byteOffset" : 7957968
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6128,
+            "byteOffset" : 7967160
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7908,
+            "byteOffset" : 7973288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1440,
+            "byteOffset" : 7981196
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1440,
+            "byteOffset" : 7982636
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 960,
+            "byteOffset" : 7984076
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 450,
+            "byteOffset" : 7985036
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1764,
+            "byteOffset" : 7985488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1764,
+            "byteOffset" : 7987252
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1176,
+            "byteOffset" : 7989016
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1068,
+            "byteOffset" : 7990192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10656,
+            "byteOffset" : 7991260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10656,
+            "byteOffset" : 8001916
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7104,
+            "byteOffset" : 8012572
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6564,
+            "byteOffset" : 8019676
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2016,
+            "byteOffset" : 8026240
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2016,
+            "byteOffset" : 8028256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1344,
+            "byteOffset" : 8030272
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1200,
+            "byteOffset" : 8031616
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11208,
+            "byteOffset" : 8032816
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11208,
+            "byteOffset" : 8044024
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7472,
+            "byteOffset" : 8055232
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7842,
+            "byteOffset" : 8062704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11220,
+            "byteOffset" : 8070548
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11220,
+            "byteOffset" : 8081768
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7480,
+            "byteOffset" : 8092988
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7842,
+            "byteOffset" : 8100468
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1860,
+            "byteOffset" : 8108312
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1860,
+            "byteOffset" : 8110172
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1240,
+            "byteOffset" : 8112032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 984,
+            "byteOffset" : 8113272
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7764,
+            "byteOffset" : 8114256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7764,
+            "byteOffset" : 8122020
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5176,
+            "byteOffset" : 8129784
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5712,
+            "byteOffset" : 8134960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9204,
+            "byteOffset" : 8140672
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9204,
+            "byteOffset" : 8149876
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6136,
+            "byteOffset" : 8159080
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7908,
+            "byteOffset" : 8165216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2232,
+            "byteOffset" : 8173124
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2232,
+            "byteOffset" : 8175356
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1488,
+            "byteOffset" : 8177588
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 786,
+            "byteOffset" : 8179076
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1764,
+            "byteOffset" : 8179864
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1764,
+            "byteOffset" : 8181628
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1176,
+            "byteOffset" : 8183392
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1068,
+            "byteOffset" : 8184568
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11496,
+            "byteOffset" : 8185636
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11496,
+            "byteOffset" : 8197132
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7664,
+            "byteOffset" : 8208628
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6924,
+            "byteOffset" : 8216292
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2016,
+            "byteOffset" : 8223216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2016,
+            "byteOffset" : 8225232
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1344,
+            "byteOffset" : 8227248
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1200,
+            "byteOffset" : 8228592
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 8229792,
+            "uri" : "car.1607958265982.bin?v=1607958265982"
+        }
+    ]
+}
