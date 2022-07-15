@@ -18,3 +18,4 @@
 - guccibelovedbounce.gucci.com
 - www.foosballworldcup18.com
 - play.gl
+- hennessy-house-of-moves.hello-jury.com
