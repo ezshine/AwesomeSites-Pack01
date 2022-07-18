@@ -19,3 +19,4 @@
 - www.foosballworldcup18.com
 - play.gl
 - hennessy-house-of-moves.hello-jury.com
+- www.blues-d.co.jp
