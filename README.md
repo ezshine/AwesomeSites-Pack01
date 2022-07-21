@@ -20,3 +20,5 @@
 - play.gl
 - hennessy-house-of-moves.hello-jury.com
 - www.blues-d.co.jp
+- yelloworld.pinkyellow.com
+- gleec.com

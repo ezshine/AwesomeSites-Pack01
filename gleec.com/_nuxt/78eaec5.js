@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{776:function(t,e,n){"use strict";n.r(e);var c=n(42),component=Object(c.a)({},(function(){var t=this.$createElement;return(this._self._c||t)("div",{staticClass:"home-child card"})}),[],!1,null,null,null);e.default=component.exports}}]);

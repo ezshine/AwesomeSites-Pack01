@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{777:function(n,t,e){"use strict";e.r(t);var c=e(42),component=Object(c.a)({},(function(){var n=this.$createElement;return(this._self._c||n)("div",{staticClass:"home-child coin"})}),[],!1,null,null,null);t.default=component.exports}}]);
