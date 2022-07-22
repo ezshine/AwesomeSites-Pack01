@@ -1,0 +1,324 @@
+<svg version="1.1" id="disc-document" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 756.7 540" xml:space="preserve">
+  <filter id="light-blur">
+    <feGaussianBlur stdDeviation="7"></feGaussianBlur>
+  </filter>
+  <g>
+    <g>
+      <defs>
+        <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="-84.6" width="756.7" height="709.7">
+          <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+        </filter>
+      </defs>
+      <mask maskUnits="userSpaceOnUse" x="0" y="-84.6" width="756.7" height="709.7" id="disc__mask">
+        <g style="filter: url(#Adobe_OpacityMaskFilter);">
+          <radialGradient class="disc__mask-gradient" id="disc__mask-gradient" cx="378.6667" cy="271.2271" r="508" gradientUnits="userSpaceOnUse">
+            <stop offset="0" style="stop-color: #FFFFFF"/>
+            <stop offset="0.7" style="stop-color: #FFFFFF"/>
+            <stop offset="0.98" style="stop-color: #000000"/>
+          </radialGradient>
+          <circle class="disc__mask-shape" style="fill:url(#disc__mask-gradient);" cx="378.7" cy="271.2" r="508"/>
+        </g>
+      </mask>
+      <g class="disc" style="mask: url(#disc__mask)">
+        <linearGradient id="Background_1_" gradientUnits="userSpaceOnUse" x1="379.0016" y1="549.7387" x2="379.0016" y2="-6.6096">
+          <stop offset="0.1" style="stop-color: #010914; stop-opacity: 0"/>
+          <stop offset="0.35" style="stop-color: #1C232D; stop-opacity: 0.8"/>
+          <stop offset="0.65" style="stop-color: #1C232D; stop-opacity: 0.8"/>
+          <stop offset="0.9" style="stop-color: #010914; stop-opacity: 0"/>
+        </linearGradient>
+        <path id="Background_3_" style="opacity: 0.9; fill: url(#Background_1_);" d="M379-6.6c-153.6,0-278.2,124.5-278.2,278.2S225.4,549.7,379,549.7 s278.2-124.5,278.2-278.2S532.6-6.6,379-6.6z M379,382.6c-61.3,0-111.1-49.7-111.1-111.1S317.7,160.5,379,160.5 s111.1,49.7,111.1,111.1S440.3,382.6,379,382.6z"/>
+        <radialGradient id="Background_4_" cx="379.0016" cy="271.5645" r="278.1741" gradientUnits="userSpaceOnUse">
+          <stop offset="0.2645" style="stop-color: #1C232D; stop-opacity: 0.8"/>
+          <stop offset="0.9" style="stop-color: #010914; stop-opacity: 0"/>
+        </radialGradient>
+        <path id="Background_7_" style="opacity:0.9;fill:url(#Background_4_);" d="M379-6.6c-153.6,0-278.2,124.5-278.2,278.2S225.4,549.7,379,549.7 s278.2-124.5,278.2-278.2S532.6-6.6,379-6.6z M379,382.6c-61.3,0-111.1-49.7-111.1-111.1S317.7,160.5,379,160.5 s111.1,49.7,111.1,111.1S440.3,382.6,379,382.6z"/>
+        <g id="Background">
+          <defs>
+            <path id="SVGID_3_" d="M756.7,134.2v273.3H462.9l-39.6-27.1l0.1-219.5l39.9-26.9l152.5,0.2H756.7z M293.3,134l-152.5,0.2H0 v273.3h293.8l39.6-27.1l-0.1-219.5L293.3,134z"/>
+          </defs>
+          <clipPath id="SVGID_4_">
+            <use xlink:href="#SVGID_3_"  style="overflow: visible;"/>
+          </clipPath>
+          <radialGradient id="Background_5_" cx="-393.6729" cy="270.2312" r="354.8339" gradientTransform="matrix(1 0 0 1 771.4649 0)" gradientUnits="userSpaceOnUse">
+            <stop offset="0.6265" style="stop-color: #010914; stop-opacity: 0.7"/>
+            <stop offset="1" style="stop-color: #01060D; stop-opacity: 0"/>
+          </radialGradient>
+          <path id="Background_2_" style="opacity: 0.8; clip-path: url(#SVGID_4_); fill: url(#Background_5_);" d="M377.8,387.5c-64.8,0-117.3-52.5-117.3-117.2c0-64.8,52.5-117.3,117.3-117.3 c64.8,0,117.2,52.5,117.2,117.3C495,335,442.5,387.5,377.8,387.5 M377.8-84.6C181.8-84.6,23,74.3,23,270.2 s158.9,354.8,354.8,354.8s354.8-158.9,354.8-354.8S573.8-84.6,377.8-84.6"/>
+        </g>
+        <linearGradient id="Central_1_" gradientUnits="userSpaceOnUse" x1="378.9938" y1="395.0652" x2="378.9938" y2="146.0639">
+          <stop offset="0.1" style="stop-color: #01060D;stop-opacity: 0"/>
+          <stop offset="0.27" style="stop-color: #010914"/>
+          <stop offset="0.73" style="stop-color: #010914"/>
+          <stop offset="0.9" style="stop-color: #01060D; stop-opacity: 0"/>
+        </linearGradient>
+        <path id="Central" style="opacity: 0.8; fill: url(#Central_1_);" d="M379,381.1c-61.1,0-110.6-49.5-110.6-110.6S317.9,160,379,160c61.1,0,110.6,49.5,110.6,110.6 S440.1,381.1,379,381.1 M379,146.1c-68.8,0-124.5,55.7-124.5,124.5S310.2,395.1,379,395.1c68.8,0,124.5-55.7,124.5-124.5 S447.8,146.1,379,146.1"/>
+        <g id="Slider_3_">
+          <defs>
+            <path id="Glow_x5F_Droit_4_" d="M692.9,165.2H379.1v-29.1h313.8V165.2z M692.9,135.2H379.1v-29.1h313.8V135.2z M692.9,105.2 H379.1V76.1h313.8V105.2z M378.8,467.1H54V73.5h324.8V467.1z M692.9,166.1H379.1v29.1h313.8V166.1z M692.9,196.1H379.1v29.1 h313.8V196.1z M692.9,226.1H379.1v29.1h313.8V226.1z M692.9,256.1H379.1v29.1h313.8V256.1z M692.9,286.1H379.1v29.1h313.8 V286.1z M692.9,316.1H379.1v29.1h313.8V316.1z M692.9,346.1H379.1v29.1h313.8V346.1z M692.9,376.1H379.1v29.1h313.8V376.1z M692.9,406.1H379.1v29.1h313.8V406.1z M692.9,436.1H379.1v29.1h313.8V436.1z"/>
+          </defs>
+          <clipPath id="Glow_x5F_Droit_1_">
+            <use id="disc__menu-mask" xlink:href="#Glow_x5F_Droit_4_"  style="overflow: visible;"/>
+          </clipPath>
+          <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="378.9938" y1="548.2318" x2="378.9938" y2="-7.1027">
+            <stop offset="0.25" style="stop-color: #01060D; stop-opacity: 0"/>
+            <stop offset="0.4522" style="stop-color: #032741"/>
+            <stop offset="0.55" style="stop-color: #021E32"/>
+            <stop offset="0.75" style="stop-color: #01060D; stop-opacity: 0"/>
+          </linearGradient>
+          <path style="clip-path:url(#Glow_x5F_Droit_1_);fill:url(#SVGID_5_);" d="M379,388.5c-65.1,0-117.9-52.8-117.9-117.9c0-65.1,52.8-117.9,117.9-117.9c65.1,0,117.9,52.8,117.9,117.9 C496.9,335.7,444.1,388.5,379,388.5 M379-7.1c-153.4,0-277.7,124.3-277.7,277.7S225.6,548.2,379,548.2s277.7-124.3,277.7-277.7 S532.3-7.1,379-7.1"/>
+        </g>
+        <g id="Bleu_x5F_Line_1_" style="opacity:0.15;">
+          <path style="fill:#43AAF7;" d="M379,153.1c64.9,0,117.5,52.6,117.5,117.5S443.9,388,379,388s-117.5-52.6-117.5-117.5 S314.1,153.1,379,153.1 M379,152.1c-31.6,0-61.4,12.3-83.8,34.7c-22.4,22.4-34.7,52.1-34.7,83.8s12.3,61.4,34.7,83.8 c22.4,22.4,52.1,34.7,83.8,34.7s61.4-12.3,83.8-34.7c22.4-22.4,34.7-52.1,34.7-83.8s-12.3-61.4-34.7-83.8 C440.4,164.4,410.6,152.1,379,152.1L379,152.1z"/>
+        </g>
+        <linearGradient id="Bleu_x5F_Line_2_" gradientUnits="userSpaceOnUse" x1="378.9938" y1="548.7318" x2="378.9938" y2="-7.6027">
+          <stop offset="0.1" style="stop-color: #062539; stop-opacity: 0"/>
+          <stop offset="0.4007" style="stop-color: #42EDF8; stop-opacity: 0.3"/>
+          <stop offset="0.6039" style="stop-color: #42EDF8; stop-opacity: 0.3"/>
+          <stop offset="0.9" style="stop-color: #062539; stop-opacity: 0"/>
+        </linearGradient>
+        <path id="Bleu_x5F_Line" style="fill:none;stroke:url(#Bleu_x5F_Line_2_);stroke-miterlimit:10;" d="M379-7.1c-153.4,0-277.7,124.3-277.7,277.7S225.6,548.2,379,548.2 s277.7-124.3,277.7-277.7S532.3-7.1,379-7.1"/>
+        <linearGradient id="Dark_x5F_Line_2_" gradientUnits="userSpaceOnUse" x1="378.9938" y1="395.8979" x2="378.9938" y2="145.2312">
+          <stop offset="0.1" style="stop-color: #01060D; stop-opacity: 0"/>
+          <stop offset="0.27" style="stop-color: #010914"/>
+          <stop offset="0.73" style="stop-color: #010914"/>
+          <stop offset="0.9" style="stop-color: #01060D; stop-opacity: 0"/>
+        </linearGradient>
+        <path id="Dark_x5F_Line_1_" style="opacity: 0.5; fill-rule: evenodd; clip-rule: evenodd; fill: none; stroke: url(#Dark_x5F_Line_2_); stroke-miterlimit: 10;" d="M379,145.7c68.9,0,124.8,55.9,124.8,124.8S447.9,395.4,379,395.4 s-124.8-55.9-124.8-124.8S310.1,145.7,379,145.7z"/>
+        <g id="Dark_x5F_Line">
+          <defs>
+            <rect id="SVGID_6_" x="377.7" y="95" width="304.4" height="358"/>
+          </defs>
+          <clipPath id="SVGID_7_">
+            <use xlink:href="#SVGID_6_"  style="overflow:visible;"/>
+          </clipPath>
+          <linearGradient id="Repere_1_" gradientUnits="userSpaceOnUse" x1="378.9938" y1="525.2312" x2="378.9938" y2="15.8979">
+            <stop offset="0.1" style="stop-color: #01060D; stop-opacity: 0"/>
+            <stop offset="0.27" style="stop-color: #000000"/>
+            <stop offset="0.73" style="stop-color: #000000"/>
+            <stop offset="0.9" style="stop-color: #01060D; stop-opacity: 0"/>
+          </linearGradient>
+          <path id="Repere_2_" style="opacity: 0.5; clip-path: url(#SVGID_7_); fill-rule: evenodd; clip-rule: evenodd; fill: none; stroke: url(#Repere_1_); stroke-miterlimit: 10;" d="M379,16.4c140.4,0,254.2,113.8,254.2,254.2S519.4,524.7,379,524.7S124.8,410.9,124.8,270.6 S238.6,16.4,379,16.4z"/>
+        </g>
+        <g class="disc__selector">
+          <linearGradient id="Selection_1_" gradientUnits="userSpaceOnUse" x1="1592.7235" y1="270.5443" x2="1777.608" y2="270.5443" gradientTransform="matrix(1 0 0 1 -1121.1818 0)">
+            <stop offset="0.7388" style="stop-color: #041423; stop-opacity: 0.8"/>
+            <stop offset="1" style="stop-color: #01060D; stop-opacity: 0"/>
+          </linearGradient>
+          <polyline id="Selection" style="fill: url(#Selection_1_); stroke: #083759; stroke-miterlimit: 10;" points="656.4,256.1 488.5,256.1 471.5,271 488.5,285 656.4,285 			"/>
+        </g>
+        <g id="disc__highlights-bottom-left">
+          <g>
+            <defs>
+              <rect id="disc__highlights-bottom-left--shape" x="253.2" y="271" width="249.7" height="131.7"/>
+            </defs>
+            <clipPath id="disc__highlights-bottom-left--clip">
+              <use xlink:href="#disc__highlights-bottom-left--shape" style="overflow: visible;"/>
+            </clipPath>
+            <rect x="220.5" y="130.4" style="clip-path: url(#disc__highlights-bottom-left--clip); fill: none;" width="292.7" height="140.5"/>
+            <g style="clip-path: url(#disc__highlights-bottom-left--clip);">
+              <g class="disc__highlights-bottom-left">
+                <defs>
+                  <rect id="disc__highlights-bottom-left--gradient-shape" x="256.5" y="147.6" width="243" height="123.4"/>
+                </defs>
+                <clipPath id="disc__highlights-bottom-left--gradient-clip">
+                  <use xlink:href="#disc__highlights-bottom-left--gradient-shape" style="overflow: visible;"/>
+                </clipPath>
+                <linearGradient id="disc__highlights-bottom-left--gradient" gradientUnits="userSpaceOnUse" x1="260.049" y1="270.7966" x2="496.0034" y2="270.7966">
+                  <stop offset="0" style="stop-color: #FFFFFF; stop-opacity: 0.15"/>
+                  <stop offset="0.3333" style="stop-color: #FFFFFF; stop-opacity: 0"/>
+                </linearGradient>
+                <path style="clip-path: url(#disc__highlights-bottom-left--gradient-clip); fill: none; stroke: url(#disc__highlights-bottom-left--gradient); stroke-miterlimit: 10;" d="M378,153.3c64.9,0,117.5,52.6,117.5,117.5S442.9,388.3,378,388.3s-117.5-52.6-117.5-117.5S313.1,153.3,378,153.3z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="disc__highlights-bottom-right">
+          <g>
+            <defs>
+              <rect id="disc__highlights-bottom-right--shape" x="253.2" y="271" width="249.7" height="131.7"/>
+            </defs>
+            <clipPath id="disc__highlights-bottom-right--clip">
+              <use xlink:href="#disc__highlights-bottom-right--shape" style="overflow: visible;"/>
+            </clipPath>
+            <rect x="220.5" y="130.4" style="clip-path: url(#disc__highlights-bottom-right--clip); fill: none;" width="292.7" height="140.5"/>
+            <g style="clip-path: url(#disc__highlights-bottom-right--clip);">
+              <g class="disc__highlights-bottom-right">
+                <defs>
+                  <rect id="disc__highlights-bottom-right--gradient-shape" x="256.5" y="147.6" width="243" height="123.4"/>
+                </defs>
+                <clipPath id="disc__highlights-bottom-right--gradient-clip">
+                  <use xlink:href="#disc__highlights-bottom-right--gradient-shape" style="overflow: visible;"/>
+                </clipPath>
+                <linearGradient id="disc__highlights-bottom-right--gradient" gradientUnits="userSpaceOnUse" x1="260.049" y1="270.7966" x2="496.0034" y2="270.7966">
+                  <stop offset="0.6666" style="stop-color: #FFFFFF; stop-opacity: 0"/>
+                  <stop offset="1" style="stop-color: #FFFFFF; stop-opacity: 0.15"/>
+                </linearGradient>
+                <path style="clip-path: url(#disc__highlights-bottom-right--gradient-clip); fill: none; stroke: url(#disc__highlights-bottom-right--gradient); stroke-miterlimit: 10;" d="M378,153.3c64.9,0,117.5,52.6,117.5,117.5S442.9,388.3,378,388.3s-117.5-52.6-117.5-117.5S313.1,153.3,378,153.3z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="disc__highlights-top-left">
+          <g>
+            <defs>
+              <rect id="disc__highlights-top-left--shape" x="253.2" y="139.1" width="249.7" height="131.7"/>
+            </defs>
+            <clipPath id="disc__highlights-top-left--clip">
+              <use xlink:href="#disc__highlights-top-left--shape"  style="overflow: visible;"/>
+            </clipPath>
+            <g style="clip-path: url(#disc__highlights-top-left--clip);">
+              <g class="disc__highlights-top-left">
+                <defs>
+                  <rect id="disc__highlights-top-left--gradient-shape" x="256.5" y="271" width="243" height="123.4"/>
+                </defs>
+                <clipPath id="disc__highlights-top-left--gradient-clip">
+                  <use xlink:href="#disc__highlights-top-left--gradient-shape" style="overflow: visible;"/>
+                </clipPath>
+                <linearGradient id="disc__highlights-top-left--gradient" gradientUnits="userSpaceOnUse" x1="260.049" y1="270.7966" x2="496.0034" y2="270.7966">
+                  <stop offset="0" style="stop-color: #FFFFFF; stop-opacity: 0.15"/>
+                  <stop offset="0.3333" style="stop-color: #FFFFFF; stop-opacity: 0"/>
+                </linearGradient>
+                <path id="Bleu_x5F_Line_9_" style="clip-path: url(#disc__highlights-top-left--gradient-clip); fill: none; stroke: url(#disc__highlights-top-left--gradient); stroke-miterlimit: 10;" d="M378,153.3c64.9,0,117.5,52.6,117.5,117.5S442.9,388.3,378,388.3s-117.5-52.6-117.5-117.5S313.1,153.3,378,153.3z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="disc__highlights-top-right">
+          <g>
+            <defs>
+              <rect id="disc__highlights-top-right--shape" x="253.2" y="139.1" width="249.7" height="131.7"/>
+            </defs>
+            <clipPath id="disc__highlights-top-right--clip">
+              <use xlink:href="#disc__highlights-top-right--shape" style="overflow: visible;"/>
+            </clipPath>
+            <g style="clip-path:url(#disc__highlights-top-right--clip);">
+              <g class="disc__highlights-top-right">
+                <defs>
+                  <rect id="disc__highlights-top-right--gradient-shape" x="256.5" y="271" width="243" height="123.4"/>
+                </defs>
+                <clipPath id="disc__highlights-top-right--gradient-clip">
+                  <use xlink:href="#disc__highlights-top-right--gradient-shape" style="overflow: visible;"/>
+                </clipPath>
+                <linearGradient id="disc__highlights-top-right--gradient" gradientUnits="userSpaceOnUse" x1="260.049" y1="270.7966" x2="496.0034" y2="270.7966">
+                  <stop offset="0.6666" style="stop-color: #FFFFFF; stop-opacity: 0"/>
+                  <stop offset="1" style="stop-color: #FFFFFF; stop-opacity: 0.15"/>
+                </linearGradient>
+                <path id="Bleu_x5F_Line_6_" style="clip-path: url(#disc__highlights-top-right--gradient-clip); fill:none; stroke: url(#disc__highlights-top-right--gradient); stroke-miterlimit: 10;" d="M378,153.3c64.9,0,117.5,52.6,117.5,117.5S442.9,388.3,378,388.3s-117.5-52.6-117.5-117.5S313.1,153.3,378,153.3z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="disc__background-strokes">
+          <defs>
+            <circle id="disc__background-strokes--shape" class="disc__background-strokes--shape" cx="379" cy="270.6" r="86.7"/>
+          </defs>
+          <clipPath id="disc__background-strokes--clip">
+            <use xlink:href="#disc__background-strokes--shape" style="overflow: visible;"/>
+          </clipPath>
+          <g style="clip-path: url(#disc__background-strokes--clip);">
+            <linearGradient id="Line_4_" gradientUnits="userSpaceOnUse" x1="422.6317" y1="147.3081" x2="663.8688" y2="147.3081">
+              <stop offset="0.8" style="stop-color: #083759; stop-opacity: 0.5"/>
+              <stop offset="1" style="stop-color: #01060D; stop-opacity: 0"/>
+            </linearGradient>
+            <polyline id="Line_3_" style="fill-rule: evenodd; clip-rule: evenodd; fill: none; stroke: url(#Line_4_); stroke-miterlimit: 10;" points="422.9,161.4 463.3,133.3 663.9,133.5 			"/>
+            <linearGradient id="Line_5_" gradientUnits="userSpaceOnUse" x1="422.6317" y1="239.6414" x2="663.8688" y2="239.6414" gradientTransform="matrix(1 0 0 -1 0 633.3722)">
+              <stop offset="0.8" style="stop-color: #083759; stop-opacity: 0.5"/>
+              <stop offset="1" style="stop-color: #01060D; stop-opacity: 0"/>
+            </linearGradient>
+            <polyline id="Line_2_" style="fill-rule: evenodd; clip-rule: evenodd; fill: none; stroke: url(#Line_5_); stroke-miterlimit: 10;" points="422.9,379.7 463.3,407.7 663.9,407.5 			"/>
+            <linearGradient id="Line_6_" gradientUnits="userSpaceOnUse" x1="753.6317" y1="147.3081" x2="994.8688" y2="147.3081" gradientTransform="matrix(-1 0 0 1 1086.7852 0)">
+              <stop offset="0.8" style="stop-color: #083759; stop-opacity: 0.5"/>
+              <stop offset="1" style="stop-color: #01060D; stop-opacity: 0"/>
+            </linearGradient>
+            <polyline id="Line_1_" style="fill-rule: evenodd; clip-rule: evenodd; fill: none; stroke: url(#Line_6_); stroke-miterlimit: 10;" points="332.9,161.4 292.5,133.3 91.9,133.5 			"/>
+            <linearGradient id="Line_7_" gradientUnits="userSpaceOnUse" x1="753.6317" y1="239.6414" x2="994.8688" y2="239.6414" gradientTransform="matrix(-1 0 0 -1 1086.7852 633.3723)">
+              <stop offset="0.8" style="stop-color: #083759; stop-opacity: 0.5"/>
+              <stop offset="1" style="stop-color: #01060D; stop-opacity: 0"/>
+            </linearGradient>
+            <polyline id="Line" style="fill-rule: evenodd; clip-rule: evenodd; fill: none; stroke: url(#Line_7_); stroke-miterlimit: 10;" points="332.9,379.7 292.5,407.7 91.9,407.5 			"/>
+          </g>
+        </g>
+        <g class="disc__middle-top">
+          <g>
+            <defs>
+              <circle id="disc__middle-top--mask-shape" class="disc__middle-top--mask-shape" cx="379" cy="270.6" r="86.7"/>
+            </defs>
+            <clipPath id="disc__middle-top--mask-clip">
+              <use xlink:href="#disc__middle-top--mask-shape" style="overflow: visible;"/>
+            </clipPath>
+            <linearGradient id="Top_1_" gradientUnits="userSpaceOnUse" x1="377.7016" y1="177.4209" x2="377.7016" y2="32">
+              <stop  offset="0" style="stop-color: #010914; stop-opacity: 0.6"/>
+              <stop  offset="1" style="stop-color: #01060D; stop-opacity: 0"/>
+            </linearGradient>
+            <g style="clip-path: url(#disc__middle-top--mask-clip); clip-rule: evenodd;">
+              <path class="disc__middle-top--shape" style="fill-rule: evenodd; fill: url(#Top_1_);" d="M434.2,134.7V32h-113v102.7l57,42.8L434.2,134.7z"/>
+            </g>
+          </g>
+          <g>
+            <defs>
+              <circle id="disc__middle-top--stroke-shape" class="disc__middle-top--stroke-shape" cx="379" cy="270.6" r="86.7"/>
+            </defs>
+            <clipPath id="disc__middle-top--stroke-clip">
+              <use xlink:href="#disc__middle-top--stroke-shape" style="overflow: visible;"/>
+            </clipPath>
+            <linearGradient id="Top_2_2" gradientUnits="userSpaceOnUse" x1="377.7016" y1="178.0479" x2="377.7016" y2="31.5">
+              <stop  offset="0.6" style="stop-color: #083759; stop-opacity: 0.4"/>
+              <stop  offset="1" style="stop-color: #01060D; stop-opacity: 0"/>
+            </linearGradient>
+            <g style="clip-path: url(#disc__middle-top--stroke-clip); clip-rule: evenodd;">
+              <path style="stroke: url(#Top_2_2); stroke-miterlimit: 10; fill-opacity: 0" d="M434.2,134.7V32h-113v102.7l57,42.8L434.2,134.7z"/>
+            </g>
+          </g>
+        </g>
+
+        <path class="disc__small-lights" style="fill-rule:evenodd;clip-rule:evenodd;fill:#42EDF8;" d="M654.8,255.6h2v1h-2V255.6z M654.8,285.5h2v-1h-2V285.5z M488.2,256.6h2v-1h-2V256.6z M488.2,285.5h2v-1h-2V285.5z M470.8,271.2h2v-1h-2V271.2z M619.3,134h2v-1h-2V134z M619.3,408h2v-1h-2V408z M137.3,134h2v-1h-2 V134z M137.3,408h2v-1h-2V408z M292.3,134h2v-1h-2V134z M292.3,408h2v-1h-2V408z M463.3,134h2v-1h-2V134z M463.3,408h2v-1h-2V408 z M423.5,159.6v2h1v-2H423.5z M423.5,379.6v2h1v-2H423.5z M332.5,159.6v2h1v-2H332.5z M332.5,379.6v2h1v-2H332.5z M377.7,176.1h1 v2h-1V176.1z M434,133.1v2h1v-2H434z M320.5,135.1h1v-2h-1V135.1z"/>
+      </g>
+    </g>
+  </g>
+  <g id="lights">
+    <g id="lights__selector-lights">
+      <g>
+        <defs>
+          <rect id="lights__selector-light--shape" x="277.7" y="255.5" width="246.8" height="29.8"/>
+        </defs>
+        <clipPath id="lights__selector-light--clip">
+          <use xlink:href="#lights__selector-light--shape" style="overflow: visible;"/>
+        </clipPath>
+        <g style="clip-path: url(#lights__selector-light--clip);">
+          <path class="lights__selector-light" style="fill: #42EDF8;" d="M379,152.3c65.3,0,118.3,52.9,118.3,118.3S444.3,388.8,379,388.8c-65.3,0-118.3-52.9-118.3-118.3 S313.7,152.3,379,152.3 M379,146.3c-33.2,0-64.4,12.9-87.9,36.4c-23.5,23.5-36.4,54.7-36.4,87.9s12.9,64.4,36.4,87.9 c23.5,23.5,54.7,36.4,87.9,36.4c33.2,0,64.4-12.9,87.9-36.4c23.5-23.5,36.4-54.7,36.4-87.9s-12.9-64.4-36.4-87.9 C443.4,159.2,412.2,146.3,379,146.3L379,146.3z"/>
+        </g>
+      </g>
+      <g id="Gradient" style="filter: url(#light-blur);">
+        <g>
+          <defs>
+            <rect id="lights__selector-glow--shape" x="277.7" y="255.5" width="246.8" height="29.8"/>
+          </defs>
+          <clipPath id="lights__selector-glow--clip">
+            <use xlink:href="#lights__selector-glow--shape" style="overflow: visible;"/>
+          </clipPath>
+          <g style="clip-path: url(#lights__selector-glow--clip);">
+            <path class="lights__selector-glow" style="fill: #43C0F7;" d="M379,152.3c65.3,0,118.3,52.9,118.3,118.3S444.3,388.8,379,388.8c-65.3,0-118.3-52.9-118.3-118.3 S313.7,152.3,379,152.3 M379,146.3c-33.2,0-64.4,12.9-87.9,36.4c-23.5,23.5-36.4,54.7-36.4,87.9s12.9,64.4,36.4,87.9 c23.5,23.5,54.7,36.4,87.9,36.4c33.2,0,64.4-12.9,87.9-36.4c23.5-23.5,36.4-54.7,36.4-87.9s-12.9-64.4-36.4-87.9 C443.4,159.2,412.2,146.3,379,146.3L379,146.3z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g style="filter: url(#light-blur)">
+      <defs>
+        <polygon id="lights__main-glows--mask-shape" points="633.6,258.5 633.5,257.2 765.7,257.2 765.7,255.4 633.6,255.4 633.5,254.1 765.7,254.1 765.7,156 -14.3,156 -14.3,375.4 765.7,375.4 765.7,286.9 633.6,286.9 633.5,285.6 765.7,285.6 765.7,283.8 633.6,283.8 633.5,282.5 765.7,282.5 765.7,280.6 633.6,280.6 633.5,279.3 765.7,279.3 765.7,277.5 633.6,277.5 633.5,276.2 765.7,276.2 765.7,274.3 633.6,274.3 633.5,273 765.7,273 765.7,271.2 633.6,271.2 633.5,269.9 765.7,269.9 765.7,268 633.6,268 633.5,266.7 765.7,266.7 765.7,264.8 633.6,264.8 633.5,263.6 765.7,263.6 765.7,261.7 633.6,261.7 633.5,260.4 765.7,260.4 765.7,258.5"/>
+      </defs>
+      <clipPath id="lights__main-glows--mask-clip">
+        <use xlink:href="#lights__main-glows--mask-shape" style="overflow: visible;"/>
+      </clipPath>
+      <circle class="lights__main-glows" style="clip-path: url(#lights__main-glows--mask-clip); fill: none; stroke: #42EDF8; stroke-width: 6; stroke-miterlimit: 10;" cx="379" cy="270.6" r="283.5"/>
+    </g>
+    <g>
+      <defs>
+        <polygon id="lights__main-lights--mask-shape" points="633.6,258.5 633.5,257.2 765.7,257.2 765.7,255.4 633.6,255.4 633.5,254.1 765.7,254.1 765.7,156 -14.3,156 -14.3,375.4 765.7,375.4 765.7,286.9 633.6,286.9 633.5,285.6 765.7,285.6 765.7,283.8 633.6,283.8 633.5,282.5 765.7,282.5 765.7,280.6 633.6,280.6 633.5,279.3 765.7,279.3 765.7,277.5 633.6,277.5 633.5,276.2 765.7,276.2 765.7,274.3 633.6,274.3 633.5,273 765.7,273 765.7,271.2 633.6,271.2 633.5,269.9 765.7,269.9 765.7,268 633.6,268 633.5,266.7 765.7,266.7 765.7,264.8 633.6,264.8 633.5,263.6 765.7,263.6 765.7,261.7 633.6,261.7 633.5,260.4 765.7,260.4 765.7,258.5"/>
+      </defs>
+      <clipPath id="lights__main-lights--mask-clip">
+        <use xlink:href="#lights__main-lights--mask-shape"  style="overflow: visible;"/>
+      </clipPath>
+      <circle class="lights__main-lights" style="clip-path: url(#lights__main-lights--mask-clip); fill: none; stroke: #42EDF8; stroke-width: 6; stroke-miterlimit: 10;" cx="379" cy="270.6" r="287.5"/>
+    </g>
+  </g>
+</svg>
