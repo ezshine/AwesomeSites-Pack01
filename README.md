@@ -22,3 +22,6 @@
 - www.blues-d.co.jp
 - yelloworld.pinkyellow.com
 - gleec.com
+- eyes.nasa.gov
+- webxr-sneakers.lusion.co
+- showroom.littleworkshop.fr

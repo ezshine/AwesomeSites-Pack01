@@ -1,0 +1,397 @@
+[
+	{
+		"id": "cruise_stage_separation",
+		"title": "Cruise Stage Separation",
+		"description": "About ten minutes before entering the atmosphere, the spacecraft sheds its Cruise Stage, which houses solar panels, sensors, and fuel tanks during its flight to Mars.",
+		"mobileDescription": "The spacecraft sheds the cruise stage, which houses the solar panels and fuel tanks.",
+		"timestamp": -60.000,
+		"camera": [
+			{
+				"func": "viewFromBehind",
+				"params": [
+					"sc_perseverance_rover"
+				]
+			}
+		]
+	},
+	{
+		"id": "de-spin",
+		"title": "De-Spin",
+		"description": "The spacecraft uses thrusters to stop its 2 RPM spin and then faces the optimum entry attitude.",
+		"timestamp": 20.500,
+		"camera": [
+			{
+				"func": "alignWithTarget",
+				"params": [
+					"sc_perseverance_rover",
+					"sc_perseverance_landing_site",
+					{ "verticalOffset": 10, "horizontalOffset": -5 }
+				]
+			}
+		]
+	},
+	{
+		"id": "cruise_balance_masses_ejected",
+		"title": "Cruise Balance Masses Ejected",
+		"description": "Five minutes before entering the Martian atmosphere, the spacecraft drops two 70 kg(154 pound) balance masses in order to create the desired lift-to-drag ratio.",
+		"mobileDescription": "The spacecraft drops mass for aerodynamics in the atmosphere.",
+		"timestamp": 56.395,
+		"camera": [
+			{
+				"func": "alignWithTarget",
+				"params": [
+					"sc_perseverance_rover",
+					"sc_perseverance_landing_site",
+					{ "verticalOffset": -10, "horizontalOffset": -5, "distance": 0.05 }
+				]
+			}
+		]
+	},
+	{
+		"id": "entry_interface_point",
+		"title": "Entry Interface Point",
+		"description": "The spacecraft enters the Martian atmosphere, drastically slowing it down while also heating it up.",
+		"timestamp": 540.085,
+		"camera": [
+			{
+				"func": "alignWithTarget",
+				"params": [
+					"sc_perseverance_rover",
+					"sc_perseverance_landing_site",
+					{ "verticalOffset": 10, "horizontalOffset": -5 }
+				]
+			}
+		]
+	},
+	{
+		"id": "guidance_start",
+		"title": "Guidance Start",
+		"description": "As it begins to descend through the atmosphere, the spacecraft encounters pockets of air that are more or less dense, which can nudge it off course. To compensate, it fires small thrusters on its backshell that adjust its angle and direction of lift.",
+		"mobileDescription": "The spacecraft fires thrusters to stay on course.",
+		"timestamp": 594.875,
+		"camera": [
+			{
+				"func": "alignWithTarget",
+				"params": [
+					"sc_perseverance_rover",
+					"earth",
+					{ "verticalOffset": 10, "distance": 0.03 }
+				]
+			}
+		]
+	},
+	{
+		"id": "heading_alignment",
+		"title": "Heading Alignment",
+		"description": "The guided entry algorithm corrects any remaining cross-range error.",
+		"timestamp": 679.750,
+		"camera": [
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "forwardVector": "z-axis" }
+				]
+			}
+		]
+	},
+	{
+		"id": "begin_SUFR",
+		"title": "Begin SUFR",
+		"description": "The spacecraft executes the “Straighten Up and Fly Right” maneuver, ejecting six more balance masses and setting the angle of attack to zero.",
+		"timestamp":766.250,
+		"camera": [
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "forwardVector": "z-axis" }
+				]
+			}
+		]
+	},
+	{
+		"id": "parachute_deploy",
+		"title": "Parachute Deploy",
+		"description": "The parachute is triggered by calculating the distance to the landing site, and opening at the optimum time to hit a smaller target area.  This is called a “Range Trigger.”",
+		"mobileDescription": "",
+		"timestamp": 783.275,
+		"camera": [
+			{
+				"func": "viewFromBehind",
+				"params": [
+					"sc_perseverance_rover",
+					{ "upMode": "surfaceUp", "horizontalOffset": -15, "verticalOffset": 10, "distance": 0.1 }
+				]
+			}
+		]
+	},
+	{
+		"id": "heat_shield_separation",
+		"title": "Heat Shield Separation",
+		"description": "Twenty seconds after parachute deploy, the heat shield separates and drops away, and the rover is exposed to the atmosphere of Mars.  Cameras and instruments begin taking data.",
+		"mobileDescription": "",
+		"timestamp": 804.269,
+		"camera": [
+			{
+				"func": "viewFromBehind",
+				"params": [
+					"sc_perseverance_rover",
+					{ "upMode": "surfaceUp", "horizontalOffset": -15, "verticalOffset": 20, "distance": 0.15 }
+				]
+			}
+		]
+	},
+	{
+		"id": "TRN_image_acquisition_begins",
+		"title": "TRN Image Acquisition Begins",
+		"description": "Terrain Relative Navigation enables the spacecraft to change course based on pictures taken of the ground.  The onboard computer compares the pictures to previous maps, and changes course if necessary for safer landing zones.",
+		"mobileDescription": "The spacecraft takes pictures of the ground to see where it is and change course if necessary.",
+		"timestamp": 864.305,
+		"camera": [
+			{
+				"func": "alignWithTarget",
+				"params": [
+					"sc_perseverance_rover",
+					"sc_perseverance_landing_site",
+					{ "verticalOffset": -10, "horizontalOffset": 0, "distance": 0.05 }
+				]
+			}
+		]
+	},
+	{
+		"id": "TRN_valid_solution",
+		"title": "TRN Valid Solution",
+		"description": "The onboard computer has found a safe area to land that is free of hazards.",
+		"timestamp": 871.156,
+		"camera": [
+			{
+				"func": "alignWithTarget",
+				"params": [
+					"sc_perseverance_rover",
+					"sc_perseverance_landing_site",
+					{ "verticalOffset": -10, "horizontalOffset": 0, "distance": 0.05 }
+				],
+				"timestamp": 871.156
+			},
+			{
+				"func": "viewFromBehind",
+				"params": [
+					"sc_perseverance_rover",
+					{ "upMode": "surfaceUp", "verticalOffset": 170, "duration": 2 }
+				],
+				"timestamp": 881.156
+			}
+		],
+		"reverseCamera": [
+			{
+				"func": "viewFromBehind",
+				"params": [
+					"sc_perseverance_rover",
+					{ "upMode": "surfaceUp", "verticalOffset": 170 }
+				],
+				"timestamp": 889.034
+			},
+			{
+				"func": "alignWithTarget",
+				"params": [
+					"sc_perseverance_rover",
+					"sc_perseverance_landing_site",
+					{ "verticalOffset": -10, "horizontalOffset": 0, "distance": 0.05, "duration": 2 }
+				],
+				"timestamp": 883.156
+			}
+		]
+	},
+	{
+		"id": "backshell_separation",
+		"title": "Backshell Separation",
+		"description": "The Perseverance rover and its own rocket-powered descent engine detach from the parachute and begin free-flying above Mars in order to reduce vertical velocity and eliminate horizontal velocity.",
+		"mobileDescription": "The rover and a rocket pack detach and free-fly above Mars.",
+		"timestamp": 889.035,
+		"camera": [
+			{
+				"func": "viewFromBehind",
+				"params": [
+					"sc_perseverance_rover",
+					{ "upMode": "surfaceUp", "verticalOffset": 170 }
+				],
+				"timestamp": 889.035
+			},
+			{
+				"func": "viewFromBehind",
+				"params": [
+					"sc_perseverance_rover",
+					{ "upMode": "surfaceUp", "duration": 3 }
+				],
+				"timestamp": 894.156
+			}
+		],
+		"reverseCamera": [
+			{
+				"func": "viewFromBehind",
+				"params": [
+					"sc_perseverance_rover",
+					{ "upMode": "surfaceUp" }
+				],
+				"timestamp": 930.812
+			},
+			{
+				"func": "viewFromBehind",
+				"params": [
+					"sc_perseverance_rover",
+					{ "upMode": "surfaceUp", "verticalOffset": 170, "duration": 3 }
+				],
+				"timestamp": 897.156
+			}
+		]
+	},
+	{
+		"id": "descent_stage_throttle_down",
+		"title": "Descent Stage Throttle Down",
+		"description": "When the rover is 21 meters (69 feet) above the ground, half the engines turn off and the descent stage levels off to reach the final velocity of 2.7 km/hr (1.67 mi/hr).",
+		"mobileDescription": "The rockets power down to achieve 2.7 km/hr (1.67 mi/hr).",
+		"timestamp": 930.813,
+		"camera": [
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "distance": 0.015, "horizontalOffset": 80, "verticalOffset": -5 }
+				]
+			}
+		]
+	},
+	{
+		"id": "rover_separation",
+		"title": "Rover Separation",
+		"description": "The rover is released from the descent stage and lowered on a set of cables that extend to over 20 feet of length.  The rover unlocks and deploys its wheels as this happens.",
+		"timestamp": 933.345,
+		"camera": [
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "distance": 0.05, "horizontalOffset": 70 }
+				]
+			}
+		]
+	},
+	{
+		"id": "touchdown_flyaway",
+		"title": "Touchdown - Flyaway",
+		"description": "The rover touches down on Mars. As soon as the rover senses that its wheels have touched the ground, it quickly cuts the cables. This frees the descent stage to fly off a safe distance away from Perseverance.",
+		"timestamp": 949.453,
+		"camera": [
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "distance": 0.05 }
+				],
+				"timestamp": 949.453
+			},
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "horizontalOffset": -90, "distance": 0.1, "duration": 4 }
+				],
+				"timestamp": 950.453
+			}
+		],
+		"reverseCamera": [
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "horizontalOffset": -90, "distance": 0.1 }
+				],
+				"timestamp": 956.854
+			},
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "distance": 0.05, "duration": 4 }
+				],
+				"timestamp": 954.453
+			}
+		]
+	},
+	{
+		"id": "descent_stage_engine_cutoff",
+		"title": "Descent Stage Engine Cutoff",
+		"description": "The Descent Stage flies away at a 45 degree angle and expends the remaining fuel, then crashes into the terrain with no remaining fuel.",
+		"timestamp": 956.855,
+		"camera": [
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "horizontalOffset": -90, "distance": 0.1 }
+				],
+				"timestamp": 956.855
+			},
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "horizontalOffset": -90, "distance": 0.01, "duration": 4 }
+				],
+				"timestamp": 959.855
+			},
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "distance": 0.007, "horizontalOffset": 60, "verticalOffset": 15 }
+				],
+				"timestamp": 966.222
+			}
+		],
+		"reverseCamera": [
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "distance": 0.007, "horizontalOffset": 60, "verticalOffset": 15 }
+				],
+				"timestamp": 967.854
+			},
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "horizontalOffset": -90, "distance": 0.01 }
+				],
+				"timestamp": 967.100
+			},
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "horizontalOffset": -90, "distance": 0.1, "duration": 4 }
+				],
+				"timestamp": 963.855
+			}
+		]
+	},
+	{
+		"id": "surface_operations",
+		"title": "Surface Operations",
+		"description": "<span>Once successfully landed, surface operations begin. To replay the landing, click </span><a href=\"#/home\"/>here</a><span> or hit the \"Replay\" button. For the latest news, visit the mission website: </span><a target=\"_blank\" href=\"https://mars.nasa.gov/mars2020\"/>mars.nasa.gov/mars2020</a>",
+		"mobileDescription": "<span>Once landed, surface operations begin. Click </span><a href=\"#/home\"/>here</a><span> to replay the landing and </span><a target=\"_blank\" href=\"https://mars.nasa.gov/mars2020\"/>here</a><span> to visit the mission homepage.</span>",
+		"timestamp": 967.855,
+		"camera": [
+			{
+				"func": "viewFromSide",
+				"params": [
+					"sc_perseverance_rover",
+					{ "distance": 0.007, "horizontalOffset": 60, "verticalOffset": 15 }
+				],
+				"timestamp": 967.855
+			}
+		]
+	}
+]

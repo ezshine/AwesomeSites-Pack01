@@ -1,0 +1,197 @@
+{
+	"list": 
+	[
+		{
+			"patternIndex1": 7,
+			"patternIndex2": 2,
+			"patternIndex3": 5,
+			"part1color1": [0.75,0.75,0.75],
+			"part1color2": [0.66,0.66,0.66],
+			"part2color1": [0,0,1],
+			"part2color2": [0,0,0.5],
+			"part3color1": [0,0,0.5],
+			"part3color2": [0,0,1],
+
+			"colorDominant": "#0000ff",
+			"colorSecondary": "#f1f1f1",
+			"colorBackground": "#000099",
+			"isDark": true
+		},
+		{
+			"patternIndex1": 5,
+			"patternIndex2": 2,
+			"patternIndex3": 5,
+			"part1color1": [0.0125,0.0125,0.0125],
+			"part1color2": [0.0125,0.01250, 0.0125],
+			"part2color1": [1,0,0],
+			"part2color2": [1,0,0],
+			"part3color1": [0.5,0,0],
+			"part3color2": [0.5,0,0],
+
+			"colorDominant": "#ff0000",
+			"colorSecondary": "#1b1b1b",
+			"colorBackground": "#7F0000",
+			"isDark": true
+		},
+		{
+			"patternIndex1": 5,
+			"patternIndex2": 2,
+			"patternIndex3": 2,
+			"part1color1": [0.0125,0.0125,0.0125],
+			"part1color2": [0,0,0],
+			"part2color1": [0.00625,0.00625,0.00625],
+			"part2color2": [0.00625,0.00625,0.00625],
+			"part3color1": [0.00625,0.00625,0.00625],
+			"part3color2": [0.5,0,0],
+
+			"colorDominant": "#121212",
+			"colorSecondary": "#7F0000",
+			"colorBackground": "#080808",
+			"isDark": true
+		},
+		{
+			"patternIndex1": 8,
+			"patternIndex2": 2,
+			"patternIndex3": 2,
+			"part1color1": [0.75,0.75,0.75],
+			"part1color2": [0.2,0.2,0.2],
+			"part2color1": [0.75,0.75,0.75],
+			"part2color2": [0.75,0.75,0.75],
+			"part3color1": [0.75,0.75,0.75],
+			"part3color2": [0.5,0.5,0.5],
+
+			"colorDominant": "#fdfdfd",
+			"colorSecondary": "#e0e0e0",
+			"colorBackground": "#ffffff",
+			"isDark": false
+		},
+		{
+			"patternIndex1": 8,
+			"patternIndex2": 5,
+			"patternIndex3": 5,
+			"part1color1": [0.75,0.75,0.75],
+			"part1color2": [0.75,0.75,0.75],
+			"part2color1": [0.5,0,0],
+			"part2color2": [1,0.5,0],
+			"part3color1": [0.5,0,0],
+			"part3color2": [1,0.5,0],
+
+			"colorDominant": "#c40000",
+			"colorSecondary": "#ffa800",
+			"colorBackground": "#b50707",
+			"isDark": true
+		},
+		{
+			"patternIndex1": 8,
+			"patternIndex2": 5,
+			"patternIndex3": 5,
+			"part1color1": [0.75,0.75,0.75],
+			"part1color2": [0.75,0.75,0.75],
+			"part2color1": [0.75,0.75,0.75],
+			"part2color2": [0.75,0.75,0.75],
+			"part3color1": [0,0,1],
+			"part3color2": [0,1,0.5],
+
+			"colorDominant": "#0000ff",
+			"colorSecondary": "#00FF7F",
+			"colorBackground": "#000dff",
+			"isDark": true
+		},
+		{
+			"patternIndex1": 5,
+			"patternIndex2": 6,
+			"patternIndex3": 6,
+			"part1color1": [0.075,0.3,0.075],
+			"part1color2": [0.5,1,0],
+			"part2color1": [0.075,0.3,0.075],
+			"part2color2": [0.5,1,0],
+			"part3color1": [0.075,0.3,0.075],
+			"part3color2": [0.5,1,0],
+
+			"colorDominant": "#134C13",
+			"colorSecondary": "#7FFF00",
+			"colorBackground": "#081e08",
+			"isDark": true
+		},
+		{
+			"patternIndex1": 8,
+			"patternIndex2": 8,
+			"patternIndex3": 8,
+			"part1color1": [0.075,0.1875,0.3],
+			"part1color2": [0.75,0.75,0.75],
+			"part2color1": [0.75,0.75,0.75],
+			"part2color2": [0.075,0.1875,0.3],
+			"part3color1": [0.75,0.75,0.75],
+			"part3color2": [0.75,0.75,0.75],
+
+			"colorDominant": "#BFBFBF",
+			"colorSecondary": "#132F4C",
+			"colorBackground": "#f9f9f9",
+			"isDark": false
+		},
+		{
+			"patternIndex1": 2,
+			"patternIndex2": 2,
+			"patternIndex3": 3,
+			"part1color1": [0.3,0.1875,0.075],
+			"part1color2": [1,0.5,0],
+			"part2color1": [0.3,0.1875,0.075],
+			"part2color2": [1,0.5,0],
+			"part3color1": [1,0.5,0],
+			"part3color2": [0.3,0.1875,0.075],
+
+			"colorDominant": "#4C2F13",
+			"colorSecondary": "#FF7F00",
+			"colorBackground": "#281a0c",
+			"isDark": true
+		},
+		{
+			"patternIndex1": 3,
+			"patternIndex2": 6,
+			"patternIndex3": 6,
+			"part1color1": [1,1,0],
+			"part1color2": [0.00625,0.00625,0.00625],
+			"part2color1": [1,1,0],
+			"part2color2": [0.00625,0.00625,0.00625],
+			"part3color1": [1,1,0],
+			"part3color2": [0.00625,0.00625,0.00625],
+
+			"colorDominant": "#ede500",
+			"colorSecondary": "#1b1b1b",
+			"colorBackground": "#fff500",
+			"isDark": false
+		},
+		{
+			"patternIndex1": 1,
+			"patternIndex2": 6,
+			"patternIndex3": 0,
+			"part1color1": [0.00625,0.00625,0.00625],
+			"part1color2": [0.9,0,0],
+			"part2color1": [0.00625,0.00625,0.00625],
+			"part2color2": [0.00625,0.00625,0.00625],
+			"part3color1": [0.00625,0.00625,0.00625],
+			"part3color2": [0.00625,0.00625,0.00625],
+
+			"colorDominant": "#2a2a2a",
+			"colorSecondary": "#E50000",
+			"colorBackground": "#1a1a1a",
+			"isDark": true
+		},
+		{
+			"patternIndex1": 1,
+			"patternIndex2": 1,
+			"patternIndex3": 1,
+			"part1color1": [0.00625,0.00625,0.00625],
+			"part1color2": [0.75,0.75,0.75],
+			"part2color1": [0.75,0.75,0.75],
+			"part2color2": [0.00625,0.00625,0.00625],
+			"part3color1": [0.00625,0.00625,0.00625],
+			"part3color2": [0.75,0.75,0.75],
+
+			"colorDominant": "#1a1a1a",
+			"colorSecondary": "#BFBFBF",
+			"colorBackground": "#1a1a1a",
+			"isDark": true
+		}
+	]
+}

@@ -1,0 +1,14 @@
+<svg width="12" height="66" version="1.1" viewBox="0 0 12 66" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g transform="translate(-304.12 -223.58)">
+  <g transform="translate(1000.7 -219.06)" fill="#4f4f4f" stroke-linejoin="bevel">
+   <rect x="-696.59" y="442.64" width="12" height="1" rx="0" ry="0"/>
+   <g stroke-width=".6455">
+    <rect x="-696.59" y="453.64" width="5" height="1" rx="0" ry="0"/>
+    <rect x="-696.59" y="464.64" width="5" height="1" rx="0" ry="0"/>
+    <rect x="-696.59" y="475.64" width="5" height="1" rx="0" ry="0"/>
+    <rect x="-696.59" y="486.64" width="5" height="1" rx="0" ry="0"/>
+    <rect x="-696.59" y="497.64" width="5" height="1" rx="0" ry="0"/>
+   </g>
+  </g>
+ </g>
+</svg>

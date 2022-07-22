@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="194x194" href="./favicon-194x194.png">
+		<link rel="icon" type="image/png" sizes="192x192" href="./android-chrome-192x192.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+		<link rel="manifest" href="./site.webmanifest">
+		<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#2b5797">
+		<link rel="shortcut icon" href="./favicon.ico">
+		<meta name="msapplication-TileColor" content="#2b5797">
+		<meta name="msapplication-config" content="./browserconfig.xml">
+		<meta name="theme-color" content="#000000">
+		<link rel="stylesheet" type="text/css" href="./mars2020.css">
+		<script src="config.js"></script>
+		<script src="script.js"></script>
+		<title>Mars 2020 Entry Descent Landing</title>
+	</head>
+	<body>
+		<div class="pioneer"></div>
+		<div class="ui grid-layout simple-grid">
+			<header class="header">
+				<div class="icon icon-nasa-logo"></div>
+				<div class="title semi">
+					<span class="first">Mars</span>
+					<span class="second">2020</span>
+				</div>
+				<div class="subtitle tiny"><span>Entry</span><span>Descent</span><span>Landing</span></div>
+				<div id="info-panel" class="info-panel"></div>
+				<div class="credits small">
+					<span class="powered">Powered by </span>
+					<span class="by"><em>NASA's Eyes</em></span>
+				</div>
+				<div class="disclaimer title semi">Pre-landing Simulation</div>
+			</header>
+			<div id="load-icon"></div>
+			<article id="story-panel" class="story-panel"></article>
+			<div id ="float-mid-bottom" class="float-mid-bottom">
+				<div id="story-back-button" class="story-back-button"></div>
+				<nav id="clock-shortcut" class="clock-shortcut"></nav>
+				<time id="clock" class="clock"></time>
+				<div id="time-controller" class="time-controller"></div>
+			</div>
+			<div class="float-right-bottom">
+				<div id="settings"></div>
+			</div>
+		</div>
+		<!-- Analytics -->
+		<script id="_fed_an_ua_tag" type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=M2020EDL&dclink=true&sp=search,s,q&sdor=false&exts=tif,tiff"></script>
+	</body>
+</html>

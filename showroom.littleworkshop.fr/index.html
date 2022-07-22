@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html LANG="" dir="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui=1">
+
+    <title>WebVR Showroom by Little Workshop</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="icon" href="img/favicon.png">
+
+    <meta property="og:title" content="WebVR Showroom">
+    <meta property="og:url" content="http://showroom.littleworkshop.fr">
+    <meta property="og:description" content="Step inside a virtual showroom built with WebGL and WebVR.">
+    <meta property="og:image" content="http://showroom.littleworkshop.fr/img/og-image.jpg">
+
+  </head>
+  <body>
+    <div class="instructions-container">
+      <div class="instructions look" data-ref="look_instructions">
+        <div class="inner">
+          <div class="hand"></div>
+          <div class="copy">Click and drag to look around</div>
+        </div>
+      </div>
+
+      <div class="instructions material" data-ref="material_instructions">
+        <div class="inner">
+          <div class="copy">Select a different material</div>
+        </div>
+      </div>
+
+      <div class="instructions move" data-ref="move_instructions">
+        <div class="inner">
+          <div class="tap"></div>
+          <div class="copy">Tap on the floor to move around</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="loading">
+      <div class="background"></div>
+      <div class="inner">
+        <div class="border" data-ref="border"></div>
+        <div class="panel-container" data-ref="panel_container">
+          <div class="panel" data-ref="panel">
+
+            <div class="main" data-ref="titlescreen_main">
+              <div class="illustration" data-ref="titlescreen_illustration"></div>
+              <div class="main-content">
+                <h1 class="title">WebVR Showroom</h1>
+                <p class="copy">Step inside a virtual showroom built with <strong>WebGL</strong> and <strong>WebVR</strong>. <br/><a href="#about" data-ref="about_link">More info</a></p>
+                <div class="warning"></div>
+                <div class="progress" data-ref="progress"><span class="text">Loading</span><span class="percentage">0</span>%</div>
+                <div class="start" data-ref="start">Enter the showroom</div>
+              </div>
+            </div>
+
+            <div class="about">
+              <h2 class="title">About</h2>
+              <div class="copy">
+                <p>
+                  This is an interior visualization demo. It aims to illustrate how <strong>WebGL</strong> and <strong>WebVR</strong> offer new ways to showcase and customize products on the Web.
+                </p>
+                <p>
+                  This demo features physically-based materials to accurately represent surfaces and objects. Since it's running in real-time 3D, you are able to inspect objects from every angle, and even customize their appearance. For the most immersive experience, you can view it in VR in your browser.
+                </p>
+                <p>
+                  We created this project from the ground up. All of the following was done by our studio: UX/UI design, 3D modeling and texturing, WebGL and web development.
+                </p>
+                <p>
+                  Interested in hiring us to build something awesome? <a href="/cdn-cgi/l/email-protection#92faf7fefefdd2fefbe6e6fef7e5fde0f9e1fafde2bcf4e0"><strong>Get in touch</strong></a>.
+                </p>
+              </div>
+              <div class="close" data-ref="close_about"></div>
+            </div>
+
+            <footer data-ref="titlescreen_footer">
+              <div class="sharing">
+                <div class="icons">
+                  <div class="icon social_t" data-ref="sharing" data-href="https://twitter.com/share?url=http%3A%2F%2Fshowroom.littleworkshop.fr&text=WebVR%20Showroom&via=glecollinet&related=whatthefranck&hashtags=webgl,webvr,threejs" data-width="575" data-height="400"></div>
+                  <div class="icon social_f" data-ref="sharing" data-href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fshowroom.littleworkshop.fr" data-width="575" data-height="400" ></div>
+                  <div class="icon social_l" data-ref="sharing" data-href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fshowroom.littleworkshop.fr&title=WebVR%20Showroom
+&summary=Step%20inside%20a%20virtual%20showroom%20built%20with%20WebGL%20and%20WebVR.&source=littleworkshop.fr" data-width="520" data-height="570"></div>
+                </div>
+              </div>
+              <div class="credits">
+                Made by <strong><a href="http://www.littleworkshop.fr">Little Workshop</a></strong>, a digital studio specialized in WebGL experiences. <a href="/cdn-cgi/l/email-protection#3c54595050537c5055484850594b534e574f54534c125a4e">Get in touch</a>
+              </div>
+            </footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-button" data-ref="about_button"></div>
+
+    <canvas id="main_canvas"></canvas>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/jquery.tap.min.js"></script>
+    <script src="js/lib/three.min.js"></script>
+    <script src="js/main.min.js?v=2019.5.1"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-10740897-5', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
