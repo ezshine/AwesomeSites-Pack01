@@ -25,3 +25,5 @@
 - eyes.nasa.gov
 - webxr-sneakers.lusion.co
 - showroom.littleworkshop.fr
+- wildflower.resn.co.nz
+- lucyhardcastle-thefifthsense.i-d.co
