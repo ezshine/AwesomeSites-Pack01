@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE variants>
+<Variants>
+  <VariantSet name="MJ011">
+    <NodeVariantRef ref="-MJ011" state="!Enable"/>
+  </VariantSet>
+  <NodeVariant base="-MJ011" name="-MJ011">
+    <Default ref="!Disable"/>
+    <State name="!Enable">
+      <Hotkey></Hotkey>
+    </State>
+    <State name="!Disable">
+      <Hotkey></Hotkey>
+    </State>
+    <State name="!Toggle">
+      <Hotkey></Hotkey>
+    </State>
+  </NodeVariant>
+</Variants>

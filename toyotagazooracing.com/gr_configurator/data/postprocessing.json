@@ -1,0 +1,36 @@
+{
+  "StudioEnv": {
+    "dofParams": {
+      "dof_on": false
+    }
+  },
+  "Empty": {
+    "dofParams": {
+      "dof_on": false
+    }
+  },
+  "Mountains": {
+    "minimumDOFPower": 1.0
+  },
+  "City_Day": {
+    "colorCorrectionParams": {
+      "brightness": 0,
+      "contrast": 0.04,
+      "exposure": 1.05,
+      "saturation": 0.9
+    }
+  },
+  "Garage": {
+    "colorCorrectionParams": {
+      "brightness": 0,
+      "contrast": 0.02,
+      "exposure": 1.1,
+      "saturation": 0.9
+    }
+  },
+  "White": {
+    "dofParams": {
+      "dof_on": false
+    }
+  }
+}

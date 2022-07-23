@@ -1,0 +1,20 @@
+{
+  "Objects": {
+    "CityNightBlurry": {
+    },
+    "CityNightSharp": {
+    },
+    "CityNightSharp.003": {
+    }
+  },
+  "World": {
+    "SharpWorldCube": {
+      "Garage": "scenes/environments/Garage/assets/textures/CUBEMAP_garage_sharp.jpg",
+      "Mountains": "scenes/environments/Mountains/assets/textures/MountainsCubemap_ENVDOME.jpg",
+      "City_Night": "scenes/environments/City_Night/assets/textures/CUBEMAP_cityNight_Sharp_Plain.jpg",
+      "StudioEnv": "scenes/common-assets/textures/ENV_01_sharp3.jpg",
+      "White": "scenes/common-assets/textures/ENV_01_sharp3.jpg",
+      "City_Day": "scenes/environments/City_Day/Assets/Textures/CUBEMAP_cityDay_sharp.jpg"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="80px" height="80px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+<g>
+	<path fill="#333333" d="M40,79.773C18.141,79.773,0.226,61.973,0.226,40C0.226,18.141,18.028,0.226,40,0.226
+		c21.859,0,39.773,17.803,39.773,39.774C79.773,61.859,61.859,79.773,40,79.773z M40,0.901C18.366,0.901,0.901,18.366,0.901,40
+		s17.578,39.211,39.211,39.211c21.633,0,39.211-17.577,39.211-39.211S61.634,0.901,40,0.901z"/>
+</g>
+<g>
+	
+		<rect x="26.468" y="33.084" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" width="20.823" height="20.824"/>
+	<polyline fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" points="34.196,27.094 53.284,27.094 
+		53.284,46.18 	"/>
+</g>
+</svg>

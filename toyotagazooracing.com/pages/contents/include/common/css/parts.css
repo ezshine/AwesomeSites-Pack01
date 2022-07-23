@@ -1,0 +1,4175 @@
+@charset "utf-8";
+
+@import url("//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900");
+
+/* ===================================================================
+
+TOYOTA GAZOO Racing / parts.css
+
+=================================================================== */
+/* -------------------------------------------------------------------
+ + セクション（画像・動画／段組み共通）
+------------------------------------------------------------------- */
+#contents-body .section .figure-block dl dt img,
+#contents-body .section .figure-block dl .video iframe{
+    width: 100%;
+}
+#contents-body .section .figure-block dl dt img{
+    height: auto;
+    vertical-align: middle;
+}
+#contents-body .section.img-vtop .figure-block dl dt img{
+    vertical-align: top;
+}
+#contents-body .section .figure-block dl dt > a,
+#contents-body .section .figure-block dl dt > a.tjp-pc,
+#contents-body .section .figure-block dl dt > a.cms-pc,
+#contents-body .section .figure-block dl dt .video-thumbnail,
+#contents-body .section .figure-block dl dt .video-thumbnail.tjp-pc,
+#contents-body .section .figure-block dl dt .video-thumbnail.cms-pc{
+    display: block;
+    padding-top: 1px;
+    line-height: inherit;
+}
+#contents-body .section .figure-block dl dt > a.tjp-sp,
+#contents-body .section .figure-block dl dt > a.cms-sp,
+#contents-body .section .figure-block dl dt .video-thumbnail.tjp-sp,
+#contents-body .section .figure-block dl dt .video-thumbnail.cms-sp{
+    display: none;
+}
+#contents-body .section .figure-block dl dt a:hover img,
+#contents-body .section .figure-block dl dt a:active img{
+    outline: 1px solid #e10000;
+}
+#contents-body .section .figure-block dl dt a.video-thumbnail img,
+#contents-body .section .figure-block dl dt a.video-thumbnail img{
+    -webkit-transition-duration: 200ms;
+    -moz-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    -ms-transition-duration: 200ms;
+    transition-duration: 200ms;
+}
+#contents-body .section .figure-block dl dt a.video-thumbnail:hover img,
+#contents-body .section .figure-block dl dt a.video-thumbnail:active img{
+    filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    outline: none;
+}
+#contents-body .section .figure-block dl dt .video-thumbnail,
+#contents-body .section .figure-block dl dt .youtubeholder{
+    position: relative;
+}
+#contents-body .section .figure-block dl dt .youtubeholder iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+#contents-body .section .figure-block dl dt .youtubeholder img.close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 43px;
+    height: 43px;
+    z-index: 3;
+    cursor: pointer;
+}
+#contents-body .section .figure-block dl dt .video-thumbnail:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-width: 23px;
+    min-height: 23px;
+    max-width: 98px;
+    max-height: 98px;
+    width: 13.2%;
+    height: auto;
+    margin: auto;
+    background: url(//toyotagazooracing.com/pages/contents/include/common/image/play.png) no-repeat center center;
+    background-size: 100%;
+}
+/*IE8▼*/
+#contents-body .section .figure-block dl dt .video-thumbnail{
+    position: relative\9;
+    z-index: 1\9;
+}
+#contents-body .section .figure-block dl dt .video-thumbnail > img{
+    position: relative\9;
+    z-index: -1\9;
+}
+#contents-body .section .figure-block dl dt .video-thumbnail:after{
+    width : 100%\9;
+    height : 100%\9;
+    min-width : 0\9;
+    min-height : 0\9;
+    max-width : none\9;
+    max-height : none\9;
+    background : url(//toyotagazooracing.com/pages/contents/include/common/image/play_s.png) no-repeat center center\9;
+    z-index: 1\9;
+}
+#contents-body .section.image.list1 .figure-block dl dt .video-thumbnail:after{
+    background : url(//toyotagazooracing.com/pages/contents/include/common/image/play_l.png) no-repeat center center\9;
+}
+#contents-body .section.image.list2 .figure-block dl dt .video-thumbnail:after{
+    background : url(//toyotagazooracing.com/pages/contents/include/common/image/play_m.png) no-repeat center center\9;
+}
+
+/*IE9 IE10▼*/
+@media screen and (min-width:0\0) {
+    #contents-body .section .figure-block dl dt .video-thumbnail:after{
+        min-width: 23px !important;
+        min-height: 23px !important;
+        max-width: 98px !important;
+        max-height: 98px !important;
+        width: 13.2% !important;
+        height: auto !important;
+    }
+    #contents-body .section .figure-block dl dt .video-thumbnail:after,
+    #contents-body .section.image.list1 .figure-block dl dt .video-thumbnail:after,
+    #contents-body .section.image.list2 .figure-block dl dt .video-thumbnail:after{
+        background: url(//toyotagazooracing.com/pages/contents/include/common/image/play.png) no-repeat center center !important;
+        background-size: 100% !important;
+    }
+}
+
+#contents-body .section .figure-block dl .video{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    vertical-align: middle;
+}
+#contents-body .section .figure-block dl .video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#contents-body .section .figure-block dl dd{
+    margin-top: 20px;
+}
+#contents-body .section .figure-block dl dd .figure-description a.btn-text{
+    min-width: 0;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+#contents-body .section .figure-block dl dd:empty{
+    margin-top: 0;
+}
+/* HTMLソースを内包する場合の為の対応 */
+#contents-body .section .figure-block dl dd dd{
+    margin-top: 0;
+    font-size: inherit;
+}
+
+/* - SP表示
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px){
+    #contents-body .section .figure-block dl dt > a.tjp-pc,
+    #contents-body .section .figure-block dl dt > a.cms-pc,
+    #contents-body .section .figure-block dl dt .video-thumbnail.tjp-pc,
+    #contents-body .section .figure-block dl dt .video-thumbnail.cms-pc{
+        display: none;
+    }
+    #contents-body .section .figure-block dl dt > a.tjp-sp,
+    #contents-body .section .figure-block dl dt > a.cms-sp,
+    #contents-body .section .figure-block dl dt .video-thumbnail.tjp-sp,
+    #contents-body .section .figure-block dl dt .video-thumbnail.cms-sp{
+        display: block;
+    }
+    #contents-body .section .figure-block dl dt .youtubeholder img.close{
+        width: 32px;
+        height: 32px;
+    }
+}
+#contents-body .section .figure-block dl dd{
+    margin-top: 10px;
+    font-size: 12px;
+}
+#contents-body .section.nocaption .figure-block dl dd {/*  2016.3.28 TM三島追記  */
+    display: none;
+}
+
+/* -------------------------------------------------------------------
+ + 画像・動画セクション
+------------------------------------------------------------------- */
+#contents-body .section.image.gallery h2{/*  2016.4.24 TM三島追記  */
+    margin: 0 0 15px;
+}
+#contents-body .section.image div.figure-block dl{
+    margin-top: 32px;
+}
+#contents-body .section.image.keyvisual div.figure-block dl{/*  2016.3.25 TM三島追記  */
+    margin-top: 0;
+}
+#contents-body .section.image ul.figure-block{
+    overflow: hidden;
+    margin-top: -32px;
+    margin-left: -32px;
+    padding-bottom: 3px;
+    padding-left: 0;
+    list-style-type: none;
+}
+#contents-body .section.image.gallery ul.figure-block{/*  2016.4.24 TM三島追記  */
+    margin-top: -10px;
+    margin-left: -10px;
+}
+#contents-body .section.image ul.figure-block li{
+    float: left;
+    margin-top: 32px;
+    padding-left: 32px;
+}
+#contents-body .section.image.gallery ul.figure-block li{/*  2016.4.24 TM三島追記  */
+    margin-top: 10px;
+    padding-left: 10px;
+}
+#contents-body .section .figure-block dl dt a{
+    padding-right: 1px;
+}
+#contents-body .section.image.list2 ul.figure-block li{
+    width: 50%;
+}
+#contents-body .section.image.list3 ul.figure-block li{
+    width: 33.3333333333%;
+}
+#contents-body .section.image.list4 ul.figure-block li{
+    width: 25%;
+}
+#contents-body .section.image ul.figure-block li dl .video{
+    display: block;
+}
+/* HTMLソースを内包する場合の為の対応 */
+#contents-body .section.image ul.figure-block li li{
+    float: none;
+    margin-top: 0;
+    padding-left: 0;
+}
+#contents-body .section.image.list2 ul.figure-block li li,
+#contents-body .section.image.list3 ul.figure-block li li,
+#contents-body .section.image.list4 ul.figure-block li li{
+    width: 100%;
+}
+
+/* - SP表示
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px){
+    #contents-body .section.image.gallery h2{/*  2016.4.24 TM三島追記  */
+        margin: 0 0 5px;
+    }
+    #contents-body .section.image ul.figure-block{
+        margin-top: -16px;
+        margin-left: -16px;
+        padding-bottom: 3px;
+    }
+    #contents-body .section.image.gallery ul.figure-block{/*  2016.4.24 TM三島追記  */
+        margin-top: -5px;
+        margin-left: -5px;
+    }
+    #contents-body .section.image div.figure-block dl{
+        margin-top: 32px;
+    }
+    #contents-body .section.image.keyvisual div.figure-block dl{/*  2016.3.25 TM三島追記  */
+        margin-top: 0;
+    }
+    #contents-body .section.image ul.figure-block li{
+        /*margin-top: 16px;*/
+        margin-top: 32px;
+        padding-left: 16px;
+    }
+    #contents-body .section.image.list3 ul.figure-block li{
+        width: 100%;
+    }
+    #contents-body .section.image.list2 ul.figure-block,
+    #contents-body .section.image.list4 ul.figure-block{
+        margin-top: -32px;
+    }
+    #contents-body .section.image.list2.gallery ul.figure-block,
+    #contents-body .section.image.list4.gallery ul.figure-block{/*  2016.4.24 TM三島追記  */
+        margin-top: 0;
+    }
+    #contents-body .section.image.list2 ul.figure-block li,
+    #contents-body .section.image.list4 ul.figure-block li{
+        width: 50%;
+        margin-top: 32px;
+    }
+    #contents-body .section.image.list2.list2-custom ul.figure-block li {/*  2016.3.25 TM三島追記  */
+        width: 100%;
+    }
+    #contents-body .section.image.list2.nocaption ul.figure-block li,
+    #contents-body .section.image.list4.nocaption ul.figure-block li {/*  2016.3.28 TM三島追記  */
+        margin-top: 16px;
+    }
+    #contents-body .section.image.list2.gallery ul.figure-block li,
+    #contents-body .section.image.list4.gallery ul.figure-block li {/*  2016.4.24 TM三島追記  */
+        margin-top: 5px;
+        padding-left: 5px;
+    }
+    #contents-body .section.image.caption-column .figure-block dl .video{
+        padding-top: 18.84%;
+    }
+    #contents-body .section.image ul.figure-block,
+    #contents-body .section.image.list2.caption-column ul.figure-block,
+    #contents-body .section.image.list4.caption-column ul.figure-block{
+        margin-top: -27px;
+    }
+    #contents-body .section.image.caption-column ul.figure-block li,
+    #contents-body .section.image.list1.caption-column div.figure-block{
+        width: 100%;
+        margin-top: 27px;
+    }
+    #contents-body .section.image.caption-column ul.figure-block li{
+        height: auto !important;
+    }
+    #contents-body .section.image.caption-column ul.figure-block li dl dt{
+        height: auto !important;
+    }
+    #contents-body .section.image.caption-column ul.figure-block li dl,
+    #contents-body .section.image.list1.caption-column div.figure-block dl{
+        display: table;
+        width: 100%;
+    }
+    #contents-body .section.image.caption-column .figure-block dl dd{
+        margin-top: 0;
+    }
+    #contents-body .section.image.caption-column ul.figure-block li dl dt,
+    #contents-body .section.image.caption-column ul.figure-block li dl dd,
+    #contents-body .section.image.list1.caption-column div.figure-block dl dt,
+    #contents-body .section.image.list1.caption-column div.figure-block dl dd{
+        display: inline-block;
+        vertical-align: top;
+    }
+    #contents-body .section.image.caption-column ul.figure-block li dl dt,
+    #contents-body .section.image.list1.caption-column div.figure-block dl dt{
+        width: 33.5%;
+        line-height: inherit !important;
+    }
+    #contents-body .section.image.caption-column ul.figure-block li dl dd,
+    #contents-body .section.image.list1.caption-column div.figure-block dl dd{
+        width: 65%;
+        padding-left: 16px;
+    }
+}
+
+/* -------------------------------------------------------------------
+ - 画像・動画/段組みセクション タイトル・キャプション
+------------------------------------------------------------------- */
+.figure-title{
+    font-size: 16px;
+}
+.figure-description{
+    color: #ccc;
+    font-size: 12px;
+    line-height: 1.7;
+}
+.figure-title + .figure-description{
+    margin-top: 8px;
+}
+#contents-body .section.column .figure-title{
+    font-size: 14px;
+}
+#contents-body .section.column .figure-description{
+    color: #ccc;
+    font-size: 12px;
+}
+
+/* タイトル・概要入れ替え */
+#contents-body .section.description-top .figure-block dl dd{
+    display: table;
+    width: 100%;
+}
+#contents-body .section.description-top .figure-title{
+    display: table-footer-group;
+}
+#contents-body .section.description-top .figure-description{
+    display: table-caption;
+}
+#contents-body .section.description-top .figure-title + .figure-description{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px){
+    .figure-description{
+        color: #ccc;
+        font-size: 10px;
+    }
+    .caption-column .figure-title{
+        font-size: 16px;
+    }
+    .caption-column .figure-description{
+        font-size: 10px;
+    }
+    .figure-title + .figure-description{
+        margin-top: 10px;
+    }
+    #contents-body .section.column .figure-title{
+        font-size: 12px;
+    }
+    #contents-body .section.column .figure-description{
+        color: #ccc;
+        font-size: 10px;
+    }
+}
+
+/* -------------------------------------------------------------------
+ + スライドショー
+------------------------------------------------------------------- */
+/*基本*/
+.section.image.slide{
+    max-width: 1600px;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.section.image.slide .bx-wrapper{
+    width: 100%;
+    margin-bottom: 0;
+}
+.section.image.slide .bx-wrapper li{
+    overflow: hidden;
+}
+.section.image.slide.column-l .bx-wrapper li{
+    max-width: 100%;
+}
+.section.image.slide .bx-wrapper li img{
+    width: 100%;
+}
+.section.image.slide.column-l .bx-wrapper .bx-controls-direction{
+    display: none;
+}
+.section.image.slide .bx-viewport{
+    overflow: visible!important;
+    margin: 0 auto;
+    background-color: transparent;
+}
+.section.image.slide.column-l .bx-viewport{
+    max-width: 1108px;
+}
+@media screen and (max-width: 767px){
+    .section.image.slide .bx-viewport{
+        max-width: none !important;
+        overflow: hidden !important;
+    }
+}
+
+.bx-wrapper .bx-loading{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    min-height: 0;
+    margin: auto;
+    background: url(//toyotagazooracing.com/pages/contents/include/common/image/bxslider/bx_loader.gif) center center no-repeat;
+    z-index:2000;
+}
+
+/*通常スライドショー*/
+@media print, screen and (min-width: 768px){
+    .section.image.slide .bx-wrapper li{
+        opacity: 0.4;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+    }
+    .section.image.slide .bx-wrapper li.active{
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=100);
+    }
+    .section.image.slide .bx-wrapper li{
+        max-width: 868px;
+        -webkit-transition-property: opacity;
+        -moz-transition-property: opacity;
+        -o-transition-property: opacity;
+        -ms-transition-property: opacity;
+        transition-property: opacity;
+        -webkit-transition-duration: 500ms;
+        -moz-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
+        -ms-transition-duration: 500ms;
+        transition-duration: 500ms;
+    }
+}
+
+/*ページャー（平べったいやつ）*/
+.section.image.slide .bx-wrapper .bx-pager,
+#keyvisual .bx-wrapper .bx-pager{
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.section.image.slide .bx-pager.bx-default-pager a,
+.section.image.slide .bx-pager.bx-default-pager a:hover,
+.section.image.slide .bx-pager.bx-default-pager a.active,
+#keyvisual .bx-pager.bx-default-pager a,
+#keyvisual .bx-pager.bx-default-pager a:hover,
+#keyvisual .bx-pager.bx-default-pager a.active{
+   -moz-border-radius: 0;
+   -webkit-border-radius: 0;
+   -o-border-radius: 0;
+   -ms-border-radius: 0;
+    border-radius: 0;
+    width: 40px;
+    height: 10px;
+    margin: 0 3px;
+    border-top: 2px solid #333;
+    background: none;
+    position: relative;
+}
+.section.image.slide .bx-pager.bx-default-pager a.active,
+#keyvisual .bx-pager.bx-default-pager a.active{
+    border-color: #eb0a1e;
+}
+
+/*次へ・戻るボタン*/
+.section.image.slide .bx-wrapper .bx-controls-direction .bx-next,
+.section.image.slide .bx-wrapper .bx-controls-direction .bx-prev,
+#keyvisual .bx-wrapper .bx-controls-direction .bx-next,
+#keyvisual .bx-wrapper .bx-controls-direction .bx-prev{
+    max-width: 45px;
+    width: 100%;
+    height: 45px;
+    text-indent: 0;
+    z-index: 51;
+    background: none;
+}
+.section.image.slide .bx-wrapper .bx-controls-direction .bx-next,
+.section.image.slide .bx-wrapper .bx-controls-direction .bx-prev,
+#keyvisual .bx-wrapper .bx-controls-direction .bx-next,
+#keyvisual .bx-wrapper .bx-controls-direction .bx-prev{
+    margin-top: -42px;
+}
+.section.image.slide .bx-wrapper .bx-controls-direction .bx-next,
+#keyvisual .bx-wrapper .bx-controls-direction .bx-next{
+    right: 25px;
+    left: 100%\9;
+    margin-left: -75px\9;
+}
+.section.image.slide .bx-wrapper .bx-controls-direction .bx-prev,
+#keyvisual .bx-wrapper .bx-controls-direction .bx-prev{
+    left: 25px;
+}
+.section.image.slide .bx-wrapper .bx-controls-direction .bx-next:after,
+.section.image.slide .bx-wrapper .bx-controls-direction .bx-prev:after,
+#keyvisual .bx-wrapper .bx-controls-direction .bx-next:after,
+#keyvisual .bx-wrapper .bx-controls-direction .bx-prev:after{
+    content: "";
+    display: block;
+    max-width: 45px;
+    width: 100%;
+    height: 45px;
+    background-size: contain;
+}
+.section.image.slide .bx-wrapper .bx-controls-direction .bx-prev:after,
+#keyvisual .bx-wrapper .bx-controls-direction .bx-prev:after{
+    background: url(//toyotagazooracing.com/pages/contents/include/common/image/arrow_01.png) center center no-repeat;
+}
+.section.image.slide .bx-wrapper .bx-controls-direction .bx-next:after,
+#keyvisual .bx-wrapper .bx-controls-direction .bx-next:after{
+    background: url(//toyotagazooracing.com/pages/contents/include/common/image/arrow_02.png) center center no-repeat;
+}
+.section.image.slide .bx-wrapper .bx-pager,
+#keyvisual .bx-wrapper .bx-pager{
+    height: 40px;
+}
+
+@media screen and (max-width: 767px){
+    .section.image.slide .bx-wrapper .bx-pager,
+    #keyvisual .bx-wrapper .bx-pager{
+        height: auto;
+    }
+    .section.image.slide .bx-wrapper .bx-controls-direction,
+    #keyvisual .bx-wrapper .bx-controls-direction{
+        display: none;
+    }
+}
+
+/*動画サムネイル設定*/
+#contents-body .section.image.slide .slideShow .active .video-thumbnail:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    min-width: 23px;
+    min-height: 23px;
+    max-width: 98px;
+    max-height: 98px;
+    width: 13.2%;
+    height: auto;
+    background: url(//toyotagazooracing.com/pages/contents/include/common/image/play.png) no-repeat center center;
+    background-size: 100%;
+}
+/*IE8▼*/
+#contents-body .section.image.slide .slideShow .active .video-thumbnail{
+    display: block\9;
+    position: relative\9;
+    z-index: 1\9;
+}
+#contents-body .section.image.slide .slideShow .active .video-thumbnail span{
+    display: block\9;
+    position: relative\9;
+    z-index: -1\9;
+}
+#contents-body .section.image.slide .slideShow .active .video-thumbnail:after{
+    width : 100%\9;
+    height : 100%\9;
+    min-width : 0\9;
+    min-height : 0\9;
+    max-width : none\9;
+    max-height : none\9;
+    background : url(//toyotagazooracing.com/pages/contents/include/common/image/play_l.png) no-repeat center center\9;
+    z-index: 1\9;
+}
+/*IE9 IE10▼*/
+@media screen and (min-width:0\0) {
+    #contents-body .section.image.slide .slideShow .active .video-thumbnail,
+    #contents-body .section.image.slide .slideShow .active .video-thumbnail span{
+        position: static !important;
+        z-index: auto !important;
+    }
+    #contents-body .section.image.slide .slideShow .active .video-thumbnail:after{
+        min-width: 23px !important;
+        min-height: 23px !important;
+        max-width: 98px !important;
+        max-height: 98px !important;
+        width: 13.2% !important;
+        height: auto !important;
+        background: url(//toyotagazooracing.com/pages/contents/include/common/image/play.png) no-repeat center center !important;
+        background-size: 100% !important;
+        z-index: auto !important;
+    }
+}
+
+/* -------------------------------------------------------------------
+ + キービジュアル
+------------------------------------------------------------------- */
+#keyvisual{
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+}
+#keyvisual .bx-viewport{
+    max-width: 868px;
+    margin: 0 auto;
+    background-color: transparent;
+    overflow: visible !important;
+}
+#keyvisual img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+#keyvisual .grid{
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 0;
+    border: 0;
+    background: #000;
+}
+#keyvisual .bx-wrapper .bx-viewport .slides .grid{
+    -ms-filter: "alpha(opacity=40)"; /* IE lt 8 */
+    filter: alpha(opacity=40); /* IE lt 8 */
+    opacity: 0.4;
+}
+#keyvisual .bx-wrapper .bx-viewport .slides .grid.active{
+    -ms-filter: none; /* IE lt 8 */
+    filter: none; /* IE lt 8 */
+    opacity: 1;
+}
+@media screen and (max-width: 767px){
+    #keyvisual .bx-viewport{
+        max-width: none !important;
+        overflow: hidden !important;
+    }
+    #keyvisual .bx-loading + div .grid{
+        height: 200px;
+    }
+    #keyvisual .pre-loading{
+        height: 200px;
+        background:url(//toyotagazooracing.com/pages/contents/include/common/image/bxslider/bx_loader.gif) center center no-repeat #000;
+    }
+}
+@media print, screen and (min-width:768px){
+    #keyvisual .bx-loading + div .grid{
+        height: 427px;
+    }
+    #keyvisual .pre-loading{
+        height: 427px;
+        background:url(//toyotagazooracing.com/pages/contents/include/common/image/bxslider/bx_loader.gif) center center no-repeat #000;
+    }
+}
+#keyvisual .thumb{
+    height: auto;
+}
+#keyvisual .thumb .grid-thumbnail{
+    width: 100%;
+}
+#keyvisual .grid-header{
+    position: absolute;
+    top: 13%;
+    left: 3%;
+    width: 40%;
+    padding: 0;
+}
+#keyvisual .date{
+    width:100%;
+    padding: 0;
+    color: #fff;
+    font-size: 12px !important;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#666666, Strength=5, Direction=135);
+    -moz-text-shadow: 1px 1px 2px #000;
+    -webkit-text-shadow: 1px 1px 2px #000;
+    -o-text-shadow: 1px 1px 2px #000;
+    -ms-text-shadow: 1px 1px 2px #000;
+    text-shadow: 1px 1px 2px #000;
+}
+#keyvisual .category-box{
+    display: none;
+}
+#keyvisual .grid-body{
+    height: auto;
+    padding: 0;
+}
+#keyvisual .title{
+    overflow: hidden;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    width: auto !important;
+    height: auto !important;
+    padding: 0;
+    padding-right: 10px;
+    color: #fff;
+    font-size: 42px !important;
+    font-weight: normal;
+    line-height: 1.5 !important;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#666666, Strength=5, Direction=135);
+    -moz-text-shadow: 5px 5px 5px #000;
+    -webkit-text-shadow: 5px 5px 5px #000;
+    -o-text-shadow: 5px 5px 5px #000;
+    -ms-text-shadow: 5px 5px 5px #000;
+    text-shadow: 5px 5px 5px #000;
+}
+#keyvisual .button{
+    position: absolute;
+    top: 23%;
+    left: 3%;
+    width: auto;
+    padding: 0;
+    text-align: center;
+    line-height: 24px;
+}
+#keyvisual .button.text{
+    height: 24px;
+    margin-top: 20px;
+    padding-right: 10px;
+    color: #fff;
+    font-size: 12px !important;
+    -moz-text-shadow: 1px 1px 2px #000;
+    -webkit-text-shadow: 1px 1px 2px #000;
+    -o-text-shadow: 1px 1px 2px #000;
+    -ms-text-shadow: 1px 1px 2px #000;
+    text-shadow: 1px 1px 2px #000;
+}
+#keyvisual .button.image img{
+    width: 100%;
+}
+#keyvisual .description{
+    display: none;
+}
+#keyvisual .grid:hover *{
+    filter: none;
+    opacity: 1;
+}
+#keyvisual .grid.nolink:hover *{
+    filter: none !important;
+    opacity: 1 !important;
+}
+#keyvisual.hoverTopGrid .title,
+#keyvisual.hoverTopGrid .date,
+#keyvisual.hoverTopGrid .category,
+#keyvisual.hoverTopGrid .description{
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=3,Opacity=70,FinishOpacity=70); /* IE lt 8 */
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 767px){
+    #keyvisual .title{
+        margin-top: 10px;
+        font-size: 19px !important;
+        -moz-text-shadow: none;
+        -webkit-text-shadow: none;
+        -o-text-shadow: none;
+        -ms-text-shadow: none;
+        text-shadow: none;
+    }
+    #keyvisual .date{
+        font-size: 10px !important;
+        -moz-text-shadow: none;
+        -webkit-text-shadow: none;
+        -o-text-shadow: none;
+        -ms-text-shadow: none;
+        text-shadow: none;
+    }
+    #keyvisual .button.text{
+        margin-top: 10px;
+        font-size: 10px !important;
+        -moz-text-shadow: none;
+        -webkit-text-shadow: none;
+        -o-text-shadow: none;
+        -ms-text-shadow: none;
+        text-shadow: none;
+    }
+}
+
+/* 縦スクロール対応 */
+#keyvisual.y-scroll .bx-viewport{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden !important;
+}
+#keyvisual.y-scroll .bx-viewport .slides{
+    width: 100%;
+}
+
+/* -------------------------------------------------------------------
+ + 段組みセクション
+------------------------------------------------------------------- */
+#contents-body .section.column{
+    overflow: visible;
+}
+#contents-body .section.column.nomargin{
+    padding-bottom: 0;
+}
+#contents-body .section.column .figure-block{
+    margin-top: 27px;
+}
+#contents-body .section.column .figure-block > dl,
+#contents-body .section.column .figure-block > a > dl{
+    margin-bottom: 27px;
+}
+/* notwrap（画像の下に回り込まない） */
+#contents-body .section.column.notwrap .text-block,
+#contents-body .section.column.image-l.notwrap .figure-block,
+#contents-body .section.column.image-r.notwrap .figure-block{
+    display: block;
+}
+#contents-body .section.column.image-l .figure-block,
+#contents-body .section.column.image-r .figure-block,
+#contents-body .section.column.image-l.image-70 .figure-block,
+#contents-body .section.column.image-r.image-70 .figure-block,
+#contents-body .section.column.image-l.image-60 .figure-block,
+#contents-body .section.column.image-r.image-60 .figure-block,
+#contents-body .section.column.image-l.image-40 .figure-block,
+#contents-body .section.column.image-r.image-40 .figure-block,
+#contents-body .section.column.image-l.image-30 .figure-block,
+#contents-body .section.column.image-r.image-30 .figure-block,
+#contents-body .section.column.image-l.image-20 .figure-block,
+#contents-body .section.column.image-r.image-20 .figure-block,
+#contents-body .section.column.image-l.image-10 .figure-block,
+#contents-body .section.column.image-r.image-10 .figure-block,
+#contents-body .section.column.image-l.notwrap .text-block,
+#contents-body .section.column.image-r.notwrap .text-block,
+#contents-body .section.column.image-l .figure-block,
+#contents-body .section.column.image-r .figure-block,
+#contents-body .section.column.notwrap.has-table .text-block,
+#contents-body .section.column.has-table .text-block .table-wrapper{
+    width: 100%;
+}
+/* image-l（画像を左に配置） */
+#contents-body .section.column.image-l .figure-block dl dt a{
+    padding-left: 1px;
+}
+
+/* image-r（画像を右に配置） */
+#contents-body .section.column.image-r .figure-block dl dt a{
+    padding-right: 1px;
+}
+
+#contents-body .section.column.image-l .figure-block,
+#contents-body .section.column.image-r .figure-block{
+    float: none;
+}
+#contents-body .section.column.image-l .figure-block{
+    padding-right: 0;
+}
+#contents-body .section.column.image-r .figure-block{
+    padding-left: 0;
+}
+#contents-body .section.column.sp-under .figure-block.cms-pc,
+#contents-body .section.column.image-l.notwrap .figure-block.cms-pc,
+#contents-body .section.column.image-r.notwrap .figure-block.cms-pc{
+    display: none;
+}
+#contents-body .section.column.sp-under .figure-block.cms-sp,
+#contents-body .section.column.image-l.notwrap .figure-block.cms-sp,
+#contents-body .section.column.image-r.notwrap .figure-block.cms-sp{
+    display: block;
+}
+
+/* 段組み内のtable用 */
+#contents-body .section.column.has-table .text-block{
+    width: auto;
+    padding-bottom: 20px;
+}
+
+/* notwrap（画像の下に回り込まない） */
+#contents-body .section.column.sp-under.has-table .figure-block.cms-sp{
+    margin-top: 0;
+}
+
+/* - PC表示
+------------------------------------------------------------------- */
+@media print, screen and (min-width: 768px){
+    #contents-body .section.column{
+        overflow: hidden;
+    }
+    #contents-body .section.column .figure-block{
+        margin-top: 0;
+    }
+    #contents-body .section.column .figure-block > dl,
+    #contents-body .section.column .figure-block > a > dl{
+        margin-bottom: 32px;
+    }
+    #contents-body .section.column.image-l .figure-block,
+    #contents-body .section.column.image-r .figure-block{
+        width: 50%;
+    }
+    #contents-body .section.column.image-l.image-70 .figure-block,
+    #contents-body .section.column.image-r.image-70 .figure-block{
+        width: 70%;
+    }
+    #contents-body .section.column.image-l.image-60 .figure-block,
+    #contents-body .section.column.image-r.image-60 .figure-block{
+        width: 60%;
+    }
+    #contents-body .section.column.image-l.image-50 .figure-block,
+    #contents-body .section.column.image-r.image-50 .figure-block{
+        width: 50%;
+    }
+    #contents-body .section.column.image-l.image-40 .figure-block,
+    #contents-body .section.column.image-r.image-40 .figure-block{
+        width: 40%;
+    }
+    #contents-body .section.column.image-l.image-30 .figure-block,
+    #contents-body .section.column.image-r.image-30 .figure-block{
+        width: 30%;
+    }
+    #contents-body .section.column.image-l.image-20 .figure-block,
+    #contents-body .section.column.image-r.image-20 .figure-block{
+        width: 20%;
+    }
+    #contents-body .section.column.image-l.image-10 .figure-block,
+    #contents-body .section.column.image-r.image-10 .figure-block{
+        width: 10%;
+    }
+
+    /* image-l（画像を左に配置） */
+    #contents-body .section.column.image-l .figure-block{
+        float: left;
+        padding-right: 32px;
+    }
+
+    /* image-r（画像を右に配置） */
+    #contents-body .section.column.image-r .figure-block{
+        float: right;
+        padding-left: 32px;
+    }
+
+    /* notwrap（画像の下に回り込まない） */
+    #contents-body .section.column.notwrap .text-block,
+    #contents-body .section.column.image-l.notwrap .figure-block,
+    #contents-body .section.column.image-r.notwrap .figure-block,
+    #contents-body .section.column.image-l.notwrap .figure-block.cms-pc,
+    #contents-body .section.column.image-r.notwrap .figure-block.cms-pc{
+        display: table-cell;
+    }
+
+    #contents-body .section.column.sp-under .figure-block.cms-pc{
+        display: block;
+    }
+
+    /* sp-under（SP表示時に画像を下に表示） */
+    #contents-body .section.column.sp-under .figure-block.cms-sp,
+    #contents-body .section.column.image-l.notwrap .figure-block.cms-sp,
+    #contents-body .section.column.image-r.notwrap .figure-block.cms-sp,
+    #contents-body .section.column.notwrap.has-table .text-block.cms-sp,
+    #contents-body .section.column.image-l.notwrap.has-table .figure-block.cms-sp,
+    #contents-body .section.column.image-r.notwrap.has-table .figure-block.cms-sp{
+        display: none;
+    }
+
+    /* 段組み内のtable用 */
+    #contents-body .section.column.notwrap.has-table .text-block,
+    #contents-body .section.column.image-l.notwrap.has-table .figure-block,
+    #contents-body .section.column.image-r.notwrap.has-table .figure-block{
+        display: inline-block;
+    }
+    #contents-body .section.column.notwrap.has-table .text-block,
+    #contents-body .section.column.has-table .text-block .table-wrapper{
+        width: 50%;
+    }
+    #contents-body .section.column.image-l.notwrap.image-70 .text-block,
+    #contents-body .section.column.image-r.notwrap.image-70 .text-block,
+    #contents-body .section.column.image-l.image-70 .text-block .table-wrapper,
+    #contents-body .section.column.image-r.image-70 .text-block .table-wrapper{
+        width: 30%;
+    }
+    #contents-body .section.column.image-l.notwrap.image-60 .text-block,
+    #contents-body .section.column.image-r.notwrap.image-60 .text-block,
+    #contents-body .section.column.image-l.has-table.image-60 .text-block .table-wrapper,
+    #contents-body .section.column.image-r.has-table.image-60 .text-block .table-wrapper{
+        width: 40%;
+    }
+    #contents-body .section.column.image-l.notwrap.image-50 .text-block,
+    #contents-body .section.column.image-r.notwrap.image-50 .text-block,
+    #contents-body .section.column.image-l.has-table.image-50 .text-block .table-wrapper,
+    #contents-body .section.column.image-r.has-table.image-50 .text-block .table-wrapper{
+        width: 50%;
+    }
+    #contents-body .section.column.image-l.notwrap.image-40 .text-block,
+    #contents-body .section.column.image-r.notwrap.image-40 .text-block,
+    #contents-body .section.column.image-l.has-table.image-40 .text-block .table-wrapper,
+    #contents-body .section.column.image-r.has-table.image-40 .text-block .table-wrapper{
+        width: 60%;
+    }
+    #contents-body .section.column.image-l.notwrap.image-30 .text-block,
+    #contents-body .section.column.image-r.notwrap.image-30 .text-block,
+    #contents-body .section.column.image-l.has-table.image-30 .text-block .table-wrapper,
+    #contents-body .section.column.image-r.has-table.image-30 .text-block .table-wrapper{
+        width: 70%;
+    }
+    #contents-body .section.column.image-l.notwrap.image-20 .text-block,
+    #contents-body .section.column.image-r.notwrap.image-20 .text-block,
+    #contents-body .section.column.image-l.has-table.image-20 .text-block .table-wrapper,
+    #contents-body .section.column.image-r.has-table.image-20 .text-block .table-wrapper{
+        width: 80%;
+    }
+    #contents-body .section.column.image-l.notwrap.image-10 .text-block,
+    #contents-body .section.column.image-r.notwrap.image-10 .text-block,
+    #contents-body .section.column.image-l.has-table.image-10 .text-block .table-wrapper,
+    #contents-body .section.column.image-r.has-table.image-10 .text-block .table-wrapper{
+        width: 90%;
+    }
+    #contents-inner #contents-body .section.column.has-table.notwrap .text-block .table-wrapper{
+        width: 100%;
+    }
+}
+
+/* -------------------------------------------------------------------
+ - ボタンセクション
+------------------------------------------------------------------- */
+#contents-body .section.button ul{
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+    list-style-type: none;
+}
+#contents-body .section.button.column-l ul{
+    margin-left: 0px;
+}
+#contents-body .section.button ul li{
+    display: block;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    vertical-align: middle;
+}
+#contents-body .section a.btn-text,
+#contents-body .section a.btn-img,
+#contents-body .section.button ul li a{
+    display: block;
+    text-decoration: none;
+}
+a.btn-text,
+#contents-body .section.button ul li a.btn-text{
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+#contents-body .section.button.column-l ul li a.btn-text{
+    margin-left: 0px;
+}
+a.btn-img,
+#contents-body .section.button ul li a.btn-img{
+    margin-top: 18px;
+    margin-right: 0;
+    margin-left: 0;
+}
+a.btn-img img,
+#contents-body .section.button ul li a.btn-img img{
+    width: inherit;
+    max-width: 290px;
+    height: auto;
+    vertical-align: middle;
+}
+a.btn-img:hover,
+#contents-body .section.button ul li a.btn-img:hover{
+    -ms-filter: "alpha(opacity=70)"; /* IE lt 8 */
+    filter: alpha(opacity=70); /* IE lt 8 */
+    opacity: 0.7;
+}
+/*  2017.3.14 TM三島追記  */
+#contents-body .section.button02 ul li {
+    width: 100%;
+}
+#contents-body .section.button02 ul li a.btn-text {
+    max-width: none;
+    background: #333;
+    text-align: center;
+}
+#contents-body .section.button02 ul li a.btn-text span {
+    display: inline-block;
+}
+/*  / 2017.3.14 TM三島追記  */
+@media print, screen and (min-width: 768px){
+    #contents-body .section.button ul{
+        margin-top: -10px;
+        margin-left: -16px;
+    }
+    #contents-body .section.button.column-l ul{
+        margin-left: -10px;
+    }
+    #contents-body .section.button ul li{
+        display: inline-block;
+        margin-top: 13px;
+    }
+    a.btn-text,
+    #contents-body .section.button ul li a.btn-text{
+        width: auto;
+        min-width: 275px;
+        max-width: 470px;
+    }
+    #contents-body .section.button ul li a.btn-text{
+        margin-left: 16px;
+    }
+    #contents-body .section.button.column-l ul li a.btn-text{
+        margin-left: 10px;
+    }
+    a.btn-img,
+    #contents-body .section.button ul li a.btn-img{
+        margin-top: 0;
+        margin-right: 16px;
+        margin-left: 44px;
+    }
+    a.btn-img img,
+    #contents-body .section.button ul li a.btn-img img{
+        width: 100%;
+        max-width: none;
+    }
+/*  2017.3.14 TM三島追記  */
+    #contents-body .section.button02 ul li {
+        width: 100%;
+    }
+    #contents-body .section.button02 ul li a.btn-text {
+        max-width: none;
+        background: #333;
+        text-align: center;
+    }
+    #contents-body .section.button02 ul li a.btn-text span {
+        display: inline-block;
+    }
+/*  / 2017.3.14 TM三島追記  */
+}
+
+
+
+/* -------------------------------------------------------------------
+ + TM運用追記（共通パーツ化されるまでの暫定スタイル含む）
+------------------------------------------------------------------- */
+
+/* - SNSボタン用（2016.03.10追記）
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px){
+  .date-sns .sns-btn{
+      float: right;
+      margin: 1em 0;
+  }
+}
+@media screen and (min-width: 768px){
+  .date-sns .sns-btn{
+      float: right;
+      margin: 1em 0;
+  }
+}
+
+
+/* - 関連リンク用（2016.03.10追記）
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px){
+  br.sp-display-none {
+      display: none;
+  }
+  .link-contents{
+  }
+  .link-contents h2{
+      padding: 0 0 17px;
+  }
+  .link-contents .link_list{
+      border-top: 1px solid #333;
+      padding-top: 25px;
+  }
+  .link-contents .link_list ul li{
+      margin-top: 18px;
+      list-style: none;
+  }
+  .link-contents .link_list ul li:first-child{
+      margin-top: 0;
+  }
+  .link-contents .link_list ul li a{
+      display: block;
+      transition-duration: 200ms;
+  }
+  .link-contents .link_list ul li a h3{
+      color: #fff;
+      font-size: 13px;
+      line-height: 1.5;
+      margin-bottom: 5px;
+      padding-right: 8px;
+      vertical-align: middle;
+      width: 100%;
+  }
+  .link-contents .link_list ul li a h3{
+      position: relative;
+  }
+  .link-contents .link_list ul li a h3:after{
+      border-right: 1px solid #fff;
+      border-top: 1px solid #fff;
+      content: "";
+      display: block;
+      height: 10px;
+      margin-top: -8px;
+      position: absolute;
+      right: 22px;
+      top: 50%;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      width: 10px;
+  }
+  .link-contents .link_list ul li a span{
+      color: #999;
+      font-size: 12px;
+      line-height: 1.3;
+      padding: 7px 0 0;
+  }
+}
+@media screen and (min-width: 768px){
+  br.pc-display-none {
+      display: none;
+  }
+  .link-contents{
+  }
+  .link-contents h2{
+      padding: 0 0 25px;
+  }
+  .link-contents .link_list{
+      border-top: 1px solid #333;
+      padding-top: 25px;
+  }
+  .link-contents .link_list ul li{
+      margin-top: 26px;
+      list-style: none;
+  }
+  .link-contents .link_list ul li:first-child{
+      margin-top: 0;
+  }
+  .link-contents .link_list ul li a{
+      display: inline-block;
+      transition-duration: 200ms;
+  }
+  .link-contents .link_list ul li a h3{
+      color: #fff;
+      display: inline-block;
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 5px;
+      padding-right: 8px;
+      vertical-align: middle;
+  }
+  .link-contents .link_list ul li a h3{
+      position: relative;
+  }
+  .link-contents .link_list ul li a h3:after{
+      border-right: 1px solid #fff;
+      border-top: 1px solid #fff;
+      content: "";
+      display: block;
+      height: 10px;
+      margin-top: -4px;
+      position: absolute;
+      right: -10px;
+      top: 50%;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      width: 10px;
+  }
+  .link-contents .link_list ul li a span{
+      color: #999;
+      font-size: 12px;
+      line-height: 1.3;
+      padding: 7px 0 0;
+  }
+  .link-contents .link_list ul li a:hover h3{
+      position: relative;
+  }
+  .link-contents .link_list ul li a:hover h3:after{
+      border-right: 1px solid #e30000;
+      border-top: 1px solid #e30000;
+      content: "";
+      display: block;
+      height: 10px;
+      margin-top: -4px;
+      position: absolute;
+      right: -10px;
+      top: 50%;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      width: 10px;
+  }
+  .link-contents .link_list ul li a:hover h3,
+  .link-contents .link_list ul li a:hover span{
+      border-color: #e30000;
+      color: #e30000;
+  }
+}
+
+
+/* - 右カラム用（2016.03.10追記）
+------------------------------------------------------------------- */
+/*
+aside.wec.side2017 .calendar,
+aside.supergt.side2017 .calendar,
+aside.superformula.side2017 .calendar,
+aside.tgr86brz.side2017 .calendar,
+aside.vitz.side2017 .calendar,
+aside.nurburgring.side2017 .calendar,
+aside.jrc.side2017 .calendar,
+aside.rallychallenge.side2017 .calendar,
+*/
+aside.challengeprogram_rally.side2017 .calendar,
+.challengeprogram_rally.side2017 .calendar {
+    display: none;
+}
+
+aside.nurburgring.side2018 .calendar,
+/*
+aside.jrc.side2018 .calendar,
+aside.wrc.side2018 .calendar,
+aside.wec.side2018 .calendar,
+aside.supergt.side2018 .calendar,
+aside.superformula.side2018 .calendar,
+aside.tgr86brz.side2018 .calendar,
+aside.vitz.side2018 .calendar,
+aside.rallychallenge.side2018 .calendar,
+*/
+aside.challengeprogram_rally.side2018 .calendar,
+.challengeprogram_rally.side2018 .calendar {
+    display: none;
+}
+
+
+
+
+
+/*  現時点では非表示  */
+.side.juniorformula .recommend{
+    display: none;
+}
+.side.wrc #side_info,
+.side.wec #side_info,
+.side.nurburgring #side_info,
+.side.supergt #side_info,
+.side.superformula #side_info,
+.side.juniorformula #side_info,
+.side.jrc #side_info,
+.side.supertaikyu #side_info{
+    display: none;
+}
+.side.juniorformula .calendar{
+    display: none;
+}
+.side.wrc .ranking,
+.side.wec .ranking,
+.side.nurburgring .ranking,
+.side.supergt .ranking,
+.side.superformula .ranking,
+.side.juniorformula .ranking,
+.side.jrc .ranking,
+.side.supertaikyu .ranking,
+.side.tgr86brz .ranking,
+.side.vitz .ranking,
+.side.rallychallenge .ranking{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+  .side-contents{
+      background-color: #141414;
+      padding-bottom: 30px;
+  }
+  .side-contents section{
+      border-top: 1px solid #282828;
+  }
+  .side-contents section:first-child{
+      border-top: 0;
+  }
+  .side-contents section .side-title{
+      font-size: 16px;
+      line-height: 1;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 100;
+      letter-spacing: 0.05em;
+      padding: 15px;
+  }
+  .side-contents section.recommend .movie img{
+      vertical-align: top;
+      width: 100%;
+      height: auto;
+  }
+  .side-contents section.recommend .movie a{
+      display: block;
+      position: relative;
+      overflow: hidden;
+  }
+  .side-contents section.recommend .movie a:after{
+      content: '';
+      width: 22%;
+      height: 0;
+      padding-top: 22%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-image: url("//toyotagazooracing.com/pages/contents/jp/challengeprogram_rally/images/movie_icon.png");
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      background-size: contain;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -11%;
+      margin-left: -11%;
+  }
+  .side-contents section.news{
+      padding-top: 15px;
+  }
+  .side-contents section.news .news-list{
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 0 15px;
+  }
+  .side-contents section.news .news-list li{
+      line-height: 1.2;
+      border-bottom: 1px solid #282828;
+      padding: 12px 0;
+      display: table;
+  }
+  .side-contents section.news .news-list li:last-child{
+      border-bottom: none;
+  }
+  .side-contents section.news .news-list li .image{
+      position: relative;
+      display: table-cell;
+      vertical-align: top;
+      width: 32%;
+      padding-right: 15px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .side-contents section.news .news-list li .image img{
+      width: 100%;
+      height: auto;
+      vertical-align: top;
+  }
+  .side-contents section.news .news-list li .text{
+      display: table-cell;
+      vertical-align: top;
+      padding-left: 10px;
+  }
+  .side-contents section.news .news-list li .text time{
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 500;
+      color: #989898;
+      font-size: 12px;
+      line-height: 1;
+      letter-spacing: 0.05em;
+  }
+  .side-contents section.news .news-list li .text .news-title{
+      color: #fff;
+      font-size: 12px;
+      line-height: 1.6;
+      margin-top: 5px;
+  }
+  .side-contents section.news .news-list li a{
+      display: block;
+  }
+  .side-contents section.calendar{
+      padding-top: 15px;
+  }
+  .side-contents section.calendar .contents-list{
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .side-contents section.calendar .contents-list li{
+      line-height: 1.2;
+      border-bottom: 1px solid #282828;
+      padding: 10px 0;
+      list-style: none;
+  }
+  .side-contents section.calendar .contents-list li:last-child{
+      border-bottom: none;
+  }
+  .side-contents section.calendar .contents-list li .cal-date{
+      color: #e30000;
+      font-size: 11px;
+      margin-bottom: 4px;
+  }
+  .side-contents section.calendar .contents-list li .cal-title{
+      font-size: 12px;
+      color: #fff;
+      margin-bottom: 4px;
+  }
+  .side-contents section.calendar .contents-list li .location{
+      color: #fff;
+  }
+  .side-contents section.calendar .contents-list li .location dt{
+      font-size: 11px;
+      border: 1px solid #fff;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      padding: 2px 5px;
+      float: left;
+      clear: left;
+  }
+  .side-contents section.calendar .contents-list li .location dd{
+      font-size: 12px;
+      margin-left: 4em;
+      padding: 2px 5px;
+  }
+  .side-contents section.calendar .contents-list li a{
+      display: block;
+  }
+  .side-contents section.ranking{
+      padding-top: 15px;
+  }
+  .side-contents section.ranking table{
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .side-contents section.ranking table tr:last-child td{
+      border-bottom: none;
+  }
+  .side-contents section.ranking table tr th{
+      color: #666;
+      font-size: 10px;
+      line-height: 1;
+      vertical-align: middle;
+      padding: 0 0 10px 0;
+      border-bottom: 1px solid #282828;
+  }
+  .side-contents section.ranking table tr th.rank,
+  .side-contents section.ranking table tr th.no,
+  .side-contents section.ranking table tr th.point{
+      white-space: nowrap;
+  }
+  .side-contents section.ranking table tr th.rank{
+      position: relative;
+      padding-right: 5px;
+      padding-left: 5px;
+  }
+  .side-contents section.ranking table tr th.rank:after{
+      content: "";
+      width: 1px;
+      height: 14px;
+      background-color: #282828;
+      display: block;
+      position: absolute;
+      top: -2px;
+      right: 0;
+  }
+  .side-contents section.ranking table tr th.no{
+      padding-left: 6px;
+      padding-right: 6px;
+  }
+  .side-contents section.ranking table tr td{
+      vertical-align: middle;
+      padding: 8px 0;
+      border-bottom: 1px solid #282828;
+  }
+  .side-contents section.ranking table tr td.rank{
+      text-align: left;
+      position: relative;
+      padding-right: 5px;
+      padding-left: 5px;
+  }
+  .side-contents section.ranking table tr td.rank span{
+      display: block;
+      text-align: center;
+      width: 18px;
+      height: 18px;
+      background-color: transparent;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 500;
+      color: #e30000;
+      border: 1px solid #e30000;
+      font-size: 11px;
+      line-height: 1;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-top: 3px;
+      padding-right: 0px;
+      letter-spacing: -0.06em;
+  }
+  .side-contents section.ranking table tr td.rank:after{
+      content: "";
+      width: 1px;
+      height: 14px;
+      background-color: #282828;
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 0;
+  }
+  .side-contents section.ranking table tr td.no{
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 300;
+      color: #fff;
+      font-size: 12px;
+      line-height: 1;
+      letter-spacing: 0.05em;
+      text-align: center;
+  }
+  .side-contents section.ranking table tr td.driver .inner{
+      display: table;
+  }
+  .side-contents section.ranking table tr td.driver .inner .icon{
+      width: 16px;
+      display: table-cell;
+      vertical-align: middle;
+      line-height: 1;
+      padding-right: 8px;
+  }
+  .side-contents section.ranking table tr td.driver .inner .icon img{
+      width: 16px;
+      height: auto;
+      vertical-align: middle;
+  }
+  .side-contents section.ranking table tr td.driver .inner .driver-name{
+      display: table-cell;
+      vertical-align: middle;
+      color: #fff;
+      font-size: 12px;
+      line-height: 1;
+  }
+  .side-contents section.ranking table tr td.point{
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 300;
+      color: #e30000;
+      font-size: 14px;
+      line-height: 1;
+      letter-spacing: 0.05em;
+      text-align: right;
+  }
+  .side-contents section.ranking table tr td.point .en{
+      font-size: 10px;
+      padding-left: 3px;
+  }
+  .side-contents section.ranking table tr.rank1 .rank span,
+  .side-contents section.ranking table tr.rank2 .rank span,
+  .side-contents section.ranking table tr.rank3 .rank span{
+  }
+}
+@media screen and (min-width: 768px){
+  #contents-body .section.column-r.side-contents{
+      padding: 0 0 20px;
+  }
+  .side-contents{
+      width: 25%;
+      min-width: 180px;
+      max-width: 360px;
+      display: table-cell;
+      vertical-align: top;
+      background-color: #141414;
+      padding-bottom: 20px;
+  }
+  .side-contents section{
+      border-top: 1px solid #282828;
+  }
+  .side-contents section .side-title{
+      font-size: 18px;
+      line-height: 1;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 100;
+      letter-spacing: 0.08em;
+      padding: 36px 36px 27px 27px;
+  }
+  .side-contents section.recommend .movie img{
+      vertical-align: top;
+      width: 100%;
+      height: auto;
+  }
+  .side-contents section.recommend .movie a{
+      display: block;
+      position: relative;
+      overflow: hidden;
+  }
+  .side-contents section.recommend .movie a:after{
+      content: '';
+      width: 22%;
+      height: 0;
+      padding-top: 22%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-image: url("//toyotagazooracing.com/pages/contents/jp/challengeprogram_rally/images/movie_icon.png");
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      background-size: contain;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -11%;
+      margin-left: -11%;
+  }
+  .side-contents section.news .news-list{
+      margin-left: 27px;
+      margin-right: 36px;
+      border-top: 1px solid #282828;
+  }
+  .side-contents section.news .news-list li{
+      line-height: 1.2;
+      border-bottom: 1px solid #282828;
+      padding: 12px 0;
+      display: table;
+  }
+  .side-contents section.news .news-list li:last-child{
+      border-bottom: none;
+  }
+  .side-contents section.news .news-list li .image{
+      width: 90px;
+      display: table-cell;
+      vertical-align: top;
+  }
+  .side-contents section.news .news-list li .image img{
+      width: 100%;
+      height: auto;
+  }
+  .side-contents section.news .news-list li .text{
+      display: table-cell;
+      vertical-align: top;
+      padding-left: 10px;
+  }
+  .side-contents section.news .news-list li .text time{
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 500;
+      color: #989898;
+      font-size: 12px;
+      line-height: 1;
+      letter-spacing: 0.05em;
+  }
+  .side-contents section.news .news-list li .text .news-title{
+      color: #eee;
+      font-size: 12px;
+      line-height: 1.6;
+      margin-top: 5px;
+      -webkit-transition-duration: 200ms;
+      -moz-transition-duration: 200ms;
+      -o-transition-duration: 200ms;
+      -ms-transition-duration: 200ms;
+      transition-duration: 200ms;
+  }
+  .side-contents section.news .news-list li a{
+      display: block;
+  }
+  .side-contents section.news .news-list li a:hover .text .news-title{
+      color: #e30000;
+  }
+  .side-contents section.calendar .contents-list{
+      margin-left: 27px;
+      margin-right: 36px;
+      border-top: 1px solid #282828;
+  }
+  .side-contents .tgr86brz section.calendar .contents-list,
+  .side-contents .vitz section.calendar .contents-list{
+      margin-left: 0;
+      margin-right: 0;
+      border-top: none;
+  }
+  .side-contents section.calendar .contents-list li{
+      line-height: 1.2;
+      border-bottom: 1px solid #282828;
+      padding: 20px 0;
+      list-style: none;
+  }
+  .side-contents .tgr86brz section.calendar .contents-list li{
+      border-bottom: none;
+      padding: 0;
+  }
+  .side-contents .vitz section.calendar .contents-list li{
+      border-bottom: none;
+      padding: 0;
+  }
+  .side-contents section.calendar .contents-list li:last-child{
+      border-bottom: none;
+  }
+  .side-contents section.calendar .contents-list li .cal-date{
+      color: #e30000;
+      font-size: 12px;
+      margin-bottom: 7px;
+  }
+  .side-contents section.calendar .contents-list li .cal-title{
+      font-size: 14px;
+      color: #eee;
+      margin-bottom: 7px;
+      -webkit-transition-duration: 200ms;
+      -moz-transition-duration: 200ms;
+      -o-transition-duration: 200ms;
+      -ms-transition-duration: 200ms;
+      transition-duration: 200ms;
+  }
+  .side-contents .tgr86brz section.calendar .contents-list li .cal-title{
+      -webkit-transition-duration: 0s;
+      -moz-transition-duration: 0s;
+      -o-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+      transition-duration: 0s;
+  }
+  .side-contents .vitz section.calendar .contents-list li .cal-title{
+      -webkit-transition-duration: 0s;
+      -moz-transition-duration: 0s;
+      -o-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+      transition-duration: 0s;
+  }
+  .side-contents section.calendar .contents-list li .location{
+      color: #fff;
+  }
+  .side-contents section.calendar .contents-list li .location dt{
+      font-size: 11px;
+      border: 1px solid #fff;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      padding: 2px 5px;
+      float: left;
+      clear: left;
+  }
+  .side-contents section.calendar .contents-list li .location dd{
+      font-size: 12px;
+      margin-left: 4em;
+      padding: 2px 5px;
+  }
+  .side-contents section.calendar .contents-list li a{
+      display: block;
+  }
+  .side-contents section.calendar .contents-list li a:hover .cal-title{
+      color: #e30000;
+  }
+  .side-contents section.ranking table{
+      margin-left: 27px;
+      margin-right: 36px;
+  }
+  .side-contents section.ranking table tr:last-child td{
+      border-bottom: none;
+  }
+  .side-contents section.ranking table tr th{
+      color: #666;
+      font-size: 11px;
+      line-height: 1;
+      vertical-align: middle;
+      padding: 15px 0;
+      border-bottom: 1px solid #282828;
+  }
+  .side-contents section.ranking table tr th.rank,
+  .side-contents section.ranking table tr th.no,
+  .side-contents section.ranking table tr th.point{
+      white-space: nowrap;
+  }
+  .side-contents section.ranking table tr th.rank{
+      position: relative;
+      padding-right: 10px;
+  }
+  .side-contents section.ranking table tr th.rank:after{
+      content: "";
+      width: 1px;
+      height: 18px;
+      background-color: #282828;
+      display: block;
+      position: absolute;
+      top: 12px;
+      right: 0;
+  }
+  .side-contents section.ranking table tr th.no{
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .side-contents section.ranking table tr td{
+      vertical-align: middle;
+      padding: 15px 0;
+      border-bottom: 1px solid #282828;
+  }
+  .side-contents section.ranking table tr td.rank{
+      text-align: left;
+      position: relative;
+      padding-right: 10px;
+  }
+  .side-contents section.ranking table tr td.rank span{
+      display: block;
+      text-align: center;
+      width: 24px;
+      height: 24px;
+      background-color: #000;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 300;
+      color: #e30000;
+      border: 1px solid #e30000;
+      font-size: 14px;
+      line-height: 1;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-top: 4px;
+      padding-right: 1px;
+  }
+  .side-contents section.ranking table tr td.rank:after{
+      content: "";
+      width: 1px;
+      height: 18px;
+      background-color: #282828;
+      display: block;
+      position: absolute;
+      top: 19px;
+      right: 0;
+  }
+  .side-contents section.ranking table tr td.no{
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 300;
+      color: #fff;
+      font-size: 15px;
+      line-height: 1;
+      letter-spacing: 0.05em;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .side-contents section.ranking table tr td.driver .inner{
+      display: table;
+  }
+  .side-contents section.ranking table tr td.driver .inner .icon{
+      width: 20px;
+      display: table-cell;
+      vertical-align: middle;
+  }
+  .side-contents section.ranking table tr td.driver .inner .icon img{
+      width: 20px;
+      height: auto;
+      vertical-align: middle;
+  }
+  .side-contents section.ranking table tr td.driver .inner .driver-name{
+      display: table-cell;
+      vertical-align: middle;
+      color: #fff;
+      font-size: 12px;
+      line-height: 1;
+      padding-left: 10px;
+  }
+  .side-contents section.ranking table tr td.point{
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 100;
+      color: #e30000;
+      font-size: 16px;
+      line-height: 1;
+      letter-spacing: 0.05em;
+      text-align: right;
+  }
+  .side-contents section.ranking table tr td.point .en{
+      font-size: 13px;
+  }
+  .side-contents section.ranking table tr.rank1 .rank span,
+  .side-contents section.ranking table tr.rank2 .rank span,
+  .side-contents section.ranking table tr.rank3 .rank span{
+      background-color: #e30000;
+      color: #000;
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 500;
+      padding-top: 3px;
+  }
+}
+
+
+/* - ローカルナビ用（2016.03.22追記）
+------------------------------------------------------------------- */
+/*  レースタイトルの背景色  */
+#race-header.wec #race-name:before {
+  background-color: #2b44a0;
+}
+#race-header.supertaikyu #race-name:before {
+  background-color: #35a0a8;
+}
+#race-header.nurburgring #race-name:before {
+  background-color: #e20001;
+}
+#race-header.vitz #race-name:before {
+  background-color: #176da8;
+}
+#race-header.tgr86brz #race-name:before {
+  background-color: #21a069;
+}
+#race-header.rallychallenge #race-name:before {
+  background-color: #92a414;
+}
+#race-header.jrc #race-name:before {
+  background-color: #cc8c0e;
+}
+#race-header.event #race-name:before {
+  background-color: #ff5500;
+}
+/*  / レースタイトルの背景色  */
+@media screen and (max-width: 767px) {
+  #race-header #race-name {
+      width: auto;
+  }
+  #race-header {
+      width: 100%;
+      border-top: 1px solid #282828 !important;
+      background-image: url("//toyotagazooracing.com/pages/contents/jp/include/images/bg_line.gif");
+      background-repeat: repeat-x;
+      background-position: left bottom;
+      -webkit-background-size: 1px 1px;
+      -moz-background-size: 1px 1px;
+      background-size: 1px 1px;
+  }
+  #race-header.event {
+      background-color: #000;
+  }
+  #race-header .header-inner {
+      width: 100%;
+      position: relative;
+      height: 60px;
+      margin: 0 auto;
+      display: table;
+      padding-right: 15px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      position: relative;
+      z-index: 100;
+  }
+  #race-header .header-inner .race-title {
+      float: left;
+      height: 60px;
+      padding-left: 15px;
+      position: relative;
+  }
+  #race-header .header-inner .race-title:before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      -webkit-transform: skew(-20deg);
+      -moz-transform: skew(-20deg);
+      -o-transform: skew(-20deg);
+      -ms-transform: skew(-20deg);
+      transform: skew(-20deg);
+      position: absolute;
+      top: 0;
+      left: -20px;
+  }
+  #race-header .header-inner .race-title:after {
+      content: '';
+      width: 100px;
+      height: 100%;
+      -webkit-transform: skew(-20deg);
+      -moz-transform: skew(-20deg);
+      -o-transform: skew(-20deg);
+      -ms-transform: skew(-20deg);
+      transform: skew(-20deg);
+      position: absolute;
+      top: 0;
+      right: 97%;
+      background-color: rgba(255,255,255,0.25);
+  }
+  #race-header .header-inner .race-title a {
+      font-size: 15px;
+      line-height: 1;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 300;
+      letter-spacing: 0.05em;
+      color: #fff;
+      display: table-cell;
+      height: 60px;
+      vertical-align: middle;
+      padding-right: 40px;
+      position: relative;
+  }
+  #race-header .header-inner .local-navi {
+      -webkit-transition-duration: 200ms;
+      -moz-transition-duration: 200ms;
+      -o-transition-duration: 200ms;
+      -ms-transition-duration: 200ms;
+      transition-duration: 200ms;
+      height: 0;
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+      overflow-y: hidden;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 0;
+  }
+  #race-header .header-inner .local-navi >nav {
+      background-color: #161616;
+      width: auto;
+      padding: 0 15px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  #race-header .header-inner .local-navi >nav >ul {
+      zoom: 1;
+      width: 100%;
+      list-style: none;
+  }
+  #race-header .header-inner .local-navi >nav >ul:before,
+  #race-header .header-inner .local-navi >nav >ul:after {
+      content: "";
+      display: table;
+  }
+  #race-header .header-inner .local-navi >nav >ul:after {
+      clear: both;
+  }
+  #race-header .header-inner .local-navi >nav >ul >li {
+      float: left;
+      letter-spacing: -0.05em;
+      border-bottom: 1px solid #282828;
+      width: 50%;
+      position: relative;
+  }
+  #race-header .header-inner .local-navi >nav >ul >li:nth-last-of-type(even):before {
+      position: absolute;
+      top: 9px;
+      right: 10px;
+      content: '';
+      display: block;
+      width: 1px;
+      height: 15px;
+      background-color: #282828;
+  }
+  #race-header .header-inner .local-navi >nav >ul >li >span,
+  #race-header .header-inner .local-navi >nav >ul >li >a {
+      font-size: 11px;
+      line-height: 1.1;
+      padding: 10px 0;
+      display: block;
+      letter-spacing: -0.05em;
+  }
+  #race-header .header-inner .local-navi >nav >ul >li >a {
+      color: #fff;
+  }
+  #race-header .header-inner .local-navi >nav >ul >li >span.current {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul >li >span.disabled {
+      color: #777;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-1 li.menu1 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-2 li.menu2 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-3 li.menu3 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-4 li.menu4 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-5 li.menu5 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-6 li.menu6 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-7 li.menu7 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-8 li.menu8 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-9 li.menu9 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-10 li.menu10 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-11 li.menu11 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-12 li.menu12 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-13 li.menu13 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-14 li.menu14 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-15 li.menu15 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-16 li.menu16 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-17 li.menu17 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-18 li.menu18 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-19 li.menu19 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-20 li.menu20 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-21 li.menu21 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-22 li.menu22 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-23 li.menu23 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-24 li.menu24 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-25 li.menu25 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-26 li.menu26 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-27 li.menu27 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-28 li.menu28 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-29 li.menu29 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi >nav >ul.current-30 li.menu30 a {
+      color: #e30000;
+  }
+  #race-header .header-inner #loca-nevi-check {
+      display: none;
+  }
+  #race-header .header-inner .check-label {
+      width: 47.5px;
+      height: 15px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-repeat: no-repeat;
+      background-position: left top;
+      -webkit-background-size: 47.5px 15px;
+      -moz-background-size: 47.5px 15px;
+      background-size: 47.5px 15px;
+      background-image: url("//toyotagazooracing.com/pages/contents/jp/include/images/sp_localnavi_open.png");
+  }
+  #race-header .header-inner #loca-nevi-check:checked ~ .check-label {
+      background-image: url("//toyotagazooracing.com/pages/contents/jp/include/images/sp_localnavi_close.png");
+  }
+  #race-header .header-inner #loca-nevi-check:checked ~ .local-navi {
+      height: auto;
+      opacity: 1;
+      -ms-filter: none;
+      filter: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  #race-header #race-name {
+      width: 246px;
+  }
+  #race-header {
+      width: 100%;
+      border-top: 1px solid #282828 !important;
+      background-image: url("//toyotagazooracing.com/pages/contents/jp/include/images/bg_line.gif");
+      background-repeat: repeat-x;
+      background-position: left bottom;
+      -webkit-background-size: auto;
+      -moz-background-size: auto;
+      background-size: auto;
+  }
+  #race-header.event {
+      background-color: #000;
+  }
+  #race-header .header-inner {
+      width: 100%;
+      height: 67px;
+      margin: 0 auto;
+      display: table;
+      padding-right: 36px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      position: relative;
+      zoom: 1;
+  }
+  #race-header .header-inner:before,
+  #race-header .header-inner:after {
+      content: "";
+      display: table;
+  }
+  #race-header .header-inner:after {
+      clear: both;
+  }
+  #race-header .header-inner .race-title {
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 36px;
+      padding-right: 0px;
+      overflow: hidden;
+      position: relative;
+  }
+  #race-header .header-inner .race-title:before {
+      content: '';
+      width: 100%;
+      height: 200%;
+      -webkit-transform: skew(-20deg);
+      -moz-transform: skew(-20deg);
+      -o-transform: skew(-20deg);
+      -ms-transform: skew(-20deg);
+      transform: skew(-20deg);
+      position: absolute;
+      top: 0;
+      left: -35px;
+  }
+  #race-header .header-inner .race-title:after {
+      content: '';
+      width: 100px;
+      height: 100%;
+      -webkit-transform: skew(-20deg);
+      -moz-transform: skew(-20deg);
+      -o-transform: skew(-20deg);
+      -ms-transform: skew(-20deg);
+      transform: skew(-20deg);
+      position: absolute;
+      top: 0;
+      right: 97%;
+      background-color: rgba(255,255,255,0.25);
+  }
+  #race-header .header-inner .race-title a {
+      font-size: 18px;
+      line-height: 1.4;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 300;
+      letter-spacing: 0.08em;
+      color: #fff;
+      display: table-cell;
+      height: 67px;
+      vertical-align: middle;
+      padding-right: 36px;
+      position: relative;
+      white-space: nowrap;
+  }
+  #race-header .header-inner #loca-nevi-check {
+      display: none;
+  }
+  #race-header .header-inner .local-navi {
+      display: table-cell;
+      vertical-align: middle;
+  }
+  #race-header .header-inner .local-navi nav {
+      padding: 12px 0 10px;
+  }
+  #race-header .header-inner .local-navi nav >ul {
+      zoom: 1;
+      list-style: none;
+  }
+  #race-header .header-inner .local-navi nav >ul:before,
+  #race-header .header-inner .local-navi nav >ul:after {
+      content: "";
+      display: table;
+  }
+  #race-header .header-inner .local-navi nav >ul:after {
+      clear: both;
+  }
+  #race-header .header-inner .local-navi nav >ul >li {
+      float: left;
+      position: relative;
+  }
+  #race-header .header-inner .local-navi nav >ul >li:after {
+      content: '';
+      width: 1px;
+      height: 18px;
+      display: inline-block;
+      background-color: #282828;
+      vertical-align: middle;
+      margin: 0 10px;
+  }
+  #race-header .header-inner .local-navi nav >ul >li:last-child:after {
+      display: none;
+  }
+  #race-header .header-inner .local-navi nav >ul >li >a {
+      font-size: 13px;
+      line-height: 1;
+      padding: 7px 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: inline-block;
+      white-space: nowrap;
+      -webkit-transition-duration: 0;
+      -moz-transition-duration: 0;
+      -o-transition-duration: 0;
+      -ms-transition-duration: 0;
+      transition-duration: 0;
+  }
+  #race-header .header-inner .local-navi nav >ul >li >a:link,
+  #race-header .header-inner .local-navi nav >ul >li >a:visited {
+      color: #ddd;
+  }
+  #race-header .header-inner .local-navi nav >ul >li >a:hover,
+  #race-header .header-inner .local-navi nav >ul >li >a:active {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul >li span.disabled {
+      color: #777;
+      font-size: 13px;
+      line-height: 1;
+      padding: 7px 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: inline-block;
+      white-space: nowrap;
+      -webkit-transition-duration: 0;
+      -moz-transition-duration: 0;
+      -o-transition-duration: 0;
+      -ms-transition-duration: 0;
+      transition-duration: 0;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-1 li.menu1 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-2 li.menu2 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-3 li.menu3 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-4 li.menu4 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-5 li.menu5 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-6 li.menu6 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-7 li.menu7 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-8 li.menu8 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-9 li.menu9 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-10 li.menu10 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-11 li.menu11 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-12 li.menu12 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-13 li.menu13 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-14 li.menu14 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-15 li.menu15 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-16 li.menu16 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-17 li.menu17 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-18 li.menu18 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-19 li.menu19 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-20 li.menu20 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-21 li.menu21 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-22 li.menu22 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-23 li.menu23 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-24 li.menu24 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-25 li.menu25 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-26 li.menu26 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-27 li.menu27 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-28 li.menu28 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-29 li.menu29 a {
+      color: #e30000;
+  }
+  #race-header .header-inner .local-navi nav >ul.current-30 li.menu30 a {
+      color: #e30000;
+  }
+}
+
+
+/* - ローカルフッタ用（2016.03.24追記）
+------------------------------------------------------------------- */
+#local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.aisinaw {
+    width: 110px;
+}
+#local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.aisinaw {
+    width: 80px;
+}
+#local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.aisinaw {
+    width: 50px;
+}
+#local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.koito {
+    width: 139.5px;
+}
+#local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.koito {
+    width: 97.65px;
+}
+#local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.koito {
+    width: 68.355px;
+}
+#local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.nomura {
+    width: 120px;
+}
+#local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.nomura {
+    width: 90px;
+}
+#local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.nomura {
+    width: 60px;
+}
+@media screen and (max-width: 767px) {
+  #local-footer {
+      overflow: hidden;
+      background: #000;
+      font-size: 12px;
+  }
+  #local-footer .related-contents-link {
+      padding: 0 10px 15px;
+  }
+  #local-footer .related-contents-link h3 {
+      margin: 0;
+      padding: 25px 5px;
+      font-size: 20px;
+      line-height: 1;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 300;
+      font-weight: 300;
+      letter-spacing: 0.05em;
+      color: #fff;
+  }
+  #local-footer .related-contents-link ul {
+      width: 100%;
+      padding: 0;
+      list-style: none;
+      zoom: 1;
+  }
+  #local-footer .related-contents-link ul:before,
+  #local-footer .related-contents-link ul:after {
+      content: "";
+      display: table;
+  }
+  #local-footer .related-contents-link ul:after {
+      clear: both;
+  }
+  #local-footer .related-contents-link ul li {
+      width: 50%;
+      float: left;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 5px 5px;
+  }
+  #local-footer .related-contents-link ul li a {
+      display: block;
+      border: 1px solid #282828;
+  }
+  #local-footer .related-contents-link ul li img {
+      width: 100%;
+      height: auto;
+      vertical-align: top;
+  }
+
+  #local-footer .tvschedule-ticket {
+      padding: 20px 15px;
+      border-top: 1px solid #333;
+  }
+  #local-footer .tvschedule-ticket ul {
+      padding: 0;
+      list-style: none;
+  }
+  #local-footer .tvschedule-ticket ul li {
+      margin-bottom: 10px;
+  }
+  #local-footer .tvschedule-ticket ul li:last-child {
+      margin-bottom: 0;
+  }
+  #local-footer .tvschedule-ticket ul li a {
+      display: block;
+      border: 1px solid #333;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 10px 20px;
+      background-color: #000;
+      color: #fff;
+  }
+  #local-footer .tvschedule-ticket ul li a:hover {
+      background-color: #1f1f1f;
+  }
+  #local-footer .tvschedule-ticket ul li a {
+      position: relative;
+  }
+  #local-footer .tvschedule-ticket ul li a:after {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      display: block;
+      content: '';
+      width: 8px;
+      height: 8px;
+      margin-top: -4px;
+      border-top: 1px solid #fff;
+      border-right: 1px solid #fff;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+  }
+
+  #local-footer .partners{
+      overflow: hidden;
+      padding: 0 10px;
+      background: #fff;
+      color: #333;
+  }
+  #local-footer .partners .p-tbl{
+      display: table;
+      width: 100%;
+      min-width: 0;
+      margin: 15px 0;
+      border-top: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+  }
+  #local-footer .partners .p-tbl .p-tbl-row{
+      display: table-row;
+  }
+  #local-footer .partners .p-tbl .p-tbl-row .p-tbl-td{
+      display: table-cell;
+      width: 50%;
+      padding: 0;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      background: #fff;
+      text-align: center;
+      vertical-align: middle;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td{
+      width: 33.33%;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td{
+      height: 90px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td{
+      height: 50px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td{
+      height: 50px;
+  }
+  #local-footer .partners .p-tbl .p-tbl-row .p-tbl-td a{
+      display: block;
+      padding: 5px 3%;
+  }
+  #local-footer .partners .p-tbl .p-tbl-row .p-tbl-td a img{
+      width: 100%;
+      vertical-align: bottom;
+  }
+  #local-footer .partners .p-tbl.rankS .p-tbl-row .p-tbl-td a img{
+      max-width: 250px;
+      margin: 20px 25px 25px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td a img{
+      max-width: 160px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.denso a img{
+      max-width: 180px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.jms a img{
+      max-width: 80px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.toyota_dealers a img{
+      max-width: 190px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.toyota_home a img{
+      max-width: 180px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.tmej a img{
+      max-width: 180px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.toyota_boshoku a img{
+      max-width: 200px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.yazaki a img{
+      max-width: 180px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.zent a img{
+      max-width: 150px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .msig a img {
+      max-width: 140px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td a img{
+      max-width: 90px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.mitsui_sumitomo_insurance a img{
+      max-width: 70px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.tmej a img{
+      max-width: 130px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.toyota_jidou_shokki a img{
+      max-width: 110px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.sparx a img{
+      max-width: 40px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td a img{
+      max-width: 70px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.otsuka_pocari a img {
+      max-width: 34px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.three_m a img{
+      max-width: 30px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.wakos a img{
+      max-width: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #local-footer {
+      overflow: hidden;
+      background: #000;
+  }
+  #local-footer .related-contents-link {
+      padding: 0 50px 65px;
+  }
+  #local-footer .related-contents-link h3 {
+      margin: 0;
+      padding: 50px 15px 10px;
+      font-size: 24px;
+      line-height: 1;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 300;
+      font-weight: 300;
+      letter-spacing: 0.05em;
+      color: #fff;
+  }
+  #local-footer .related-contents-link ul {
+      width: 100%;
+      display: block;
+      padding: 0;
+      font-size: 0;
+      list-style: none;
+  }
+  #local-footer .related-contents-link ul li {
+      width: 25%;
+      display: inline-block;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 15px;
+  }
+  #local-footer .related-contents-link ul li a {
+      display: block;
+      -webkit-transition-duration: 200ms;
+      -moz-transition-duration: 200ms;
+      -o-transition-duration: 200ms;
+      -ms-transition-duration: 200ms;
+      transition-duration: 200ms;
+  }
+  #local-footer .related-contents-link ul li a img {
+      width: 100%;
+      height: auto;
+      vertical-align: top;
+      -webkit-transition-duration: 200ms;
+      -moz-transition-duration: 200ms;
+      -o-transition-duration: 200ms;
+      -ms-transition-duration: 200ms;
+      transition-duration: 200ms;
+  }
+  #local-footer .related-contents-link ul li a:link,
+  #local-footer .related-contents-link ul li a:visited {
+      border: 1px solid #282828;
+  }
+  #local-footer .related-contents-link ul li a:hover,
+  #local-footer .related-contents-link ul li a:active {
+      border: 1px solid #e30000;
+  }
+  #local-footer .related-contents-link ul li a:hover img,
+  #local-footer .related-contents-link ul li a:active img {
+      opacity: 0.7;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+      filter: alpha(opacity=70);
+  }
+
+  #local-footer .tvschedule-ticket {
+      width: 100%;
+      padding: 35px 36px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border-top: 1px solid #333;
+      margin: 0 auto;
+  }
+  #local-footer .tvschedule-ticket ul {
+      width: 100%;
+      max-width: 1000px;
+      padding: 0;
+      display: table;
+      margin: 0 auto;
+      list-style: none;
+  }
+  #local-footer .tvschedule-ticket ul li {
+      width: 50%;
+      display: table-cell;
+      padding: 0 18px 0 10px;
+  }
+  #local-footer .tvschedule-ticket ul li:last-child {
+      padding: 0 10px 0 18px;
+  }
+  #local-footer .tvschedule-ticket ul li a {
+      display: block;
+      border: 1px solid #333;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 15px 30px 15px 30px;
+      font-size: 14px;
+      color: #ccc;
+      position: relative;
+      background-color: #000;
+      -webkit-transition-duration: 200ms;
+      -moz-transition-duration: 200ms;
+      -o-transition-duration: 200ms;
+      -ms-transition-duration: 200ms;
+      transition-duration: 200ms;
+  }
+  #local-footer .tvschedule-ticket ul li a:hover {
+      background-color: #1f1f1f;
+  }
+  #local-footer .tvschedule-ticket ul li a:after {
+      content: '';
+      display: block;
+      width: 7px;
+      height: 13px;
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      margin-top: -6.5px;
+      background-image: url("//toyotagazooracing.com/pages/contents/jp/include/images/pc_icon_arrow_right.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      -webkit-background-size: 7px 13px;
+      -moz-background-size: 7px 13px;
+      background-size: 7px 13px;
+  }
+
+  #local-footer .partners{
+      overflow: hidden;
+      padding: 20px 50px;
+      background: #fff;
+      color: #333;
+  }
+  #local-footer .partners .p-tbl{
+      float: left;
+      min-width: 0;
+      border: none;
+  }
+  #local-footer .partners .p-tbl .p-tbl-row{
+      display: inline;
+  }
+  #local-footer .partners .p-tbl .p-tbl-row .p-tbl-td{
+      display: inline-block;
+      padding: 0;
+      border: none;
+      background: #fff;
+      vertical-align: middle;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td{
+      margin: 10px 15px 10px 10px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td{
+      margin: 10px 20px 10px 15px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td{
+      margin: 10px 25px 10px 20px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.advics {
+      width: 139.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.advics {
+      width: 97.65px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.advics {
+      width: 68.355px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.aisin {
+      width: 148.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.aisin {
+      width: 103.95px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.aisin {
+      width: 72.765px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.akebono {
+      width: 162px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.akebono {
+      width: 113.4px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.akebono {
+      width: 79.38px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.banenotougou {
+      width: 153.9px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.banenotougou {
+      width: 107.73px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.banenotougou {
+      width: 75.411px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.bp-castrol-japan {
+      width: 148.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.bp-castrol-japan {
+      width: 103.95px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.bp-castrol-japan {
+      width: 72.765px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.bridgestone {
+      width: 184.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.bridgestone {
+      width: 129.15px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.bridgestone {
+      width: 90.405px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.charas {
+      width: 135px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.charas {
+      width: 94.5px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.charas {
+      width: 66.15px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.denso {
+      width: 144px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.denso {
+      width: 100.8px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.denso {
+      width: 70.56px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.dunlop {
+      width: 176.4px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.dunlop {
+      width: 123.48px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.dunlop {
+      width: 86.436px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.goodyear {
+      width: 153px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.goodyear {
+      width: 107.1px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.goodyear {
+      width: 74.97px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.jms {
+      width: 87.3px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.jms {
+      width: 61.11px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.jms {
+      width: 42.777px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.j-tacs {
+      width: 144px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.j-tacs {
+      width: 100.8px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.j-tacs {
+      width: 70.56px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.jtekt {
+      width: 130.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.jtekt {
+      width: 91.35px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.jtekt {
+      width: 63.945px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.jx-energy {
+      width: 139.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.jx-energy {
+      width: 97.65px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.jx-energy {
+      width: 68.355px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.kyb {
+      width: 121.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.kyb {
+      width: 85.05px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.kyb {
+      width: 59.535px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.maeda {
+      width: 139.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.maeda {
+      width: 97.65px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.maeda {
+      width: 68.355px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.mitsui_sumitomo_insurance{
+      width: 225px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.mitsui_sumitomo_insurance{
+      width: 105px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.mitsui_sumitomo_insurance{
+      width: 110.25px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.msig {
+      width: 139.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.msig {
+      width: 97.65px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.msig {
+      width: 68.355px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.nexentire {
+      width: 184.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.nexentire {
+      width: 129.15px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.nexentire {
+      width: 90.405px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.oguraclutch {
+      width: 148.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.oguraclutch {
+      width: 103.95px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.oguraclutch {
+      width: 72.765px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.piaa {
+      width: 158.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.piaa {
+      width: 113.95px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.piaa {
+      width: 82.765px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.orafol {
+      width: 139.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.orafol {
+      width: 97.65px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.orafol {
+      width: 68.355px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.otsuka_pocari {
+      width: 87.3px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.otsuka_pocari {
+      width: 61.11px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.otsuka_pocari {
+      width: 42.777px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.smbc {
+      width: 135px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.smbc {
+      width: 94.5px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.smbc {
+      width: 66.15px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.sparx {
+      width: 84.6px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.sparx {
+      width: 59.22px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.sparx {
+      width: 41.454px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.three_m {
+      width: 72px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.three_m {
+      width: 50.4px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.three_m {
+      width: 35.28px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.tmej {
+      width: 207px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.tmej {
+      width: 144.9px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.tmej {
+      width: 101.43px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.tokairika {
+      width: 148.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.tokairika {
+      width: 103.95px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.tokairika {
+      width: 72.765px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.toms {
+      width: 126px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.toms {
+      width: 88.2px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.toms {
+      width: 61.74px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.toyota_body {
+      width: 180px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.toyota_body {
+      width: 126px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.toyota_body {
+      width: 88.2px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.toyota_boshoku {
+      width: 225px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.toyota_boshoku {
+      width: 157.5px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.toyota_boshoku {
+      width: 110.25px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.toyota_boshoku_02 {
+      width: 180px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.toyota_boshoku_02 {
+      width: 126px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.toyota_boshoku_02 {
+      width: 88.2px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.toyota_dealers{
+      width: 206.1px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.toyota_dealers{
+      width: 144.27px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.toyota_dealers{
+      width: 100.989px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.toyota_home{
+      width: 176.4px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.toyota_home{
+      width: 123.48px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.toyota_home{
+      width: 86.436px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.toyota_jidou_shokki {
+      width: 175.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.toyota_jidou_shokki {
+      width: 122.85px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.toyota_jidou_shokki {
+      width: 85.995px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.toyota_media_service {
+      width: 153px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.toyota_media_service {
+      width: 107.1px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.toyota_media_service {
+      width: 74.97px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.trd {
+      width: 120.6px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.trd {
+      width: 84.42px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.trd {
+      width: 59.094px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.wakos {
+      width: 117.9px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.wakos {
+      width: 82.53px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.wakos {
+      width: 57.771px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.yazaki {
+      width: 175.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.yazaki {
+      width: 122.85px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.yazaki {
+      width: 85.995px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.yokohama {
+      width: 175.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.yokohama {
+      width: 122.85px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.yokohama {
+      width: 85.995px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.zent {
+      width: 112.5px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.zent {
+      width: 78.75px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.zent {
+      width: 55.125px;
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.gentex {
+      width: 170px;
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.gentex {
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.gentex {
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.tamachi {
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.tamachi {
+      width: 117px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.tamachi {
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.yamaha {
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.yamaha {
+      width: 130px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.yamaha {
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.asics {
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.asics {
+      width: 108px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.asics {
+  }
+  #local-footer .partners .p-tbl.rankA .p-tbl-row .p-tbl-td.tokiomarine-nichido {
+  }
+  #local-footer .partners .p-tbl.rankB .p-tbl-row .p-tbl-td.tokiomarine-nichido {
+      width: 135px;
+  }
+  #local-footer .partners .p-tbl.rankC .p-tbl-row .p-tbl-td.tokiomarine-nichido {
+  }
+  #local-footer .partners .p-tbl .p-tbl-row .p-tbl-td a{
+      display: block;
+  }
+  #local-footer .partners .p-tbl .p-tbl-row .p-tbl-td a:hover{
+      opacity: 0.7;
+      filter: alpha(opacity=70);
+      -ms-filter: "alpha(opacity=70)";
+  }
+  #local-footer .partners .p-tbl .p-tbl-row .p-tbl-td a.nolink:hover{
+      opacity: 1;
+      filter: alpha(opacity=100);
+      -ms-filter: "alpha(opacity=100)";
+  }
+  #local-footer .partners .p-tbl .p-tbl-row .p-tbl-td a img{
+      width: 100%;
+      vertical-align: bottom;
+  }
+  /*  for vitz only  */
+  #local-footer .partners.vitz{
+      text-align: center;
+  }
+  #local-footer .partners.vitz .p-tbl{
+      float: none;
+      display: inline-block;
+  }
+  /*  for 86brz only  */
+  #local-footer .partners.tgr86brz{
+  }
+  #local-footer .partners.tgr86brz .p-tbl.rankS{
+      float: left;
+      width: 28%;
+  }
+  #local-footer .partners.tgr86brz .p-tbl.rankA{
+      float: right;
+      width: 68%;
+      margin: 15px 0 0;
+  }
+  #local-footer .partners.tgr86brz .p-tbl.rankB{
+      float: right;
+      width: 68%;
+  }
+  /*  for rallychallenge only  */
+  #local-footer .partners.rallychallenge{
+      text-align: center;
+  }
+  #local-footer .partners.rallychallenge .p-tbl-wrap{
+      float: none;
+      display: inline-block;
+      max-width: 1400px;
+  }
+  #local-footer .partners.rallychallenge .p-tbl{
+      display: inline;
+      float: none;
+  }
+  #local-footer .partners.rallychallenge .p-tbl.rankA .p-tbl-row .p-tbl-td{
+      margin: 10px 25px 10px 20px;
+  }
+}
+
+
+/* - レポート系ラウンドインフォ用（2016.04.04追記）
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .round_info {
+  }
+  .round_info dl {
+      display: table;
+      width: 100%;
+  }
+  .round_info dl dt {
+      display: table-cell;
+      width: 50px;
+      color: #999;
+      text-align: center;
+      font-weight: 300;
+      font-family: 'Roboto', sans-serif !important;
+      vertical-align: middle;
+  }
+  .round_info dl dt .rd {
+      display: block;
+      line-height: 1;
+  }
+  .round_info dl dt .num {
+      display: block;
+      font-size: 40px;
+      line-height: 1;
+  }
+  .round_info dl dd {
+      display: table-cell;
+      padding: 0 0 0 1em;
+      font-size: 18px;
+      vertical-align: middle;
+  }
+  .round_info dl dd span {
+      display: inline-block;
+  }
+  }
+  @media screen and (min-width: 768px) {
+  .round_info {
+  }
+  .round_info dl {
+      display: table;
+      width: 100%;
+  }
+  .round_info dl dt {
+      display: table-cell;
+      width: 70px;
+      color: #999;
+      text-align: center;
+      font-weight: 300;
+      font-family: 'Roboto', sans-serif !important;
+      vertical-align: middle;
+  }
+  .round_info dl dt .rd {
+      display: block;
+      line-height: 1;
+  }
+  .round_info dl dt .num {
+      display: block;
+      font-size: 60px;
+      line-height: 1;
+  }
+  .round_info dl dd {
+      display: table-cell;
+      padding: 0 0 0 1em;
+      font-size: 28px;
+      vertical-align: middle;
+  }
+  .round_info dl dd span {
+      display: inline-block;
+  }
+}
+
+
+/* - レポート系ラウンドナビ用（2016.04.04追記）
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .round_navi .menu-list {
+      zoom: 1;
+      margin: 22px 0;
+      padding: 0 15px;
+  }
+  .round_navi .menu-list:before,
+  .round_navi .menu-list:after {
+      content: "";
+      display: table;
+  }
+  .round_navi .menu-list:after {
+      clear: both;
+  }
+  .round_navi .menu-list ul li {
+      float: left;
+      width: 50%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 10px 1.7% 0;
+      list-style: none;
+  }
+  .round_navi .menu-list ul li:nth-child(2n+1) {
+      padding: 10px 1.7% 0 0;
+  }
+  .round_navi .menu-list ul li:nth-child(2n+2) {
+      padding: 10px 0 0 1.7%;
+  }
+  .round_navi .menu-list ul li:first-child {
+      padding: 0 1.7% 0 0;
+  }
+  .round_navi .menu-list ul li:nth-child(2) {
+      padding: 0 0 0 1.7%;
+  }
+  .round_navi .menu-list ul li a {
+      display: block;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #999;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      color: #999;
+      font-size: 12px;
+      line-height: 1;
+      text-align: center;
+      letter-spacing: -0.02em;
+      padding: 10px 0;
+      -webkit-transition-duration: 200ms;
+      -moz-transition-duration: 200ms;
+      -o-transition-duration: 200ms;
+      -ms-transition-duration: 200ms;
+      transition-duration: 200ms;
+  }
+  .round_navi .menu-list.current-1 ul li.menu1 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-2 ul li.menu2 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-3 ul li.menu3 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-4 ul li.menu4 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-5 ul li.menu5 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-6 ul li.menu6 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-7 ul li.menu7 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-8 ul li.menu8 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-9 ul li.menu9 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-10 ul li.menu10 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-11 ul li.menu11 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-12 ul li.menu12 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list ul li a.nolink{
+      color: #555;
+  }
+  .round_navi .menu-list ul li a.nolink:hover{
+      border: 1px solid #333;
+      color: #555;
+  }
+}
+@media screen and (min-width: 768px) {
+  .round_navi {
+  }
+  .round_navi .menu-list {
+      margin: 30px 35px 33px 65px;
+  }
+  .round_navi .menu-list ul {
+      font-size: 0;
+  }
+  .round_navi .menu-list ul li {
+      display: inline-block;
+      width: 148px;
+      margin: 0 10px 10px 0;
+  }
+  .round_navi .menu-list ul li a {
+      display: block;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #333;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      color: #cbcbcb;
+      font-size: 12px;
+      line-height: 1;
+      text-align: center;
+      letter-spacing: -0.02em;
+      padding: 10px 0;
+      -webkit-transition-duration: 200ms;
+      -moz-transition-duration: 200ms;
+      -o-transition-duration: 200ms;
+      -ms-transition-duration: 200ms;
+      transition-duration: 200ms;
+  }
+  .round_navi .menu-list ul li a:hover {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-1 ul li.menu1 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-2 ul li.menu2 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-3 ul li.menu3 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-4 ul li.menu4 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-5 ul li.menu5 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-6 ul li.menu6 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-7 ul li.menu7 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-8 ul li.menu8 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-9 ul li.menu9 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-10 ul li.menu10 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-11 ul li.menu11 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list.current-12 ul li.menu12 a {
+      color: #e30000;
+      border-color: #e30000;
+  }
+  .round_navi .menu-list ul li a.nolink{
+      color: #555;
+  }
+  .round_navi .menu-list ul li a.nolink:hover{
+      border: 1px solid #333;
+      color: #555;
+  }
+}
+
+
+/* - レポート系リザルトPDFボタン用（2016.04.04追記）
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .result {
+  }
+  .result h2 {
+  }
+  .result .pdf {
+      list-style: none;
+  }
+  .result .pdf li {
+      margin: 10px 10px 0 0;
+  }
+  .result .pdf li a {
+      display: block;
+      padding: 20px 30px 15px 40px;
+      border: 1px solid #333;
+      font-size: 16px;
+      line-height: 1.2;
+      text-align: center;
+      position: relative;
+      transition-duration: 200ms;
+  }
+  .result .pdf li a:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 15px;
+      display: block;
+      width: 8px;
+      height: 8px;
+      margin-top: -4px;
+      border-top: 1px solid #fff;
+      border-right: 1px solid #fff;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      transition-duration: 200ms;
+  }
+  .result .pdf li a:after {
+      content: "PDF";
+      display: inline-block;
+      position: relative;
+      top: -2px;
+      margin: 0 0 0 5px;
+      padding: 3px 5px 2px;
+      border-radius: 2px;
+      background: #eee;
+      color: #333;
+      font-size: 10px;
+      font-weight: bold;
+      line-height: 1;
+      transition-duration: 200ms;
+  }
+  .result .pdf li a:hover {
+      border: 1px solid #f00;
+      color: #f00;
+  }
+  .result .pdf li a:hover:before {
+      border-top: 1px solid #f00;
+      border-right: 1px solid #f00;
+  }
+  .result .pdf li a:hover:after {
+      background: #f00;
+  }
+}
+@media screen and (min-width: 768px) {
+  .result {
+  }
+  .result h2 {
+  }
+  .result .pdf {
+      list-style: none;
+  }
+  .result .pdf li {
+      display: inline-block;
+      min-width: 300px;
+      margin: 10px 10px 0 0;
+  }
+  .result .pdf li a {
+      display: block;
+      padding: 20px 30px 15px 40px;
+      border: 1px solid #333;
+      font-size: 16px;
+      line-height: 1.2;
+      text-align: center;
+      position: relative;
+      transition-duration: 200ms;
+  }
+  .result .pdf li a:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 15px;
+      display: block;
+      width: 8px;
+      height: 8px;
+      margin-top: -4px;
+      border-top: 1px solid #fff;
+      border-right: 1px solid #fff;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      transition-duration: 200ms;
+  }
+  .result .pdf li a:after {
+      content: "PDF";
+      display: inline-block;
+      position: relative;
+      top: -2px;
+      margin: 0 0 0 5px;
+      padding: 3px 5px 2px;
+      border-radius: 2px;
+      background: #eee;
+      color: #333;
+      font-size: 10px;
+      font-weight: bold;
+      line-height: 1;
+      transition-duration: 200ms;
+  }
+  .result .pdf li a:hover {
+      border: 1px solid #f00;
+      color: #f00;
+  }
+  .result .pdf li a:hover:before {
+      border-top: 1px solid #f00;
+      border-right: 1px solid #f00;
+  }
+  .result .pdf li a:hover:after {
+      background: #f00;
+  }
+}
+
+
+/* - レポート系トピックス用（2016.04.04追記）
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .topics {
+  }
+  .topics h2 {
+      margin: 0 0 25px;
+  }
+  .topics h2 .accessory {
+      display: inline-block;
+      margin: 0 0 15px;
+      padding: 5px 15px;
+      background: #fff;
+      color: #333;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .topics {
+  }
+  .topics h2 {
+      margin: 0 0 25px;
+  }
+  .topics h2 .accessory {
+      display: inline-block;
+      margin: 0 0 15px;
+      padding: 5px 15px;
+      background: #fff;
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+  }
+}
+
+
+/* - レポート系次戦予告用（2016.04.04追記）
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .next_round {
+  }
+  .next_round h2 {
+      padding: 0 0 17px;
+      border-bottom: 1px solid #333;
+  }
+  .next_round dl {
+      margin: 15px 0 0;
+  }
+  .next_round dl dt {
+      font-size: 16px;
+      font-weight: bold;
+  }
+  .next_round dl dd {
+      margin: 15px 0 0;
+      font-size: 14px;
+      line-height: 2.2;
+  }
+  .next_round .note {
+      margin: 15px 0 0;
+      padding: 0 0 0 1em;
+      text-indent: -1em;
+  }
+}
+@media screen and (min-width: 768px) {
+  .next_round {
+  }
+  .next_round h2 {
+      padding: 0 0 25px;
+      border-bottom: 1px solid #333;
+  }
+  .next_round dl {
+      margin: 20px 0 0;
+  }
+  .next_round dl dt {
+      font-size: 18px;
+      font-weight: bold;
+  }
+  .next_round dl dd {
+      margin: 15px 0 0;
+      font-size: 16px;
+      line-height: 2.2;
+  }
+  .next_round .note {
+      margin: 15px 0 0;
+      padding: 0 0 0 1em;
+      text-indent: -1em;
+  }
+}
+
+
+/* - 戻るボタン用（2016.04.04追記）
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .btn__back {
+      display: block;
+      position: relative;
+      border: 1px solid #333;
+      color: #fff;
+      font-size: 12px;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      padding: 13px 0 13px 45px;
+  }
+  .btn__back:before {
+      border-right: 1px solid #fff;
+      border-top: 1px solid #fff;
+      content: "";
+      display: block;
+      height: 8px;
+      left: 18px;
+      margin-top: -4px;
+      position: absolute;
+      top: 50%;
+      transform: rotate(-135deg);
+      width: 8px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .btn__back{
+      display: block;
+      position: relative;
+      border: 1px solid #333;
+      color: #fff;
+      font-size: 14px;
+      margin-bottom: 50px;
+      margin-top: 50px;
+      max-width: 340px;
+      padding: 15px 24px 15px 45px;
+      line-height: 1.1;
+  }
+  .btn__back:before{
+      border-right: 1px solid #fff;
+      border-top: 1px solid #fff;
+      content: "";
+      display: block;
+      height: 8px;
+      left: 16px;
+      margin-top: -4px;
+      position: absolute;
+      top: 50%;
+      transform: rotate(-135deg);
+      width: 8px;
+  }
+  .btn__back:hover{
+      border: 1px solid #f00;
+      color: #f00;
+  }
+  .btn__back:hover:before{
+      border-right: 1px solid #f00;
+      border-top: 1px solid #f00;
+  }
+}
+
+
+/* - セクション背景色グレー用（2016.04.13追記）
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px){
+  .bg-gray{
+      overflow: hidden !important;
+      padding: 25px 20px !important;
+      background: #333 !important;
+  }
+  .bg-gray .title{
+      margin-top: 0 !important;
+  }
+}
+@media screen and (min-width: 768px){
+  .bg-gray{
+      overflow: hidden !important;
+      padding: 25px 30px !important;
+      background: #333 !important;
+  }
+}
+
+
+/* - セクションタイトル下線用（2016.04.13追記）
+------------------------------------------------------------------- */
+@media screen and (max-width: 767px){
+  .title-border .title{
+      padding: 0 0 15px;
+      border-bottom: 1px solid #666;
+  }
+}
+@media screen and (min-width: 768px){
+  .title-border .title{
+      padding: 0 0 15px;
+      border-bottom: 1px solid #666;
+  }
+}
+
+
+/* - テキストラベル・テキストバンド用（2016.04.28追記）
+------------------------------------------------------------------- */
+#main #contents .txt-label{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 4px 5px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1;
+    vertical-align: middle;
+}
+#main #contents .txt-label.new{
+    color: #fff;
+    background: #e30000;
+}
+#main #contents .txt-label.remind{
+    color: #e30000;
+    background: #fff;
+}
+#main #contents .txt-label.close{
+    background: #444;
+    color: #999;
+}
+
+#main #contents .txt-band{
+    padding: 5px 20px;
+    text-align: center;
+}
+#main #contents .txt-band p{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+#main #contents .txt-band.remind{
+    background: #e30000;
+    color: #fff;
+}
+#main #contents .txt-band.close{
+    background: #444;
+    color: #999;
+}
+
+
+/* - ボタンセクションのボタンサイズ変更（横幅いっぱい）（2016.07.27追記）
+------------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  #contents-body .section.button.full-button ul li{
+      display: block;
+  }
+  #contents-body .section.button.full-button ul li a.btn-text{
+      display: block;
+      width: auto;
+      max-width: 100%;
+      text-align: center;
+  }
+}
+
+
+/* - ボタンセクションのボタンのリンク無し設定（2016.07.28追記）
+------------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  #contents-body .section.button.nolink-button ul li a.btn-text{
+      display: block;
+      width: auto;
+      max-width: 100%;
+      padding: 18px 20px;
+      border: 1px solid #333;
+      color: #666;
+      cursor: default;
+      text-align: center;
+  }
+  #contents-body .section.button.nolink-button ul li a.btn-text:after{
+      background: none;
+  }
+}
+
+
+/* - 画像セクションの「画像を1行1枚に設定」する際のサイズ指定（2016.08.25追記）
+------------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  #contents-body .section.image-90{
+      width: 90%;
+      margin: 0 auto 40px;
+  }
+  #contents-body .section.image-80{
+      width: 80%;
+      margin: 0 auto 40px;
+  }
+  #contents-body .section.image-70{
+      width: 70%;
+      margin: 0 auto 40px;
+  }
+  #contents-body .section.image-60{
+      width: 60%;
+      margin: 0 auto 40px;
+  }
+  #contents-body .section.image-50{
+      width: 50%;
+      margin: 0 auto 40px;
+  }
+}
+
+#race-header .header-inner .local-navi nav >ul >li >a.nolink {
+  pointer-events: none !important;
+  color: #555 !important;
+}

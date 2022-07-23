@@ -1,0 +1,144 @@
+<Config>
+  <Viewpoints>
+    <Viewpoint name="exterior" position="9.989186665863144, 242.68282404662136, 581.5578043560673" center="0, 45, 0" minLimits="2, null, 450" maxLimits="75, null, 600"/>
+    <Viewpoint name="exteriorTilted" position="8.958023615356211, -60.93859328826227, 581.5590078777618" center="0, 45, 0" minLimits="2, null, 450" maxLimits="75, null, 600"/>
+  </Viewpoints>
+  <VariantSets path="CAR_Prius.xml">
+    <Item set="MJ011" wheels="MJ011" />
+  </VariantSets>
+  <Option name="root" selectable="false" title="Root">
+    <Option name="Prius" selectable="false" svgTitleFile="gr-prius-phv.svg" title="PRIUS PHV GR SPORT" type="car">
+      <Option name="wheels" selectable="false" switch-material-names="Prius_GlossyWheelOuter, Prius_GlossyWheelInner" title="Wheels">
+        <Option name="mj011" thumb="./assets/vehicles/prius/wheels/DarkSputterWheel.jpg" title="225/40R18タイヤ&amp;18×7&#189;Jアルミホイール(ダークスパッタリング)" partID="Wheel-18">
+          <State>
+            <Asset name="MJ011" />
+            <Asset name="IN_Chrome" switch-material-name="Prius_GlossyWheelInner" />
+            <Asset name="OUT_Chrome" switch-material-name="Prius_GlossyWheelOuter" />
+          </State>
+        </Option>
+        <Option name="mj013" thumb="./assets/vehicles/prius/wheels/DOPwheel.jpg" title="225/40R18ﾀｲﾔ&amp;18×7½Jｱﾙﾐﾎｲｰﾙ (ﾀﾞｰｸｸﾞﾚｰ塗装+切削光輝+ﾚｰｻﾞｰ照射ﾚｯﾄﾞﾗｲﾝ)" partID="Wheel-19">
+          <State>
+            <Asset name="MJ013" />
+            <Asset name="IN_DarkGray" switch-material-name="Prius_GlossyWheelInner" />
+            <Asset name="OUT_Bright" switch-material-name="Prius_GlossyWheelOuter" />
+            <Asset name="grp_priusPHV_wheelStripes" />
+          </State>
+        </Option>
+      </Option>
+      <Option multi-select="true" name="parts" selectable="false" title="Parts">
+        <Option name="RearQuarterPanelBlack" radio-group="quarter-panel" thumb="./assets/vehicles/prius/parts/QuarterPanelBlack.jpg" title="クォーターパネル クロ" viewpoint="" partID="QuarterPanelBlack">
+          <State>
+            <Asset name="grp_priusPHV_quarterPanel" />
+          </State>
+          <State>
+            <Asset name="grp_priusPHV_rearBumperVar" />
+          </State>
+        </Option>
+        <Option name="DecalBody" thumb="./assets/vehicles/prius/parts/BodyStripe.jpg" title="GRボディストライプ" viewpoint="" partID="Bodystripe-forGR">
+          <State>
+            <Asset name="grp_PriusPHV_bodyStripe" />
+          </State>
+        </Option>
+        <Option name="FrontSpoiler" thumb="./assets/vehicles/prius/parts/frontunderspoiler.jpg" title="GRフロントアンダースポイラー" viewpoint="" partID="FrontUnderSpoiler-forGR">
+          <State>
+            <Asset name="grp_priusPHV_spoilers" />
+          </State>
+        </Option>
+        <Option name="DischargeTapeLrg" radio-group="dischargeTape" thumb="./assets/vehicles/prius/parts/LargeTape.jpg" title="GRディスチャージテープ　大（GRロゴ入りアルミテープ）" viewpoint="" partID="DischargeTape-large-forGR">
+          <State>
+            <Asset name="grp_priusPHV_dischargeTapeLarge" />
+          </State>
+        </Option>
+        <Option name="DischargeTapeSml" radio-group="dischargeTape" thumb="./assets/vehicles/prius/parts/Smalltape.jpg" title="GRディスチャージテープ　小（GRロゴ入りアルミテープ）" viewpoint="" partID="DischargeTape-small-forGR">
+          <State>
+            <Asset name="grp_priusPHV_dischargeTapeSmall" />
+          </State>
+        </Option>
+      </Option>
+      <Option name="paint" selectable="false" switch-material-names="Carpaint_MASTER" title="ボディカラー">
+        <Option colour="#ECEDE4" id="070" name="WhitePearlCS." selected="true" title="ホワイトパールクリスタルシャイン〈070〉※ﾒｰｶｰｵﾌﾟｼｮﾝ" partID="WhitePearlCrystalShine-070">
+          <State>
+            <Asset name="Carpaint_070" switch-material-name="Carpaint_MASTER" />
+          </State>
+        </Option>
+        <Option colour="#BCC0C1" id="1F7" name="Silvermetallic" selected="false" title="シルバーメタリック〈1F7〉" partID="SilverMetallic">
+          <State>
+            <Asset name="Carpaint_1F7" switch-material-name="Carpaint_MASTER" />
+          </State>
+        </Option>
+        <Option colour="#131418" id="218" name="BlackMica" selected="false" title="アティチュードブラックマイカ〈218〉" partID="AttitudeBlackMica">
+          <State>
+            <Asset name="Carpaint_218" switch-material-name="Carpaint_MASTER" />
+          </State>
+        </Option>
+        <Option colour="#0094AE" id="791" name="Spiritedaqua" selected="false" title="スピリテッドアクアメタリック〈791〉" partID="SpiritedAquaMetallic">
+          <State>
+            <Asset name="Carpaint_791" switch-material-name="Carpaint_MASTER" />
+          </State>
+        </Option>
+        <Option colour="#7D0504" id="3T7" name="EmotionalRed" selected="false" title="エモーショナルレッドⅡ〈3U5〉※メーカーオプション" partID="EmotionalRed">
+          <State>
+            <Asset name="Carpaint_3T7" switch-material-name="Carpaint_MASTER" />
+          </State>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="interiors" selectable="false" title="インテリア">
+      <Option image="./assets/vehicles/prius/interior/priusphv_interior_1-compressor.png" name="Interior_1" selected="true" thumb="./assets/vehicles/prius/interior/thumbnails/priusphv_interior_1.jpg" title="INTERIOR 1" partID="interior1" />
+      <Option image="./assets/vehicles/prius/interior/priusphv_interior_2-compressor.png" name="Interior_2" selected="false" thumb="./assets/vehicles/prius/interior/thumbnails/priusphv_interior_2.jpg" title="INTERIOR 2" partID="interior2" />
+    </Option>
+    <Option name="environments" selectable="false" title="背景">
+      <Option name="Garage" selected="false" thumb="./assets/environments/thumbnails/garage.jpg" title="GARAGE" partID="GARAGE" />
+      <Option name="Mountains" selected="false" thumb="./assets/environments/thumbnails/mountain-pass.jpg" title="MOUNTAIN" partID="MOUNTAIN" />
+      <Option name="City_Night" selected="false" thumb="./assets/environments/thumbnails/night-city.jpg" title="CITY" partID="NIGHT" />
+      <Option name="City_Day" selected="false" thumb="./assets/environments/thumbnails/day-city.jpg" title="TOWN" partID="DAY" />
+      <Option name="StudioEnv" selected="true" thumb="./assets/environments/thumbnails/studio.jpg" title="BLACK" partID="BLACK" />
+      <Option name="White" selected="false" thumb="./assets/environments/thumbnails/studio-white.jpg" title="WHITE" partID="WHITE" />
+    </Option>
+  </Option>
+  <Materials>
+    <SwitchMaterial name="Carpaint_MASTER" property-names="RGB_Colour, Spec, DiffuseIntensity" property-types="rgb, rgb, value">
+      <PropertySet name="Carpaint_070">
+        <Property value="0.692, 0.685, 0.646" />
+        <Property value="1.0, 1.0, 1.0" />
+        <Property value="1.0" />
+      </PropertySet>
+      <PropertySet name="Carpaint_1F7">
+        <Property value="0.8377928733825684, 0.8767793774604797, 1.0" />
+        <Property value="1.0, 1.0, 1.0" />
+        <Property value="0.10000000149011612" />
+      </PropertySet>
+      <PropertySet name="Carpaint_218">
+        <Property value="0.003935939632356167, 0.003935939632356167, 0.003935939632356167" />
+        <Property value="1.0, 1.0, 1.0" />
+        <Property value="0.800000011920929" />
+      </PropertySet>
+      <PropertySet name="Carpaint_791">
+        <Property value="0.0, 0.492, 1.0" />
+        <Property value="1.0, 1.0, 1.0" />
+        <Property value="0.20" />
+      </PropertySet>
+      <PropertySet name="Carpaint_3T7">
+        <Property value="1.0, 0.015, 0.036" />
+        <Property value="0.523, 0.523, 0.523" />
+        <Property value="0.25" />
+      </PropertySet>
+    </SwitchMaterial>
+    <SwitchMaterial name="Prius_GlossyWheelInner" property-names="Inner_Colour" property-types="rgb">
+      <PropertySet name="IN_DarkGray">
+        <Property value="1.0, 1.0, 1.0" />
+      </PropertySet>
+      <PropertySet name="IN_Chrome">
+        <Property value="0.0, 0.0, 0.0" />
+      </PropertySet>
+    </SwitchMaterial>
+    <SwitchMaterial name="Prius_GlossyWheelOuter" property-names="Outer_Colour" property-types="rgb">
+      <PropertySet name="OUT_Bright">
+        <Property value="1.0, 1.0, 1.0" />
+      </PropertySet>
+      <PropertySet name="OUT_Chrome">
+        <Property value="0.0, 0.0, 0.0" />
+      </PropertySet>
+    </SwitchMaterial>
+  </Materials>
+</Config>

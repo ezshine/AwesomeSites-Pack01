@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 71 71" style="enable-background:new 0 0 71 71;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#333333;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M35.5,70.8C16.1,70.8,0.2,55,0.2,35.5C0.2,16.1,16,0.2,35.5,0.2c19.4,0,35.3,15.8,35.3,35.3
+		C70.8,54.9,54.9,70.8,35.5,70.8z M35.5,0.8C16.3,0.8,0.8,16.3,0.8,35.5s15.6,34.8,34.8,34.8s34.8-15.6,34.8-34.8S54.7,0.8,35.5,0.8
+		z"/>
+</g>
+<g>
+	<line class="st1" x1="29.9" y1="30" x2="19.2" y2="40.7"/>
+	<line class="st1" x1="26.9" y1="27" x2="33" y2="33.1"/>
+	<path class="st1" d="M46.7,29.9c0,0-2.8,1.2-3.9,5.2C41.5,39.8,42,45,42,45c-3.2-0.8-7.8-1.5-10.9-0.1c-3.6,1.7-3.6,4.7-3.6,4.7"/>
+	<polyline class="st1" points="45.2,49.7 51.8,28.6 49.8,21.3 	"/>
+	<path class="st1" d="M46.2,21.3c-0.9,1.2-1.4,4.6,0.5,6.3"/>
+</g>
+</svg>

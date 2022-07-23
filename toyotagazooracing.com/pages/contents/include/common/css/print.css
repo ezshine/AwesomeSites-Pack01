@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* ===================================================================
+
+TOYOTA GAZOO Racing / print.css
+
+=================================================================== */
+body{
+    -webkit-print-color-adjust: exact;
+}
+
+body,
+#contents{
+    width: 1000px;
+}
+
+/* 表組み */
+table{
+    min-width: 0 !important;
+    max-width: 100% !important;
+}
+table .nowrap{
+    white-space: normal !important;
+}
+table th, table td {
+    padding: 16px 4px !important;
+}
+
+/*通常スライドショー(parts.cssｔと同じ内容・IE8対応のため、こちらにも併記)*/
+.section.image.slide .bx-wrapper li{
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+}
+.section.image.slide .bx-wrapper li.active{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+}
+.section.image.slide .bx-wrapper li{
+    max-width: 868px;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 500ms;
+    -moz-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    -ms-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+/* 段組みセクション(parts.cssｔと同じ内容・IE8対応のため、こちらにも併記) */
+#contents-body .section.column{
+    overflow: hidden;
+}
+#contents-body .section.column .figure-block{
+    margin-top: 0;
+}
+#contents-body .section.column .figure-block > dl,
+#contents-body .section.column .figure-block > a > dl{
+    margin-bottom: 32px;
+}
+#contents-body .section.column.image-l .figure-block,
+#contents-body .section.column.image-r .figure-block{
+    width: 50%;
+}
+#contents-body .section.column.image-l.image-70 .figure-block,
+#contents-body .section.column.image-r.image-70 .figure-block{
+    width: 70%;
+}
+#contents-body .section.column.image-l.image-60 .figure-block,
+#contents-body .section.column.image-r.image-60 .figure-block{
+    width: 60%;
+}
+#contents-body .section.column.image-l.image-40 .figure-block,
+#contents-body .section.column.image-r.image-40 .figure-block{
+    width: 40%;
+}
+#contents-body .section.column.image-l.image-30 .figure-block,
+#contents-body .section.column.image-r.image-30 .figure-block{
+    width: 30%;
+}
+#contents-body .section.column.image-l.image-20 .figure-block,
+#contents-body .section.column.image-r.image-20 .figure-block{
+    width: 20%;
+}
+#contents-body .section.column.image-l.image-10 .figure-block,
+#contents-body .section.column.image-r.image-10 .figure-block{
+    width: 10%;
+}
+
+/* image-l（画像を左に配置） */
+#contents-body .section.column.image-l .figure-block{
+    float: left;
+    padding-right: 32px;
+}
+
+/* image-r（画像を右に配置） */
+#contents-body .section.column.image-r .figure-block{
+    float: right;
+    padding-left: 32px;
+}
+
+/* notwrap（画像の下に回り込まない） */
+#contents-body .section.column.notwrap .text-block,
+#contents-body .section.column.image-l.notwrap .figure-block,
+#contents-body .section.column.image-r.notwrap .figure-block,
+#contents-body .section.column.image-l.notwrap .figure-block.cms-pc,
+#contents-body .section.column.image-r.notwrap .figure-block.cms-pc{
+    display: table-cell;
+}
+
+#contents-body .section.column.sp-under .figure-block.cms-pc{
+    display: block;
+}
+
+/* sp-under（SP表示時に画像を下に表示） */
+#contents-body .section.column.sp-under .figure-block.cms-sp,
+#contents-body .section.column.image-l.notwrap .figure-block.cms-sp,
+#contents-body .section.column.image-r.notwrap .figure-block.cms-sp,
+#contents-body .section.column.notwrap.has-table .text-block.cms-sp,
+#contents-body .section.column.image-l.notwrap.has-table .figure-block.cms-sp,
+#contents-body .section.column.image-r.notwrap.has-table .figure-block.cms-sp{
+    display: none;
+}
+
+/* 段組み内のtable用 */
+#contents-body .section.column.notwrap.has-table .text-block,
+#contents-body .section.column.image-l.notwrap.has-table .figure-block,
+#contents-body .section.column.image-r.notwrap.has-table .figure-block{
+    display: inline-block;
+}
+#contents-body .section.column.notwrap.has-table .text-block,
+#contents-body .section.column.has-table .text-block .table-wrapper{
+    width: 50%;
+}
+#contents-body .section.column.image-l.notwrap.image-70 .text-block,
+#contents-body .section.column.image-r.notwrap.image-70 .text-block,
+#contents-body .section.column.image-l.image-70 .text-block .table-wrapper,
+#contents-body .section.column.image-r.image-70 .text-block .table-wrapper{
+    width: 30%;
+}
+#contents-body .section.column.image-l.notwrap.image-60 .text-block,
+#contents-body .section.column.image-r.notwrap.image-60 .text-block,
+#contents-body .section.column.image-l.has-table.image-60 .text-block .table-wrapper,
+#contents-body .section.column.image-r.has-table.image-60 .text-block .table-wrapper{
+    width: 40%;
+}
+#contents-body .section.column.image-l.notwrap.image-40 .text-block,
+#contents-body .section.column.image-r.notwrap.image-40 .text-block,
+#contents-body .section.column.image-l.has-table.image-40 .text-block .table-wrapper,
+#contents-body .section.column.image-r.has-table.image-40 .text-block .table-wrapper{
+    width: 60%;
+}
+#contents-body .section.column.image-l.notwrap.image-30 .text-block,
+#contents-body .section.column.image-r.notwrap.image-30 .text-block,
+#contents-body .section.column.image-l.has-table.image-30 .text-block .table-wrapper,
+#contents-body .section.column.image-r.has-table.image-30 .text-block .table-wrapper{
+    width: 70%;
+}
+#contents-body .section.column.image-l.notwrap.image-20 .text-block,
+#contents-body .section.column.image-r.notwrap.image-20 .text-block,
+#contents-body .section.column.image-l.has-table.image-20 .text-block .table-wrapper,
+#contents-body .section.column.image-r.has-table.image-20 .text-block .table-wrapper{
+    width: 80%;
+}
+#contents-body .section.column.image-l.notwrap.image-10 .text-block,
+#contents-body .section.column.image-r.notwrap.image-10 .text-block,
+#contents-body .section.column.image-l.has-table.image-10 .text-block .table-wrapper,
+#contents-body .section.column.image-r.has-table.image-10 .text-block .table-wrapper{
+    width: 90%;
+}
+#contents-inner #contents-body .section.column.has-table.notwrap .text-block .table-wrapper{
+    width: 100%;
+}
+
+/* ボタンセクション(parts.cssｔと同じ内容・IE8対応のため、こちらにも併記) */
+#contents-body .section.button ul{
+    margin-top: -10px;
+    margin-left: -16px;
+}
+#contents-body .section.button.column-l ul{
+    margin-left: -10px;
+}
+#contents-body .section.button ul li{
+    display: inline-block;
+    margin-top: 13px;
+}
+a.btn-text,
+#contents-body .section.button ul li a.btn-text{
+    width: auto;
+    min-width: 275px;
+    max-width: 470px;
+}
+#contents-body .section.button ul li a.btn-text{
+    margin-left: 16px;
+}
+#contents-body .section.button.column-l ul li a.btn-text{
+    margin-left: 10px;
+}
+a.btn-img,
+#contents-body .section.button ul li a.btn-img{
+    margin-top: 0;
+    margin-right: 16px;
+    margin-left: 44px;
+}
+a.btn-img img,
+#contents-body .section.button ul li a.btn-img img{
+    width: 100%;
+    max-width: none;
+}
+
+/* ヘッダー・フッター */
+body #gr-header .header-inner aside.external-links,
+body #gr-header .header-inner .sub-navigation,
+body #gr-header .header-inner .main-navigation{
+    display: none;
+}
+body #gr-footer{
+    position: relative;
+}
+body #gr-footer .footer-navigation,
+body #gr-footer .footer-contents .page-top,
+body #gr-footer .footer-contents .footer-legal .legal-links,
+body #gr-footer .footer-contents .external-links{
+    display: none;
+}
+body #gr-footer .footer-contents .footer-legal{
+    margin-top: 30px;
+}
+body #gr-footer .footer-contents .footer-legal .copyright{
+    float: none;
+    display: block;
+    text-align: center;
+}
+
+/* プレスリリース */
+.date-sns .sns-btn{
+    display: none;
+}

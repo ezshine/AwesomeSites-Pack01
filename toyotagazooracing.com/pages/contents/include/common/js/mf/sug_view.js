@@ -1,0 +1,6 @@
+/**
+ * Copyright MARS FLAG Corporation. All rights reserved.
+ *
+ * http://www.marsflag.com/
+ */
+window.MF_suggest_tmpl=function(B,C){if(B==undefined){B={}}try{var E=[];E.p=E.push;(function(){var I=B.prefix;var G=B.handler;var H=B.data;E.p('<table cellpadding="0" cellspacing="0" border="0" width="100%">\n');if(H&&H.length){for(var F=0;F<H.length;F++){E.p('<tr class="suggest_row_');E.p(F%2);E.p('"\n\tid="');E.p(I);E.p(F);E.p('"\n\tonmouseover="try{');E.p(G);E.p(".focus(");E.p(F);E.p(');}catch(e){}"\n\tonmousedown="try{');E.p(G);E.p('.suggest_mousedown(event);}catch(e){}"\n\tonclick="try{');E.p(G);E.p('.suggest_click(event);}catch(e){}"\n\n><td align="left"\n\tclass="suggest_data_word"\n\tstyle="\n\t\tpadding-left: 2px;\n\t"\n\tnowrap\n>');E.p(H[F].word);E.p('</td>\n<td align="left" valign="middle"\n\tclass="suggest_data_graph"\n\t><div\n\t\t style="\n\t\t\twidth: ');E.p(Math.floor(H[F].point));E.p('px;\n\t\t\theight: 3px;\n\t\t\toverflow:hidden;\n\t\t "\n\t></div\n></td>\n</tr>\n')}}E.p("</table>\n")})()}catch(D){return{exception:D,message:"An exception occurred while excuting template. Error type: "+D.name+". Error message: "+D.message}}var A=E.join("");if(typeof C!="undefined"){if(typeof C=="string"){C=document.getElementById(C)}C.innerHTML=A}return A};

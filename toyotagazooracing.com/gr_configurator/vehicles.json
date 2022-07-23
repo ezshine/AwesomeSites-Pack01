@@ -1,0 +1,17 @@
+[
+  {
+    "xml": "prius",
+    "route": "/grspriusphv",
+    "pageID": "grs-priusphv",
+    "carPage": "/jp/gr/grspriusphv/",
+    "title": "PRIUS PHV GR SPORT",
+    "thumbnail": "prius-phv.png",
+    "heroImage": "./img/carousel/hero/Prius_PHV.jpg",
+    "mobileHero": "./img/carousel/mobile/Prius_PHV.jpg",
+    "rollOverImage": "./img/carousel/rollover/Prius_PHV_b.jpg",
+    "estimateSimulation": "https://toyota.jp/service/estimate_simulation/dc/grade?mode=list&CAR_NAME_EN=PRIUS+PHV&CAR_TYPE_CD=G++&CATALOG_CAR_CODE=001toyota_prius%20phv_002_p_008",
+    "findADealer": "https://toyota.jp/service/dealer/spt/search-addr?mode=form&SELECT_MODEL_KIND=1&CAR_NAME_EN=PRIUS+PHV&SEARCH_DETAIL_FLG=1",
+    "enabled": true,
+    "available": true
+  }
+]
