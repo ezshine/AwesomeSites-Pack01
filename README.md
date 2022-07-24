@@ -1,6 +1,6 @@
-# Awesome Three.js Sites-01
+# Awesome Sites Pack01
 
-> collected in [AwesomeSite](https://github.com/ezshine/AwesomeSite)
+> collected in [AwesomeSites](https://github.com/ezshine/AwesomeSites)
 
 - bruno-simon.com
 - microwaver59.com
@@ -32,3 +32,4 @@
 - kodingergoy.arkivert.no
 - toyotagazooracing.com
 - interview.ueno.co
+- www.chocapic-nutri-game.fr
