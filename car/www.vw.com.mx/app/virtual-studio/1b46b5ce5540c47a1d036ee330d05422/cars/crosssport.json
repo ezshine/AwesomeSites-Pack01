@@ -1,0 +1,717 @@
+{
+  "scene": "VW Cross Sport MY22",
+  "groupings": {
+    "carpaint": "Select your Color",
+    "background": "BG Colors",
+    "wheels": "Choose your Wheel",
+    "lights": "Toggle Main Lights",
+    "welcomeScreen": "Toggle Welcome Screen"
+  },
+  "defaultState":{
+    "interior":[
+      "Interior Accent Titan Black and Quarz",
+      "Interior Accent Dark Burgundy and Titan Black"
+    ]
+  },
+  "ambilight": {
+    "materials": [
+      "Ambilight Cross Sport"
+    ],
+    "colors": [
+      "ffffff",
+      "e2e2e2",
+      "c6c6c6",
+      "ababab",
+      "919191",
+      "777777",
+      "5e5e5e",
+      "474747",
+      "303030",
+      "1b1b1b"
+    ]
+  },
+  "cameras": {
+    "orbit": {
+      "desktop": "Orbit Desktop",
+      "mobile": "Orbit Mobile"
+    },
+    "wheel": {
+      "desktop": "Cross Sport Wheels"
+    },
+    "intermediateSeatFL": {
+      "desktop": "Seat FL In Out",
+      "time": 1000
+    },
+    "intermediateSeatFR": {
+      "desktop": "Seat FR In Out",
+      "time": 1000
+    },
+    "intermediateSeatRL": {
+      "desktop": "Seat RL In Out",
+      "time": 1000
+    },
+    "intermediateSeatRR": {
+      "desktop": "Seat RR In Out",
+      "time": 1000
+    },
+    "exitInteriorL": {
+      "state": true,
+      "desktop": "Exit L Desktop",
+      "mobile": "Exit L Mobile"
+    },
+    "exitInteriorR": {
+      "state": true,
+      "desktop": "Exit R Desktop",
+      "mobile": "Exit R Mobile"
+    },
+    "seatFL": {
+      "desktop": "Cross Sport Seat FL"
+    },
+    "seatFR": {
+      "desktop": "Cross Sport Seat FR"
+    },
+    "seatRL": {
+      "desktop": "Cross Sport Seat RL"
+    },
+    "seatRR": {
+      "desktop": "Cross Sport Seat RR"
+    },
+    "ghLights": {
+      "desktop": "GHS Lights"
+    },
+    "ghDoorsLeft": {
+      "desktop": "GHS Doors Left",
+      "mobile": "GHS Doors Left M"
+    },
+    "ghDoorsRight": {
+      "desktop": "GHS Doors Right",
+      "mobile": "GHS Doors Right M"
+    },
+    "ghTrunk": {
+      "desktop": "GHS Trunk"
+    },
+    "trunkLoading": {
+      "desktop": "Trunk Loading Desktop",
+      "mobile": "Trunk Loading Mobile"
+    },
+    "passengerStanding": {
+      "desktop": "Occupant Standing Desktop",
+      "mobile": "Occupant Standing Mobile"
+    },
+    "passengerIntDriver": {
+      "desktop": "Occupant Int Driver High Desktop",
+      "mobile": "Occupant Int Driver High Mobile"
+    },
+    "passengerIntDriverInOut": {
+      "desktop": "Occupant Int Driver High Desktop",
+      "mobile": "Occupant Int Driver High Mobile"
+    },
+    "passengerIntFL": {
+      "desktop": "Occupant Int FL Desktop",
+      "mobile": "Occupant Int FL Mobile"
+    },
+    "passengerIntFR": {
+      "desktop": "Occupant Int FR Desktop",
+      "mobile": "Occupant Int FR Mobile"
+    },
+    "passengerIntRL": {
+      "desktop": "Occupant Int RL Desktop",
+      "mobile": "Occupant Int RL Mobile"
+    },
+    "passengerIntRR": {
+      "desktop": "Occupant Int RR Desktop",
+      "mobile": "Occupant Int RR Mobile"
+    },
+    "xrayCar": {
+      "desktop": "Xray Orbit Desktop",
+      "mobile": "Xray Orbit Mobile"
+    },
+    "xraySeat": {
+      "desktop": "Xray Orbit Desktop",
+      "mobile": "Xray Orbit Mobile"
+    },
+    "xrayTrunk": {
+      "desktop": "Xray Orbit Desktop",
+      "mobile": "Xray Orbit Mobile"
+    }
+  },
+  "animations": {
+    "doorFL": [
+      "EXT DOOR FLAction",
+      "Ext Door Limiter FL",
+      "INT DOOR FLAction"
+    ],
+    "doorFR": [
+      "EXT DOOR FRAction",
+      "Ext Door Limiter FR",
+      "INT DOOR FRAction"
+    ],
+    "doorRL": [
+      "EXT DOOR RLAction",
+      "Ext Door Limiter RL",
+      "INT DOOR RLAction"
+    ],
+    "doorRR": [
+      "EXT DOOR RRAction",
+      "Ext Door Limiter RR",
+      "INT DOOR RRAction"
+    ],
+    "trunkLid": [
+      "EXT TRUNK LIDAction",
+      "Ext Trunk Lid Hyd L1",
+      "Ext Trunk Lid Hyd L2",
+      "Ext Trunk Lid Hyd R1",
+      "Ext Trunk Lid Hyd R2",
+      "INT TRUNK LIDAction"
+    ],
+    "sunRoof": [
+      "Ext Sun RoofAction",
+      "Int Wind Deflector AAction",
+      "Int Wind Deflector BAction"
+    ],
+    "cupHolder": [
+      "INT CUPHOLDERAction",
+      "Int Cupholder StrapAction"
+    ],
+    "airbags": [
+      "Int Airbag DriverAction",
+      "Int Airbag Driver SeatAction",
+      "Int Airbag PassengerAction",
+      "Int Airbag Passenger SeatAction",
+      "Int Airbag Side LAction",
+      "Int Airbag Side RAction"
+    ]
+  },
+  "trigger": {
+    "carpaint": [
+      "Ext_Body#Car_Paint",
+      "Ext_Door_FL#Car_Paint",
+      "Ext_Door_FR#Car_Paint",
+      "Ext_Door_RL#Car_Paint",
+      "Ext_Door_RR_Car_Paint",
+      "Ext_Trunk_Lid#Car_Paint",
+      "Ext_Door_RR#Car_Paint"
+    ],
+    "interiorColor": [
+      "Int_Door_FL#Accent",
+      "Int_Door_FR#Accent",
+      "Int_Door_RL#Accent",
+      "Int_Door_RR#Accent",
+      "Int_Ambilight_Main"
+    ],
+    "lights": [
+      "Ext Lights Glass_0",
+      "Ext Lights Glass_1",
+      "Ext Trunk Lid#Taillight Glass_0",
+      "Ext Trunk Lid#Taillight Glass_1"
+    ],
+    "wheels": [
+    ],
+
+    "doorFL": [
+      "Ext_Door_FL#Mesh_Trigger",
+      "Int_Door_FL#Mesh_Trigger"
+    ],
+    "doorFR": [
+      "Ext_Door_FR#Mesh_Trigger",
+      "Int_Door_FR#Mesh_Trigger"
+    ],
+    "doorRL": [
+      "Ext_Door_RL#Mesh_Trigger",
+      "Int_Door_RL#Mesh_Trigger"
+    ],
+    "doorRR": [
+      "Ext_Door_RR#Mesh_Trigger",
+      "Int_Door_RR#Mesh_Trigger"
+    ],
+
+    "trunkLid": [
+      "Ext_Trunk_Lid#Mesh_Trigger"
+    ],
+
+    "seatFL": [
+      "Int_Seat_FL#Mesh_Trigger"
+    ],
+    "seatFR": [
+      "Int_Seat_FR#Mesh_Trigger"
+    ],
+    "seatRL": [
+      "Int_Seat_RL#Mesh_Trigger"
+    ],
+    "seatRR": [
+      "Int_Seat_RR#Mesh_Trigger"
+    ],
+    "sunRoof": [
+      "Ext Sun Roof_0",
+      "Ext Sun Roof_1",
+      "Ext Sun Roof_2"
+    ],
+    "welcomeScreen": "Int_Welcome_Screen#Mesh_Trigger",
+    "cupHolder": "Int_Cupholder#Mesh_Trigger",
+
+    "exitInterior": [
+      "BG_Color_Dome",
+      "Skydome_2",
+      "Ext_Light_Beams",
+      "Shadow#Ground_Shadow"
+    ],
+
+    "ghLights": {
+      "trigger": "GHS_Front#Mesh_Trigger",
+      "object": "GHS_Front_Icon#Ground_Hotspots"
+    },
+    "ghDoorsLeft": {
+      "trigger": "GHS_Doors_Left#Mesh_Trigger",
+      "object": "GHS_Doors_Left_Icon#Ground_Hotspots"
+    },
+    "ghDoorsRight": {
+      "trigger": "GHS_Doors_Right#Mesh_Trigger",
+      "object": "GHS_Doors_Right_Icon#Ground_Hotspots"
+    },
+    "ghTrunk": {
+      "trigger": "GHS_Back#Mesh_Trigger",
+      "object": "GHS_Back_Icon#Ground_Hotspots"
+    },
+
+    "plate": [
+      "Ext_Plate#Mesh_Trigger",
+      "Ext_Trunk_Lid_Plate#Mesh_Trigger"
+    ]
+  },
+  "hotspots": {
+    "exterior": [
+      "Ext LED",
+      "Ext Engine",
+      "Ext Sun Roof",
+	  "Ext Rim",
+      "IA Door FL Closed",
+      "IA Door FL Opened",
+      "IA Door FR Closed",
+      "IA Door FR Opened",
+      "IA Door RL Closed",
+      "IA Door RL Opened",
+      "IA Door RR Closed",
+      "IA Door RR Opened",
+      "IA Headlight",
+	  "IA Sun Roof",
+      "IA Exterior Seat FL",
+      "IA Exterior Seat RL",
+      "IA Exterior Seat FR",
+      "IA Exterior Seat RR",
+      "IA Trunk Closed",
+      "IA Trunk Opened",
+      "IA Taillight",
+      "IA Paint Exterior"
+    ],
+    "interior": [
+	  "Int App Connect",
+	  "Int Cockpit",
+	  "Int Clima",
+	  "Int Interiors",
+      "IA Driver Door Exit Closed",
+      "IA Driver Door Exit Opened",
+      "IA Door RL Exit Closed",
+      "IA Door RL Exit Opened",
+      "IA Door RR Exit Closed",
+      "IA Door RR Exit Opened",
+      "IA Door FR Exit Closed",
+      "IA Door FR Exit Opened",
+      "IA Driver Seat",
+      "IA Passenger Seat",
+      "IA Seat RL",
+      "IA Seat RR",
+      "IA Cupholder Opened",
+      "IA Cupholder Closed",
+      "IA Color Interior"
+    ],
+    "visibility": {
+      "IA Door FL Closed": "door_fl_closed",
+      "IA Door FL Opened": "door_fl_opened",
+      "IA Door FR Closed": "door_fr_closed",
+      "IA Door FR Opened": "door_fr_opened",
+      "IA Door RL Closed": "door_rl_closed",
+      "IA Door RL Opened": "door_rl_opened",
+      "IA Door RR Closed": "door_rr_closed",
+      "IA Door RR Opened": "door_rr_opened",
+      "IA Driver Door Exit Closed": "door_fl_closed",
+      "IA Driver Door Exit Opened": "door_fl_opened",
+      "IA Door RL Exit Closed": "door_rl_closed",
+      "IA Door RL Exit Opened": "door_rl_opened",
+      "IA Door RR Exit Closed": "door_rr_closed",
+      "IA Door RR Exit Opened": "door_rr_opened",
+      "IA Door FR Exit Closed": "door_fr_closed",
+      "IA Door FR Exit Opened": "door_fr_opened",
+      "IA Exterior Seat FL": "door_fl_opened",
+      "IA Exterior Seat FR": "door_fr_opened",
+      "IA Exterior Seat RL": "door_rl_opened",
+      "IA Exterior Seat RR": "door_rr_opened",
+      "IA Trunk Closed": "door_trunklid_closed",
+      "IA Trunk Opened": "door_trunklid_opened",
+      "IA Cupholder Closed": "door_cupholder_opened",
+      "IA Cupholder Opened": "door_cupholder_closed",
+      "Int Sound Closed": "door_fl_closed",
+      "Int Sound Opened": "door_fl_opened"
+    },
+    "headline": [
+    ],
+    "interaction": [
+      {
+        "name": "IA Door FL Closed"
+      },
+      {
+        "name": "IA Door FL Opened"
+      },
+      {
+        "name": "IA Door FR Closed"
+      },
+      {
+        "name": "IA Door FR Opened"
+      },
+      {
+        "name": "IA Door RL Closed"
+      },
+      {
+        "name": "IA Door RL Opened"
+      },
+      {
+        "name": "IA Door RR Closed"
+      },
+      {
+        "name": "IA Door RR Opened"
+      },
+      {
+        "name": "IA Headlight"
+      },
+      {
+        "name": "IA Driver Door Exit Closed"
+      },
+      {
+        "name": "IA Driver Door Exit Opened"
+      },
+      {
+        "name": "IA Door RL Exit Closed"
+      },
+      {
+        "name": "IA Door RL Exit Opened"
+      },
+      {
+        "name": "IA Door RR Exit Closed"
+      },
+      {
+        "name": "IA Door RR Exit Opened"
+      },
+      {
+        "name": "IA Door FR Exit Closed"
+      },
+      {
+        "name": "IA Door FR Exit Opened"
+      },
+      {
+        "name": "IA Sun Roof"
+      },
+      {
+        "name": "IA Driver Seat"
+      },
+      {
+        "name": "IA Passenger Seat"
+      },
+      {
+        "name": "IA Seat RL"
+      },
+      {
+        "name": "IA Seat RR"
+      },
+      {
+        "name": "IA Exterior Seat FL"
+      },
+      {
+        "name": "IA Exterior Seat FR"
+      },
+      {
+        "name": "IA Exterior Seat RL"
+      },
+      {
+        "name": "IA Exterior Seat RR"
+      },
+      {
+        "name": "IA Trunk Closed"
+      },
+      {
+        "name": "IA Trunk Opened"
+      },
+      {
+        "name": "IA Cupholder Closed"
+      },
+      {
+        "name": "IA Cupholder Opened"
+      },
+      {
+        "name": "IA Taillight"
+      },
+      {
+        "name": "IA Paint Exterior"
+      },
+      {
+        "name": "IA Color Interior"
+      }
+    ]
+  },
+  "driving": {
+    "accelerationTime": 3000,
+    "maxVelocity": 0.16,
+    "brakeDecay": 0.96, 
+    "wheels": [
+      "BRASELTON_21_FL",
+      "BRASELTON_21_FR",
+      "BRASELTON_21_RL",
+      "BRASELTON_21_RR"
+    ],
+    "initialCameraTime": 1000,
+    "userCameras": [
+      {
+        "desktop": "Driving Orbit Desktop",
+        "mobile": "Driving Orbit Mobile",
+        "time": 2000,
+        "easing": "quadratic"
+      },
+      {
+        "desktop": "Driving Orbit Side L Mobile",
+        "time": 1500,
+        "easing": "quadratic"
+      },
+      {
+        "desktop": "Driving Orbit Back L Mobile",
+        "time": 1500,
+        "easing": "quadratic"
+      },
+      {
+        "desktop": "Driving Orbit Back Top Mobile",
+        "time": 1500,
+        "easing": "quadratic"
+      },
+      {
+        "desktop": "Driving Orbit Back R Mobile",
+        "time": 1500,
+        "easing": "quadratic"
+      },
+      {
+        "desktop": "Driving Orbit Side R Mobile",
+        "time": 1500,
+        "easing": "quadratic"
+      },
+      {
+        "desktop": "Driving Orbit Front R Mobile",
+        "time": 1500,
+        "easing": "quadratic"
+      },
+      {
+        "desktop": "Driving Orbit Front Top Mobile",
+        "time": 1500,
+        "easing": "quadratic"
+      }
+    ],
+    "presentationCameras": [
+      {
+        "desktop": "DA 01 A",
+        "time": 0,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 01 B",
+        "mobile": "GHS Doors Left M",
+        "time": 5000,
+        "easing": "quadratic_in"
+      },
+      {
+        "desktop": "DA 09 A",
+        "time": 0,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 09 B",
+        "time": 4000,
+        "easing": "quadratic_in"
+      },
+      {
+        "desktop": "DA 02 A",
+        "time": 0,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 02 B",
+        "time": 3000,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 04 A",
+        "time": 0,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 04 B",
+        "time": 4000,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 06 A",
+        "time": 0,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 06 B",
+        "time": 4000,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 03 A",
+        "time": 0,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 03 B",
+        "time": 4000,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 07 A",
+        "time": 0,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 07 B",
+        "time": 8000,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 05 A",
+        "time": 0,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 05 B",
+        "time": 4000,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 08 A",
+        "time": 0,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 08 B",
+        "time": 4000,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 10 A",
+        "time": 0,
+        "easing": "linear"
+      },
+      {
+        "desktop": "DA 10 B",
+        "time": 6000,
+        "easing": "quadratic_out"
+      }
+    ]
+  },
+  "trunkLoading": {
+    "boxes": {
+      "visibilityGroup": "Trunk Loading Boxes",
+      "animationRoot": "TRUNKLOADING_BOXES",
+      "boxRootS": "BOXES_SMALL",
+      "boxRootM": "BOXES_MEDIUM",
+      "boxRootL": "BOXES_LARGE",
+      "trigger": "Trunkload_Boxes_Mesh_Trigger"
+    },
+    "shopping": {
+      "visibilityGroup": "Trunk Loading Shopping",
+      "animationRoot": "TRUNKLOADING_SHOPPING",
+      "bottleRoot": "SHOPPING_BOTTLES",
+      "bagRoot": "SHOPPING_BAGS",
+      "trigger": "Trunkload_Shopping_Mesh_Trigger"
+    },
+    "travelling": {
+      "visibilityGroup": "Trunk Loading Travelling",
+      "animationRoot": "TRUNKLOADING_TRAVELLING",
+      "loadRoot": "TRAVELLING",
+      "trigger": "Trunkload_Travelling_Mesh_Trigger"
+    },
+    "unloadTrigger": "Trunkload_Mesh_Trigger"
+  },
+  "xray": {
+    "enabled": [
+      "car",
+      "seat",
+      "trunk"
+    ],
+    "translucentNodes": [
+      "INTERIOR",
+      "EXTERIOR"
+    ],
+    "hiddenNodes": [
+      "EXT_TRUNK",
+      "EXT_DOORS",
+      "INT_TRUNK",
+      "INT_DOORS"
+    ]
+  },
+  "ar": {
+    "excludedMeshes": [
+      "Ext_Shadow",
+      "Ext#Glow_Daytime_Running_Lights",
+      "Ext#Glow_Main_Red",
+      "Ext_Trunk_Lid#Glow_Taillight",
+      "Ext#Glow_Side_Marker",
+      "Ext_Taillight_Stripes",
+      "Ext_Headlight_Stripes",
+      "Ext#Glow_Main_Cold",
+      "Ext_Light_Beams",
+      "IP_Screen",
+      "Int_Wind_Deflector_B#Material_Atlas",
+      "Int_Wind_Deflector_A#Material_Atlas",
+      "GHS_Front_Icon#Ground_Hotspots",
+      "GHS_Doors_Left_Icon#Ground_Hotspots",
+      "GHS_Doors_Right_Icon#Ground_Hotspots",
+      "GHS_Back_Icon#Ground_Hotspots",
+      "Skydome_2",
+      "Skydome_Driving",
+      "Int_Door_FL#Glass_Clear",
+      "Int_Door_FR#Glass_Clear",
+      "Int_Door_RL#Glass_Clear",
+      "Int_Door_RR#Glass_Clear",
+      "Int_Center#Ambilight",
+      "Int_Door_FL#Ambilight",
+      "Int_Door_FR#Ambilight",
+      "Occupant_FL#Material_Atlas",
+      "Road_Plane",
+      "Int_Airbag_Driver_Seat#Airbags",
+      "Int_Airbag_Driver#Airbags",
+      "Int_Airbag_Passenger_Seat#Airbags",
+      "Int_Airbag_Passenger#Airbags",
+      "Int_Airbag_Side_L#Airbags",
+      "Int_Airbag_Side_R#Airbags",
+	  "Soccer_Scene#Ground_AO",
+	  "Soccer_Scene#Fabric_Triangled_light_Green",
+	  "Soccer_Scene#Black_Leather_Smooth",
+	  "Soccer_Scene#Black_Cord_Fabric",
+	  "Soccer_ball004",
+	  "Soccer_Scene#Material_Atlas",
+	  "Soccer_Scene#VfL_Logo",
+	  "Soccer_ball001",
+	  "Soccer_ball",
+	  "Soccer_ball002",
+	  "Soccer_Scene#Dark_Grey_Cord_Fabric",
+	  "Soccer_Scene#Product_Atlas"
+    ],
+    "disclaimerMesh": "Disclaimer_Spanish",
+    "materialOverrideMeshes": [
+      "Ext_Taillight_Body#Material_Atlas_AR",
+      "Ext_Taillight_Body#Reflector_White_AR",
+      "Ext_Taillight_Body#Chrome_Stripes_AR",
+      "Ext_Taillight_Body#Chrome_Squares_AR",
+      "Ext_Taillight_Trunk#Chrome_Stripes_AR",
+      "Ext_Taillight_Trunk#Material_Atlas_AR",
+      "Ext_Taillight_Trunk#Reflector_White_AR"
+    ]
+  }
+}

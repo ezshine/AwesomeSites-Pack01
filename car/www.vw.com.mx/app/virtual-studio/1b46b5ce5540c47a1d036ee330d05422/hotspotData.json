@@ -1,0 +1,1228 @@
+{
+    "taos": [
+        {
+            "hotspotName": "Ext Logo",
+            "name": "logo",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_taos_logo.png",
+                    "header": "Nuevo logo Volkswagen en parrilla delantera y cajuela",
+                    "text": "El primer vehículo Volkswagen que porta el nuevo logotipo de la marca en México."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Sun Roof",
+            "name": "sunroof",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_taos_sunroof.png",
+                    "header": "Techo corredizo panorámico con ajuste de altura",
+                    "text": "Completa la experiencia de viajar en este SUV con las espectaculares vistas ofrecidas por su amplio techo panorámico."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext LED Grille",
+            "name": "LED",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_taos_grill.png",
+                    "header": "Parrilla central con labio iluminado en tecnología LED",
+                    "text": "Un sello lumínico que recorre la parrilla central, dando continuidad a la línea de los faros y realzando su impactante diseño frontal."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int App Connect",
+            "name": "appConnect",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/app.jpg",
+                    "header": "Volkswagen Wire & Wireless App-Connect",
+                    "text": "Enlaza tu dispositivo de forma alámbrica o inalámbrica y mantén el control de todos tus asuntos sin distracciones al conducir."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Cockpit",
+            "name": "cockpit",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/cockpit.jpg",
+                    "header": "Volkswagen Digital Cockpit",
+                    "text": "Despliega toda la información que necesitas al conducir en la pantalla configurable de tu tablero de instrumentos."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Ambilight",
+            "name": "amblight",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/Ambilight.jpg",
+                    "header": "Iluminación ambiental en puertas delanteras y tablero con 10 colores elegibles",
+                    "text": "Crea una atmósfera ideal con un sutil haz de luz en las puertas y en el tablero, con 10 colores a elegir."
+                }
+            ]
+        }
+    ],
+    "crosssport-my21": [
+        {
+            "hotspotName": "Ext Sun Roof",
+            "name": "sunroof",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/vw-cross-sport-sunroof.jpg",
+                    "header": "Techo corredizo panorámico",
+                    "text": "Deleita tu vista y encuentra majestuosidad en todo lo que te rodea, mirando a través del techo corredizo panorámico."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Remote",
+            "name": "LED",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/vw-cross-sport-suv-remote-start.jpg",
+                    "header": "Encendido remoto (remote start)",
+                    "text": "Arranca el motor de tu Nuevo Cross Sport con el control de la llave para que el motor alcance su temperatura óptima de trabajo y para que encuentres el ambiente ideal en la cabina al subirte."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Engine",
+            "name": "appConnect",
+            "type": "video",
+            "content": [
+                {
+                    "picture": "https://www.youtube.com/embed/RpCBOSN5oIw",
+                    "header": "Motor V6 FSI 280 Hp con 4MOTION (engine)",
+                    "text": "Con 280 caballos de potencia aplicados a la tracción 4MOTION, puedes ir al ritmo que decidas, sobre el terreno que quieras, para disfrutar cada aventura al máximo."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Camera",
+            "name": "cockpit",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/vw-cross-sport-assist-360.jpg",
+                    "header": "Asistente de Aparcamiento Volkswagen y cámara 360° (park assist and 360° rearview camera)",
+                    "text": "El asistente de aparcamiento de tu Nuevo Cross Sport calcula con absoluta precisión si el espacio de estacionamiento es el apropiado y maniobra automáticamente para acomodarse, tú solo preocúpate de pisar el freno y el acelerador. Además, con la vista panorámica que te otorga la cámara de 360° podrás observar cualquier obstáculo a tu alrededor y transitar con mayor exactitud y seguridad."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Ambilight",
+            "name": "amblight",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/vw-cross-sport-wireless-charger.jpg",
+                    "header": "Cargador inalámbrico para Smartphone (wireless charger)",
+                    "text": "Mantén siempre al máximo la energía de tu Smartphone con la base de carga por inducción."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Sound Opened",
+            "name": "soundsystem",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/vw-cross-sport-fender-sound.jpg",
+                    "header": "Sistema de sonido Fender con 11 bocinas y subwoofer (sound system)",
+                    "text": "Amplifica tus vivencias con el sistema de sonido diseñado especialmente para el habitáculo del Nuevo Cross Sport."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Sound Closed",
+            "name": "soundsystem",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/vw-cross-sport-fender-sound.jpg",
+                    "header": "Sistema de sonido Fender con 11 bocinas y subwoofer (sound system)",
+                    "text": "Amplifica tus vivencias con el sistema de sonido diseñado especialmente para el habitáculo del Nuevo Cross Sport."
+                }
+            ]
+        }
+    ],
+    "crosssport": [
+        {
+            "hotspotName": "Ext Sun Roof",
+            "name": "Ext Sun Roof",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Cross-sport_sunroof.png",
+                    "header": "Techo corredizo panorámico",
+                    "text": "Deleita tu vista y encuentra majestuosidad en todo lo que te rodea, mirando a través del techo corredizo panorámico."
+                }
+            ]
+        },
+		{
+            "hotspotName": "Ext Rim",
+            "name": "Ext Rim",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Cross-sport_rim.png",
+                    "header": "Rines de aluminio 21''",
+                    "text": "Cuando algo luce magnífico, sin importar desde dónde se lo mire, es motivo de gran satisfacción. Así se eligieron los rines con la misión de agradar incondicionalmente a la vista y reforzar su aplomo al ser conducido."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Engine",
+            "name": "Ext Engine",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Cross-sport_engine.png",
+                    "header": "Motor V6 con tracción 4MOTION",
+                    "text": "Con 280 caballos de potencia aplicados a la tracción 4MOTION, puedes ir al ritmo que decidas, sobre el terreno que quieras, para disfrutar cada aventura al máximo."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext LED",
+            "name": "Ext LED",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Cross-sport_sensor.png",
+                    "header": "Fascias delanteras y traseras deportivas",
+                    "text": "Con su look exterior deportivo R-line, cada silueta es una muestra indudable de evolución."
+                }
+            ]
+        },
+		{
+            "hotspotName": "Int App Connect",
+            "name": "Int App Connect",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Cross-sport_appconnect.png",
+                    "header": "Pantalla touch a color 8'' + Volkswagen Wire & Wireless App Connect",
+                    "text": "Disfruta de la mejor experiencia de manejo y tus apps favoritas gracias a su pantalla touch a color de 8'' con Volkswagen Wire & Wireless App-Connect (Disponibe para Android y iOS)."
+                }
+            ]
+        },
+		{
+            "hotspotName": "Int Cockpit",
+            "name": "cockpit",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "",
+                    "header": "Volkswagen Digital Cockpit",
+                    "text": "Despliega toda la información que necesitas al conducir en la pantalla configurable de tu tablero de instrumentos."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Clima",
+            "name": "Int Clima",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Cross-sport_clima.png",
+                    "header": "Aire acondicionado climatronic de 2 zonas",
+                    "text": "Diseña un ambiente inmejorable para tus acompañantes eligiendo la temperatura del aire acondicionado en dos zonas distintas."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Interiors",
+            "name": "interiors",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Cross-sport_interiors.png",
+                    "header": "Domina el ambiente",
+                    "text": "Gracias a sus asientos ventilados para la primera fila, asi come la calefacción de las tres plazas traseras."
+                }
+            ]
+        }
+    ],
+	
+	
+    "tiguan": [
+        {
+            "hotspotName": "Ext Logo",
+            "name": "logo",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/vw-tiguan-easyopen.jpg",
+                    "header": "Apertura de cajuela Easy Open con pedal virtual",
+                    "text": "Ser padres requiere manos extra. Pasa el pie debajo de la fascia trasera y la cajuela se abrirá sola."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Sun Roof",
+            "name": "sunroof",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/vw-tiguan-suv-techo-panoramico.jpg",
+                    "header": "Techo corredizo panorámico",
+                    "text": "Enséñale a tus hijos a ver el mundo sin límites a través del techo corredizo panorámico con ajuste de altura."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext LED Grille",
+            "name": "LED",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/vw-tiguan-motor.jpg",
+                    "header": "Motor 2.0 L TSI",
+                    "text": "Síguele el paso a tu familia con la potencia de su motor 2.0 L TSI de 180 Hp y 320 Nm de torque de Tiguan Highline, acoplado a una transmisión DSG de 7 velocidades."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int App Connect",
+            "name": "appConnect",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/WirelessAppConnect_04.jpg",
+                    "header": "Volkswagen Wire & Wireless App Connect",
+                    "text": "Enlaza tu dispositivo móvil, mantén la conexión con todos tus asuntos y controla fácilmente diferentes aplicaciones desde la pantalla touchscreen de 8”, con o sin cable."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Cockpit",
+            "name": "cockpit",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/vw-tiguan-sistema-navegacion.jpg",
+                    "header": "Sistema de navegación",
+                    "text": "Tiguan te muestra la ruta ideal a tu destino en la pantalla del radio o en el Volkswagen Digital Cockpit a pantalla completa."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Ambilight",
+            "name": "amblight",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/vw-tiguan-climatronic.jpg",
+                    "header": "Climatronic",
+                    "text": "Toda la familia podrá disfrutar de la temperatura que prefieran a bordo de Tiguan con el sistema Climatronic de 3 zonas."
+                }
+            ]
+        }
+    ],
+    "nuevotiguan": [
+        {
+            "hotspotName": "Ext Logo Closed",
+            "name": "logo",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tig_emblems.png",
+                    "header": "Nuevos emblemas por ser la mejor familia",
+                    "text": "Los logotipos de VW se hacen presentes en la parrilla frontal, en el volante y en la tapa de la cajuela; además resaltará el nombre de Nuevo Tiguan en todo momento. "
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Logo Opened",
+            "name": "logo",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tig_emblems.png",
+                    "header": "Nuevos emblemas por ser la mejor familia",
+                    "text": "Los logotipos de VW se hacen presentes en la parrilla frontal, en el volante y en la tapa de la cajuela; además resaltará el nombre de Nuevo Tiguan en todo momento. "
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Sun Roof",
+            "name": "sunroof",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tig_panorama.png",
+                    "header": "Lo podrán ver todo",
+                    "text": "El techo corredizo panorámico hará que tus hijos disfruten de vistas amplias y espectaculares en cada uno de los trayectos que viven juntos."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext LED Grille",
+            "name": "LED",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tig_led.png",
+                    "header": "Parrilla central con labio iluminado en tecnología LED",
+                    "text": "Su parilla central con labio iluminado en tecnología LED están listos para hacer brillar a los tuyos en cada aventura, y realzando su impactante diseño frontal."
+                }
+            ]
+        },       
+		{
+            "hotspotName": "Ext Rline",
+            "name": "Rline",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tig_rline.png",
+                    "header": "Look exterior \"R-Line\"",
+                    "text": "Con un nuevo aspecto en su exterior y el distintivo de R-Line presente en los laterales y en la parrilla frontal, hará que tú y los tuyos destaquen en cada uno de sus caminos."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int App Connect",
+            "name": "appConnect",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tig_entertainment.png",
+                    "header": "Entretenimiento para todos",
+                    "text": "La pantalla touch a color de 8” con 8 bocinas es ideal para que tu familia disfrute del mejor sonido mientras visualizan su contenido preferido en un gran tamaño."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Cockpit",
+            "name": "cockpit",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tig_steeringwheel.png",
+                    "header": "Nuevo volante multifunciones",
+                    "text": "Su volante multifunciones forrado en piel con paleta de cambios, no solo te permitirá disfrutar de una increíble experiencia de manejo con los tuyos, también su diseño único empata con los asientos, puertas y descansabrazos."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Ambilight",
+            "name": "amblight",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tig_ac.png",
+                    "header": "Refréscate en cada momento",
+                    "text": "Toda la familia podrá disfrutar de la temperatura que prefieran a bordo con el sistema aire acondicionado climatronic  con panel touch de 3 zonas."
+                }
+            ]
+        }
+    ],
+    "jetta-my21": [
+        {
+            "hotspotName": "Ext Engine",
+            "name": "Engine",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "",
+                    "header": "Motor",
+                    "text": "El desempeño sobresaliente de Jetta se debe a su motor 1.4 L TSI con 150 Hp y 250 Nm de torque con inyección directa de combustible, turbocargador, 4 cilindros y modo de manejo ECO."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Cockpit",
+            "name": "Cockpit",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "",
+                    "header": "Digital Cockpit",
+                    "text": "Configura el tablero de instrumentos digital para visualizar la información como tú prefieras. Visualiza el sistema de navegación en pantalla completa para tener tu rumbo aún más claro."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int App Connect",
+            "name": "App Connect",
+            "type": "video",
+            "content": [
+                {
+                    "picture": "https://www.youtube.com/embed/Wp89HsJanNw",
+                    "header": "Volkswagen Wireless App-Connect",
+                    "text": "Ahora con Wireless App-Connect, Jetta no necesita cables para conectar tu smartphone a tu Volkswagen​, vive sin cables y disfruta de tu viaje."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Ventilation",
+            "name": "Ventilation",
+            "type": "video",
+            "content": [
+                {
+                    "picture": "https://www.youtube.com/embed/eGyAOCH6ySs",
+                    "header": "Asientos con ventilación y calefacción",
+                    "text": "Haz de tu viaje lo más placentero climatizando tu asiento al frío o calor que más te guste. Hazlo en tu Jetta con Asientos con Calefacción y viaja con más comodidad que nunca."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Windows Closed",
+            "name": "Windows Closed",
+            "type": "video",
+            "content": [
+                {
+                    "picture": "https://www.youtube.com/embed/YfG6JzTz5tI",
+                    "header": "Función verano",
+                    "text": "Cuando el calor llega a tu ciudad, con Jetta estarás listo para recibirlo, con la Función Verano, baja los cristales antes de subir a tu Volkswagen y deja que el calor se quede fuera."
+                }
+            ]
+        }
+    ],
+    "jetta": [
+        {
+            "hotspotName": "Ext LED",
+            "name": "LED",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "",
+                    "header": "Ilumina tu camino",
+                    "text": "Sus faros principales y luz de marcha diurna en tecnología LED hacen que veas con claridad lo que hay en tu camino y te hacen más visible en el tráfico a cualquier hora del día."
+                }
+            ]
+        },
+		{
+            "hotspotName": "Ext Sun Roof",
+            "name": "Sun Roof",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "",
+                    "header": "Déjate inspirar",
+                    "text": "Para decidir el rumbo a veces se necesita mirar a arriba. El techo corredizo panorámico con ajuste de altura  es una invitación a dejarte asombrar por todo lo que te rodea."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Cockpit",
+            "name": "Cockpit",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "",
+                    "header": "El cuadro de instrumentos digital",
+                    "text": "El cuadro de instrumentos digital te permite modificar tu tablero como más prefieras; proyecta desde el velocímetro hasta los kilómetros recorridos y el consumo de combustible."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int App Connect",
+            "name": "App Connect",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "",
+                    "header": "Pantalla touch a color de 10''",
+                    "text": "Mantente enfocado, enlaza tus dispositivos y sigue cumpliendo tus objetivos. Controla tus aplicaciones en su pantalla toucha color de 10'' o usa comandos de voz para mantener la concentración con ambas manos al volante."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Driver Seat",
+            "name": "Driver Seat",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "",
+                    "header": "Asiento del conductor con ajuste eléctrico de 6 vías",
+                    "text": "Sabemos que para llegar a donde te propones es crucial gozar de una posición privilegiada, por eso el asiento del conductor cuenta con ajuste eléctrico de 6 vias que se ajusta a tus necesidades."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Rims",
+            "name": "Rims",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "",
+                    "header": "Estilo Inconfundible",
+                    "text": "El diseño de los rines de aluminio de 17'' Viper Graphite es perfecto para llenar de clase y dinamismo tados tus travectos."
+                }
+            ]
+        }
+    ],
+    "tcross-my22": [
+        {
+            "hotspotName": "Ext CL Home Opened",
+            "name": "CL Home",
+            "type": "video",
+            "content": [
+                {
+                    "picture": "https://www.youtube.com/embed/LMYz53xSCgI",
+                    "header": "Sistema “Coming & leaving home“",
+                    "text": "Gracias a su sensor de oscuridad, T‑Cross detecta todos los momentos en que necesitas más luminosidad y enciende los faros automáticamente. También, alumbra tu entorno cuando abordas o desciendes en ambientes oscuros gracias su sistema Coming & leaving home."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext CL Home Closed",
+            "name": "CL Home",
+            "type": "video",
+            "content": [
+                {
+                    "picture": "https://www.youtube.com/embed/LMYz53xSCgI",
+                    "header": "Sistema “Coming & leaving home“",
+                    "text": "Gracias a su sensor de oscuridad, T‑Cross detecta todos los momentos en que necesitas más luminosidad y enciende los faros automáticamente. También, alumbra tu entorno cuando abordas o desciendes en ambientes oscuros gracias su sistema Coming & leaving home."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Park Assist",
+            "name": "Park Assist",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tcross_Park_assist.png",
+                    "header": "Asistente de aparcamiento Volkswagen",
+                    "text": "Con su asistente de aparcamiento sólo debes controlar el acelerador y el freno. Tu SUV se encarga de determinar si el espacio es apropiado, además de maniobrar para un acomodo ideal al estacionarse."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Sun Roof",
+            "name": "sunroof",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tcross_Sunroof.png",
+                    "header": "Techo corredizo panorámico con ajuste de altura",
+                    "text": "Completa la experiencia de viajar en este SUV con las espectaculares vista y paisajes."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Trunk",
+            "name": "Trunk",
+            "type": "video",
+            "content": [
+                {
+                    "picture": "https://www.youtube.com/embed/GNwTYNda5i0",
+                    "header": "Cajuela con piso de carga variable",
+                    "text": "Si necesitas un extra de espacio en la cajuela, puedes ajustar fácilmente el piso para aumentar la profundidad y llevar objetos más voluminosos."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext LED Headlights",
+            "name": "LED Headlights",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tcross_Faros.png",
+                    "header": "Faros en tecnología LED",
+                    "text": "Aventurarte hacia senderos desconocidos con tu SUV, gracias a los faros en tecnología LED, te haces más visible ante conductores, peatones y ciclistas."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Rain Sensor",
+            "name": "Rain Sensor",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "",
+                    "header": "Sensor de lluvia con regulación automática de los limpiaparabrisas",
+                    "text": "Tu T-Cross detecta hasta las gotas más pequeñas de lluvia y activa automáticamente los limpiaparabrisas de acuerdo a la intensidad que se requiera."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Cockpit",
+            "name": "Cockpit",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tcross_digital-cockpit.png",
+                    "header": "Volkswagen Digital Cockpit",
+                    "text": "Personaliza lo que ves detrás del volante, como consumo de combustible, temperatura y distancia recorrida, entre otros."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int App Connect",
+            "name": "appConnect",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tcross_Display.png",
+                    "header": "Volkswagen Wire & Wireless App Connect",
+                    "text": [ "Acompaña cada uno de tus viajes con mapas, playlists y tus apps favoritas gracias a su Pantalla touch a color de 10” con Volkswagen Wireless App-Connect (disponible para iOS) y disfruta de la mejor experiencia a tu modo."
+                    ]
+                }
+            ]
+        },
+		
+		{
+            "hotspotName": "Int We Connect",
+            "name": "We Connect Go",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tcross_We_connect_go.png",
+                    "header": "We Connect Go",
+                    "text": "T‑Cross está listo para conectarse contigo, con esta nueva plataforma digital que será tu mejor copiloto. Con We Connect Go sincroniza tu SUV con tu smartphone para saberlo todo: kilometraje, nivel de gasolina, estado de la batería, fecha del próximo mantenimiento y mucho más."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Phone Rack",
+            "name": "Phone Rack",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/tcross_Phone_rack.png",
+                    "header": "Cargador inalámbrico para Smartphone",
+                    "text": [
+                        "Mantén siempre al máximo la energiá de tu smartphone con la base de carga por inducción."
+                    ]
+                }
+            ]
+        },
+		
+        {
+            "hotspotName": "Int Ambilight",
+            "name": "amblight",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/AmbilightTCross.png",
+                    "header": "Iluminación ambiental en tablero",
+                    "text": "Efectos especiales para darle un matiz especial a cada situación."
+                }
+            ]
+        }
+    ],
+    "tcross": [
+        {
+            "hotspotName": "Ext Sun Roof",
+            "name": "sunroof",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/NuevoT-Cross22_Techo.png",
+                    "header": "Déjate impresionar.",
+                    "text": "Sabemos que siempre buscas nuevas formas de ver la vida. Con el Nuevo T-Cross 2022 y su techo corredizo con ajuste de altura, mantente conectado con la naturaleza y déjate inspirar por los lugares que visitas."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Trunk",
+            "name": "Trunk",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/NuevoT-Cross22_Calavera_encendida.png",
+                    "header": "Detalles que resplandecen.",
+                    "text": "Luce siempre magnífico y aventurate hacia senderos desconocidos con tu SUV. Gracias al panel en negro brillante con iluminación LED en tapa de cajuela, el estilo será tu mejor look."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Logo",
+            "name": "Logo",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/NuevoT-Cross22_Parrilla.png",
+                    "header": "Parilla central en cromo.",
+                    "text": "Todo en Nuevo T-Cross 2022 está pensado y diseñado para que puedas disfrutar del camino o el lugar a dónde te llevarán tus ganas de explorar. Descubre todas las cualidades que transforma a Nuevo T-Cross 2022 en el auto de tu vida."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Air Conditioning",
+            "name": "Air Conditioning",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/NuevoT-Cross22_Clima.png",
+                    "header": "Réfrescate en cada momento",
+                    "text": "Ahora el control del clima está al alcance de tu mano, o mejor dicho, del climatronic con panel touch de 1 zona. Disfruta cada uno de tus trayectos y convierte cada trayecto en inolvidable."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Cockpit",
+            "name": "Cockpit",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/NuevoT-Cross22_CuadroInstrumentos.png",
+                    "header": "Cuadro de instrumentos digital.",
+                    "text": "Asi como cada día puede ser diferente, elige lo que verás en la pantalla de tu Nuevo T-Cross, despliega información relevante de conducción, datos y estado del vehículo de forma personalizada para sentirte mucho más cómodo."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int App Connect",
+            "name": "appConnect",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/NuevoT-Cross22_Radio.png",
+                    "header": "Pantalla touch a color 10'' + Volkswagen Wire & Wireless App Connect",
+                    "text": [
+                        "Cada viaje le pones tu expresión y espíritu con tu música favorita, apps preferidas, llamadas y mensajes de texto, conéctate sin cables con Volkswagen Wireless App-Connect y disfrútalo en su pantalla touch a color de 10”."
+                    ]
+                }
+            ]
+        }
+    ],
+    "teramont": [
+        {
+            "hotspotName": "Int Digital Cockpit",
+            "name": "digital cockpit",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/teramont_digitalcockpit.jpg",
+                    "header": "Volkswagen Digital Cockpit y Sistema de navegación",
+                    "text": "Integramos toda la información que necesitas mientras conduces al Volkswagen Digital Cockpit con Sistema de Navegación, para que lo configures tal como quieras."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Cruise Control",
+            "name": "Cruise Control",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/teramont_emergencyassist.jpg",
+                    "header": "Control de velocidad crucero adaptativo",
+                    "text": "Teramont te ayuda a mantener la velocidad que decidas con el Control de Velocidad Crucero Adaptativo (ACC), mientras el radar mide la distancia con el auto de enfrente, adaptándose a una velocidad segura evitar una colisión."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Sun Roof",
+            "name": "Sun Roof",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/teramont_panorama.jpg",
+                    "header": "Techo corredizo panorámico",
+                    "text": "Deleita tu vista y encuentra majestuosidad en todo lo que te rodea, mirando a través del techo corredizo panorámico."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int App Connect",
+            "name": "App Connect",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/teramont_appconnect.jpg",
+                    "header": "Wire & Wireless App Connect",
+                    "text": "Conecta tu Smartphone a tu Teramont y utiliza aplicaciones a través de la pantalla touchscreen a color de 8."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Wireless Charger",
+            "name": "Wireless Charger",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/teramont_wirelesscharger.jpg",
+                    "header": "Cargador inalámbrico para smartphone",
+                    "text": "Para que todo continúe fluyendo y sigas conectado, puedes usar el cargador inalámbrico para cargar tu smartphone, sin la necesidad de hacerlo usando cables. Mantente siempre comunicado al viajar sin que se acabe la batería."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Remote",
+            "name": "Ext Remote",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/teramont_remotestart.jpg",
+                    "header": "Encendido remoto (remote start)",
+                    "text": "Con el encendido remoto podrás preparar tu Nuevo Teramont para el siguiente viaje antes de abordarlo; solo presiona un botón y se pondrá en marcha. | Versiones Comfortline y Highline."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int 4Motion",
+            "name": "Int 4Motion",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/teramont_4motion.jpg",
+                    "header": "4MOTION con selector de modos de manejo “Active Control“",
+                    "text": "Sabemos que para ti y tu familia lo más importante es la estabilidad y seguridad. El sistema 4MOTION con selector de modos de manejo “Active Control” permite al conductor aplicar tracción a las cuatro ruedas, en diversas condiciones, y así distribuye la carga de forma variable, antes de perder tracción. | Versión Highline."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Sound Closed",
+            "name": "Int Sound Closed",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/teramont_sound.jpg",
+                    "header": "Sistema de sonido Fender con subwoofer y 12 bocinas",
+                    "text": "Disfruten su música favorita. Con el excelente sistema de sonido Fender® con subwoofer y 12 bocinas, vivirán un concierto dentro de su SUV. | Versión Highline"
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Sound Opened",
+            "name": "Int Sound Opened",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/teramont_sound.jpg",
+                    "header": "Sistema de sonido Fender con subwoofer y 12 bocinas",
+                    "text": "Disfruten su música favorita. Con el excelente sistema de sonido Fender® con subwoofer y 12 bocinas, vivirán un concierto dentro de su SUV. | Versión Highline"
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Tow Hook",
+            "name": "Tow Bar",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/teramont_towhook.jpg",
+                    "header": "Grandes cargas, grandes recuerdos",
+                    "text": "A veces, los grandes momentos requieren de algo extra. El Nuevo Teramont cuenta con un gancho para remolque, que ayudará, no solo a llevar esa carga extra que necesitas, sino también en cualquier emergencia que pudiera suscitarse."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Adaptive Headlights",
+            "name": "Adaptive Headlights",
+            "type": "video",
+            "content": [
+                {
+                    "picture": "https://www.youtube.com/embed/pGtXkj7wPZ4",
+                    "header": "Faros principales, luz de día y calaveras en tecnología LED",
+                    "text": "Así como guías a tu familia, el Nuevo Teramont guía tu camino, con tecnología de punta en sus faros principales, al incluir luz de día y calaveras con tecnología LED, luz para mal clima con función de curva estática (integrada en faros principales). Además, cuenta con ajuste dinámico de luces delanteras (AFS) para que nada impida tu visión."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int USB Ports",
+            "name": "USB Ports",
+            "type": "video",
+            "content": [
+                {
+                    "picture": "https://www.youtube.com/embed/e8SB_yNwjl0",
+                    "header": "Conectividad para todos",
+                    "text": "Para que toda la familia pueda mantenerse conectada y sin preocupaciones, el Nuevo Teramont cuenta con 5 puertos USB tipo C convenientemente ubicados: dos al lado del cargador inalámbrico, uno dentro del descansabrazos del conductor y 2 más al alcance de los pasajeros en segunda fila."
+                }
+            ]
+        }
+    ],
+    "polo": [
+        {
+            "hotspotName": "Ext Wheels",
+            "name": "Ext Wheels",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/PoloRims.png",
+                    "header": "Rines en aluminio 16\" en color gris",
+                    "text": "Para consumar su gran selección de piezas en color contrastante, el genial diseño de sus rines resalta aun más gracias a un acabado también en gris."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Adaptive Headlights",
+            "name": "Ext Adaptive Headlights",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/PoloAdaptiveHeadlights.png",
+                    "header": "Faros de niebla con función de luz en curva estática",
+                    "text": "También puedes contar con tu Polo en esos momentos cuando necesitas más iluminación para ir con confianza por donde te lo has propuesto."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Mirrors Closed",
+            "name": "Ext Mirrors",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/PoloMirrors.png",
+                    "header": "Espejos eléctricos",
+                    "text": "Ajusta los espejos retrovisores a tu gusto desde la comodidad de tu asiento, no tendrás que moverte de tu lugar gracias a su ajuste electrónico."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Mirrors Opened",
+            "name": "Ext Mirrors",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/PoloMirrors.png",
+                    "header": "Espejos eléctricos",
+                    "text": "Ajusta los espejos retrovisores a tu gusto desde la comodidad de tu asiento, no tendrás que moverte de tu lugar gracias a su ajuste electrónico."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Touch Radio",
+            "name": "Int Touch Radio",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/PoloTouchRadio.png",
+                    "header": "Radio con pantalla touch 6.5\"",
+                    "text": "Enlaza tus dispositivos y sigue creando historias. Controla tus aplicaciones en su pantalla touch o usa comandos de voz para mantener la concentración con ambas manos al volante."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Steering Wheel",
+            "name": "Int Steering Wheel",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/PoloMultiSW.png",
+                    "header": "Volante multifunción",
+                    "text": "Accede a todos los datos de la computadora de viaje a través del volante y controla el sistema de infoentretenimiento."
+                }
+            ]
+        }
+    ],
+    "virtus": [
+        {
+            "hotspotName": "Ext LED",
+            "name": "Ext LED",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/virt_led.png",
+                    "header": "Luces de día en tecnología LED",
+                    "text": "¡Te hace visible en todo momento! Ya que incorpora luces LED de día, un distintivo haz de luz que hace notar tu presencia a conductores y peatones."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Rim",
+            "name": "Ext Rim",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/virt_rim.png",
+                    "header": "Rines 16\" con acabado brillante",
+                    "text": "Recorre la ciudad o la carretera con un atractivo diseño y acabado, que en conjunto le brindan de modernidad y audacia gracias a los rines de Virtus."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Parking",
+            "name": "Ext Parking",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/virt_parking.png",
+                    "header": "Sensores de estacionamiento trasero",
+                    "text": "Siéntete respaldado, con los sensores de reversa los objetos en la parte trasera se revelan ante ti gracias a una alerta que te indica su proximidad."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int App Connect",
+            "name": "Int App Connect",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/virt_appconnect.png",
+                    "header": "Pantalla touch a color 10\" + Volkswagen Wire & Wireless App Connect",
+                    "text": "Toca o usa comandos de voz. Llamadas y mensajes de texto. Mapas, playlists y tus apps favoritas te acompañan todo el camino en su dinámica pantalla touch a color de 10\""
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Keyless Start",
+            "name": "Int Keyless Start",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/virt_keylessstart.png",
+                    "header": "Sistema keyless access con botón Push to Start",
+                    "text": "Con el sistema Keyless Access con botón Push to Start, las llaves se quedan en tu bolsillo, ya que a través de sus sensores de proximidad sólo basta con traerlas para que se desbloquen los seguros de la puerta de tu Virtus. Además, puedes encender o apagar el motor presionando un botón sin necesidad de insertar la llave."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Ventilation",
+            "name": "Int Ventilation",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/virt_ventilatedarmrest.png",
+                    "header": "Descansabrazos central delantero con ventilas de AC para pasajero traseros",
+                    "text": "Eleva la comodidad a tu nivel, gracias a su descansabrazos central delantero con salidas de aire en la parte posterior y a la conexión por cable vía USB, hacen que todos los trayectos sean más cómodos y placenteros para ti y tus acompañantes."
+                }
+            ]
+        }
+    ],
+	"nivus": [
+        {
+            "hotspotName": "Ext Collision",
+            "name": "Ext Collision",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "/info/Nivus_Ext_Collision.png",
+                    "header": "ACC y asistente de colisión frontal",
+                    "text": "Este SUVW te invita a seguir disfrutando tu libertad, te inspira para coleccionar nuevas experiencias, pero siempre llenando de seguridad cada uno de tus trayectos."
+                }
+            ]
+        },
+		{
+            "hotspotName": "Ext Engine",
+            "name": "Ext Engine",
+            "type": "text",
+            "content": [
+                {
+                    "picture": "",
+                    "header": "Motor 1.0 L TSI",
+                    "text": " Con 114 Hp y 200 Nm de torque, Nivus ofrece una experiencia increíble cada vez que lo conduces."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Ext Design",
+            "name": "Ext Design",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/Nivus_Ext_Design.png",
+                    "header": "Diseño tipo Coupé",
+					"text": "Nivus lleva un diseño exterior innovador, dinámico y con mucha personalidad. Sin duda, quien te vea pasar en este SUV será atrapado por su silueta coupé que le brinda un toque deportivo."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int App Connect",
+            "name": "Int App Connect",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/Nivus_Int_AppConnect.png",
+                    "header": "Pantalla touch a color de 10''",
+					"text": "Tus playlists y apps favoritas te acompañarán en todo momento, gracias a su pantalla touch a color de 10'' con Volkswagen Wireless App-Connect."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Cockpit",
+            "name": "Int Cockpit",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/Nivus_Int_Cockpit.png",
+                    "header": "Volkswagen Digital Cockpit",
+					"text": "La innovación y tecnologia te acompañaran en cada uno de tus viajes.  Transforma tu vehículo en un hub de entretenimiento móvil y personaliza lo que verás detrás del volante."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Details",
+            "name": "Int Details",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/Nivus_Int_Details.png",
+                    "header": "Todo está en los detalles",
+                    "text": "Disfruta de una íncreible experiencia de manejo con el volante multifunciones forrado en piel con paletas de cambios."
+                }
+            ]
+        }
+    ],
+	
+    "saveiro": [
+        {
+            "hotspotName": "Ext Trunk Capacity",
+            "name": "Ext Trunk Capacity",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Saveiro-2022_Trunk-capacity.png",
+                    "header": "Capacidad de carga",
+                    "text": "Diseñado para compartir tu visión, Saveiro te brindará 712 Kg de carga para llevar todo lo que necesites."
+                }
+            ]
+        },
+		{
+            "hotspotName": "Ext Loading Area",
+            "name": "Ext Loading Area",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Saveiro-2022_Loading-area.png",
+                    "header": "Tus proyectos necesitan un espacio impecable",
+                    "text": "El área de carga está protegida con un recubrimiento (Bedliner) que cuida la lámina de la batea y facilita su limpieza sin dañar la pintura."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Whole Car",
+            "name": "Int Whole Car",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Saveiro-2022_Whole-car.png",
+                    "header": "El mejor apoyo",
+					"text": "Pensado para ti, Saveiro y su escalón lateral te permite acomodar correctamente la carga con más seguridad en cada paso que des."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Air Conditioning",
+            "name": "Int Air Conditioning",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Saveiro-2022_Air-conditioning.png",
+                    "header": "Todo es mejor con un buen clima",
+					"text": "Sin importar si el camino es largo o corto, mantente fresco a cada momento, gracias a su eficiente sistema de aire acondicionado."
+                }
+            ]
+        },
+        {
+            "hotspotName": "Int Driver Seat",
+            "name": "Int Driver Seat",
+            "type": "picture",
+            "content": [
+                {
+                    "picture": "/info/hotspot_Saveiro-2022_Driver-seat.png",
+                    "header": "Asiento del conductor con ajuste de altura",
+                    "text": "Viajar cómodo es vital, por eso el asiento del conductor cuenta con ajuste de altura que te permitirá disfrutar aún en esas largas jornadas."
+                }
+            ]
+        }
+    ]
+}

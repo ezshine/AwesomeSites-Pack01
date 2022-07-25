@@ -1,0 +1,556 @@
+#cookiemgmt *,
+#cookiemgmt *::before,
+#cookiemgmt *::after {
+  box-sizing: border-box;
+}
+#cookiemgmt {
+  outline: none;
+}
+#ensModalWrapper {
+  position: fixed;
+  z-index: 99999;
+  left: 0 !important;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding-top: 100px;
+  box-sizing: border-box;
+  color: black;
+  font-family: 'vw-text', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 600px) {
+  #ensModalWrapper {
+    padding-bottom: 32px;
+  }
+}
+@media (max-height: 400px) {
+  #ensModalWrapper {
+    padding: 0;
+  }
+}
+.ensModal {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100%;
+  overflow-y: auto;
+  background: #ffffff;
+  padding: 0 8.33vw;
+}
+@media (min-width: 600px) {
+  .ensModal {
+    max-width: 600px;
+    padding: 0 64px;
+  }
+}
+.ensModal a {
+  position: relative;
+  display: inline;
+  border: none;
+  color: #001e50;
+  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  -webkit-text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+.ensModal a:focus {
+  color: white;
+  background-color: #0077cc;
+  text-decoration-color: #001e50;
+  -webkit-text-decoration-color: #001e50;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-thickness: 2px;
+  outline: none;
+}
+.ensModal a:active:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.ensModal a:hover:not(:focus) {
+  background-color: rgba(194, 202, 207, 0.2);
+}
+.ensModal hr {
+  border: 0;
+  height: 2px;
+  background: #e0e4e7;
+  margin-top: 16px;
+}
+.ensModal .ensTitle {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  text-align: center;
+  background: #ffffff;
+  border-bottom: solid 1px #dfe4e8;
+  padding: 20px;
+  margin: 0 -8.33vw 32px;
+}
+@media (min-width: 600px) {
+  .ensModal .ensTitle {
+    margin: 0 -64px 32px;
+  }
+}
+@media (max-height: 400px) {
+  .ensModal .ensTitle {
+    padding: 15px;
+  }
+}
+.ensModal .consentDescription {
+  font-size: 16px;
+  line-height: 24px;
+}
+.ensModal .ensButtons {
+  position: sticky;
+  bottom: 0;
+  display: grid;
+  gap: 8px;
+  padding-top: 12px;
+  padding-bottom: 56px;
+  margin-top: 32px;
+  box-shadow: #ffffff 0 0 16px 16px;
+  background: #ffffff;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .ensModal .ensButtons {
+    grid-auto-flow: column;
+    gap: 20px;
+    padding-bottom: 40px;
+  }
+}
+.ensModal .button {
+  position: relative;
+  width: 100%;
+  min-width: 200px;
+  max-width: 250px;
+  height: 44px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50px;
+  padding: 0 32px;
+  justify-self: center;
+  cursor: pointer;
+  border: 2px solid;
+}
+.ensModal .button:hover {
+  transition: none;
+}
+.ensModal .button:hover::before {
+  content: '';
+  border-radius: 50px;
+  position: absolute;
+  inset: 0;
+  margin: -2px;
+}
+.ensModal .button.grey {
+  border-color: #001e50;
+  background: #ffffff;
+  color: #001e50;
+}
+.ensModal .button.grey:focus {
+  background: #0077cc;
+  color: #ffffff;
+  outline: none;
+}
+.ensModal .button.grey:hover::before {
+  background: rgba(194, 202, 207, 0.2);
+}
+.ensModal .button.blue {
+  border-color: #001e50;
+  background: #001e50;
+  color: #ffffff;
+}
+.ensModal .button.blue:focus {
+  background: #0077cc;
+  color: #ffffff;
+  outline: none;
+}
+.ensModal .button.blue:hover::before {
+  background: rgba(255, 255, 255, 0.2);
+}
+.ensModal .ensToggleRowWrapper hr {
+  display: none;
+}
+.ensModal .ensToggleRow {
+  padding-top: 32px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.ensModal .ensToggleRow .description {
+  padding-inline-start: 36px;
+  color: #000;
+}
+.ensModal .ensToggleLabel {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin: -0.11em 0 0.11em;
+  font-weight: bold;
+  color: #001e50;
+  cursor: pointer;
+}
+.ensModal .ensToggleLabel:hover .card::before {
+  display: block;
+}
+.ensModal .card {
+  padding-inline-end: 12px;
+  color: #001e50;
+  outline: none !important;
+}
+.ensModal .card::before {
+  display: none;
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(194, 202, 207, 0.2);
+  border-radius: 50%;
+}
+[dir='rtl'] .ensModal .card::before {
+  left: auto;
+  right: -8px;
+}
+.ensModal .ensCheckbox {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  user-select: none;
+  pointer-events: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.ensModal .ensCheckbox::before,
+.ensModal .ensCheckbox::after {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+.ensModal .ensCheckbox::after {
+  opacity: 0;
+  content: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iMDAxZTUwIj48cGF0aCBkPSJtOS41MzM0IDE3LjU3MzItNC45MDIzLTQuMDU0Ny44NDc2LTEuMDI1NCA0LjQzNjYgMy42NyA4LjU1NzEtMTIuMzk0NiAxLjA5MzcuNzU1OC04LjkyMzggMTIuODk4MmEuNzU2OS43NTY5IDAgMCAxIC0xLjEwODkuMTUwN3ptLjAzODYtLjkxMzItLjAwMi4wMDI5eiIvPjwvc3ZnPgo=');
+}
+.ensModal .ensCheckbox::before {
+  content: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTIyLjY3IDEuMzN2MjEuMzRoLTIxLjM0di0yMS4zNHptMS4zMy0xLjMzaC0yNHYyNGgyNHoiLz48L3N2Zz4K');
+}
+.ensModal .ensCheckbox:checked::after {
+  color: #001e50;
+  opacity: 1;
+}
+.ensModal .ensCheckbox:checked:focus::after {
+  filter: brightness(0) invert(1);
+}
+.ensModal .ensCheckbox:focus::before {
+  background-color: #0077cc;
+  box-shadow: 0 0 0 2.66px inset #001e50;
+  color: #ffffff;
+}
+.ensModal .ensCheckbox:disabled {
+  color: #dfe4e8;
+  cursor: not-allowed;
+  justify-self: center;
+}
+
+#cookiemgmt *,
+#cookiemgmt *::before,
+#cookiemgmt *::after {
+  box-sizing: border-box;
+}
+#cookiemgmt {
+  outline: none;
+}
+.ensNotifyBanner {
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  /*   NOTE: For now we can't center the banner vertically to position close icon button correctly. This might change in future, once notifyBannerWrapper will be added.
+     Therefore, instead of using justify-content: center; there is a workaround in place */
+  display: block;
+  padding-top: 100px;
+  box-sizing: border-box;
+  color: black;
+  font-family: 'vw-text', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  background: rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 600px) {
+  .ensNotifyBanner {
+    padding-bottom: 32px;
+  }
+}
+@media (max-height: 400px) {
+  .ensNotifyBanner {
+    padding: 0;
+  }
+}
+.ensNotifyBanner a {
+  position: relative;
+  display: inline;
+  border: none;
+  color: #001e50;
+  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  -webkit-text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+.ensNotifyBanner a:focus {
+  color: white;
+  background-color: #0077cc;
+  text-decoration-color: #001e50;
+  -webkit-text-decoration-color: #001e50;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-thickness: 2px;
+  outline: none;
+}
+.ensNotifyBanner a:active:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.ensNotifyBanner a:hover:not(:focus) {
+  background-color: rgba(194, 202, 207, 0.2);
+}
+.ensNotifyBanner hr {
+  border: 0;
+  height: 2px;
+  background: #e0e4e7;
+  margin-top: 16px;
+}
+.ensNotifyBanner #ensBannerDescription {
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  padding: 88px 8.33vw 16px;
+  width: 100%;
+  position: relative;
+}
+@media (min-width: 600px) {
+  .ensNotifyBanner #ensBannerDescription {
+    max-width: 600px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+.ensNotifyBanner .ensPrivacyTitle {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  text-align: center;
+  background: #ffffff;
+  border-bottom: solid 1px #dfe4e8;
+  padding: 20px 40px;
+  margin: 0 -8.33vw;
+}
+@media (min-width: 600px) {
+  .ensNotifyBanner .ensPrivacyTitle {
+    margin: 0 -64px;
+  }
+}
+@media (max-height: 400px) {
+  .ensNotifyBanner .ensPrivacyTitle {
+    padding: 15px;
+  }
+}
+.ensNotifyBanner .ensButtons {
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  padding: 8px 8.33vw 56px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 4px;
+  padding-bottom: 56px;
+  align-items: center;
+  white-space: nowrap;
+}
+@media (min-width: 600px) {
+  .ensNotifyBanner .ensButtons {
+    flex-direction: row;
+    max-width: 600px;
+    padding: 10px 64px 40px;
+  }
+}
+.ensNotifyBanner .button {
+  position: relative;
+  width: 100%;
+  min-width: 150px;
+  max-width: 250px;
+  height: 44px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50px;
+  padding: 0 32px;
+  justify-self: center;
+  cursor: pointer;
+  border: 2px solid;
+}
+.ensNotifyBanner .button:hover {
+  transition: none;
+}
+.ensNotifyBanner .button:hover::before {
+  content: '';
+  border-radius: 50px;
+  position: absolute;
+  inset: 0;
+  margin: -2px;
+}
+.ensNotifyBanner .button.grey {
+  border-color: #001e50;
+  background: #ffffff;
+  color: #001e50;
+}
+.ensNotifyBanner .button.grey:focus {
+  background: #0077cc;
+  color: #ffffff;
+  outline: none;
+}
+.ensNotifyBanner .button.grey:hover::before {
+  background: rgba(194, 202, 207, 0.2);
+}
+.ensNotifyBanner .button.blue {
+  border-color: #001e50;
+  background: #001e50;
+  color: #ffffff;
+}
+.ensNotifyBanner .button.blue:focus {
+  background: #0077cc;
+  color: #ffffff;
+  outline: none;
+}
+.ensNotifyBanner .button.blue:hover::before {
+  background: rgba(255, 255, 255, 0.2);
+}
+.ensNotifyBanner button.link {
+  line-height: inherit;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  display: inline;
+  border: none;
+  color: #001e50;
+  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  -webkit-text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+.ensNotifyBanner button.link:focus {
+  color: white;
+  background-color: #0077cc;
+  text-decoration-color: #001e50;
+  -webkit-text-decoration-color: #001e50;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-thickness: 2px;
+  outline: none;
+}
+.ensNotifyBanner button.link:active:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.ensNotifyBanner button.link:hover:not(:focus) {
+  background-color: rgba(194, 202, 207, 0.2);
+}
+.ensNotifyBanner #ensCloseBanner {
+  all: unset;
+  position: absolute;
+  z-index: 1;
+  top: calc(110px);
+  right: 10px;
+  width: 44px;
+  height: 44px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: solid 2px transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+[dir='rtl'] .ensNotifyBanner #ensCloseBanner {
+  left: 12px;
+  right: auto;
+}
+@media (max-height: 400px) {
+  .ensNotifyBanner #ensCloseBanner {
+    top: 5px;
+  }
+}
+@media (min-width: 600px) {
+  .ensNotifyBanner #ensCloseBanner {
+    right: calc(50% - 600px/2 + 10px);
+  }
+  [dir='rtl'] .ensNotifyBanner #ensCloseBanner {
+    left: calc(50% - 600px/2 + 10px);
+  }
+}
+@media (min-width: 600px) and (max-height: 400px) {
+  .ensNotifyBanner #ensCloseBanner {
+    right: calc(50% - 600px/2 + 12px);
+  }
+  [dir='rtl'] .ensNotifyBanner #ensCloseBanner {
+    left: calc(50% - 600px/2 + 12px);
+  }
+}
+.ensNotifyBanner #ensCloseBanner::after {
+  all: unset;
+  content: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTIxLjQ3NCAzLjQ2Ny0uOTQyLS45NDEtOC41MzIgOC41MzMtOC41MzQtOC41MzMtLjk0Ljk0MSA4LjUzMyA4LjUzMy04LjUzMyA4LjUzMi45NC45NDIgOC41MzQtOC41MzMgOC41MzIgOC41MzMuOTQyLS45NDItOC41MzMtOC41MzJ6Ii8+PC9zdmc+Cg==');
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.ensNotifyBanner #ensCloseBanner:hover {
+  background: rgba(194, 202, 207, 0.2);
+}
+.ensNotifyBanner #ensCloseBanner:focus {
+  background-color: #0077cc;
+  border-color: #001e50;
+  box-shadow: #001e50 0 0 0 1px inset;
+}
+.ensNotifyBanner #ensCloseBanner:focus::after {
+  filter: brightness(0) invert(1);
+}
+
