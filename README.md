@@ -35,3 +35,5 @@
 - www.chocapic-nutri-game.fr
 - www.vw.com.mx
 - iwantitall.msi.com
+- au-floor.vercel.app
+- avatarbuilder
