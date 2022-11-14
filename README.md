@@ -37,3 +37,4 @@
 - iwantitall.msi.com
 - au-floor.vercel.app
 - avatarbuilder
+- www.fendi.com/baguette25
