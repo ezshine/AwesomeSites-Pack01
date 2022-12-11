@@ -1,2 +1,4361 @@
-(function(e){function t(t){for(var a,r,s=t[0],c=t[1],l=t[2],u=0,p=[];u<s.length;u++)r=s[u],Object.prototype.hasOwnProperty.call(o,r)&&o[r]&&p.push(o[r][0]),o[r]=0;for(a in c)Object.prototype.hasOwnProperty.call(c,a)&&(e[a]=c[a]);d&&d(t);while(p.length)p.shift()();return i.push.apply(i,l||[]),n()}function n(){for(var e,t=0;t<i.length;t++){for(var n=i[t],a=!0,r=1;r<n.length;r++){var s=n[r];0!==o[s]&&(a=!1)}a&&(i.splice(t--,1),e=c(c.s=n[0]))}return e}var a={},r={"app~d0ae3f07":0},o={"app~d0ae3f07":0},i=[];function s(e){return c.p+"js/"+({"webgl~253ae210":"webgl~253ae210","webgl~76370953":"webgl~76370953"}[e]||e)+"."+{"webgl~253ae210":"2b881dfd","webgl~76370953":"6c213e44"}[e]+".js"}function c(t){if(a[t])return a[t].exports;var n=a[t]={i:t,l:!1,exports:{}};return e[t].call(n.exports,n,n.exports,c),n.l=!0,n.exports}c.e=function(e){var t=[],n={"webgl~76370953":1};r[e]?t.push(r[e]):0!==r[e]&&n[e]&&t.push(r[e]=new Promise((function(t,n){for(var a="css/"+({"webgl~253ae210":"webgl~253ae210","webgl~76370953":"webgl~76370953"}[e]||e)+"."+{"webgl~253ae210":"31d6cfe0","webgl~76370953":"49d44443"}[e]+".css",o=c.p+a,i=document.getElementsByTagName("link"),s=0;s<i.length;s++){var l=i[s],u=l.getAttribute("data-href")||l.getAttribute("href");if("stylesheet"===l.rel&&(u===a||u===o))return t()}var p=document.getElementsByTagName("style");for(s=0;s<p.length;s++){l=p[s],u=l.getAttribute("data-href");if(u===a||u===o)return t()}var d=document.createElement("link");d.rel="stylesheet",d.type="text/css",d.onload=t,d.onerror=function(t){var a=t&&t.target&&t.target.src||o,i=new Error("Loading CSS chunk "+e+" failed.\n("+a+")");i.code="CSS_CHUNK_LOAD_FAILED",i.request=a,delete r[e],d.parentNode.removeChild(d),n(i)},d.href=o;var h=document.getElementsByTagName("head")[0];h.appendChild(d)})).then((function(){r[e]=0})));var a=o[e];if(0!==a)if(a)t.push(a[2]);else{var i=new Promise((function(t,n){a=o[e]=[t,n]}));t.push(a[2]=i);var l,u=document.createElement("script");u.charset="utf-8",u.timeout=120,c.nc&&u.setAttribute("nonce",c.nc),u.src=s(e);var p=new Error;l=function(t){u.onerror=u.onload=null,clearTimeout(d);var n=o[e];if(0!==n){if(n){var a=t&&("load"===t.type?"missing":t.type),r=t&&t.target&&t.target.src;p.message="Loading chunk "+e+" failed.\n("+a+": "+r+")",p.name="ChunkLoadError",p.type=a,p.request=r,n[1](p)}o[e]=void 0}};var d=setTimeout((function(){l({type:"timeout",target:u})}),12e4);u.onerror=u.onload=l,document.head.appendChild(u)}return Promise.all(t)},c.m=e,c.c=a,c.d=function(e,t,n){c.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},c.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},c.t=function(e,t){if(1&t&&(e=c(e)),8&t)return e;if(4&t&&"object"===typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(c.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var a in e)c.d(n,a,function(t){return e[t]}.bind(null,a));return n},c.n=function(e){var t=e&&e.__esModule?function(){return e["default"]}:function(){return e};return c.d(t,"a",t),t},c.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},c.p="/",c.oe=function(e){throw console.error(e),e};var l=window["webpackJsonp"]=window["webpackJsonp"]||[],u=l.push.bind(l);l.push=t,l=l.slice();for(var p=0;p<l.length;p++)t(l[p]);var d=u;i.push([0,"chunk-vendors~253ae210","chunk-vendors~987e6011","chunk-vendors~b5906859","chunk-vendors~73914085","chunk-vendors~57473a66","chunk-vendors~f9ca8911","chunk-vendors~7d818070","chunk-vendors~fdc6512a"]),n()})({0:function(e,t,n){e.exports=n("cd49")},"057a":function(e,t,n){},"0b40":function(e,t,n){"use strict";n("46ab")},"10de":function(e,t,n){},"136c":function(e){e.exports=JSON.parse('{"v":"5.4.3","fr":25,"ip":0,"op":54,"w":100,"h":300,"nm":"_ Body Movin 02","ddd":0,"assets":[{"id":"comp_0","layers":[{"ddd":0,"ind":1,"ty":4,"nm":"Left Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[12,40,0],"ix":2},"a":{"a":0,"k":[-48,-107.25,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-51,-110.5],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Right Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[18,40,0],"ix":2},"a":{"a":0,"k":[-48,-107.25,0],"ix":1},"s":{"a":0,"k":[-100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-51,-110.5],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Main Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[15,24.375,0],"ix":2},"a":{"a":0,"k":[-45,-121,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-45,-138],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0}]}],"layers":[{"ddd":0,"ind":2,"ty":0,"nm":"Arrow","refId":"comp_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p167"],"t":0,"s":[0],"e":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p167"],"t":3,"s":[0],"e":[0]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.167],"y":[0.167]},"n":["0p5_1_0p167_0p167"],"t":29.042,"s":[0],"e":[180]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.429],"y":[0]},"n":["0p7_1_0p429_0"],"t":32.167,"s":[180],"e":[340]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.3],"y":[0]},"n":["0p7_1_0p3_0"],"t":39.458,"s":[340],"e":[360]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.167],"y":[0]},"n":["0p7_1_0p167_0"],"t":47.792,"s":[360],"e":[360]},{"t":53}],"ix":10,"x":"var $bm_rt;\\n$bm_rt = loopOut();"},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":0,"s":[50,133.676,0],"e":[50,133.676,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":3,"s":[50,133.676,0],"e":[50,156.926,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.3,"y":1},"o":{"x":0.167,"y":0.167},"n":"0p3_1_0p167_0p167","t":29.042,"s":[50,156.926,0],"e":[50,31.926,0],"to":[0,0,0],"ti":[0,3.875,0]},{"i":{"x":0.5,"y":1},"o":{"x":0.7,"y":0},"n":"0p5_1_0p7_0","t":35.292,"s":[50,31.926,0],"e":[50,133.676,0],"to":[0,-3.875,0],"ti":[0,-16.9583339691162,0]},{"t":53}],"ix":2,"x":"var $bm_rt;\\n$bm_rt = loopOut();"},"a":{"a":0,"k":[15,25,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"w":30,"h":50,"ip":0,"op":54,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Square","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[50,183.676,0],"ix":2},"a":{"a":0,"k":[0.839,-70.661,0],"ix":1},"s":{"a":0,"k":[94,94,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":0,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":3,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":29.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":32.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":53,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":82.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":85.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":106,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":109,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":135.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":138.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":159,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":162,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":188.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":191.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":212,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"t":265}],"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":1,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":30,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0.839,-70.661],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Rectangle 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":54,"st":0,"bm":0}],"markers":[]}')},"15dc":function(e,t,n){},1943:function(e,t,n){"use strict";t["a"]="#define GLSLIFY 1\n#include <map_fragment>\n\nfloat rectangle = draw_rectangle(vUv, vec2(0.408, 0.343), vec2(0.02, 0.005));\n\nvec3 mask = vec3(rectangle);\n\nvec3 noise = vec3(random(vUv)) * .15;\n\nvec3 color = mix(texelColor.rgb, noise, mask.r * (1. - uTurnOn));\n\ndiffuseColor = vec4(color, 1.);"},"1cab":function(e,t,n){},2844:function(e,t,n){},3468:function(e,t,n){},4262:function(e,t,n){"use strict";n("3468")},4643:function(e,t,n){"use strict";n("b231")},"46ab":function(e,t,n){},"478b":function(e,t,n){},"4e59":function(e,t,n){e.exports=n.p+"img/gucci-beloved-bounce-logo.c7618c00.png"},"615f":function(e,t,n){"use strict";n("a7c4")},6387:function(e,t,n){},"65fa":function(e,t,n){"use strict";n("81b6")},"6d1b":function(e,t,n){"use strict";n("e850")},"7d32":function(e,t,n){},8012:function(e,t,n){"use strict";n("8afd")},"81b6":function(e,t,n){},"857c":function(e,t,n){},"87ce":function(e,t,n){"use strict";n.d(t,"h",(function(){return a})),n.d(t,"i",(function(){return r})),n.d(t,"j",(function(){return o})),n.d(t,"l",(function(){return i})),n.d(t,"k",(function(){return s})),n.d(t,"a",(function(){return c})),n.d(t,"g",(function(){return l})),n.d(t,"b",(function(){return u})),n.d(t,"e",(function(){return p})),n.d(t,"f",(function(){return d})),n.d(t,"d",(function(){return h})),n.d(t,"c",(function(){return b}));var a=2.5,r=.5,o=1.5,i=1.2,s=.45,c=.5,l=3,u=.3,p=.1,d=9,h=5,b={SINGLE:"single",DOUBLE:"double"}},"8afd":function(e,t,n){},"8ef1":function(e,t,n){"use strict";n("fdb4")},"93d1":function(e,t,n){"use strict";n("1cab")},"941a":function(e,t,n){e.exports=n.p+"img/gucci-share-template.08606729.jpg"},"94be":function(e,t,n){"use strict";n("dfba")},"94d5":function(e,t,n){},"95da":function(e,t,n){"use strict";n("057a")},a7c4:function(e,t,n){},af035:function(e,t,n){"use strict";n("6387")},b231:function(e,t,n){},bb72:function(e,t,n){"use strict";n.d(t,"a",(function(){return r})),n.d(t,"d",(function(){return o})),n.d(t,"b",(function(){return i})),n.d(t,"c",(function(){return s}));n("4ec9"),n("d3b7"),n("3ca3"),n("ddb0"),n("159b");var a=new Map,r=function(e,t){a.set(e,t)},o=function(e){return a.get(e)},i=function(e){return a.delete(e)},s=function(e){a.forEach(e)}},c097:function(e,t,n){"use strict";n("2844")},c0b8:function(e,t,n){"use strict";t["a"]="#define GLSLIFY 1\n#include <common>\n\nuniform float uTurnOn;\n\nfloat random(vec2 co){\n  return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);\n}\n\nfloat draw_rectangle(vec2 coord, vec2 dimensions, vec2 offset) {\n  vec2 shaper = vec2(step(offset.x, coord.x), step(offset.y, coord.y));\n  shaper *= vec2(step(coord.x, offset.x + dimensions.x), step(coord.y, offset.y + dimensions.y));\n\n  return shaper.x * shaper.y;\n}"},c85b:function(e,t,n){"use strict";n("94d5")},c92b:function(e,t,n){"use strict";n("478b")},cc6a:function(e,t,n){"use strict";n("e502")},cd49:function(e,t,n){"use strict";n.r(t);var a={};n.r(a),n.d(a,"dpr",(function(){return Ca})),n.d(a,"graphics",(function(){return Sa})),n.d(a,"system",(function(){return Pa})),n.d(a,"mobile",(function(){return $a})),n.d(a,"media",(function(){return La})),n.d(a,"agent",(function(){return Ra})),n.d(a,"detect",(function(){return Ba}));var r={};n.r(r),n.d(r,"getFont",(function(){return Ta}));n("e260"),n("e6cf"),n("cca6"),n("a79d");var o=n("2b0e"),i=(n("96cf"),n("2b3d"),n("d3b7"),n("3ca3"),n("ddb0"),n("841c"),n("ac1f"),n("1276"),n("498a"),n("caad"),n("9ab4")),s=n("bc3a"),c=n.n(s),l=n("b85c"),u=(n("b0c0"),n("fb6a"),n("99af"),n("d81d"),n("5319"),n("13d5"),n("7db0"),n("87ce")),p=n("34ad"),d=n("5a89"),h=n("c0b8"),b=n("1943"),m=n("bb72"),f=function(e,t){var n=e.player,a=e.boxes,r=e.bags,o=e.textures,s=e.sounds;return Object(i["a"])(void 0,void 0,void 0,regeneratorRuntime.mark((function e(){var i,c,u,h,b,f,y,g,k,x,_,O,j,w,E,A;return regeneratorRuntime.wrap((function(e){while(1)switch(e.prev=e.next){case 0:i=new d["M"],c=new p["a"](i),u=new d["f"](i),h=new d["yb"](i),n.name=n.glb.split("/").pop().slice(0,-4),c.load("".concat("/").concat(n.glb),(function(e){var t=e.scene,a=t.children[0],r=a.getObjectByName("shadow"),o=r.material;o.side=d["u"],m["a"](n.name,a)})),b=Object(l["a"])(a);try{for(y=function(){var e=f.value;e.name=e.glb.split("/").pop().slice(0,-4),c.load("".concat("/").concat(e.glb),(function(t){var n=t.scene;m["a"](e.name,n.children[0])}))},b.s();!(f=b.n()).done;)y()}catch(C){b.e(C)}finally{b.f()}g=Object(l["a"])(r);try{for(x=function(){var e=k.value;c.load("".concat("/").concat(e.glb),(function(t){var n=t.scene,a=(new d["yb"]).load("".concat("/","assets/textures/bump-256.png"));v(n.children[0],a),n.children[0].scale.setScalar(.025),m["a"](e.name,n.children[0])}))},g.s();!(k=g.n()).done;)x()}catch(C){g.e(C)}finally{g.f()}_=Object(l["a"])(o);try{for(j=function(){var e=O.value;e.name=e.source.split("/").pop().slice(0,-4),h.load("".concat("/").concat(e.source),(function(t){m["a"](e.name,t)}))},_.s();!(O=_.n()).done;)j()}catch(C){_.e(C)}finally{_.f()}w=Object(l["a"])(s);try{for(A=function(){var e=E.value;u.load("".concat("/").concat(e.source),(function(t){m["a"](e.name,t)}))},w.s();!(E=w.n()).done;)A()}catch(C){w.e(C)}finally{w.f()}return e.abrupt("return",new Promise((function(e){i.onProgress=function(e,n,a){var r=n/a,o=Math.round(100*r)/100;t(o)},i.onLoad=function(){return e()}})));case 15:case"end":return e.stop()}}),e)})))},v=function(e,t){e.traverse((function(e){"marmount"===e.name&&e.traverse((function(e){"polySurface1_1"===e.name&&e instanceof d["R"]&&(e.material.normalMap=null,e.material.bumpMap=t,e.material.bumpScale=.02)}))}))},y=function(e,t){t.flipY=!1,t.encoding=d["Hb"];var n=m["d"](e).clone(),a=n.getObjectByName("texture"),r=a.clone();return r.name="texture-noise",r.material=a.material.clone(),r.material.map=t,r.material.onBeforeCompile=function(e){e.fragmentShader=e.fragmentShader.replace("#include <common>",h["a"]).replace("#include <map_fragment>",b["a"])},a.material=a.material.clone(),a.material.transparent=!0,a.material.map=t,a.material.opacity=0,n.add(r),n.add(a),n},g=function(e){var t=e.player,n=e.boxes,a=e.bags,r=e.textures,o=e.sounds;return{player:t,sounds:o,blocks:n.reduce((function(e,t){var n=t.size,o=t.side,i=t.bag;if(t.component="".concat(n.charAt(0).toUpperCase()+n.slice(1),"Block"),u["c"].DOUBLE===n)i&&(t.bag=a.find((function(e){var t=e.name;return t===i}))),e[n]=e[n]||{},(e[n][o]=e[n][o]||[]).push(t);else if(t.textures&&t.textures.length){for(var s=function(a){var o=Object.assign(Object.assign({},t),{name:"".concat(t.name,"-").concat(a+1)}),i=r.find((function(e){var n=e.name;return n===t.textures[a]}));m["a"](o.name,y(t.name,m["d"](i.name))),(e[n]=e[n]||[]).push(o)},c=0;c<t.textures.length;++c)s(c);m["b"](t.name)}else(e[n]=e[n]||[]).push(t);return e}),{})}},k=function(){return c.a.get("".concat("/","data/collection.json?t=").concat(Date.now()))},x=function(e){return Object(i["a"])(void 0,void 0,void 0,regeneratorRuntime.mark((function t(){var n,a;return regeneratorRuntime.wrap((function(t){while(1)switch(t.prev=t.next){case 0:return t.next=2,k();case 2:return n=t.sent,a=n.data,t.next=6,f(a,e);case 6:return t.abrupt("return",g(a));case 7:case"end":return t.stop()}}),t)})))},_=function(e,t){return Object(i["a"])(void 0,void 0,void 0,regeneratorRuntime.mark((function n(){var a,r,o,i,s;return regeneratorRuntime.wrap((function(n){while(1)switch(n.prev=n.next){case 0:return a="https://prod-api.ggapp.cloud/games/b0f69202-a0e5-11eb-b6b6-acde48001122",n.next=3,fetch("".concat(a,"/scores?noFail=true"),{method:"POST",body:JSON.stringify({userId:e,score:t})});case 3:return n.next=5,fetch("".concat(a,"/scores/").concat(e,"/range/?noFail=true"));case 5:return r=n.sent,n.next=8,r.json();case 8:return o=n.sent,o.scoreRange.length>3&&(i=o.scoreRange.find((function(t){return t.userId===e})),s=o.scoreRange.indexOf(i),void 0===o.scoreRange[s-1]?o.scoreRange=[o.scoreRange[s+0],o.scoreRange[s+1],o.scoreRange[s+2]]:void 0===o.scoreRange[s+1]?o.scoreRange=[o.scoreRange[s-2],o.scoreRange[s-1],o.scoreRange[s-0]]:o.scoreRange=[o.scoreRange[s-1],o.scoreRange[s+0],o.scoreRange[s+1]]),n.abrupt("return",o);case 11:case"end":return n.stop()}}),n)})))},O=function(e){var t="gucci-bounce-game:scores",n=localStorage.getItem(t),a=n?JSON.parse(n):{scoreRange:[]};return a.scoreRange.push({score:e}),a.scoreRange.sort((function(e,t){return t.score-e.score})),a.scoreRange=a.scoreRange.slice(0,3).map((function(e,t){return Object.assign(Object.assign({},e),{userId:t,rank:t+1})})),a.userId=a.scoreRange.indexOf(a.scoreRange.find((function(t){return t.score===e}))),localStorage.setItem(t,JSON.stringify(a)),a},j=function(e){return{title:"".concat(z.t("share.title",{score:e})," ").concat(z.t("share.text",{name:z.t("landing.title")})),url:"https://guccibelovedbounce.gucci.com/"}},w=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,t=j(e);return!(!navigator.canShare||!navigator.canShare(t))},E=function(e){return Object(i["a"])(void 0,void 0,void 0,regeneratorRuntime.mark((function t(){var n;return regeneratorRuntime.wrap((function(t){while(1)switch(t.prev=t.next){case 0:if(!w()){t.next=10;break}return t.prev=1,n=j(e),t.next=5,navigator.share(n);case 5:t.next=10;break;case 7:t.prev=7,t.t0=t["catch"](1),console.log(t.t0.name,t.t0.message);case 10:case"end":return t.stop()}}),t,null,[[1,7]])})))},A=function(e){return c.a.get("".concat("/","locales/").concat(e,".json?t=").concat(Date.now()))},C=n("27d6"),S=n.n(C),P={google:{families:["Noto Sans SC:300,400,700"]}},$={google:{families:["Noto Sans JP:300,400,700"]}},L={google:{families:["Noto Sans KR:300,400,700"]}},R={google:{families:["Lato:300,400,700"]}},B=function(e){return new Promise((function(t){var n="zh"===e?P:"ja"===e?$:"ko"===e?L:R;S.a.load(Object.assign({active:t,classes:!1},n))}))},T=window["dataLayer"],D=function(e){void 0===Object({NODE_ENV:"production",VUE_APP_GAME_API:"https://prod-api.ggapp.cloud/games/b0f69202-a0e5-11eb-b6b6-acde48001122",VUE_APP_GAME_URL:"https://guccibelovedbounce.gucci.com/",VUE_APP_I18N_FALLBACK_LOCALE:"en",VUE_APP_I18N_LOCALE:"en",VUE_APP_LOCAL_STORAGE:"gucci-bounce-game:scores",VUE_APP_PRIVACY_POLICY:"//privacy.gucci.com/",VUE_APP_PUBLIC_PATH:"/",VUE_APP_SHARE_DESCRIPTION:"Try the new #GucciBeloved Bounce game! Make your microphone jump from one cube to another to get to the show on time. #GucciArcade",VUE_APP_SHARE_IMAGE_HEIGHT:"1080",VUE_APP_SHARE_IMAGE_SOURCE:"/assets/img/gucci-beloved-bounce-share.png",VUE_APP_SHARE_IMAGE_WIDTH:"1920",VUE_APP_SHARE_TITLE:"Welcome to the Gucci Beloved Bounce Game",BASE_URL:"/"}).VUE_APP_PREVENT_TRACKING&&T.push(Object.assign(Object.assign({},e),{event:"generic_event"}))},V=n("a925");o["a"].use(V["a"]);var G,M=[],N=["en","it","fr","de","es","zh","ko","ja"],U=new V["a"]({locale:"en",fallbackLocale:"en"}),I=function(){var e=(void 0!==navigator.languages?navigator.languages[0]:navigator.language)||navigator.browserLanguage,t=new URLSearchParams(location.search).get("lang"),n=t||e.trim().split(/-|_/)[0],a="en";return N.includes(n)?n:a},F=function(e){var t;return U.locale=e,c.a.defaults.headers.common["Accept-Language"]=e,null===(t=document.querySelector("html"))||void 0===t||t.setAttribute("lang",e),e},H=function(){return Object(i["a"])(void 0,void 0,void 0,regeneratorRuntime.mark((function e(){var t,n,a;return regeneratorRuntime.wrap((function(e){while(1)switch(e.prev=e.next){case 0:if(t=I(),!M.includes(t)){e.next=3;break}return e.abrupt("return",Promise.resolve(F(t)));case 3:return e.next=5,A(t);case 5:return n=e.sent,a=n.data,U.setLocaleMessage(t,a),M.push(t),e.abrupt("return",F(t));case 10:case"end":return e.stop()}}),e)})))},z=U,Y=n("2f62"),J={fetched:!1,theme:0,user:{},colors:[["#A6DAD7","#81AFB6","#5C7171","#435656"],["#FFCD80","#C99350","#7B6A43","#7B6A43"],["#A6DAD7","#81AFB6","#5C7171","#435656"],["#FFD8AE","#B89B6D","#7F6A4A","#7F6A4A"],["#FFAEAE","#B86D6D","#7F4A4A","#5E3636"]]},q={user:function(e){var t=e.user;return t},colors:function(e){var t=e.colors;return t},fetched:function(e){var t=e.fetched;return t},theme:function(e){var t=e.colors,n=e.theme;return t[n]}},K="fetched",W="setUser",Z="setTheme",Q="fetchUser",X={setup:function(e){var t=e.commit,n=e.dispatch;return Object(i["a"])(this,void 0,void 0,regeneratorRuntime.mark((function e(){return regeneratorRuntime.wrap((function(e){while(1)switch(e.prev=e.next){case 0:return e.next=2,H();case 2:return e.next=4,B(z.locale);case 4:n(Q),t(K,!0);case 6:case"end":return e.stop()}}),e)})))},fetchUser:function(e){var t=e.commit,n=new URLSearchParams(location.search),a=n.get("userName"),r=n.get("lang"),o=n.get("userId");t(W,{id:o,name:a,lang:r})},setTheme:function(e,t){var n=e.commit;n(Z,t)}},ee=n("ade3"),te=(G={},Object(ee["a"])(G,K,(function(e,t){e.fetched=t})),Object(ee["a"])(G,W,(function(e,t){e.user=t})),Object(ee["a"])(G,Z,(function(e,t){e.theme=t})),G);o["a"].use(Y["a"]);var ne=new Y["a"].Store({state:J,getters:q,actions:X,mutations:te}),ae=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("main",{class:e.pointer,attrs:{id:"app"}},[e.fetched?n("Game"):e._e(),n("Footer")],1)},re=[],oe=n("d4ec"),ie=n("bee2"),se=n("262e"),ce=n("2caf"),le=n("4bb5"),ue=n("1b40"),pe=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{attrs:{id:"dashboard"}},[n("nav",[n("ul",e._l(e.state,(function(t,a){return n("li",{key:"item-"+a},["checkbox"===t.type?n("input",{directives:[{name:"model",rawName:"v-model",value:t.enabled,expression:"item.enabled"}],attrs:{name:t.label,id:t.label,type:"checkbox"},domProps:{checked:Array.isArray(t.enabled)?e._i(t.enabled,null)>-1:t.enabled},on:{change:function(n){var a=t.enabled,r=n.target,o=!!r.checked;if(Array.isArray(a)){var i=null,s=e._i(a,i);r.checked?s<0&&e.$set(t,"enabled",a.concat([i])):s>-1&&e.$set(t,"enabled",a.slice(0,s).concat(a.slice(s+1)))}else e.$set(t,"enabled",o)}}}):"radio"===t.type?n("input",{directives:[{name:"model",rawName:"v-model",value:t.enabled,expression:"item.enabled"}],attrs:{name:t.label,id:t.label,type:"radio"},domProps:{checked:e._q(t.enabled,null)},on:{change:function(n){return e.$set(t,"enabled",null)}}}):n("input",{directives:[{name:"model",rawName:"v-model",value:t.enabled,expression:"item.enabled"}],attrs:{name:t.label,id:t.label,type:t.type},domProps:{value:t.enabled},on:{input:function(n){n.target.composing||e.$set(t,"enabled",n.target.value)}}}),n("label",{attrs:{for:t.label}},[e._v(e._s(t.label))]),t.props?n("ul",e._l(t.props,(function(t,a){return n("li",{key:"prop-"+a},["checkbox"===t.type?n("input",{directives:[{name:"model",rawName:"v-model",value:t.value,expression:"prop.value"}],attrs:{name:t.label,id:t.label,type:"checkbox"},domProps:{checked:Array.isArray(t.value)?e._i(t.value,null)>-1:t.value},on:{change:function(n){var a=t.value,r=n.target,o=!!r.checked;if(Array.isArray(a)){var i=null,s=e._i(a,i);r.checked?s<0&&e.$set(t,"value",a.concat([i])):s>-1&&e.$set(t,"value",a.slice(0,s).concat(a.slice(s+1)))}else e.$set(t,"value",o)}}}):"radio"===t.type?n("input",{directives:[{name:"model",rawName:"v-model",value:t.value,expression:"prop.value"}],attrs:{name:t.label,id:t.label,type:"radio"},domProps:{checked:e._q(t.value,null)},on:{change:function(n){return e.$set(t,"value",null)}}}):n("input",{directives:[{name:"model",rawName:"v-model",value:t.value,expression:"prop.value"}],attrs:{name:t.label,id:t.label,type:t.type},domProps:{value:t.value},on:{input:function(n){n.target.composing||e.$set(t,"value",n.target.value)}}}),n("label",{attrs:{for:t.label}},[e._v(e._s(t.label))])])})),0):e._e()])})),0)]),n("Background",{attrs:{theme:e.theme}}),e.state.landing.enabled?n("Landing",{attrs:{complete:e.state.landing.props.complete.value,progress:e.state.landing.props.progress.value,theme:e.theme}}):e._e(),e.state.display.enabled?n("Display",{attrs:{checkpoint:!!e.state.display.props.checkpoint.value&&"marmont",score:{total:parseFloat(e.state.display.props.score.value),combo:parseFloat(e.state.display.props.combo.value),boxes:3},theme:e.theme}}):e._e(),e.state.gameover.enabled?n("GameOver",{attrs:{score:parseFloat(e.state.gameover.props.score.value),theme:e.theme}}):e._e(),n("Share")],1)},de=[],he=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{style:e.style,attrs:{id:"background"}})},be=[],me=n("cffa"),fe=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){var e;return Object(oe["a"])(this,n),e=t.apply(this,arguments),e.style={background:"linear-gradient(0deg, ".concat(e.theme[2]," 0%, ").concat(e.theme[1]," 33%, ").concat(e.theme[0]," 66%)")},e}return Object(ie["a"])(n,[{key:"onThemeUpdate",value:function(e){me["b"].to(this.style,{duration:1,ease:"power2.inOut",background:"linear-gradient(0deg, ".concat(e[2]," 0%, ").concat(e[1]," 33%, ").concat(e[0]," 66%)")})}}]),n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],fe.prototype,"theme",void 0),Object(i["b"])([Object(ue["f"])("theme",{immediate:!0})],fe.prototype,"onThemeUpdate",null),fe=Object(i["b"])([ue["a"]],fe);var ve=fe,ye=ve,ge=(n("4643"),n("2877")),ke=Object(ge["a"])(ye,he,be,!1,null,"727d6898",null),xe=ke.exports,_e=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("transition",{attrs:{css:!1,appear:!0},on:{enter:e.enter,leave:e.leave}},[e.ranking.length?n("div",{staticClass:"gameover"},[n("div",{staticClass:"container",style:{backgroundColor:e.theme[0]}},[n("div",{staticClass:"header"},[n("h2",{ref:"header"},[n("span",{domProps:{innerHTML:e._s(e.$t("gameover.message"))}})])]),n("Score",{ref:"score",attrs:{user:e.user,value:e.score,color:e.theme[3]},on:{share:e.share}}),n("Ranking",{ref:"ranking",attrs:{user:e.userId,store:e.ranking,color:e.theme[3]}}),n("div",{ref:"footer",staticClass:"footer"},[n("Button",{on:{click:e.restart}},[n("span",{style:{color:e.theme[3]},domProps:{innerHTML:e._s(e.$t("buttons.restart"))}})])],1)],1)]):e._e()])},Oe=[],je=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return Object(ie["a"])(n,[{key:"enter",value:function(e,t){me["b"].timeline({delay:1,onComplete:t,defaults:{duration:.8,ease:"expo.out"}}).fromTo(this.$refs.privacy,{autoAlpha:0,y:40},{autoAlpha:1,y:0})}}]),n}(ue["e"]);je=Object(i["b"])([ue["a"]],je);var we=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return Object(ie["a"])(n,[{key:"headerEnter",value:function(){var e=this.$refs.header,t=e.$refs,n=t.title,a=t.intro,r=t.text,o=t.hello;return me["b"].timeline({defaults:{duration:.6,ease:"power2.out"}}).fromTo(o||{autoAlpha:1,y:0},{autoAlpha:0,y:40},{autoAlpha:1,y:0},"<").fromTo([a,n,r],{autoAlpha:0,y:40},{autoAlpha:1,y:0,stagger:{amount:.25}},"<")}},{key:"headerLeave",value:function(){var e=this.$refs.header,t=e.$refs,n=t.title,a=t.intro,r=t.text,o=t.hello;return me["b"].timeline({defaults:{duration:.6,ease:"power2.inOut"}}).to(o||{autoAlpha:1,y:0},{autoAlpha:0,y:-40},"<").to([a,n,r],{autoAlpha:0,y:-40,stagger:{amount:.2}},"<")}},{key:"fadeEnter",value:function(e){return me["b"].timeline().fromTo(e,{autoAlpha:0,y:30},{autoAlpha:1,y:0,duration:1.2,ease:"elastic.out"})}},{key:"fadeLeave",value:function(e){return me["b"].timeline().to(e,{scale:.8,autoAlpha:0,duration:.8,ease:"expo.inOut"})}},{key:"loaderEnter",value:function(){var e=this.$refs.loader;return me["b"].timeline().fromTo(e&&e.$refs.circle,{strokeDasharray:"0, 138"},{strokeDasharray:"138, 138",duration:.8,ease:"power2.out"})}},{key:"loaderLeave",value:function(){return this.fadeLeave(this.$refs.loader&&this.$refs.loader.$el)}},{key:"buttonEnter",value:function(){return this.fadeEnter(this.$refs.button&&this.$refs.button.$el)}},{key:"buttonLeave",value:function(){return this.fadeLeave(this.$refs.button&&this.$refs.button.$el)}},{key:"footerEnter",value:function(){return me["b"].fromTo(this.$refs.footer,{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.8,ease:"expo.out"})}},{key:"footerLeave",value:function(){return me["b"].to(this.$refs.footer,{autoAlpha:0,y:40,duration:.6,ease:"power2.inOut"})}},{key:"completeEnter",value:function(e,t){me["b"].timeline({onComplete:t}).add(this.fadeEnter(e))}},{key:"completeLeave",value:function(e,t){me["b"].timeline({onComplete:t}).add(this.fadeLeave(e))}},{key:"enter",value:function(e,t){var n=this;me["b"].timeline({onComplete:function(){n.$emit("reveal"),t()}}).add(this.headerEnter(),"<").add(this.loaderEnter(),"<+.3").add(this.buttonEnter(),"<").add(this.footerEnter(),"<+.2")}},{key:"leave",value:function(e,t){me["b"].timeline({onComplete:t}).add(this.headerLeave(),"<").add(this.loaderLeave(),"<+.1").add(this.buttonLeave(),"<").add(this.footerLeave(),"<")}}]),n}(ue["e"]);we=Object(i["b"])([ue["a"]],we);var Ee=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return Object(ie["a"])(n,[{key:"headerEnter",value:function(e,t){me["b"].timeline({onComplete:t,delay:1}).fromTo(e,{autoAlpha:0,y:-20},{autoAlpha:1,y:0,duration:1,ease:"elastic.out"})}},{key:"headerLeave",value:function(e,t){me["b"].timeline({onComplete:t}).to(e,{y:20,autoAlpha:0,duration:.6,ease:"expo.inOut"})}}]),n}(ue["e"]);Ee=Object(i["b"])([ue["a"]],Ee);var Ae=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return Object(ie["a"])(n,[{key:"enter",value:function(e,t){var n=this.$refs,a=n.counter,r=n.line1,o=n.line2;me["b"].timeline({defaults:{duration:.8,ease:"back.out"},onComplete:t}).fromTo(r,{scaleY:0,y:90},{scaleY:1,y:0},"<").fromTo(o,{scaleY:0,y:-90},{scaleY:1,y:0},"<+.1").fromTo(a,{scale:0},{scale:1},"<")}},{key:"leave",value:function(e,t){var n=this.$refs,a=n.counter,r=n.line1,o=n.line2;me["b"].timeline({defaults:{duration:.6,ease:"expo.out"},onComplete:t}).to(a,{scale:0},"<").to(o,{scaleY:0,y:-90},"<+.1").to(r,{scaleY:0,y:90},"<")}},{key:"countEnter",value:function(e,t){me["b"].from(e,{scale:1.6,autoAlpha:0,duration:1,delay:.2,ease:"expo.out",onComplete:t})}},{key:"countLeave",value:function(e,t){me["b"].to(e,{scale:.6,autoAlpha:0,duration:1,ease:"expo.out",onComplete:t})}}]),n}(ue["e"]);Ae=Object(i["b"])([ue["a"]],Ae);var Ce=n("2909"),Se=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return Object(ie["a"])(n,[{key:"enter",value:function(e,t){var n=this.$refs,a=n.score,r=n.ranking,o=n.footer,i=a.$refs,s=i.user,c=i.value,l=i.path,u=i.share,p=r.$refs,d=p.thRank,h=p.thScore,b=p.tdRank,m=p.tdScore;me["b"].timeline({onComplete:t}).timeScale(1).add(me["b"].fromTo(e,{yPercent:-100},{yPercent:0,duration:1,ease:"expo.out"}),"<").add(me["b"].timeline({defaults:{duration:.6,ease:"power2.out"}}).fromTo(s,{autoAlpha:0,y:-30},{autoAlpha:1,y:0},"<").fromTo(c,{autoAlpha:0,scale:1.6},{autoAlpha:1,scale:1},"<+.1").fromTo(u&&u.$el,{autoAlpha:0,scale:.3,y:80},{autoAlpha:1,scale:1,y:0,ease:"back.out"},"<").fromTo(l,{strokeDasharray:"355, 355",strokeDashoffset:"-355"},{strokeDasharray:"355, 355",strokeDashoffset:"0",duration:.8},"<"),"<+.2").add(me["b"].timeline().fromTo([d,h].concat(Object(Ce["a"])(b),Object(Ce["a"])(m),[o]),{autoAlpha:0,y:40},{autoAlpha:1,y:0,duration:.4,stagger:.05,ease:"power2.out"}),"<")}},{key:"leave",value:function(e,t){me["b"].timeline({onComplete:t}).to(e,{yPercent:-100,duration:1,ease:"expo.out"})}}]),n}(ue["e"]);Se=Object(i["b"])([ue["a"]],Se);var Pe=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticClass:"ranking"},[n("table",[n("thead",[n("tr",[n("th",{ref:"thRank"},[e._v(e._s(e.$t("ranking.position")))]),n("th",{ref:"thScore"},[e._v(e._s(e.$t("ranking.score")))])])]),n("tbody",e._l(e.store,(function(t,a){return n("tr",{key:"ranking-tr-"+a},[n("td",{ref:"tdRank",refInFor:!0,class:{highlight:t.userId===e.user},style:{color:e.color}},[e._v(e._s(t.rank))]),n("td",{ref:"tdScore",refInFor:!0,class:{highlight:t.userId===e.user},style:{color:e.color}},[e._v(e._s(t.score))])])})),0)])])},$e=[],Le=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],Le.prototype,"user",void 0),Object(i["b"])([Object(ue["c"])()],Le.prototype,"store",void 0),Object(i["b"])([Object(ue["c"])()],Le.prototype,"color",void 0),Le=Object(i["b"])([ue["a"]],Le);var Re=Le,Be=Re,Te=(n("65fa"),Object(ge["a"])(Be,Pe,$e,!1,null,"5b24abd6",null)),De=Te.exports,Ve=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticClass:"score"},[n("svg",{attrs:{xmlns:"http://www.w3.org/2000/svg",width:"165.84",height:"165.84",viewBox:"0 0 165.84 165.84"}},[n("path",{ref:"path",attrs:{d:"M75.19,150.38A75.19,75.19,0,1,0,0,75.19",transform:"matrix(0.07, 0.998, -0.998, 0.07, 150.762, 0.748)",fill:"none","stroke-linecap":"round","stroke-miterlimit":"10","stroke-width":"5"}})]),n("div",{staticClass:"display"},[n("h3",{ref:"user"},[n("span",{style:{color:e.color},domProps:{innerHTML:e._s(e.$t("gameover.user"))}})]),n("h4",{ref:"value"},[n("span",{style:{color:e.color},domProps:{innerHTML:e._s(e.value)}})])]),e.shareable?n("Share",{ref:"share",attrs:{arcade:e.arcade,color:e.color},on:{click:function(t){return e.$emit("share",t)}}}):e._e()],1)},Ge=[],Me=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticClass:"share"},[e.arcade?n("a",{attrs:{href:"arcade://share?url="+encodeURIComponent(e.$share.dataURL),target:"_blank"}},[n("span",{staticClass:"wrapper"},[n("svg",{attrs:{xmlns:"http://www.w3.org/2000/svg",width:"22",height:"20",viewBox:"0 0 22 20"}},[n("path",{attrs:{fill:e.color,d:"M0,20a25.4,25.4,0,0,1,.528-5.435,16.624,16.624,0,0,1,1.32-3.949,8.312,8.312,0,0,1,2.09-2.633A12.724,12.724,0,0,1,6.292,6.369a9.593,9.593,0,0,1,2.684-.807,22.725,22.725,0,0,1,2.508-.318q.88-.042,2.354-.042V0L22,7.9l-8.162,7.877v-5.69q-2.244,0-3.322.021t-2.772.212a9.1,9.1,0,0,0-2.508.552,12.955,12.955,0,0,0-1.892,1.083,4.838,4.838,0,0,0-1.628,1.762A15.116,15.116,0,0,0,.682,16.348,18.8,18.8,0,0,0,0,20Z"}})])])]):n("button",{on:{click:function(t){return e.$emit("click",t)}}},[n("span",{staticClass:"wrapper"},[n("svg",{attrs:{xmlns:"http://www.w3.org/2000/svg",width:"22",height:"20",viewBox:"0 0 22 20"}},[n("path",{attrs:{fill:e.color,d:"M0,20a25.4,25.4,0,0,1,.528-5.435,16.624,16.624,0,0,1,1.32-3.949,8.312,8.312,0,0,1,2.09-2.633A12.724,12.724,0,0,1,6.292,6.369a9.593,9.593,0,0,1,2.684-.807,22.725,22.725,0,0,1,2.508-.318q.88-.042,2.354-.042V0L22,7.9l-8.162,7.877v-5.69q-2.244,0-3.322.021t-2.772.212a9.1,9.1,0,0,0-2.508.552,12.955,12.955,0,0,0-1.892,1.083,4.838,4.838,0,0,0-1.628,1.762A15.116,15.116,0,0,0,.682,16.348,18.8,18.8,0,0,0,0,20Z"}})])])])])},Ne=[],Ue=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return Object(ie["a"])(n,[{key:"onShareUpdate",value:function(){console.log(this.$share)}}]),n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],Ue.prototype,"color",void 0),Object(i["b"])([Object(ue["c"])()],Ue.prototype,"arcade",void 0),Object(i["b"])([Object(ue["f"])("$share.dataURL")],Ue.prototype,"onShareUpdate",null),Ue=Object(i["b"])([ue["a"]],Ue);var Ie=Ue,Fe=Ie,He=(n("c92b"),Object(ge["a"])(Fe,Me,Ne,!1,null,"3201642c",null)),ze=He.exports,Ye=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return Object(ie["a"])(n,[{key:"arcade",get:function(){return null!==this.user.lang}},{key:"shareable",get:function(){return this.arcade||w()}}]),n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],Ye.prototype,"value",void 0),Object(i["b"])([Object(ue["c"])()],Ye.prototype,"color",void 0),Object(i["b"])([Object(ue["c"])()],Ye.prototype,"user",void 0),Ye=Object(i["b"])([Object(ue["a"])({components:{Share:ze}})],Ye);var Je=Ye,qe=Je,Ke=(n("6d1b"),Object(ge["a"])(qe,Ve,Ge,!1,null,"7e6eb06c",null)),We=Ke.exports,Ze=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("button",{staticClass:"btn",on:{click:function(t){return e.$emit("click",t)}}},[n("span",{staticClass:"wrapper"},[e._t("default")],2)])},Qe=[],Xe=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return n}(ue["e"]);Xe=Object(i["b"])([ue["a"]],Xe);var et=Xe,tt=et,nt=(n("94be"),Object(ge["a"])(tt,Ze,Qe,!1,null,"1388e2e2",null)),at=nt.exports,rt=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){var e;return Object(oe["a"])(this,n),e=t.apply(this,arguments),e.ranking=[],e}return Object(ie["a"])(n,[{key:"share",value:function(){E(this.score),D({eventCategory:"SHARE"})}},{key:"restart",value:function(e){this.$emit("restart",e),D({eventCategory:"RESTART"})}},{key:"mounted",value:function(){return Object(i["a"])(this,void 0,void 0,regeneratorRuntime.mark((function e(){var t;return regeneratorRuntime.wrap((function(e){while(1)switch(e.prev=e.next){case 0:if(!this.user.id){e.next=6;break}return e.next=3,_(this.user.id,this.score);case 3:e.t0=e.sent,e.next=9;break;case 6:return e.next=8,O(this.score);case 8:e.t0=e.sent;case 9:t=e.t0,this.ranking=t.scoreRange,this.userId=t.userId,D({eventCategory:"GAMEOVER"});case 13:case"end":return e.stop()}}),e,this)})))}}]),n}(Se);Object(i["b"])([Object(le["b"])("user")],rt.prototype,"user",void 0),Object(i["b"])([Object(ue["c"])()],rt.prototype,"theme",void 0),Object(i["b"])([Object(ue["c"])()],rt.prototype,"score",void 0),rt=Object(i["b"])([Object(ue["a"])({components:{Ranking:De,Button:at,Score:We}})],rt);var ot=rt,it=ot,st=(n("8012"),Object(ge["a"])(it,_e,Oe,!1,null,"a1004910",null)),ct=st.exports,lt=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("transition",{attrs:{css:!1,appear:!0},on:{enter:e.enter,leave:e.leave}},[n("div",{attrs:{id:"landing"}},[n("div",{staticClass:"row"},[n("Heading",{ref:"header",attrs:{user:e.user}})],1),n("div",{staticClass:"row"},[n("transition",{attrs:{css:!1,mode:"out-in"},on:{enter:e.completeEnter,leave:e.completeLeave}},[e.complete?n("Button",{ref:"button",on:{click:e.start}},[n("span",{style:{color:e.theme[3]},domProps:{innerHTML:e._s(e.$t("buttons.start"))}})]):n("Loader",{ref:"loader",attrs:{progress:e.progress}})],1),n("footer",{ref:"footer"},[n("Logo",{attrs:{color:e.theme[0]}})],1)],1)])])},ut=[],pt=function(){var e=this,t=e.$createElement,a=e._self._c||t;return a("div",{staticClass:"heading",class:{logged:e.user.name}},[e.user.name?a("h3",{ref:"hello"},[e._v(e._s(e.$t("landing.hello"))+" "+e._s(e.user.name))]):e._e(),a("h2",{ref:"intro",domProps:{innerHTML:e._s(e.$t("landing.intro"))}}),a("h1",{ref:"title"},[a("img",{attrs:{src:n("4e59"),alt:e.$t("landing.title")}})]),a("p",{ref:"text"},e._l(e.$t("landing.text"),(function(t,n){return a("span",{key:"text-"+n,domProps:{innerHTML:e._s(t)}})})),0)])},dt=[],ht=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],ht.prototype,"user",void 0),ht=Object(i["b"])([ue["a"]],ht);var bt=ht,mt=bt,ft=(n("ee5a"),Object(ge["a"])(mt,pt,dt,!1,null,null,null)),vt=ft.exports,yt=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("svg",{staticClass:"loader",attrs:{viewBox:"25 25 50 50"}},[n("circle",{ref:"circle",staticClass:"base",attrs:{cx:"50",cy:"50",r:"22",fill:"none","stroke-width":"2","stroke-linecap":"round",transform:"rotate(-90 50 50)"}}),n("circle",{staticClass:"line",attrs:{"stroke-dasharray":138*e.progress+", 138",cx:"50",cy:"50",r:"22",fill:"none","stroke-width":"2",transform:"rotate(-90 50 50)"}})])},gt=[],kt=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],kt.prototype,"progress",void 0),kt=Object(i["b"])([ue["a"]],kt);var xt=kt,_t=xt,Ot=(n("615f"),Object(ge["a"])(_t,yt,gt,!1,null,"b37b12ee",null)),jt=Ot.exports,wt=function(){var e=this,t=e.$createElement;e._self._c;return e._m(0)},Et=[function(){var e=this,t=e.$createElement,a=e._self._c||t;return a("span",{attrs:{id:"logo"}},[a("img",{attrs:{src:n("d54b"),alt:"Gucci Arcade"}})])}],At=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],At.prototype,"color",void 0),At=Object(i["b"])([ue["a"]],At);var Ct=At,St=Ct,Pt=(n("c85b"),Object(ge["a"])(St,wt,Et,!1,null,"97e8a7b0",null)),$t=Pt.exports,Lt=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return Object(ie["a"])(n,[{key:"onComplete",value:function(e){return Object(i["a"])(this,void 0,void 0,regeneratorRuntime.mark((function t(){return regeneratorRuntime.wrap((function(t){while(1)switch(t.prev=t.next){case 0:return t.next=2,this.$nextTick();case 2:e?me["b"].timeline().add(this.loaderLeave(),"<").add(this.buttonEnter(),"<+.3"):me["b"].timeline().add(this.buttonLeave(),"<").add(this.loaderEnter(),"<");case 3:case"end":return t.stop()}}),t,this)})))}},{key:"start",value:function(){this.$emit("start"),D({eventCategory:"PLAY"})}}]),n}(we);Object(i["b"])([Object(ue["c"])()],Lt.prototype,"theme",void 0),Object(i["b"])([Object(ue["c"])()],Lt.prototype,"progress",void 0),Object(i["b"])([Object(ue["c"])()],Lt.prototype,"complete",void 0),Object(i["b"])([Object(le["b"])("user")],Lt.prototype,"user",void 0),Object(i["b"])([Object(ue["f"])("complete")],Lt.prototype,"onComplete",null),Lt=Object(i["b"])([Object(ue["a"])({components:{Heading:vt,Loader:jt,Button:at,Logo:$t}})],Lt);var Rt=Lt,Bt=Rt,Tt=(n("af035"),Object(ge["a"])(Bt,lt,ut,!1,null,"709e3dac",null)),Dt=Tt.exports,Vt=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{attrs:{id:"display"}},[n("div",{staticClass:"header"},[n("transition",{attrs:{css:!1,appear:!0,mode:"out-in"},on:{enter:e.headerEnter,leave:e.headerLeave}},[e.ready?n("div",{key:"score",staticClass:"score"},[n("transition",{attrs:{name:"display-score"}},[n("span",{key:e.scoreKey,staticClass:"circle",style:e.scoreStyles},[n("span",{staticClass:"count"},[e._v(e._s(e.score.total))])])])],1):n("div",{key:"ready",staticClass:"ready",style:{color:e.theme[3]}},[n("span",[e._v(e._s(e.$t("countdown")))])])])],1),e.combo?n("Combo",{attrs:{color:e.theme[3],checkpoint:e.checkpoint,value:e.checkpoint?e.score.boxes+e.score.combo:e.score.combo}}):e._e(),n("Tutorial",{attrs:{start:e.tutorial,combo:e.combo,steps:e.steps}}),n("Audio",{attrs:{active:!e.muted},on:{click:function(t){return e.$emit("toggle-audio",t)}}})],1)},Gt=[],Mt=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticClass:"tutorial"},[n("transition",{attrs:{name:"display-start-tutorial",appear:!0}},[e.start&&e.startEnabled?n("div",{staticClass:"start"},[n("div",{staticClass:"waves"},[n("span",{ref:"circle1"}),n("span",{ref:"circle2"})]),n("div",{staticClass:"display"},[n("div",{ref:"lottie",staticClass:"lottie"}),n("div",{staticClass:"steps"},[n("div",{ref:"step1",staticClass:"step-1"},[n("h3",[n("span",{domProps:{innerHTML:e._s(e.$t("tutorial.hold["+~~!!e.$device.mobile+"][0]"))}})]),n("h5",[n("span",{domProps:{innerHTML:e._s(e.$t("tutorial.hold["+~~!!e.$device.mobile+"][1]"))}})])]),n("div",{staticClass:"step-2"},[n("h4",{ref:"step2",domProps:{innerHTML:e._s(e.$t("tutorial.jump"))}})])])])]):e._e()]),n("transition",{attrs:{name:"display-combo-tutorial"}},[e.comboEnabled?n("div",{staticClass:"combo"},[n("h4",{ref:"combo",domProps:{innerHTML:e._s(e.$t("combo.message"))}})]):e._e()])],1)},Nt=[],Ut=n("f44e"),It=n("136c"),Ft=n("94f1"),Ht=n.n(Ft),zt=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){var e;return Object(oe["a"])(this,n),e=t.apply(this,arguments),e.startEnabled=!0,e.comboEnabled=!1,e.comboPrevent=!1,e.startTutorial={enabled:!0},e}return Object(ie["a"])(n,[{key:"onStart",value:function(e){return Object(i["a"])(this,void 0,void 0,regeneratorRuntime.mark((function t(){return regeneratorRuntime.wrap((function(t){while(1)switch(t.prev=t.next){case 0:return t.next=2,this.$nextTick();case 2:e?this.loop():(this.startEnabled=!1,this.dispose());case 3:case"end":return t.stop()}}),t,this)})))}},{key:"onCombo",value:function(e){return Object(i["a"])(this,void 0,void 0,regeneratorRuntime.mark((function t(){return regeneratorRuntime.wrap((function(t){while(1)switch(t.prev=t.next){case 0:return t.next=2,this.$nextTick();case 2:e&&!this.comboPrevent&&(this.comboEnabled=!0,this.comboPrevent=!0);case 3:case"end":return t.stop()}}),t,this)})))}},{key:"onMove",value:function(){this.comboEnabled&&(this.comboEnabled=!1)}},{key:"loop",value:function(){if(this.startEnabled){var e=this.$device.mobile?Ut:It;this.animation=Ht.a.loadAnimation({container:this.$refs.lottie,renderer:"svg",autoplay:!0,loop:!0,animationData:e});var t=this.$refs,n=t.circle1,a=t.circle2,r=t.step1,o=t.step2;this.timeline=me["b"].timeline().add(me["b"].timeline({repeat:-1,defaults:{duration:1.4,ease:"power.inOut"}}).fromTo([n,a],{scale:.3,opacity:0},{motionPath:{path:[{scale:1,opacity:1},{scale:1.1,opacity:0}],curviness:0},stagger:.3}),"<").add(me["b"].timeline({defaults:{duration:.8,ease:"power.inOut"}}).fromTo(r,{opacity:0,scale:1.15},{opacity:1,scale:1},"<").to(r,{opacity:0,scale:.8},"<+4").fromTo(o,{opacity:0,scale:1.15},{opacity:1,scale:1},"<+.12"),"<+.2")}}},{key:"dispose",value:function(){var e=this;me["b"].delayedCall(.8,(function(){e.animation&&e.animation.destroy(),e.timeline&&e.timeline.kill()}))}},{key:"destroyed",value:function(){this.dispose()}}]),n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],zt.prototype,"start",void 0),Object(i["b"])([Object(ue["c"])()],zt.prototype,"combo",void 0),Object(i["b"])([Object(ue["c"])()],zt.prototype,"steps",void 0),Object(i["b"])([Object(ue["f"])("start",{immediate:!0})],zt.prototype,"onStart",null),Object(i["b"])([Object(ue["f"])("combo")],zt.prototype,"onCombo",null),Object(i["b"])([Object(ue["f"])("steps")],zt.prototype,"onMove",null),zt=Object(i["b"])([ue["a"]],zt);var Yt=zt,Jt=Yt,qt=(n("fd1c"),Object(ge["a"])(Jt,Mt,Nt,!1,null,"261b5ceb",null)),Kt=qt.exports,Wt=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("transition",{attrs:{name:"combo",appear:!0,duration:{enter:5e3,leave:600}}},[n("div",{staticClass:"combo"},[n("transition",{attrs:{name:"combo-label",appear:!0,duration:{enter:1e3,leave:600}}},[n("div",{key:e.label,staticClass:"label",style:e.labelStyle},[n("span",[e._v(e._s(e.label))])])]),n("transition",{attrs:{name:"combo-display",appear:!0,duration:{enter:1e3,leave:600}}},[n("div",{key:e.value,staticClass:"display"},[n("svg",{staticClass:"circle",attrs:{xmlns:"http://www.w3.org/2000/svg",width:"165.84",height:"165.84",viewBox:"0 0 165.84 165.84"}},[n("path",{attrs:{d:"M75.19,150.38A75.19,75.19,0,1,0,0,75.19",transform:"translate(7.5, 7.5)",fill:"none","stroke-linecap":"round","stroke-miterlimit":"10","stroke-width":"5"}})]),n("div",{staticClass:"value"},[n("svg",{staticClass:"plus",attrs:{viewBox:"0 0 24 24",xmlns:"http://www.w3.org/2000/svg"}},[n("path",{attrs:{"stroke-linecap":"round","stroke-linejoin":"round","stroke-width":"2",d:"M12 6v6m0 0v6m0-6h6m-6 0H6"}})]),n("span",{style:e.valueStyle,domProps:{innerHTML:e._s(e.value)}})])])])],1)])},Zt=[],Qt=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return Object(ie["a"])(n,[{key:"label",get:function(){return this.checkpoint?this.$t("bags.".concat(this.checkpoint)):this.$t("combo.popup")}},{key:"labelStyle",get:function(){return{color:this.checkpoint?"#ffffff":this.color,opacity:this.checkpoint?1:.2}}},{key:"valueStyle",get:function(){return{color:this.checkpoint?this.color:"#ffffff"}}}]),n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],Qt.prototype,"color",void 0),Object(i["b"])([Object(ue["c"])()],Qt.prototype,"value",void 0),Object(i["b"])([Object(ue["c"])()],Qt.prototype,"checkpoint",void 0),Qt=Object(i["b"])([ue["a"]],Qt);var Xt=Qt,en=Xt,tn=(n("93d1"),Object(ge["a"])(en,Wt,Zt,!1,null,"e8a6277c",null)),nn=tn.exports,an=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticClass:"audio",class:{active:e.active},attrs:{"data-btn":""},on:{click:function(t){return e.$emit("click",t)}}},[e._m(0)])},rn=[function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("span",{attrs:{"data-btn":""}},[n("span",{attrs:{"data-btn":""}}),n("span",{attrs:{"data-btn":""}}),n("span",{attrs:{"data-btn":""}})])}],on=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],on.prototype,"active",void 0),on=Object(i["b"])([ue["a"]],on);var sn=on,cn=sn,ln=(n("0b40"),Object(ge["a"])(cn,an,rn,!1,null,null,null)),un=ln.exports,pn=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){var e;return Object(oe["a"])(this,n),e=t.apply(this,arguments),e.checkpointCount=0,e}return Object(ie["a"])(n,[{key:"ready",get:function(){return!0}},{key:"combo",get:function(){return this.score.combo>0||!1!==this.checkpoint}},{key:"scoreKey",get:function(){return"".concat(this.score.total,"-").concat(this.checkpoint||"default")}},{key:"scoreStyles",get:function(){return{backgroundColor:this.checkpoint?this.theme[3]:"transparent",borderColor:this.checkpoint?this.theme[3]:"#ffffff"}}},{key:"onCheckpoint",value:function(e){e&&(++this.checkpointCount,this.setTheme(this.checkpointCount%4))}}]),n}(Ee);Object(i["b"])([Object(ue["c"])()],pn.prototype,"theme",void 0),Object(i["b"])([Object(ue["c"])()],pn.prototype,"score",void 0),Object(i["b"])([Object(ue["c"])()],pn.prototype,"tutorial",void 0),Object(i["b"])([Object(ue["c"])()],pn.prototype,"muted",void 0),Object(i["b"])([Object(ue["c"])()],pn.prototype,"steps",void 0),Object(i["b"])([Object(ue["c"])()],pn.prototype,"checkpoint",void 0),Object(i["b"])([Object(le["a"])("setTheme")],pn.prototype,"setTheme",void 0),Object(i["b"])([Object(ue["f"])("checkpoint")],pn.prototype,"onCheckpoint",null),pn=Object(i["b"])([Object(ue["a"])({components:{Tutorial:Kt,Combo:nn,Audio:un}})],pn);var dn=pn,hn=dn,bn=(n("c097"),Object(ge["a"])(hn,Vt,Gt,!1,null,"a667aa5c",null)),mn=bn.exports,fn=function(){var e=this,t=e.$createElement,a=e._self._c||t;return a("div",{staticClass:"share"},[a("img",{ref:"image",attrs:{src:n("941a"),alt:""}}),a("canvas",{ref:"canvas",attrs:{width:e.size.width,height:e.size.height}})])},vn=[],yn=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){var e;return Object(oe["a"])(this,n),e=t.apply(this,arguments),e.size={width:1920,height:1080},e}return Object(ie["a"])(n,[{key:"onUpdate",value:function(e){e&&(this.draw(),this.$share.dataURL=this.$refs.canvas.toDataURL())}},{key:"wrapText",value:function(e,t,n,a){for(var r=e.split(" "),o=36,i="",s=0;s<r.length;s++){var c=i+r[s]+" ",l=this.context.measureText(c),u=l.width;u>a?(this.context.fillText(i,t,n),s<r.length-1&&(i=r[s]+" ",n+=o)):i=c}this.context.fillText(i,t,n)}},{key:"draw",value:function(){var e=this.$styles.getFont();this.context.drawImage(this.image,0,0),this.context.fillStyle="#5C7171",this.context.textAlign="center",this.context.font="700 50px ".concat(e,", sans-serif"),this.context.fillText(this.$t("share.title",{score:this.score}),this.size.width/2,380),this.context.font="400 26px ".concat(e,", sans-serif"),this.wrapText(this.$t("share.text",{name:this.$t("landing.title")}),this.size.width/2,440,400)}},{key:"setup",value:function(e){this.image=e,this.draw()}},{key:"mounted",value:function(){var e=this,t=this.$refs,n=t.canvas,a=t.image,r=n.getContext("2d");this.context=r,a.onload=function(){return e.setup(a)}}}]),n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],yn.prototype,"score",void 0),Object(i["b"])([Object(ue["c"])()],yn.prototype,"update",void 0),Object(i["b"])([Object(ue["f"])("update")],yn.prototype,"onUpdate",null),yn=Object(i["b"])([ue["a"]],yn);var gn=yn,kn=gn,xn=(n("95da"),Object(ge["a"])(kn,fn,vn,!1,null,"d30a4a5c",null)),_n=xn.exports,On=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){var e;return Object(oe["a"])(this,n),e=t.apply(this,arguments),e.state={landing:{label:"Landing",enabled:!1,type:"checkbox",props:{progress:{label:"Progress",value:!1,type:"checkbox"},complete:{label:"Complete",value:!1,type:"checkbox"}}},display:{label:"Display",enabled:!1,type:"checkbox",props:{score:{label:"Score",value:0,type:"number"},combo:{label:"Combo",value:0,type:"number"},checkpoint:{label:"Checkpoint",value:!1,type:"checkbox"}}},gameover:{label:"Gameover",enabled:!1,type:"checkbox",props:{score:{label:"Score",value:47,type:"number"}}}},e}return n}(ue["e"]);Object(i["b"])([Object(le["b"])("theme")],On.prototype,"theme",void 0),On=Object(i["b"])([Object(ue["a"])({components:{Background:xe,GameOver:ct,Landing:Dt,Display:mn,Share:_n}})],On);var jn=On,wn=jn,En=(n("e34c"),Object(ge["a"])(wn,pe,de,!1,null,null,null)),An=En.exports,Cn=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("transition",{attrs:{css:!1,appear:!0},on:{enter:e.enter}},[n("footer",[n("div",{ref:"privacy",staticClass:"privacy"},[n("a",{attrs:{href:e.privacy,target:"_blank"}},[n("span",[e._v(e._s(e.$t("privacy")))])])])])])},Sn=[],Pn=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return Object(ie["a"])(n,[{key:"privacy",get:function(){return"//privacy.gucci.com/"}}]),n}(je);Pn=Object(i["b"])([ue["a"]],Pn);var $n=Pn,Ln=$n,Rn=(n("cc6a"),Object(ge["a"])(Ln,Cn,Sn,!1,null,null,null)),Bn=Rn.exports,Tn=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{attrs:{id:"game"}},[n("Controller",{scopedSlots:e._u([{key:"default",fn:function(t){var a=t.currentIndex,r=t.checkpoint,o=t.countdown,i=t.direction,s=t.gameOver,c=t.started,l=t.enabled,u=t.holding,p=t.jumping,d=t.falling,h=t.player,b=t.helper,m=t.blocks,f=t.loader,v=t.center,y=t.sounds,g=t.score,k=t.moved,x=t.depth,_=t.hold,O=t.jump,j=t.play;return[f.fetched?n("Mixer",{attrs:{block:m[a],checkpoint:r,gameOver:s,combo:g.combo,started:c,holding:u,jumping:p,falling:d,sounds:y},scopedSlots:e._u([{key:"default",fn:function(t){var s=t.listener,l=t.toggle,y=t.muted;return[n("Background",{attrs:{theme:e.theme}}),n("Canvas",{attrs:{cameraTween:k,cameraPosition:v,audioListener:s},on:{loaded:f.finish}},[n("Floor"),n("Lights",{attrs:{ambient:[16777215,.5]}}),f.complete?n("BlocksRoot",e._l(m,(function(e,t){return n(e.component,{key:"block-"+t,tag:"component",attrs:{holding:u&&t===a,state:e}})})),1):e._e(),f.complete?n("Player",{attrs:{direction:i,holding:u,jumping:p,falling:d,position:h,depth:x}},[n("HoldParticles",{attrs:{active:u}}),n("JumpParticles",{attrs:{active:k&&!u&&!p&&!d}}),n("ComboParticles",{attrs:{combo:g.combo}})],1):e._e(),n("Tutorial",{attrs:{state:b,holding:u,jumping:p}})],1),c?n("Display",{attrs:{muted:y,theme:e.theme,score:g,steps:a,countdown:o,checkpoint:r,tutorial:!u&&!p&&0===g.total},on:{"toggle-audio":function(e){return l(!y)}}}):e._e()]}}],null,!0)}):e._e(),c?e._e():n("Landing",{attrs:{theme:e.theme,progress:f.progress,complete:f.complete},on:{reveal:f.fetch,start:j}}),s?n("GameOver",{attrs:{theme:e.theme,score:g.total},on:{restart:j}}):e._e(),n("Share",{attrs:{update:s,score:g.total}}),n("Controls",{attrs:{enabled:l},on:{pressed:function(){_(!0),O(!1)},release:function(){_(!1),O(!0)},debounce:function(){O(!1)}}})]}}])})],1)},Dn=[],Vn=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{attrs:{id:"controller"}},[e._t("default",null,null,Object.assign({},e.state,{enabled:e.enabled,sounds:e.sounds,loader:e.loader,moved:e.moved,depth:e.depth,hold:e.hold,jump:e.jump,play:e.play,score:e.score,helper:e.helper,currentIndex:e.currentIndex}))],2)},Gn=[],Mn=(n("4c53"),n("159b"),n("d34e")),Nn=n.n(Mn),Un=new Nn.a,In=function(e){return Un=new Nn.a(e)},Fn=function(){return Un.random()},Hn=function(e){var t=0;e.forEach((function(e){return t+=e.prob}));for(var n=Math.floor(Fn()*(t+1)),a=0,r=0;r<e.length;++r)if(n-=e[r].prob,n<=0){a=r;break}return Object.assign({},e[a])},zn=function(e){return new Promise((function(t){return me["b"].delayedCall(e,t)}))},Yn=n("b012"),Jn=n.n(Yn),qn=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){var e;return Object(oe["a"])(this,n),e=t.apply(this,arguments),e.state={started:!1,holding:!1,jumping:!1,falling:!1,gameOver:!1,checkpoint:!1,direction:new d["Cb"],player:new d["Cb"],center:new d["Cb"],helper:new d["Cb"],countdown:3,blocks:[],steps:[]},e.score={total:0,combo:0,jumps:0,boxes:0},e.loader={progress:0,fetched:!1,complete:!1,fetch:e.fetch,finish:e.init},e.helper={position:new d["Cb"],prevent:!1,target:!1},e.debounceResetCombo=Jn()(e.resetCombo,2e3),e.store={},e.clock=Date.now(),e.timer=0,e}return Object(ie["a"])(n,[{key:"enabled",get:function(){var e=this.state,t=e.started,n=e.holding,a=e.jumping,r=e.falling;return t&&!n&&!a&&!r}},{key:"difficulty",get:function(){return 1-Math.pow(.5,this.state.steps.length/128)}},{key:"currentBlock",get:function(){return this.state.blocks[this.state.blocks.length-3]}},{key:"nextBlock",get:function(){return this.state.blocks[this.state.blocks.length-2]}},{key:"lastBlock",get:function(){return this.state.blocks[this.state.blocks.length-8]}},{key:"moved",get:function(){return this.state.steps.length>0}},{key:"currentIndex",get:function(){return this.state.blocks.length-3}},{key:"sounds",get:function(){return this.store.sounds}},{key:"depth",get:function(){var e=this.currentBlock&&this.validate(this.currentBlock,this.state.player),t=this.nextBlock&&this.validate(this.nextBlock,this.state.player);return e?this.currentBlock.scale:t?this.nextBlock.scale:1}},{key:"hold",value:function(e){this.state.holding=e}},{key:"jump",value:function(e){this.state.jumping=e}},{key:"tick",value:function(e,t){var n=t/1e3*u["h"],a=this.state.direction.clone().multiplyScalar(n);this.helper.position.add(a),this.helper.target=this.validate(this.nextBlock,this.helper.position)}},{key:"onHolding",value:function(e){if(e){this.clock=Date.now();var t=this.state.player.clone(),n=this.nextBlock.position.clone();this.state.direction=n.sub(t).setY(0).normalize(),this.helper.prevent=this.state.steps.length>u["f"],this.helper.position.copy(this.state.player),me["b"].ticker.add(this.tick)}}},{key:"onJumping",value:function(e){if(me["b"].ticker.remove(this.tick),e){var t=this.clock,n=Date.now(),a=Math.min(5,(n-t)/1e3),r=a*u["h"],o=this.state.direction.clone().multiplyScalar(r);this.state.player.add(o),this.state.steps.push([t,n])}else this.nextStep()}},{key:"validate",value:function(e,t){var n=e.position,a=e.scale,r=t.clone().sub(n).setY(0);return Math.abs(r.x)<=a/2&&Math.abs(r.z)<a/2}},{key:"reward",value:function(e,t){var n=e.position,a=e.scale,r=t.clone().sub(n).setY(0);return r.length()<u["e"]*a}},{key:"resetCombo",value:function(){this.state.checkpoint=!1,this.score.combo=0}},{key:"nextStep",value:function(){return Object(i["a"])(this,void 0,void 0,regeneratorRuntime.mark((function e(){var t,n,a,r,o=this;return regeneratorRuntime.wrap((function(e){while(1)switch(e.prev=e.next){case 0:this.validate(this.currentBlock,this.state.player)?this.score.combo=0:this.validate(this.nextBlock,this.state.player)?(this.reward(this.nextBlock,this.state.player)?++this.score.combo:this.score.combo=0,this.score.boxes=this.nextBlock.score,this.score.jumps=this.state.steps.length,this.score.total+=this.score.boxes+this.score.combo,t=this.nextBlock,n=t.size,a=t.bag,r=u["c"].DOUBLE===n,this.state.checkpoint=!!r&&(a?a.key:"checkpoint"),this.addBlock(),this.currentBlock.active=!0,this.nextBlock.reveal=!0,this.moveCamera(),this.lastBlock&&(this.lastBlock.dispose=!0),this.debounceResetCombo()):(this.debounceResetCombo(),this.state.falling=!0,me["b"].delayedCall(1,(function(){o.state.gameOver=!0})));case 1:case"end":return e.stop()}}),e,this)})))}},{key:"moveCamera",value:function(){var e=this.nextBlock.position.clone().setY(0),t=this.currentBlock.position.clone().setY(0),n=this.state.blocks.length>=2?t.add(e).divideScalar(2):new d["Cb"];this.state.center.copy(n)}},{key:"addBlock",value:function(){var e=this.store.blocks,t=e.double,n=e.single,a=0===this.state.blocks.length,r=this.state.steps.length>0&&(this.state.steps.length+2)%u["d"]===0,o=Fn()>.5?new d["Cb"](1,0,0):new d["Cb"](0,0,-1),i=r?0===o.x?t.left:t.right:n,s=a?n[0]:Hn(i),c=1-Fn()*this.difficulty*.1,l=Object.assign(Object.assign({},s),{position:new d["Cb"],visible:!1,dispose:!1,active:!1,reveal:!1,direction:o,scale:c});if(this.state.blocks.length){var p=this.state.blocks[this.state.blocks.length-1],h=p.position.clone().add(o.clone().multiplyScalar(1.2+Fn()+1.2*this.difficulty)).setY(0);l.position.copy(h)}else l.position.set(0,0,0),l.active=!0;return this.state.blocks.push(l),l}},{key:"start",value:function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:Math.floor(16777215*Math.random());return Object(i["a"])(this,void 0,void 0,regeneratorRuntime.mark((function t(){return regeneratorRuntime.wrap((function(t){while(1)switch(t.prev=t.next){case 0:return In(e),this.score.total=0,this.score.boxes=0,this.score.combo=0,this.score.jumps=0,this.state.steps=[],this.state.blocks=[],this.state.falling=!1,this.state.gameOver=!1,this.state.player.set(0,1,0),t.next=12,this.$nextTick();case 12:this.addBlock().visible=!0,this.addBlock().reveal=!0,this.addBlock(),this.moveCamera();case 16:case"end":return t.stop()}}),t,this)})))}},{key:"play",value:function(){this.start(),this.state.started||(this.state.started=!0)}},{key:"init",value:function(){return Object(i["a"])(this,void 0,void 0,regeneratorRuntime.mark((function e(){var t;return regeneratorRuntime.wrap((function(e){while(1)switch(e.prev=e.next){case 0:return t=this.addBlock(),t.active=!1,t.reveal=!0,this.loader.progress=1,e.next=6,zn(.8);case 6:this.loader.complete=!0;case 7:case"end":return e.stop()}}),e,this)})))}},{key:"fetch",value:function(){return Object(i["a"])(this,void 0,void 0,regeneratorRuntime.mark((function e(){var t=this;return regeneratorRuntime.wrap((function(e){while(1)switch(e.prev=e.next){case 0:return e.next=2,x((function(e){return t.loader.progress=.98*e}));case 2:return this.store=e.sent,e.next=5,zn(.6);case 5:this.loader.fetched=!0;case 6:case"end":return e.stop()}}),e,this)})))}}]),n}(ue["e"]);Object(i["b"])([Object(ue["f"])("state.holding")],qn.prototype,"onHolding",null),Object(i["b"])([Object(ue["f"])("state.jumping")],qn.prototype,"onJumping",null),qn=Object(i["b"])([ue["a"]],qn);var Kn=qn,Wn=Kn,Zn=(n("d23d"),Object(ge["a"])(Wn,Vn,Gn,!1,null,"de0282bc",null)),Qn=Zn.exports,Xn=n("ebb6"),ea=n("5670"),ta=n("6d6a"),na=n("a748"),aa=n("6e77"),ra=n("c575"),oa=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){var e;return Object(oe["a"])(this,n),e=t.apply(this,arguments),e.prevent=!1,e}return Object(ie["a"])(n,[{key:"mounted",value:function(){var e=this,t=document.querySelector("#game"),n=Object(na["a"])(Object(aa["a"])(t,"mousedown"),Object(aa["a"])(t,"touchstart")).pipe(Object(Xn["a"])((function(t){var n=t.target;return e.prevent=null!==n.getAttribute("data-btn"),!e.prevent&&e.enabled&&t.preventDefault()}))),a=Object(na["a"])(Object(aa["a"])(t,"mouseup"),Object(aa["a"])(t,"touchend")).pipe(Object(Xn["a"])((function(t){return e.enabled&&t.preventDefault()})));this.instance=n.pipe(Object(ea["a"])((function(){return e.enabled&&!e.prevent})),Object(Xn["a"])((function(){return e.$emit("pressed")})),Object(ta["a"])((function(){return a})),Object(Xn["a"])((function(){return e.$emit("release")})),Object(ta["a"])((function(){return Object(ra["a"])(1e3*u["i"])}))).subscribe((function(){return e.$emit("debounce")}))}},{key:"destroyed",value:function(){this.instance.unsubscribe()}},{key:"render",value:function(){return null}}]),n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],oa.prototype,"enabled",void 0),oa=Object(i["b"])([ue["a"]],oa);var ia=oa,sa=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{attrs:{id:"mixer"}},[e._t("default",null,null,{listener:e.listener,toggle:e.toggle,muted:e.muted})],2)},ca=[],la=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){var e;return Object(oe["a"])(this,n),e=t.apply(this,arguments),e.listener=new d["e"],e.store={},e.muted=!1,e}return Object(ie["a"])(n,[{key:"onStarted",value:function(e){e&&this.play("ambient")}},{key:"onHolding",value:function(e){e&&this.play("hold")}},{key:"onJumping",value:function(e){e&&(this.stop("hold"),this.play("jump"))}},{key:"onFalling",value:function(e){e&&this.play("fall")}},{key:"onLanding",value:function(e){e&&e.active&&this.play(e.sound)}},{key:"onCombo",value:function(e){var t=Math.min(6,e);t>0&&(this.play("combo-".concat(this.checkpoint?"v1":"v2"),t-1),this.play("applause-v1"))}},{key:"onGameOver",value:function(e){e&&this.play("gameover")}},{key:"play",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0,n=this.store[e],a=n.userData.volume;return n.detune=100*t,n.setVolume(a),n.isPlaying&&n.stop(),n.play(),n}},{key:"stop",value:function(e){var t=this.store[e],n=t.userData;me["b"].to({volume:n.volume},{volume:0,duration:.5,ease:"none",onUpdate:function(){if(t.isPlaying){var e=this.targets()[0];t.setVolume(e.volume)}},onComplete:function(){t.isPlaying&&t.stop()}})}},{key:"setVolume",value:function(e){var t,n=this,a=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=Object(l["a"])(this.sounds);try{var o=function(){var r=t.value,o=n.store[r.name],i=r.volume*e;a?me["b"].to({volume:o.userData.volume},{volume:i,duration:.5,ease:"none",onUpdate:function(){var e=this.targets()[0];o.setVolume(e.volume),o.userData.volume=i}}):(o.setVolume(i),o.userData.volume=i)};for(r.s();!(t=r.n()).done;)o()}catch(i){r.e(i)}finally{r.f()}}},{key:"toggle",value:function(e){var t=e?0:1;this.muted=e,this.setVolume(t,!0)}},{key:"mute",value:function(){this.setVolume(0)}},{key:"unmute",value:function(){this.setVolume(~~!this.muted)}},{key:"addListeners",value:function(){this.$visibility.$on("visible",this.unmute),this.$visibility.$on("hidden",this.mute)}},{key:"removeListeners",value:function(){this.$visibility.$off("visible",this.unmute),this.$visibility.$off("hidden",this.mute)}},{key:"created",value:function(){var e,t=Object(l["a"])(this.sounds);try{for(t.s();!(e=t.n()).done;){var n=e.value,a=n.name,r=n.loop,o=n.volume,i=n.playbackRate;this.store[a]=new d["d"](this.listener),this.store[a].setBuffer(m["d"](a)),this.store[a].setPlaybackRate(i),this.store[a].setVolume(o),this.store[a].setLoop(r),this.store[a].userData={playbackRate:i,volume:o,name:a}}}catch(s){t.e(s)}finally{t.f()}}},{key:"mounted",value:function(){this.addListeners()}},{key:"destroyed",value:function(){this.removeListeners()}}]),n}(ue["e"]);Object(i["b"])([Object(ue["c"])()],la.prototype,"started",void 0),Object(i["b"])([Object(ue["c"])()],la.prototype,"holding",void 0),Object(i["b"])([Object(ue["c"])()],la.prototype,"jumping",void 0),Object(i["b"])([Object(ue["c"])()],la.prototype,"falling",void 0),Object(i["b"])([Object(ue["c"])()],la.prototype,"block",void 0),Object(i["b"])([Object(ue["c"])()],la.prototype,"checkpoint",void 0),Object(i["b"])([Object(ue["c"])()],la.prototype,"gameOver",void 0),Object(i["b"])([Object(ue["c"])()],la.prototype,"combo",void 0),Object(i["b"])([Object(ue["c"])()],la.prototype,"sounds",void 0),Object(i["b"])([Object(ue["f"])("started")],la.prototype,"onStarted",null),Object(i["b"])([Object(ue["f"])("holding")],la.prototype,"onHolding",null),Object(i["b"])([Object(ue["f"])("jumping")],la.prototype,"onJumping",null),Object(i["b"])([Object(ue["f"])("falling")],la.prototype,"onFalling",null),Object(i["b"])([Object(ue["f"])("block")],la.prototype,"onLanding",null),Object(i["b"])([Object(ue["f"])("combo")],la.prototype,"onCombo",null),Object(i["b"])([Object(ue["f"])("gameOver")],la.prototype,"onGameOver",null),la=Object(i["b"])([ue["a"]],la);var ua=la,pa=ua,da=(n("4262"),Object(ge["a"])(pa,sa,ca,!1,null,"8a137422",null)),ha=da.exports,ba=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return n}(ue["e"]);Object(i["b"])([Object(le["b"])("theme")],ba.prototype,"theme",void 0),ba=Object(i["b"])([Object(ue["a"])({components:{ComboParticles:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"7ff9"))},JumpParticles:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"5f2c"))},HoldParticles:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"efa0"))},DoubleBlock:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"a1c8"))},SingleBlock:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"ae7c"))},BlocksRoot:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"1569"))},Tutorial:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"b350"))},Player:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"e0bc"))},Center:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"b042"))},Lights:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"ef5f"))},Floor:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"7e66"))},Plane:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"e3d4"))},Canvas:function(){return Promise.all([n.e("webgl~253ae210"),n.e("webgl~76370953")]).then(n.bind(null,"5026"))},Controller:Qn,Background:xe,Controls:ia,GameOver:ct,Landing:Dt,Display:mn,Mixer:ha,Share:_n}})],ba);var ma=ba,fa=ma,va=(n("8ef1"),Object(ge["a"])(fa,Tn,Dn,!1,null,"c77cbcea",null)),ya=va.exports,ga=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){return Object(oe["a"])(this,n),t.apply(this,arguments)}return Object(ie["a"])(n,[{key:"pointer",get:function(){return this.$device.mobile?"touch":"no-touch"}},{key:"mounted",value:function(){this.setup()}}]),n}(ue["e"]);Object(i["b"])([Object(le["b"])("fetched")],ga.prototype,"fetched",void 0),Object(i["b"])([Object(le["a"])("setup")],ga.prototype,"setup",void 0),ga=Object(i["b"])([Object(ue["a"])({components:{Dashboard:An,Footer:Bn,Game:ya}})],ga);var ka=ga,xa=ka,_a=(n("d8a7"),Object(ge["a"])(xa,ae,re,!1,null,"7999bdce",null)),Oa=_a.exports,ja=(n("7d32"),n("a9e3"),{enhancedIncludes:function(e,t){if(!Array.isArray(t))return!!~e.indexOf(t);for(var n=t.length-1;n>=0;n--)if(~e.indexOf(t[n]))return!0;return!1}}),wa=ja.enhancedIncludes,Ea=function e(){var t,n=this;Object(oe["a"])(this,e),this.agent=navigator.userAgent.toLowerCase(),this.detect=function(e){return wa(n.agent,e)},this.touchCapable=!!navigator.maxTouchPoints,this.pixelRatio=window.devicePixelRatio,this.system={},this.system.retina=window.devicePixelRatio>1,this.system.webworker=void 0!==window.Worker,this.system.webcam=!!(navigator.getUserMedia||navigator.webkitGetUserMedia||navigator.mozGetUserMedia||navigator.msGetUserMedia),this.system.language=function(){var e=(void 0!==navigator.languages?navigator.languages[0]:navigator.language)||navigator.browserLanguage;return e.trim().split(/-|_/)[0]}(),this.system.webaudio=void 0!==window.AudioContext,this.system.xr=navigator.getVRDisplays||navigator.xr,this.system.exokit=this.detect("exokit");try{this.system.localStorage=void 0!==window.localStorage}catch(a){this.system.localStorage=!1}this.system.fullscreen=document.fullscreenEnabled||document.webkitFullscreenEnabled||document.mozFullScreenEnabled||document.msFullscreenEnabled,this.system.os=this.detect(["exokit"])&&"linux"==navigator.platform?"magicleap":this.detect(["ipad","iphone","ios"])||this.detect("mac")&&this.touchCapable&&Math.max(screen.width,screen.height)<1370?"ios":this.detect(["android","kindle"])?"android":this.detect(["blackberry"])?"blackberry":this.detect(["mac os"])?"mac":this.detect(["windows","iemobile"])?"windows":this.detect(["linux"])?"linux":"unknown",this.system.version=function(){try{if("ios"==n.system.os){if(wa(n.agent,"intel mac")){var e=n.agent.split("version/")[1].split(" ")[0].split(".");return Number(e[0]+"."+e[1])}var t=n.agent.split("os ")[1].split("_"),r=t[0],o=t[1].split(" ")[0];return Number(r+"."+o)}if("android"==n.system.os){var i=n.agent.split("android ")[1].split(";")[0];return i.length>3&&(i=i.slice(0,-2)),"."==i.charAt(i.length-1)&&(i=i.slice(0,-1)),Number(i)}if("windows"==n.system.os)return wa(n.agent,"rv:11")?11:Number(n.agent.split("windows phone ")[1].split(";")[0])}catch(a){}return-1}(),this.system.browser="ios"==this.system.os?this.detect(["twitter","fbios"])?"social":this.detect(["crios"])?"chrome":this.detect(["safari"])?"safari":"unknown":"android"==this.system.os?this.detect(["twitter","fb","facebook"])?"social":this.detect(["chrome"])?"chrome":this.detect(["firefox"])?"firefox":"browser":this.detect(["msie"])||this.detect(["trident"])&&this.detect(["rv:"])||this.detect(["windows"])&&this.detect(["edge"])?"ie":this.detect(["chrome"])?"chrome":this.detect(["safari"])?"safari":this.detect(["firefox"])?"firefox":"unknown",this.system.browserVersion=function(){try{if("chrome"==n.system.browser)return Number(n.agent.split("chrome/")[1].split(".")[0]);if("firefox"==n.system.browser)return Number(n.agent.split("firefox/")[1].split(".")[0]);if("safari"==n.system.browser)return Number(n.agent.split("version/")[1].split(".")[0].split(".")[0]);if("ie"==n.system.browser)return n.detect(["msie"])?Number(n.agent.split("msie ")[1].split(".")[0]):n.detect(["rv:"])?Number(n.agent.split("rv:")[1].split(".")[0]):Number(n.agent.split("edge/")[1].split(".")[0])}catch(a){return-1}}(),this.mobile=!(window._NODE_||!("ontouchstart"in window)&&!("onpointerdown"in window)||!wa(this.system.os,["ios","android","magicleap"]))&&{},this.mobile&&this.detect(["windows"])&&!this.detect(["touch"])&&(this.mobile=!1),this.mobile&&(this.mobile.tablet=Math.max(window.screen?screen.width:window.innerWidth,window.screen?screen.height:window.innerHeight)>1e3,this.mobile.phone=!this.mobile.tablet,this.mobile.pwa=!(!window.matchMedia||!window.matchMedia("(display-mode: standalone)").matches)||!!navigator.standalone),this.media={},this.media.audio=!!document.createElement("audio").canPlayType&&(this.detect(["firefox","opera"])?"ogg":"mp3"),this.media.video=!!(t=document.createElement("video")).canPlayType&&(t.canPlayType("video/webm;")?"webm":"mp4"),this.graphics={},this.graphics.webgl=function(){var e=!1;Object.defineProperty(n.graphics,"webgl",{get:function(){if(e)return!1;if(n.graphics._webglContext)return n.graphics._webglContext;try{for(var t,r=["webgl2","webgl","experimental-webgl"],o=document.createElement("canvas"),i=0;i<r.length&&(t=o.getContext(r[i]),!t);i++);var s=t.getExtension("WEBGL_debug_renderer_info"),c={};if(s){var l=s.UNMASKED_RENDERER_WEBGL;c.gpu=t.getParameter(l).toLowerCase()}return c.renderer=t.getParameter(t.RENDERER).toLowerCase(),c.version=t.getParameter(t.VERSION).toLowerCase(),c.glsl=t.getParameter(t.SHADING_LANGUAGE_VERSION).toLowerCase(),c.extensions=t.getSupportedExtensions(),c.webgl2=wa(c.version,["webgl 2","webgl2"]),c.canvas=o,c.context=t,c.detect=function(e){if(c.gpu&&wa(c.gpu.toLowerCase(),e))return!0;if(c.version&&wa(c.version.toLowerCase(),e))return!0;for(var t=0;t<c.extensions.length;t++)if(wa(c.extensions[t].toLowerCase(),e))return!0;return!1},c.webgl2||c.detect("instance")||window.AURA||(e=!0),n.graphics._webglContext=c,c}catch(a){return!1}},set:function(t){!1===t&&(e=!0)}})}(),this.graphics.metal=function(){if(!window.Metal)return!1;var e={};return e.gpu=window.Metal.device.getName().toLowerCase(),e.detect=function(t){return wa(e.gpu,t)},e}(),this.graphics.gpu=function(){if(!n.graphics.webgl&&!n.graphics.metal)return!1;var e={};return["metal","webgl"].forEach((function(t){n.graphics[t]&&!e.identifier&&(e.detect=n.graphics[t].detect,e.identifier=n.graphics[t].gpu)})),e}(),this.graphics.canvas=!!document.createElement("canvas").getContext},Aa=new Ea,Ca=Aa.pixelRatio,Sa=Aa.graphics,Pa=Aa.system,$a=Aa.mobile,La=Aa.media,Ra=Aa.agent,Ba=Aa.detect,Ta=function(){return"ko"===z.locale?"Noto Sans KR":"ja"===z.locale?"Noto Sans JP":"zh"===z.locale?"Noto Sans SC":"Lato"},Da=n("53ca"),Va=n("99de"),Ga=function(){var e=!1;try{var t=Object.defineProperty({},"passive",{get:function(){return e=!0}});window.addEventListener("test",(function(){}),t)}catch(n){console.log(n)}return e},Ma={passive:!!Ga()&&{passive:!1}},Na=function(e){Object(se["a"])(n,e);var t=Object(ce["a"])(n);function n(){var e;return Object(oe["a"])(this,n),e=t.call(this),void 0!==Object(Da["a"])(document.hidden)?(e.hidden="hidden",e.visibilityChange="visibilitychange",e.visibilityState="visibilityState"):void 0!==Object(Da["a"])(document.mozHidden)?(e.hidden="mozHidden",e.visibilityChange="mozvisibilitychange",e.visibilityState="mozVisibilityState"):void 0!==Object(Da["a"])(document.msHidden)?(e.hidden="msHidden",e.visibilityChange="msvisibilitychange",e.visibilityState="msVisibilityState"):void 0!==Object(Da["a"])(document.webkitHidden)&&(e.hidden="webkitHidden",e.visibilityChange="webkitvisibilitychange",e.visibilityState="webkitVisibilityState"),void 0===Object(Da["a"])(document.addEventListener)||void 0===Object(Da["a"])(e.hidden)?Object(Va["a"])(e):(document.addEventListener(e.visibilityChange,(function(){switch(document[e.visibilityState]){case"visible":e.$emit("visible");break;case"hidden":e.$emit("hidden");break}}),Ma.passive),e)}return n}(o["a"]),Ua=o["a"].observable({dataURL:null});o["a"].use((function(){return o["a"].prototype.$share=Ua})),o["a"].use((function(){return o["a"].prototype.$device=a})),o["a"].use((function(){return o["a"].prototype.$styles=r})),o["a"].use((function(){return o["a"].prototype.$passive=Ma.passive})),o["a"].use((function(){return o["a"].prototype.$visibility=new Na}));var Ia=n("9d0b");me["a"].registerPlugin(Ia["a"]),me["a"].config({nullTargetWarn:!1}),o["a"].config.productionTip=!1,new o["a"]({store:ne,i18n:z,render:function(e){return e(Oa)}}).$mount("#app")},d23d:function(e,t,n){"use strict";n("e679")},d54b:function(e,t,n){e.exports=n.p+"img/gucci-arcade-logo.2a98ce03.png"},d8a7:function(e,t,n){"use strict";n("10de")},dfba:function(e,t,n){},e34c:function(e,t,n){"use strict";n("15dc")},e502:function(e,t,n){},e679:function(e,t,n){},e850:function(e,t,n){},ee5a:function(e,t,n){"use strict";n("fd4c")},f44e:function(e){e.exports=JSON.parse('{"v":"5.4.3","fr":25,"ip":0,"op":54,"w":100,"h":300,"nm":"_ Body Movin 02","ddd":0,"assets":[{"id":"comp_0","layers":[{"ddd":0,"ind":1,"ty":4,"nm":"Left Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[12,40,0],"ix":2},"a":{"a":0,"k":[-48,-107.25,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-51,-110.5],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Right Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[18,40,0],"ix":2},"a":{"a":0,"k":[-48,-107.25,0],"ix":1},"s":{"a":0,"k":[-100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-51,-110.5],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Main Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[15,24.375,0],"ix":2},"a":{"a":0,"k":[-45,-121,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-45,-138],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0}]}],"layers":[{"ddd":0,"ind":1,"ty":4,"nm":"hand-curos Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[53.061,238.517,0],"ix":2},"a":{"a":0,"k":[237.5,237.5,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":0,"s":[21,21,100],"e":[19.791,19.791,100]},{"i":{"x":[0.833,0.833,0.833],"y":[1,1,1]},"o":{"x":[0.5,0.5,0.5],"y":[0,0,0]},"n":["0p833_1_0p5_0","0p833_1_0p5_0","0p833_1_0p5_0"],"t":3,"s":[19.791,19.791,100],"e":[19.791,19.791,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":28,"s":[19.791,19.791,100],"e":[24,24,100]},{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,1]},"o":{"x":[0.167,0.167,0.167],"y":[0,0,0]},"n":["0p833_0p833_0p167_0","0p833_0p833_0p167_0","0p833_1_0p167_0"],"t":45,"s":[24,24,100],"e":[21,21,100]},{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"n":["0p833_0p833_0p167_0p167","0p833_0p833_0p167_0p167","0p833_0p833_0p167_0p167"],"t":53,"s":[21,21,100],"e":[19.791,19.791,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":81,"s":[19.791,19.791,100],"e":[24,24,100]},{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,1]},"o":{"x":[0.167,0.167,0.167],"y":[0,0,0]},"n":["0p833_0p833_0p167_0","0p833_0p833_0p167_0","0p833_1_0p167_0"],"t":98,"s":[24,24,100],"e":[21,21,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":106,"s":[21,21,100],"e":[19.791,19.791,100]},{"i":{"x":[0.833,0.833,0.833],"y":[1,1,1]},"o":{"x":[0.5,0.5,0.5],"y":[0,0,0]},"n":["0p833_1_0p5_0","0p833_1_0p5_0","0p833_1_0p5_0"],"t":109,"s":[19.791,19.791,100],"e":[19.791,19.791,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":134,"s":[19.791,19.791,100],"e":[24,24,100]},{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,1]},"o":{"x":[0.167,0.167,0.167],"y":[0,0,0]},"n":["0p833_0p833_0p167_0","0p833_0p833_0p167_0","0p833_1_0p167_0"],"t":151,"s":[24,24,100],"e":[21,21,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":159,"s":[21,21,100],"e":[19.791,19.791,100]},{"i":{"x":[0.833,0.833,0.833],"y":[1,1,1]},"o":{"x":[0.5,0.5,0.5],"y":[0,0,0]},"n":["0p833_1_0p5_0","0p833_1_0p5_0","0p833_1_0p5_0"],"t":162,"s":[19.791,19.791,100],"e":[19.791,19.791,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":187,"s":[19.791,19.791,100],"e":[24,24,100]},{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,1]},"o":{"x":[0.167,0.167,0.167],"y":[0,0,0]},"n":["0p833_0p833_0p167_0","0p833_0p833_0p167_0","0p833_1_0p167_0"],"t":204,"s":[24,24,100],"e":[21,21,100]},{"t":212}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.051,-38.45],[0.024,-23.808],[41.166,0],[0,0],[13.214,25.391],[0,0],[0,0],[-0.102,0.09],[-9.819,-0.644],[-6.278,-7.869],[0,0],[-3.176,1.136],[0,3.37],[0,0],[-12.235,0],[0,-13.421],[0,0],[0,-0.437],[0,-0.183],[0,0],[-4.413,0],[0,4.413],[0,0],[-11.92,0],[0,0],[0,-13.421],[0,0],[-4.413,0],[0,4.413],[0,0],[-12.31,0],[0,-13.43],[0,0],[-4.413,0],[0,4.413],[0,0],[-12.243,0],[0,0],[-0.031,-13.382]],"o":[[-0.016,14.385],[-0.042,44.412],[0,0],[-26.983,0],[0,0],[0,0],[0.104,-0.085],[7.167,-6.746],[10.04,0.769],[0,0],[2.137,2.61],[3.176,-1.135],[0,0],[0.008,-13.414],[12.236,0],[0,0],[0,0.43],[0,0.187],[0,0],[0,4.413],[4.412,0],[0,0],[0,-12.941],[0,0],[12.243,0],[0,0],[0,4.413],[4.412,0],[0,0],[0,-13.426],[12.239,0],[0,0],[0,4.413],[4.414,0],[0,0],[0,-13.425],[0,0],[12.212,0],[0.097,42.36]],"v":[[162.568,67.23],[162.506,123.237],[87.771,203.863],[-10.252,203.863],[-75.423,162.612],[-159.849,0.38],[-155.682,-3.096],[-155.374,-3.373],[-128.743,-12.939],[-103.163,0.607],[-78.704,30.368],[-69.84,32.822],[-64.542,25.304],[-64.398,-179.544],[-42.011,-203.871],[-19.631,-179.525],[-19.631,-56.013],[-19.65,-54.713],[-19.631,-54.152],[-19.631,-1.344],[-11.64,6.646],[-3.65,-1.344],[-3.65,-55.744],[18.156,-78.798],[18.866,-78.798],[41.296,-54.706],[41.296,-6.385],[49.287,1.606],[57.277,-6.385],[57.277,-44.296],[79.286,-68.642],[101.224,-44.296],[101.224,-8.531],[109.214,-0.541],[117.205,-8.531],[117.205,-27.898],[139.678,-51.83],[140.345,-51.83],[162.541,-27.762]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[20.998,0],[0,0],[6.777,-6.09],[16.328,0],[6.934,-7.222],[14.705,0],[0,0],[6.235,-4.822],[0,0],[21.057,0],[0.012,-22.219],[0,0],[0,0],[14.428,1.057],[10.379,-9.645],[0,0],[-1.736,-3.34],[0,0],[-32.964,0],[0,0],[0,0],[-0.05,53.21],[-0.016,14.381],[0.097,42.391]],"o":[[0,0],[-9.11,-0.051],[-5.485,-15.181],[-10.008,0.071],[-6.375,-12.906],[0,0],[-7.881,-0.121],[0,0],[0,-22.235],[-21.034,0],[0,0],[0,0],[-9.059,-11.28],[-14.131,-0.968],[0,0],[-2.899,2.403],[0,0],[15.981,30.701],[0,0],[0,0],[49.939,0],[0.02,-23.806],[0.05,-38.478],[-0.051,-22.184]],"v":[[140.345,-67.811],[139.678,-67.811],[114.989,-58.424],[79.235,-84.518],[52.735,-73.117],[18.866,-94.779],[18.156,-94.779],[-3.65,-87.514],[-3.65,-179.525],[-42.018,-219.848],[-80.285,-179.552],[-80.46,3.002],[-90.792,-9.545],[-127.615,-28.885],[-166.026,-15.292],[-175.015,-7.844],[-177.005,1.996],[-89.606,169.994],[-10.256,219.848],[88.24,219.848],[88.24,219.762],[178.721,123.217],[178.667,67.285],[178.581,-27.781]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[237.405,255.152],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":6,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":54,"st":-4,"bm":0},{"ddd":0,"ind":2,"ty":0,"nm":"Arrow","refId":"comp_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p167"],"t":0,"s":[0],"e":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p167"],"t":3,"s":[0],"e":[0]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.167],"y":[0.167]},"n":["0p5_1_0p167_0p167"],"t":29.042,"s":[0],"e":[180]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.429],"y":[0]},"n":["0p7_1_0p429_0"],"t":32.167,"s":[180],"e":[340]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.3],"y":[0]},"n":["0p7_1_0p3_0"],"t":39.458,"s":[340],"e":[360]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.167],"y":[0]},"n":["0p7_1_0p167_0"],"t":47.792,"s":[360],"e":[360]},{"t":53}],"ix":10,"x":"var $bm_rt;\\n$bm_rt = loopOut();"},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":0,"s":[50,133.676,0],"e":[50,133.676,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":3,"s":[50,133.676,0],"e":[50,156.926,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.3,"y":1},"o":{"x":0.167,"y":0.167},"n":"0p3_1_0p167_0p167","t":29.042,"s":[50,156.926,0],"e":[50,31.926,0],"to":[0,0,0],"ti":[0,3.875,0]},{"i":{"x":0.5,"y":1},"o":{"x":0.7,"y":0},"n":"0p5_1_0p7_0","t":35.292,"s":[50,31.926,0],"e":[50,133.676,0],"to":[0,-3.875,0],"ti":[0,-16.9583339691162,0]},{"t":53}],"ix":2,"x":"var $bm_rt;\\n$bm_rt = loopOut();"},"a":{"a":0,"k":[15,25,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"w":30,"h":50,"ip":0,"op":54,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Mask","parent":1,"td":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[237.409,267.578,0],"ix":2},"a":{"a":0,"k":[3.042,94.833,0],"ix":1},"s":{"a":0,"k":[453.908,453.908,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"rc","d":1,"s":{"a":0,"k":[14.584,24.167],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"r":{"a":0,"k":20,"ix":4},"nm":"Rectangle Path 1","mn":"ADBE Vector Shape - Rect","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-5.958,58.833],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Rectangle 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":54,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Square","tt":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[50,183.676,0],"ix":2},"a":{"a":0,"k":[0.839,-70.661,0],"ix":1},"s":{"a":0,"k":[94,94,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":0,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":3,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":29.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":32.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":53,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":82.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":85.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":106,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":109,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":135.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":138.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":159,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":162,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":188.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":191.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":212,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"t":265}],"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":1,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":30,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0.839,-70.661],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Rectangle 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":54,"st":0,"bm":0}],"markers":[]}')},fd1c:function(e,t,n){"use strict";n("857c")},fd4c:function(e,t,n){},fdb4:function(e,t,n){}});
+(function(e) {
+    function t(t) {
+        for (var a, r, s = t[0], c = t[1], l = t[2], u = 0, p = []; u < s.length; u++)
+            r = s[u],
+            Object.prototype.hasOwnProperty.call(o, r) && o[r] && p.push(o[r][0]),
+            o[r] = 0;
+        for (a in c)
+            Object.prototype.hasOwnProperty.call(c, a) && (e[a] = c[a]);
+        d && d(t);
+        while (p.length)
+            p.shift()();
+        return i.push.apply(i, l || []),
+        n()
+    }
+    function n() {
+        for (var e, t = 0; t < i.length; t++) {
+            for (var n = i[t], a = !0, r = 1; r < n.length; r++) {
+                var s = n[r];
+                0 !== o[s] && (a = !1)
+            }
+            a && (i.splice(t--, 1),
+            e = c(c.s = n[0]))
+        }
+        return e
+    }
+    var a = {}
+      , r = {
+        "app~d0ae3f07": 0
+    }
+      , o = {
+        "app~d0ae3f07": 0
+    }
+      , i = [];
+    function s(e) {
+        return c.p + "js/" + ({
+            "webgl~253ae210": "webgl~253ae210",
+            "webgl~76370953": "webgl~76370953"
+        }[e] || e) + "." + {
+            "webgl~253ae210": "2b881dfd",
+            "webgl~76370953": "6c213e44"
+        }[e] + ".js"
+    }
+    function c(t) {
+        if (a[t])
+            return a[t].exports;
+        var n = a[t] = {
+            i: t,
+            l: !1,
+            exports: {}
+        };
+        return e[t].call(n.exports, n, n.exports, c),
+        n.l = !0,
+        n.exports
+    }
+    c.e = function(e) {
+        var t = []
+          , n = {
+            "webgl~76370953": 1
+        };
+        r[e] ? t.push(r[e]) : 0 !== r[e] && n[e] && t.push(r[e] = new Promise((function(t, n) {
+            for (var a = "css/" + ({
+                "webgl~253ae210": "webgl~253ae210",
+                "webgl~76370953": "webgl~76370953"
+            }[e] || e) + "." + {
+                "webgl~253ae210": "31d6cfe0",
+                "webgl~76370953": "49d44443"
+            }[e] + ".css", o = c.p + a, i = document.getElementsByTagName("link"), s = 0; s < i.length; s++) {
+                var l = i[s]
+                  , u = l.getAttribute("data-href") || l.getAttribute("href");
+                if ("stylesheet" === l.rel && (u === a || u === o))
+                    return t()
+            }
+            var p = document.getElementsByTagName("style");
+            for (s = 0; s < p.length; s++) {
+                l = p[s],
+                u = l.getAttribute("data-href");
+                if (u === a || u === o)
+                    return t()
+            }
+            var d = document.createElement("link");
+            d.rel = "stylesheet",
+            d.type = "text/css",
+            d.onload = t,
+            d.onerror = function(t) {
+                var a = t && t.target && t.target.src || o
+                  , i = new Error("Loading CSS chunk " + e + " failed.\n(" + a + ")");
+                i.code = "CSS_CHUNK_LOAD_FAILED",
+                i.request = a,
+                delete r[e],
+                d.parentNode.removeChild(d),
+                n(i)
+            }
+            ,
+            d.href = o;
+            var h = document.getElementsByTagName("head")[0];
+            h.appendChild(d)
+        }
+        )).then((function() {
+            r[e] = 0
+        }
+        )));
+        var a = o[e];
+        if (0 !== a)
+            if (a)
+                t.push(a[2]);
+            else {
+                var i = new Promise((function(t, n) {
+                    a = o[e] = [t, n]
+                }
+                ));
+                t.push(a[2] = i);
+                var l, u = document.createElement("script");
+                u.charset = "utf-8",
+                u.timeout = 120,
+                c.nc && u.setAttribute("nonce", c.nc),
+                u.src = s(e);
+                var p = new Error;
+                l = function(t) {
+                    u.onerror = u.onload = null,
+                    clearTimeout(d);
+                    var n = o[e];
+                    if (0 !== n) {
+                        if (n) {
+                            var a = t && ("load" === t.type ? "missing" : t.type)
+                              , r = t && t.target && t.target.src;
+                            p.message = "Loading chunk " + e + " failed.\n(" + a + ": " + r + ")",
+                            p.name = "ChunkLoadError",
+                            p.type = a,
+                            p.request = r,
+                            n[1](p)
+                        }
+                        o[e] = void 0
+                    }
+                }
+                ;
+                var d = setTimeout((function() {
+                    l({
+                        type: "timeout",
+                        target: u
+                    })
+                }
+                ), 12e4);
+                u.onerror = u.onload = l,
+                document.head.appendChild(u)
+            }
+        return Promise.all(t)
+    }
+    ,
+    c.m = e,
+    c.c = a,
+    c.d = function(e, t, n) {
+        c.o(e, t) || Object.defineProperty(e, t, {
+            enumerable: !0,
+            get: n
+        })
+    }
+    ,
+    c.r = function(e) {
+        "undefined" !== typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+            value: "Module"
+        }),
+        Object.defineProperty(e, "__esModule", {
+            value: !0
+        })
+    }
+    ,
+    c.t = function(e, t) {
+        if (1 & t && (e = c(e)),
+        8 & t)
+            return e;
+        if (4 & t && "object" === typeof e && e && e.__esModule)
+            return e;
+        var n = Object.create(null);
+        if (c.r(n),
+        Object.defineProperty(n, "default", {
+            enumerable: !0,
+            value: e
+        }),
+        2 & t && "string" != typeof e)
+            for (var a in e)
+                c.d(n, a, function(t) {
+                    return e[t]
+                }
+                .bind(null, a));
+        return n
+    }
+    ,
+    c.n = function(e) {
+        var t = e && e.__esModule ? function() {
+            return e["default"]
+        }
+        : function() {
+            return e
+        }
+        ;
+        return c.d(t, "a", t),
+        t
+    }
+    ,
+    c.o = function(e, t) {
+        return Object.prototype.hasOwnProperty.call(e, t)
+    }
+    ,
+    c.p = "./",
+    c.oe = function(e) {
+        throw console.error(e),
+        e
+    }
+    ;
+    var l = window["webpackJsonp"] = window["webpackJsonp"] || []
+      , u = l.push.bind(l);
+    l.push = t,
+    l = l.slice();
+    for (var p = 0; p < l.length; p++)
+        t(l[p]);
+    var d = u;
+    i.push([0, "chunk-vendors~253ae210", "chunk-vendors~987e6011", "chunk-vendors~b5906859", "chunk-vendors~73914085", "chunk-vendors~57473a66", "chunk-vendors~f9ca8911", "chunk-vendors~7d818070", "chunk-vendors~fdc6512a"]),
+    n()
+}
+)({
+    0: function(e, t, n) {
+        e.exports = n("cd49")
+    },
+    "057a": function(e, t, n) {},
+    "0b40": function(e, t, n) {
+        "use strict";
+        n("46ab")
+    },
+    "10de": function(e, t, n) {},
+    "136c": function(e) {
+        e.exports = JSON.parse('{"v":"5.4.3","fr":25,"ip":0,"op":54,"w":100,"h":300,"nm":"_ Body Movin 02","ddd":0,"assets":[{"id":"comp_0","layers":[{"ddd":0,"ind":1,"ty":4,"nm":"Left Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[12,40,0],"ix":2},"a":{"a":0,"k":[-48,-107.25,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-51,-110.5],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Right Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[18,40,0],"ix":2},"a":{"a":0,"k":[-48,-107.25,0],"ix":1},"s":{"a":0,"k":[-100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-51,-110.5],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Main Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[15,24.375,0],"ix":2},"a":{"a":0,"k":[-45,-121,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-45,-138],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0}]}],"layers":[{"ddd":0,"ind":2,"ty":0,"nm":"Arrow","refId":"comp_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p167"],"t":0,"s":[0],"e":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p167"],"t":3,"s":[0],"e":[0]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.167],"y":[0.167]},"n":["0p5_1_0p167_0p167"],"t":29.042,"s":[0],"e":[180]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.429],"y":[0]},"n":["0p7_1_0p429_0"],"t":32.167,"s":[180],"e":[340]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.3],"y":[0]},"n":["0p7_1_0p3_0"],"t":39.458,"s":[340],"e":[360]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.167],"y":[0]},"n":["0p7_1_0p167_0"],"t":47.792,"s":[360],"e":[360]},{"t":53}],"ix":10,"x":"var $bm_rt;\\n$bm_rt = loopOut();"},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":0,"s":[50,133.676,0],"e":[50,133.676,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":3,"s":[50,133.676,0],"e":[50,156.926,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.3,"y":1},"o":{"x":0.167,"y":0.167},"n":"0p3_1_0p167_0p167","t":29.042,"s":[50,156.926,0],"e":[50,31.926,0],"to":[0,0,0],"ti":[0,3.875,0]},{"i":{"x":0.5,"y":1},"o":{"x":0.7,"y":0},"n":"0p5_1_0p7_0","t":35.292,"s":[50,31.926,0],"e":[50,133.676,0],"to":[0,-3.875,0],"ti":[0,-16.9583339691162,0]},{"t":53}],"ix":2,"x":"var $bm_rt;\\n$bm_rt = loopOut();"},"a":{"a":0,"k":[15,25,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"w":30,"h":50,"ip":0,"op":54,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Square","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[50,183.676,0],"ix":2},"a":{"a":0,"k":[0.839,-70.661,0],"ix":1},"s":{"a":0,"k":[94,94,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":0,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":3,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":29.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":32.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":53,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":82.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":85.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":106,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":109,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":135.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":138.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":159,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":162,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":188.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":191.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":212,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"t":265}],"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":1,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":30,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0.839,-70.661],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Rectangle 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":54,"st":0,"bm":0}],"markers":[]}')
+    },
+    "15dc": function(e, t, n) {},
+    1943: function(e, t, n) {
+        "use strict";
+        t["a"] = "#define GLSLIFY 1\n#include <map_fragment>\n\nfloat rectangle = draw_rectangle(vUv, vec2(0.408, 0.343), vec2(0.02, 0.005));\n\nvec3 mask = vec3(rectangle);\n\nvec3 noise = vec3(random(vUv)) * .15;\n\nvec3 color = mix(texelColor.rgb, noise, mask.r * (1. - uTurnOn));\n\ndiffuseColor = vec4(color, 1.);"
+    },
+    "1cab": function(e, t, n) {},
+    2844: function(e, t, n) {},
+    3468: function(e, t, n) {},
+    4262: function(e, t, n) {
+        "use strict";
+        n("3468")
+    },
+    4643: function(e, t, n) {
+        "use strict";
+        n("b231")
+    },
+    "46ab": function(e, t, n) {},
+    "478b": function(e, t, n) {},
+    "4e59": function(e, t, n) {
+        e.exports = n.p + "img/gucci-beloved-bounce-logo.c7618c00.png"
+    },
+    "615f": function(e, t, n) {
+        "use strict";
+        n("a7c4")
+    },
+    6387: function(e, t, n) {},
+    "65fa": function(e, t, n) {
+        "use strict";
+        n("81b6")
+    },
+    "6d1b": function(e, t, n) {
+        "use strict";
+        n("e850")
+    },
+    "7d32": function(e, t, n) {},
+    8012: function(e, t, n) {
+        "use strict";
+        n("8afd")
+    },
+    "81b6": function(e, t, n) {},
+    "857c": function(e, t, n) {},
+    "87ce": function(e, t, n) {
+        "use strict";
+        n.d(t, "h", (function() {
+            return a
+        }
+        )),
+        n.d(t, "i", (function() {
+            return r
+        }
+        )),
+        n.d(t, "j", (function() {
+            return o
+        }
+        )),
+        n.d(t, "l", (function() {
+            return i
+        }
+        )),
+        n.d(t, "k", (function() {
+            return s
+        }
+        )),
+        n.d(t, "a", (function() {
+            return c
+        }
+        )),
+        n.d(t, "g", (function() {
+            return l
+        }
+        )),
+        n.d(t, "b", (function() {
+            return u
+        }
+        )),
+        n.d(t, "e", (function() {
+            return p
+        }
+        )),
+        n.d(t, "f", (function() {
+            return d
+        }
+        )),
+        n.d(t, "d", (function() {
+            return h
+        }
+        )),
+        n.d(t, "c", (function() {
+            return b
+        }
+        ));
+        var a = 2.5
+          , r = .5
+          , o = 1.5
+          , i = 1.2
+          , s = .45
+          , c = .5
+          , l = 3
+          , u = .3
+          , p = .1
+          , d = 9
+          , h = 5
+          , b = {
+            SINGLE: "single",
+            DOUBLE: "double"
+        }
+    },
+    "8afd": function(e, t, n) {},
+    "8ef1": function(e, t, n) {
+        "use strict";
+        n("fdb4")
+    },
+    "93d1": function(e, t, n) {
+        "use strict";
+        n("1cab")
+    },
+    "941a": function(e, t, n) {
+        e.exports = n.p + "img/gucci-share-template.08606729.jpg"
+    },
+    "94be": function(e, t, n) {
+        "use strict";
+        n("dfba")
+    },
+    "94d5": function(e, t, n) {},
+    "95da": function(e, t, n) {
+        "use strict";
+        n("057a")
+    },
+    a7c4: function(e, t, n) {},
+    af035: function(e, t, n) {
+        "use strict";
+        n("6387")
+    },
+    b231: function(e, t, n) {},
+    bb72: function(e, t, n) {
+        "use strict";
+        n.d(t, "a", (function() {
+            return r
+        }
+        )),
+        n.d(t, "d", (function() {
+            return o
+        }
+        )),
+        n.d(t, "b", (function() {
+            return i
+        }
+        )),
+        n.d(t, "c", (function() {
+            return s
+        }
+        ));
+        n("4ec9"),
+        n("d3b7"),
+        n("3ca3"),
+        n("ddb0"),
+        n("159b");
+        var a = new Map
+          , r = function(e, t) {
+            a.set(e, t)
+        }
+          , o = function(e) {
+            return a.get(e)
+        }
+          , i = function(e) {
+            return a.delete(e)
+        }
+          , s = function(e) {
+            a.forEach(e)
+        }
+    },
+    c097: function(e, t, n) {
+        "use strict";
+        n("2844")
+    },
+    c0b8: function(e, t, n) {
+        "use strict";
+        t["a"] = "#define GLSLIFY 1\n#include <common>\n\nuniform float uTurnOn;\n\nfloat random(vec2 co){\n  return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);\n}\n\nfloat draw_rectangle(vec2 coord, vec2 dimensions, vec2 offset) {\n  vec2 shaper = vec2(step(offset.x, coord.x), step(offset.y, coord.y));\n  shaper *= vec2(step(coord.x, offset.x + dimensions.x), step(coord.y, offset.y + dimensions.y));\n\n  return shaper.x * shaper.y;\n}"
+    },
+    c85b: function(e, t, n) {
+        "use strict";
+        n("94d5")
+    },
+    c92b: function(e, t, n) {
+        "use strict";
+        n("478b")
+    },
+    cc6a: function(e, t, n) {
+        "use strict";
+        n("e502")
+    },
+    cd49: function(e, t, n) {
+        "use strict";
+        n.r(t);
+        var a = {};
+        n.r(a),
+        n.d(a, "dpr", (function() {
+            return Ca
+        }
+        )),
+        n.d(a, "graphics", (function() {
+            return Sa
+        }
+        )),
+        n.d(a, "system", (function() {
+            return Pa
+        }
+        )),
+        n.d(a, "mobile", (function() {
+            return $a
+        }
+        )),
+        n.d(a, "media", (function() {
+            return La
+        }
+        )),
+        n.d(a, "agent", (function() {
+            return Ra
+        }
+        )),
+        n.d(a, "detect", (function() {
+            return Ba
+        }
+        ));
+        var r = {};
+        n.r(r),
+        n.d(r, "getFont", (function() {
+            return Ta
+        }
+        ));
+        n("e260"),
+        n("e6cf"),
+        n("cca6"),
+        n("a79d");
+        var o = n("2b0e")
+          , i = (n("96cf"),
+        n("2b3d"),
+        n("d3b7"),
+        n("3ca3"),
+        n("ddb0"),
+        n("841c"),
+        n("ac1f"),
+        n("1276"),
+        n("498a"),
+        n("caad"),
+        n("9ab4"))
+          , s = n("bc3a")
+          , c = n.n(s)
+          , l = n("b85c")
+          , u = (n("b0c0"),
+        n("fb6a"),
+        n("99af"),
+        n("d81d"),
+        n("5319"),
+        n("13d5"),
+        n("7db0"),
+        n("87ce"))
+          , p = n("34ad")
+          , d = n("5a89")
+          , h = n("c0b8")
+          , b = n("1943")
+          , m = n("bb72")
+          , f = function(e, t) {
+            var n = e.player
+              , a = e.boxes
+              , r = e.bags
+              , o = e.textures
+              , s = e.sounds;
+            return Object(i["a"])(void 0, void 0, void 0, regeneratorRuntime.mark((function e() {
+                var i, c, u, h, b, f, y, g, k, x, _, O, j, w, E, A;
+                return regeneratorRuntime.wrap((function(e) {
+                    while (1)
+                        switch (e.prev = e.next) {
+                        case 0:
+                            i = new d["M"],
+                            c = new p["a"](i),
+                            u = new d["f"](i),
+                            h = new d["yb"](i),
+                            n.name = n.glb.split("/").pop().slice(0, -4),
+                            c.load("".concat("./").concat(n.glb), (function(e) {
+                                var t = e.scene
+                                  , a = t.children[0]
+                                  , r = a.getObjectByName("shadow")
+                                  , o = r.material;
+                                o.side = d["u"],
+                                m["a"](n.name, a)
+                            }
+                            )),
+                            b = Object(l["a"])(a);
+                            try {
+                                for (y = function() {
+                                    var e = f.value;
+                                    e.name = e.glb.split("/").pop().slice(0, -4),
+                                    c.load("".concat("./").concat(e.glb), (function(t) {
+                                        var n = t.scene;
+                                        m["a"](e.name, n.children[0])
+                                    }
+                                    ))
+                                }
+                                ,
+                                b.s(); !(f = b.n()).done; )
+                                    y()
+                            } catch (C) {
+                                b.e(C)
+                            } finally {
+                                b.f()
+                            }
+                            g = Object(l["a"])(r);
+                            try {
+                                for (x = function() {
+                                    var e = k.value;
+                                    c.load("".concat("./").concat(e.glb), (function(t) {
+                                        var n = t.scene
+                                          , a = (new d["yb"]).load("".concat("./", "assets/textures/bump-256.png"));
+                                        v(n.children[0], a),
+                                        n.children[0].scale.setScalar(.025),
+                                        m["a"](e.name, n.children[0])
+                                    }
+                                    ))
+                                }
+                                ,
+                                g.s(); !(k = g.n()).done; )
+                                    x()
+                            } catch (C) {
+                                g.e(C)
+                            } finally {
+                                g.f()
+                            }
+                            _ = Object(l["a"])(o);
+                            try {
+                                for (j = function() {
+                                    var e = O.value;
+                                    e.name = e.source.split("/").pop().slice(0, -4),
+                                    h.load("".concat("./").concat(e.source), (function(t) {
+                                        m["a"](e.name, t)
+                                    }
+                                    ))
+                                }
+                                ,
+                                _.s(); !(O = _.n()).done; )
+                                    j()
+                            } catch (C) {
+                                _.e(C)
+                            } finally {
+                                _.f()
+                            }
+                            w = Object(l["a"])(s);
+                            try {
+                                for (A = function() {
+                                    var e = E.value;
+                                    u.load("".concat("./").concat(e.source), (function(t) {
+                                        m["a"](e.name, t)
+                                    }
+                                    ))
+                                }
+                                ,
+                                w.s(); !(E = w.n()).done; )
+                                    A()
+                            } catch (C) {
+                                w.e(C)
+                            } finally {
+                                w.f()
+                            }
+                            return e.abrupt("return", new Promise((function(e) {
+                                i.onProgress = function(e, n, a) {
+                                    var r = n / a
+                                      , o = Math.round(100 * r) / 100;
+                                    t(o)
+                                }
+                                ,
+                                i.onLoad = function() {
+                                    return e()
+                                }
+                            }
+                            )));
+                        case 15:
+                        case "end":
+                            return e.stop()
+                        }
+                }
+                ), e)
+            }
+            )))
+        }
+          , v = function(e, t) {
+            e.traverse((function(e) {
+                "marmount" === e.name && e.traverse((function(e) {
+                    "polySurface1_1" === e.name && e instanceof d["R"] && (e.material.normalMap = null,
+                    e.material.bumpMap = t,
+                    e.material.bumpScale = .02)
+                }
+                ))
+            }
+            ))
+        }
+          , y = function(e, t) {
+            t.flipY = !1,
+            t.encoding = d["Hb"];
+            var n = m["d"](e).clone()
+              , a = n.getObjectByName("texture")
+              , r = a.clone();
+            return r.name = "texture-noise",
+            r.material = a.material.clone(),
+            r.material.map = t,
+            r.material.onBeforeCompile = function(e) {
+                e.fragmentShader = e.fragmentShader.replace("#include <common>", h["a"]).replace("#include <map_fragment>", b["a"])
+            }
+            ,
+            a.material = a.material.clone(),
+            a.material.transparent = !0,
+            a.material.map = t,
+            a.material.opacity = 0,
+            n.add(r),
+            n.add(a),
+            n
+        }
+          , g = function(e) {
+            var t = e.player
+              , n = e.boxes
+              , a = e.bags
+              , r = e.textures
+              , o = e.sounds;
+            return {
+                player: t,
+                sounds: o,
+                blocks: n.reduce((function(e, t) {
+                    var n = t.size
+                      , o = t.side
+                      , i = t.bag;
+                    if (t.component = "".concat(n.charAt(0).toUpperCase() + n.slice(1), "Block"),
+                    u["c"].DOUBLE === n)
+                        i && (t.bag = a.find((function(e) {
+                            var t = e.name;
+                            return t === i
+                        }
+                        ))),
+                        e[n] = e[n] || {},
+                        (e[n][o] = e[n][o] || []).push(t);
+                    else if (t.textures && t.textures.length) {
+                        for (var s = function(a) {
+                            var o = Object.assign(Object.assign({}, t), {
+                                name: "".concat(t.name, "-").concat(a + 1)
+                            })
+                              , i = r.find((function(e) {
+                                var n = e.name;
+                                return n === t.textures[a]
+                            }
+                            ));
+                            m["a"](o.name, y(t.name, m["d"](i.name))),
+                            (e[n] = e[n] || []).push(o)
+                        }, c = 0; c < t.textures.length; ++c)
+                            s(c);
+                        m["b"](t.name)
+                    } else
+                        (e[n] = e[n] || []).push(t);
+                    return e
+                }
+                ), {})
+            }
+        }
+          , k = function() {
+            return c.a.get("".concat("./", "data/collection.json?t=").concat(Date.now()))
+        }
+          , x = function(e) {
+            return Object(i["a"])(void 0, void 0, void 0, regeneratorRuntime.mark((function t() {
+                var n, a;
+                return regeneratorRuntime.wrap((function(t) {
+                    while (1)
+                        switch (t.prev = t.next) {
+                        case 0:
+                            return t.next = 2,
+                            k();
+                        case 2:
+                            return n = t.sent,
+                            a = n.data,
+                            t.next = 6,
+                            f(a, e);
+                        case 6:
+                            return t.abrupt("return", g(a));
+                        case 7:
+                        case "end":
+                            return t.stop()
+                        }
+                }
+                ), t)
+            }
+            )))
+        }
+          , _ = function(e, t) {
+            return Object(i["a"])(void 0, void 0, void 0, regeneratorRuntime.mark((function n() {
+                var a, r, o, i, s;
+                return regeneratorRuntime.wrap((function(n) {
+                    while (1)
+                        switch (n.prev = n.next) {
+                        case 0:
+                            return a = "https://prod-api.ggapp.cloud/games/b0f69202-a0e5-11eb-b6b6-acde48001122",
+                            n.next = 3,
+                            fetch("".concat(a, "/scores?noFail=true"), {
+                                method: "POST",
+                                body: JSON.stringify({
+                                    userId: e,
+                                    score: t
+                                })
+                            });
+                        case 3:
+                            return n.next = 5,
+                            fetch("".concat(a, "/scores/").concat(e, "/range/?noFail=true"));
+                        case 5:
+                            return r = n.sent,
+                            n.next = 8,
+                            r.json();
+                        case 8:
+                            return o = n.sent,
+                            o.scoreRange.length > 3 && (i = o.scoreRange.find((function(t) {
+                                return t.userId === e
+                            }
+                            )),
+                            s = o.scoreRange.indexOf(i),
+                            void 0 === o.scoreRange[s - 1] ? o.scoreRange = [o.scoreRange[s + 0], o.scoreRange[s + 1], o.scoreRange[s + 2]] : void 0 === o.scoreRange[s + 1] ? o.scoreRange = [o.scoreRange[s - 2], o.scoreRange[s - 1], o.scoreRange[s - 0]] : o.scoreRange = [o.scoreRange[s - 1], o.scoreRange[s + 0], o.scoreRange[s + 1]]),
+                            n.abrupt("return", o);
+                        case 11:
+                        case "end":
+                            return n.stop()
+                        }
+                }
+                ), n)
+            }
+            )))
+        }
+          , O = function(e) {
+            var t = "gucci-bounce-game:scores"
+              , n = localStorage.getItem(t)
+              , a = n ? JSON.parse(n) : {
+                scoreRange: []
+            };
+            return a.scoreRange.push({
+                score: e
+            }),
+            a.scoreRange.sort((function(e, t) {
+                return t.score - e.score
+            }
+            )),
+            a.scoreRange = a.scoreRange.slice(0, 3).map((function(e, t) {
+                return Object.assign(Object.assign({}, e), {
+                    userId: t,
+                    rank: t + 1
+                })
+            }
+            )),
+            a.userId = a.scoreRange.indexOf(a.scoreRange.find((function(t) {
+                return t.score === e
+            }
+            ))),
+            localStorage.setItem(t, JSON.stringify(a)),
+            a
+        }
+          , j = function(e) {
+            return {
+                title: "".concat(z.t("share.title", {
+                    score: e
+                }), " ").concat(z.t("share.text", {
+                    name: z.t("landing.title")
+                })),
+                url: "https://guccibelovedbounce.gucci.com/"
+            }
+        }
+          , w = function() {
+            var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 0
+              , t = j(e);
+            return !(!navigator.canShare || !navigator.canShare(t))
+        }
+          , E = function(e) {
+            return Object(i["a"])(void 0, void 0, void 0, regeneratorRuntime.mark((function t() {
+                var n;
+                return regeneratorRuntime.wrap((function(t) {
+                    while (1)
+                        switch (t.prev = t.next) {
+                        case 0:
+                            if (!w()) {
+                                t.next = 10;
+                                break
+                            }
+                            return t.prev = 1,
+                            n = j(e),
+                            t.next = 5,
+                            navigator.share(n);
+                        case 5:
+                            t.next = 10;
+                            break;
+                        case 7:
+                            t.prev = 7,
+                            t.t0 = t["catch"](1),
+                            console.log(t.t0.name, t.t0.message);
+                        case 10:
+                        case "end":
+                            return t.stop()
+                        }
+                }
+                ), t, null, [[1, 7]])
+            }
+            )))
+        }
+          , A = function(e) {
+            return c.a.get("".concat("./", "locales/").concat(e, ".json?t=").concat(Date.now()))
+        }
+          , C = n("27d6")
+          , S = n.n(C)
+          , P = {
+            google: {
+                families: ["Noto Sans SC:300,400,700"]
+            }
+        }
+          , $ = {
+            google: {
+                families: ["Noto Sans JP:300,400,700"]
+            }
+        }
+          , L = {
+            google: {
+                families: ["Noto Sans KR:300,400,700"]
+            }
+        }
+          , R = {
+            google: {
+                families: ["Lato:300,400,700"]
+            }
+        }
+          , B = function(e) {
+            return new Promise((function(t) {
+                var n = "zh" === e ? P : "ja" === e ? $ : "ko" === e ? L : R;
+                S.a.load(Object.assign({
+                    active: t,
+                    classes: !1
+                }, n))
+            }
+            ))
+        }
+          , T = window["dataLayer"]
+          , D = function(e) {
+            void 0 === Object({
+                NODE_ENV: "production",
+                VUE_APP_GAME_API: "https://prod-api.ggapp.cloud/games/b0f69202-a0e5-11eb-b6b6-acde48001122",
+                VUE_APP_GAME_URL: "https://guccibelovedbounce.gucci.com/",
+                VUE_APP_I18N_FALLBACK_LOCALE: "en",
+                VUE_APP_I18N_LOCALE: "en",
+                VUE_APP_LOCAL_STORAGE: "gucci-bounce-game:scores",
+                VUE_APP_PRIVACY_POLICY: "//privacy.gucci.com/",
+                VUE_APP_PUBLIC_PATH: "./",
+                VUE_APP_SHARE_DESCRIPTION: "Try the new #GucciBeloved Bounce game! Make your microphone jump from one cube to another to get to the show on time. #GucciArcade",
+                VUE_APP_SHARE_IMAGE_HEIGHT: "1080",
+                VUE_APP_SHARE_IMAGE_SOURCE: "./assets/img/gucci-beloved-bounce-share.png",
+                VUE_APP_SHARE_IMAGE_WIDTH: "1920",
+                VUE_APP_SHARE_TITLE: "Welcome to the Gucci Beloved Bounce Game",
+                BASE_URL: "./"
+            }).VUE_APP_PREVENT_TRACKING && T.push(Object.assign(Object.assign({}, e), {
+                event: "generic_event"
+            }))
+        }
+          , V = n("a925");
+        o["a"].use(V["a"]);
+        var G, M = [], N = ["en", "it", "fr", "de", "es", "zh", "ko", "ja"], U = new V["a"]({
+            locale: "en",
+            fallbackLocale: "en"
+        }), I = function() {
+            var e = (void 0 !== navigator.languages ? navigator.languages[0] : navigator.language) || navigator.browserLanguage
+              , t = new URLSearchParams(location.search).get("lang")
+              , n = t || e.trim().split(/-|_/)[0]
+              , a = "en";
+            return N.includes(n) ? n : a
+        }, F = function(e) {
+            var t;
+            return U.locale = e,
+            c.a.defaults.headers.common["Accept-Language"] = e,
+            null === (t = document.querySelector("html")) || void 0 === t || t.setAttribute("lang", e),
+            e
+        }, H = function() {
+            return Object(i["a"])(void 0, void 0, void 0, regeneratorRuntime.mark((function e() {
+                var t, n, a;
+                return regeneratorRuntime.wrap((function(e) {
+                    while (1)
+                        switch (e.prev = e.next) {
+                        case 0:
+                            if (t = I(),
+                            !M.includes(t)) {
+                                e.next = 3;
+                                break
+                            }
+                            return e.abrupt("return", Promise.resolve(F(t)));
+                        case 3:
+                            return e.next = 5,
+                            A(t);
+                        case 5:
+                            return n = e.sent,
+                            a = n.data,
+                            U.setLocaleMessage(t, a),
+                            M.push(t),
+                            e.abrupt("return", F(t));
+                        case 10:
+                        case "end":
+                            return e.stop()
+                        }
+                }
+                ), e)
+            }
+            )))
+        }, z = U, Y = n("2f62"), J = {
+            fetched: !1,
+            theme: 0,
+            user: {},
+            colors: [["#A6DAD7", "#81AFB6", "#5C7171", "#435656"], ["#FFCD80", "#C99350", "#7B6A43", "#7B6A43"], ["#A6DAD7", "#81AFB6", "#5C7171", "#435656"], ["#FFD8AE", "#B89B6D", "#7F6A4A", "#7F6A4A"], ["#FFAEAE", "#B86D6D", "#7F4A4A", "#5E3636"]]
+        }, q = {
+            user: function(e) {
+                var t = e.user;
+                return t
+            },
+            colors: function(e) {
+                var t = e.colors;
+                return t
+            },
+            fetched: function(e) {
+                var t = e.fetched;
+                return t
+            },
+            theme: function(e) {
+                var t = e.colors
+                  , n = e.theme;
+                return t[n]
+            }
+        }, K = "fetched", W = "setUser", Z = "setTheme", Q = "fetchUser", X = {
+            setup: function(e) {
+                var t = e.commit
+                  , n = e.dispatch;
+                return Object(i["a"])(this, void 0, void 0, regeneratorRuntime.mark((function e() {
+                    return regeneratorRuntime.wrap((function(e) {
+                        while (1)
+                            switch (e.prev = e.next) {
+                            case 0:
+                                return e.next = 2,
+                                H();
+                            case 2:
+                                return e.next = 4,
+                                B(z.locale);
+                            case 4:
+                                n(Q),
+                                t(K, !0);
+                            case 6:
+                            case "end":
+                                return e.stop()
+                            }
+                    }
+                    ), e)
+                }
+                )))
+            },
+            fetchUser: function(e) {
+                var t = e.commit
+                  , n = new URLSearchParams(location.search)
+                  , a = n.get("userName")
+                  , r = n.get("lang")
+                  , o = n.get("userId");
+                t(W, {
+                    id: o,
+                    name: a,
+                    lang: r
+                })
+            },
+            setTheme: function(e, t) {
+                var n = e.commit;
+                n(Z, t)
+            }
+        }, ee = n("ade3"), te = (G = {},
+        Object(ee["a"])(G, K, (function(e, t) {
+            e.fetched = t
+        }
+        )),
+        Object(ee["a"])(G, W, (function(e, t) {
+            e.user = t
+        }
+        )),
+        Object(ee["a"])(G, Z, (function(e, t) {
+            e.theme = t
+        }
+        )),
+        G);
+        o["a"].use(Y["a"]);
+        var ne = new Y["a"].Store({
+            state: J,
+            getters: q,
+            actions: X,
+            mutations: te
+        })
+          , ae = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("main", {
+                class: e.pointer,
+                attrs: {
+                    id: "app"
+                }
+            }, [e.fetched ? n("Game") : e._e(), n("Footer")], 1)
+        }
+          , re = []
+          , oe = n("d4ec")
+          , ie = n("bee2")
+          , se = n("262e")
+          , ce = n("2caf")
+          , le = n("4bb5")
+          , ue = n("1b40")
+          , pe = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                attrs: {
+                    id: "dashboard"
+                }
+            }, [n("nav", [n("ul", e._l(e.state, (function(t, a) {
+                return n("li", {
+                    key: "item-" + a
+                }, ["checkbox" === t.type ? n("input", {
+                    directives: [{
+                        name: "model",
+                        rawName: "v-model",
+                        value: t.enabled,
+                        expression: "item.enabled"
+                    }],
+                    attrs: {
+                        name: t.label,
+                        id: t.label,
+                        type: "checkbox"
+                    },
+                    domProps: {
+                        checked: Array.isArray(t.enabled) ? e._i(t.enabled, null) > -1 : t.enabled
+                    },
+                    on: {
+                        change: function(n) {
+                            var a = t.enabled
+                              , r = n.target
+                              , o = !!r.checked;
+                            if (Array.isArray(a)) {
+                                var i = null
+                                  , s = e._i(a, i);
+                                r.checked ? s < 0 && e.$set(t, "enabled", a.concat([i])) : s > -1 && e.$set(t, "enabled", a.slice(0, s).concat(a.slice(s + 1)))
+                            } else
+                                e.$set(t, "enabled", o)
+                        }
+                    }
+                }) : "radio" === t.type ? n("input", {
+                    directives: [{
+                        name: "model",
+                        rawName: "v-model",
+                        value: t.enabled,
+                        expression: "item.enabled"
+                    }],
+                    attrs: {
+                        name: t.label,
+                        id: t.label,
+                        type: "radio"
+                    },
+                    domProps: {
+                        checked: e._q(t.enabled, null)
+                    },
+                    on: {
+                        change: function(n) {
+                            return e.$set(t, "enabled", null)
+                        }
+                    }
+                }) : n("input", {
+                    directives: [{
+                        name: "model",
+                        rawName: "v-model",
+                        value: t.enabled,
+                        expression: "item.enabled"
+                    }],
+                    attrs: {
+                        name: t.label,
+                        id: t.label,
+                        type: t.type
+                    },
+                    domProps: {
+                        value: t.enabled
+                    },
+                    on: {
+                        input: function(n) {
+                            n.target.composing || e.$set(t, "enabled", n.target.value)
+                        }
+                    }
+                }), n("label", {
+                    attrs: {
+                        for: t.label
+                    }
+                }, [e._v(e._s(t.label))]), t.props ? n("ul", e._l(t.props, (function(t, a) {
+                    return n("li", {
+                        key: "prop-" + a
+                    }, ["checkbox" === t.type ? n("input", {
+                        directives: [{
+                            name: "model",
+                            rawName: "v-model",
+                            value: t.value,
+                            expression: "prop.value"
+                        }],
+                        attrs: {
+                            name: t.label,
+                            id: t.label,
+                            type: "checkbox"
+                        },
+                        domProps: {
+                            checked: Array.isArray(t.value) ? e._i(t.value, null) > -1 : t.value
+                        },
+                        on: {
+                            change: function(n) {
+                                var a = t.value
+                                  , r = n.target
+                                  , o = !!r.checked;
+                                if (Array.isArray(a)) {
+                                    var i = null
+                                      , s = e._i(a, i);
+                                    r.checked ? s < 0 && e.$set(t, "value", a.concat([i])) : s > -1 && e.$set(t, "value", a.slice(0, s).concat(a.slice(s + 1)))
+                                } else
+                                    e.$set(t, "value", o)
+                            }
+                        }
+                    }) : "radio" === t.type ? n("input", {
+                        directives: [{
+                            name: "model",
+                            rawName: "v-model",
+                            value: t.value,
+                            expression: "prop.value"
+                        }],
+                        attrs: {
+                            name: t.label,
+                            id: t.label,
+                            type: "radio"
+                        },
+                        domProps: {
+                            checked: e._q(t.value, null)
+                        },
+                        on: {
+                            change: function(n) {
+                                return e.$set(t, "value", null)
+                            }
+                        }
+                    }) : n("input", {
+                        directives: [{
+                            name: "model",
+                            rawName: "v-model",
+                            value: t.value,
+                            expression: "prop.value"
+                        }],
+                        attrs: {
+                            name: t.label,
+                            id: t.label,
+                            type: t.type
+                        },
+                        domProps: {
+                            value: t.value
+                        },
+                        on: {
+                            input: function(n) {
+                                n.target.composing || e.$set(t, "value", n.target.value)
+                            }
+                        }
+                    }), n("label", {
+                        attrs: {
+                            for: t.label
+                        }
+                    }, [e._v(e._s(t.label))])])
+                }
+                )), 0) : e._e()])
+            }
+            )), 0)]), n("Background", {
+                attrs: {
+                    theme: e.theme
+                }
+            }), e.state.landing.enabled ? n("Landing", {
+                attrs: {
+                    complete: e.state.landing.props.complete.value,
+                    progress: e.state.landing.props.progress.value,
+                    theme: e.theme
+                }
+            }) : e._e(), e.state.display.enabled ? n("Display", {
+                attrs: {
+                    checkpoint: !!e.state.display.props.checkpoint.value && "marmont",
+                    score: {
+                        total: parseFloat(e.state.display.props.score.value),
+                        combo: parseFloat(e.state.display.props.combo.value),
+                        boxes: 3
+                    },
+                    theme: e.theme
+                }
+            }) : e._e(), e.state.gameover.enabled ? n("GameOver", {
+                attrs: {
+                    score: parseFloat(e.state.gameover.props.score.value),
+                    theme: e.theme
+                }
+            }) : e._e(), n("Share")], 1)
+        }
+          , de = []
+          , he = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                style: e.style,
+                attrs: {
+                    id: "background"
+                }
+            })
+        }
+          , be = []
+          , me = n("cffa")
+          , fe = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                var e;
+                return Object(oe["a"])(this, n),
+                e = t.apply(this, arguments),
+                e.style = {
+                    background: "linear-gradient(0deg, ".concat(e.theme[2], " 0%, ").concat(e.theme[1], " 33%, ").concat(e.theme[0], " 66%)")
+                },
+                e
+            }
+            return Object(ie["a"])(n, [{
+                key: "onThemeUpdate",
+                value: function(e) {
+                    me["b"].to(this.style, {
+                        duration: 1,
+                        ease: "power2.inOut",
+                        background: "linear-gradient(0deg, ".concat(e[2], " 0%, ").concat(e[1], " 33%, ").concat(e[0], " 66%)")
+                    })
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], fe.prototype, "theme", void 0),
+        Object(i["b"])([Object(ue["f"])("theme", {
+            immediate: !0
+        })], fe.prototype, "onThemeUpdate", null),
+        fe = Object(i["b"])([ue["a"]], fe);
+        var ve = fe
+          , ye = ve
+          , ge = (n("4643"),
+        n("2877"))
+          , ke = Object(ge["a"])(ye, he, be, !1, null, "727d6898", null)
+          , xe = ke.exports
+          , _e = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("transition", {
+                attrs: {
+                    css: !1,
+                    appear: !0
+                },
+                on: {
+                    enter: e.enter,
+                    leave: e.leave
+                }
+            }, [e.ranking.length ? n("div", {
+                staticClass: "gameover"
+            }, [n("div", {
+                staticClass: "container",
+                style: {
+                    backgroundColor: e.theme[0]
+                }
+            }, [n("div", {
+                staticClass: "header"
+            }, [n("h2", {
+                ref: "header"
+            }, [n("span", {
+                domProps: {
+                    innerHTML: e._s(e.$t("gameover.message"))
+                }
+            })])]), n("Score", {
+                ref: "score",
+                attrs: {
+                    user: e.user,
+                    value: e.score,
+                    color: e.theme[3]
+                },
+                on: {
+                    share: e.share
+                }
+            }), n("Ranking", {
+                ref: "ranking",
+                attrs: {
+                    user: e.userId,
+                    store: e.ranking,
+                    color: e.theme[3]
+                }
+            }), n("div", {
+                ref: "footer",
+                staticClass: "footer"
+            }, [n("Button", {
+                on: {
+                    click: e.restart
+                }
+            }, [n("span", {
+                style: {
+                    color: e.theme[3]
+                },
+                domProps: {
+                    innerHTML: e._s(e.$t("buttons.restart"))
+                }
+            })])], 1)], 1)]) : e._e()])
+        }
+          , Oe = []
+          , je = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return Object(ie["a"])(n, [{
+                key: "enter",
+                value: function(e, t) {
+                    me["b"].timeline({
+                        delay: 1,
+                        onComplete: t,
+                        defaults: {
+                            duration: .8,
+                            ease: "expo.out"
+                        }
+                    }).fromTo(this.$refs.privacy, {
+                        autoAlpha: 0,
+                        y: 40
+                    }, {
+                        autoAlpha: 1,
+                        y: 0
+                    })
+                }
+            }]),
+            n
+        }(ue["e"]);
+        je = Object(i["b"])([ue["a"]], je);
+        var we = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return Object(ie["a"])(n, [{
+                key: "headerEnter",
+                value: function() {
+                    var e = this.$refs.header
+                      , t = e.$refs
+                      , n = t.title
+                      , a = t.intro
+                      , r = t.text
+                      , o = t.hello;
+                    return me["b"].timeline({
+                        defaults: {
+                            duration: .6,
+                            ease: "power2.out"
+                        }
+                    }).fromTo(o || {
+                        autoAlpha: 1,
+                        y: 0
+                    }, {
+                        autoAlpha: 0,
+                        y: 40
+                    }, {
+                        autoAlpha: 1,
+                        y: 0
+                    }, "<").fromTo([a, n, r], {
+                        autoAlpha: 0,
+                        y: 40
+                    }, {
+                        autoAlpha: 1,
+                        y: 0,
+                        stagger: {
+                            amount: .25
+                        }
+                    }, "<")
+                }
+            }, {
+                key: "headerLeave",
+                value: function() {
+                    var e = this.$refs.header
+                      , t = e.$refs
+                      , n = t.title
+                      , a = t.intro
+                      , r = t.text
+                      , o = t.hello;
+                    return me["b"].timeline({
+                        defaults: {
+                            duration: .6,
+                            ease: "power2.inOut"
+                        }
+                    }).to(o || {
+                        autoAlpha: 1,
+                        y: 0
+                    }, {
+                        autoAlpha: 0,
+                        y: -40
+                    }, "<").to([a, n, r], {
+                        autoAlpha: 0,
+                        y: -40,
+                        stagger: {
+                            amount: .2
+                        }
+                    }, "<")
+                }
+            }, {
+                key: "fadeEnter",
+                value: function(e) {
+                    return me["b"].timeline().fromTo(e, {
+                        autoAlpha: 0,
+                        y: 30
+                    }, {
+                        autoAlpha: 1,
+                        y: 0,
+                        duration: 1.2,
+                        ease: "elastic.out"
+                    })
+                }
+            }, {
+                key: "fadeLeave",
+                value: function(e) {
+                    return me["b"].timeline().to(e, {
+                        scale: .8,
+                        autoAlpha: 0,
+                        duration: .8,
+                        ease: "expo.inOut"
+                    })
+                }
+            }, {
+                key: "loaderEnter",
+                value: function() {
+                    var e = this.$refs.loader;
+                    return me["b"].timeline().fromTo(e && e.$refs.circle, {
+                        strokeDasharray: "0, 138"
+                    }, {
+                        strokeDasharray: "138, 138",
+                        duration: .8,
+                        ease: "power2.out"
+                    })
+                }
+            }, {
+                key: "loaderLeave",
+                value: function() {
+                    return this.fadeLeave(this.$refs.loader && this.$refs.loader.$el)
+                }
+            }, {
+                key: "buttonEnter",
+                value: function() {
+                    return this.fadeEnter(this.$refs.button && this.$refs.button.$el)
+                }
+            }, {
+                key: "buttonLeave",
+                value: function() {
+                    return this.fadeLeave(this.$refs.button && this.$refs.button.$el)
+                }
+            }, {
+                key: "footerEnter",
+                value: function() {
+                    return me["b"].fromTo(this.$refs.footer, {
+                        autoAlpha: 0,
+                        y: 40
+                    }, {
+                        autoAlpha: 1,
+                        y: 0,
+                        duration: .8,
+                        ease: "expo.out"
+                    })
+                }
+            }, {
+                key: "footerLeave",
+                value: function() {
+                    return me["b"].to(this.$refs.footer, {
+                        autoAlpha: 0,
+                        y: 40,
+                        duration: .6,
+                        ease: "power2.inOut"
+                    })
+                }
+            }, {
+                key: "completeEnter",
+                value: function(e, t) {
+                    me["b"].timeline({
+                        onComplete: t
+                    }).add(this.fadeEnter(e))
+                }
+            }, {
+                key: "completeLeave",
+                value: function(e, t) {
+                    me["b"].timeline({
+                        onComplete: t
+                    }).add(this.fadeLeave(e))
+                }
+            }, {
+                key: "enter",
+                value: function(e, t) {
+                    var n = this;
+                    me["b"].timeline({
+                        onComplete: function() {
+                            n.$emit("reveal"),
+                            t()
+                        }
+                    }).add(this.headerEnter(), "<").add(this.loaderEnter(), "<+.3").add(this.buttonEnter(), "<").add(this.footerEnter(), "<+.2")
+                }
+            }, {
+                key: "leave",
+                value: function(e, t) {
+                    me["b"].timeline({
+                        onComplete: t
+                    }).add(this.headerLeave(), "<").add(this.loaderLeave(), "<+.1").add(this.buttonLeave(), "<").add(this.footerLeave(), "<")
+                }
+            }]),
+            n
+        }(ue["e"]);
+        we = Object(i["b"])([ue["a"]], we);
+        var Ee = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return Object(ie["a"])(n, [{
+                key: "headerEnter",
+                value: function(e, t) {
+                    me["b"].timeline({
+                        onComplete: t,
+                        delay: 1
+                    }).fromTo(e, {
+                        autoAlpha: 0,
+                        y: -20
+                    }, {
+                        autoAlpha: 1,
+                        y: 0,
+                        duration: 1,
+                        ease: "elastic.out"
+                    })
+                }
+            }, {
+                key: "headerLeave",
+                value: function(e, t) {
+                    me["b"].timeline({
+                        onComplete: t
+                    }).to(e, {
+                        y: 20,
+                        autoAlpha: 0,
+                        duration: .6,
+                        ease: "expo.inOut"
+                    })
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Ee = Object(i["b"])([ue["a"]], Ee);
+        var Ae = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return Object(ie["a"])(n, [{
+                key: "enter",
+                value: function(e, t) {
+                    var n = this.$refs
+                      , a = n.counter
+                      , r = n.line1
+                      , o = n.line2;
+                    me["b"].timeline({
+                        defaults: {
+                            duration: .8,
+                            ease: "back.out"
+                        },
+                        onComplete: t
+                    }).fromTo(r, {
+                        scaleY: 0,
+                        y: 90
+                    }, {
+                        scaleY: 1,
+                        y: 0
+                    }, "<").fromTo(o, {
+                        scaleY: 0,
+                        y: -90
+                    }, {
+                        scaleY: 1,
+                        y: 0
+                    }, "<+.1").fromTo(a, {
+                        scale: 0
+                    }, {
+                        scale: 1
+                    }, "<")
+                }
+            }, {
+                key: "leave",
+                value: function(e, t) {
+                    var n = this.$refs
+                      , a = n.counter
+                      , r = n.line1
+                      , o = n.line2;
+                    me["b"].timeline({
+                        defaults: {
+                            duration: .6,
+                            ease: "expo.out"
+                        },
+                        onComplete: t
+                    }).to(a, {
+                        scale: 0
+                    }, "<").to(o, {
+                        scaleY: 0,
+                        y: -90
+                    }, "<+.1").to(r, {
+                        scaleY: 0,
+                        y: 90
+                    }, "<")
+                }
+            }, {
+                key: "countEnter",
+                value: function(e, t) {
+                    me["b"].from(e, {
+                        scale: 1.6,
+                        autoAlpha: 0,
+                        duration: 1,
+                        delay: .2,
+                        ease: "expo.out",
+                        onComplete: t
+                    })
+                }
+            }, {
+                key: "countLeave",
+                value: function(e, t) {
+                    me["b"].to(e, {
+                        scale: .6,
+                        autoAlpha: 0,
+                        duration: 1,
+                        ease: "expo.out",
+                        onComplete: t
+                    })
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Ae = Object(i["b"])([ue["a"]], Ae);
+        var Ce = n("2909")
+          , Se = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return Object(ie["a"])(n, [{
+                key: "enter",
+                value: function(e, t) {
+                    var n = this.$refs
+                      , a = n.score
+                      , r = n.ranking
+                      , o = n.footer
+                      , i = a.$refs
+                      , s = i.user
+                      , c = i.value
+                      , l = i.path
+                      , u = i.share
+                      , p = r.$refs
+                      , d = p.thRank
+                      , h = p.thScore
+                      , b = p.tdRank
+                      , m = p.tdScore;
+                    me["b"].timeline({
+                        onComplete: t
+                    }).timeScale(1).add(me["b"].fromTo(e, {
+                        yPercent: -100
+                    }, {
+                        yPercent: 0,
+                        duration: 1,
+                        ease: "expo.out"
+                    }), "<").add(me["b"].timeline({
+                        defaults: {
+                            duration: .6,
+                            ease: "power2.out"
+                        }
+                    }).fromTo(s, {
+                        autoAlpha: 0,
+                        y: -30
+                    }, {
+                        autoAlpha: 1,
+                        y: 0
+                    }, "<").fromTo(c, {
+                        autoAlpha: 0,
+                        scale: 1.6
+                    }, {
+                        autoAlpha: 1,
+                        scale: 1
+                    }, "<+.1").fromTo(u && u.$el, {
+                        autoAlpha: 0,
+                        scale: .3,
+                        y: 80
+                    }, {
+                        autoAlpha: 1,
+                        scale: 1,
+                        y: 0,
+                        ease: "back.out"
+                    }, "<").fromTo(l, {
+                        strokeDasharray: "355, 355",
+                        strokeDashoffset: "-355"
+                    }, {
+                        strokeDasharray: "355, 355",
+                        strokeDashoffset: "0",
+                        duration: .8
+                    }, "<"), "<+.2").add(me["b"].timeline().fromTo([d, h].concat(Object(Ce["a"])(b), Object(Ce["a"])(m), [o]), {
+                        autoAlpha: 0,
+                        y: 40
+                    }, {
+                        autoAlpha: 1,
+                        y: 0,
+                        duration: .4,
+                        stagger: .05,
+                        ease: "power2.out"
+                    }), "<")
+                }
+            }, {
+                key: "leave",
+                value: function(e, t) {
+                    me["b"].timeline({
+                        onComplete: t
+                    }).to(e, {
+                        yPercent: -100,
+                        duration: 1,
+                        ease: "expo.out"
+                    })
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Se = Object(i["b"])([ue["a"]], Se);
+        var Pe = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                staticClass: "ranking"
+            }, [n("table", [n("thead", [n("tr", [n("th", {
+                ref: "thRank"
+            }, [e._v(e._s(e.$t("ranking.position")))]), n("th", {
+                ref: "thScore"
+            }, [e._v(e._s(e.$t("ranking.score")))])])]), n("tbody", e._l(e.store, (function(t, a) {
+                return n("tr", {
+                    key: "ranking-tr-" + a
+                }, [n("td", {
+                    ref: "tdRank",
+                    refInFor: !0,
+                    class: {
+                        highlight: t.userId === e.user
+                    },
+                    style: {
+                        color: e.color
+                    }
+                }, [e._v(e._s(t.rank))]), n("td", {
+                    ref: "tdScore",
+                    refInFor: !0,
+                    class: {
+                        highlight: t.userId === e.user
+                    },
+                    style: {
+                        color: e.color
+                    }
+                }, [e._v(e._s(t.score))])])
+            }
+            )), 0)])])
+        }
+          , $e = []
+          , Le = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], Le.prototype, "user", void 0),
+        Object(i["b"])([Object(ue["c"])()], Le.prototype, "store", void 0),
+        Object(i["b"])([Object(ue["c"])()], Le.prototype, "color", void 0),
+        Le = Object(i["b"])([ue["a"]], Le);
+        var Re = Le
+          , Be = Re
+          , Te = (n("65fa"),
+        Object(ge["a"])(Be, Pe, $e, !1, null, "5b24abd6", null))
+          , De = Te.exports
+          , Ve = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                staticClass: "score"
+            }, [n("svg", {
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "165.84",
+                    height: "165.84",
+                    viewBox: "0 0 165.84 165.84"
+                }
+            }, [n("path", {
+                ref: "path",
+                attrs: {
+                    d: "M75.19,150.38A75.19,75.19,0,1,0,0,75.19",
+                    transform: "matrix(0.07, 0.998, -0.998, 0.07, 150.762, 0.748)",
+                    fill: "none",
+                    "stroke-linecap": "round",
+                    "stroke-miterlimit": "10",
+                    "stroke-width": "5"
+                }
+            })]), n("div", {
+                staticClass: "display"
+            }, [n("h3", {
+                ref: "user"
+            }, [n("span", {
+                style: {
+                    color: e.color
+                },
+                domProps: {
+                    innerHTML: e._s(e.$t("gameover.user"))
+                }
+            })]), n("h4", {
+                ref: "value"
+            }, [n("span", {
+                style: {
+                    color: e.color
+                },
+                domProps: {
+                    innerHTML: e._s(e.value)
+                }
+            })])]), e.shareable ? n("Share", {
+                ref: "share",
+                attrs: {
+                    arcade: e.arcade,
+                    color: e.color
+                },
+                on: {
+                    click: function(t) {
+                        return e.$emit("share", t)
+                    }
+                }
+            }) : e._e()], 1)
+        }
+          , Ge = []
+          , Me = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                staticClass: "share"
+            }, [e.arcade ? n("a", {
+                attrs: {
+                    href: "arcade://share?url=" + encodeURIComponent(e.$share.dataURL),
+                    target: "_blank"
+                }
+            }, [n("span", {
+                staticClass: "wrapper"
+            }, [n("svg", {
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "22",
+                    height: "20",
+                    viewBox: "0 0 22 20"
+                }
+            }, [n("path", {
+                attrs: {
+                    fill: e.color,
+                    d: "M0,20a25.4,25.4,0,0,1,.528-5.435,16.624,16.624,0,0,1,1.32-3.949,8.312,8.312,0,0,1,2.09-2.633A12.724,12.724,0,0,1,6.292,6.369a9.593,9.593,0,0,1,2.684-.807,22.725,22.725,0,0,1,2.508-.318q.88-.042,2.354-.042V0L22,7.9l-8.162,7.877v-5.69q-2.244,0-3.322.021t-2.772.212a9.1,9.1,0,0,0-2.508.552,12.955,12.955,0,0,0-1.892,1.083,4.838,4.838,0,0,0-1.628,1.762A15.116,15.116,0,0,0,.682,16.348,18.8,18.8,0,0,0,0,20Z"
+                }
+            })])])]) : n("button", {
+                on: {
+                    click: function(t) {
+                        return e.$emit("click", t)
+                    }
+                }
+            }, [n("span", {
+                staticClass: "wrapper"
+            }, [n("svg", {
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "22",
+                    height: "20",
+                    viewBox: "0 0 22 20"
+                }
+            }, [n("path", {
+                attrs: {
+                    fill: e.color,
+                    d: "M0,20a25.4,25.4,0,0,1,.528-5.435,16.624,16.624,0,0,1,1.32-3.949,8.312,8.312,0,0,1,2.09-2.633A12.724,12.724,0,0,1,6.292,6.369a9.593,9.593,0,0,1,2.684-.807,22.725,22.725,0,0,1,2.508-.318q.88-.042,2.354-.042V0L22,7.9l-8.162,7.877v-5.69q-2.244,0-3.322.021t-2.772.212a9.1,9.1,0,0,0-2.508.552,12.955,12.955,0,0,0-1.892,1.083,4.838,4.838,0,0,0-1.628,1.762A15.116,15.116,0,0,0,.682,16.348,18.8,18.8,0,0,0,0,20Z"
+                }
+            })])])])])
+        }
+          , Ne = []
+          , Ue = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return Object(ie["a"])(n, [{
+                key: "onShareUpdate",
+                value: function() {
+                    console.log(this.$share)
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], Ue.prototype, "color", void 0),
+        Object(i["b"])([Object(ue["c"])()], Ue.prototype, "arcade", void 0),
+        Object(i["b"])([Object(ue["f"])("$share.dataURL")], Ue.prototype, "onShareUpdate", null),
+        Ue = Object(i["b"])([ue["a"]], Ue);
+        var Ie = Ue
+          , Fe = Ie
+          , He = (n("c92b"),
+        Object(ge["a"])(Fe, Me, Ne, !1, null, "3201642c", null))
+          , ze = He.exports
+          , Ye = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return Object(ie["a"])(n, [{
+                key: "arcade",
+                get: function() {
+                    return null !== this.user.lang
+                }
+            }, {
+                key: "shareable",
+                get: function() {
+                    return this.arcade || w()
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], Ye.prototype, "value", void 0),
+        Object(i["b"])([Object(ue["c"])()], Ye.prototype, "color", void 0),
+        Object(i["b"])([Object(ue["c"])()], Ye.prototype, "user", void 0),
+        Ye = Object(i["b"])([Object(ue["a"])({
+            components: {
+                Share: ze
+            }
+        })], Ye);
+        var Je = Ye
+          , qe = Je
+          , Ke = (n("6d1b"),
+        Object(ge["a"])(qe, Ve, Ge, !1, null, "7e6eb06c", null))
+          , We = Ke.exports
+          , Ze = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("button", {
+                staticClass: "btn",
+                on: {
+                    click: function(t) {
+                        return e.$emit("click", t)
+                    }
+                }
+            }, [n("span", {
+                staticClass: "wrapper"
+            }, [e._t("default")], 2)])
+        }
+          , Qe = []
+          , Xe = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return n
+        }(ue["e"]);
+        Xe = Object(i["b"])([ue["a"]], Xe);
+        var et = Xe
+          , tt = et
+          , nt = (n("94be"),
+        Object(ge["a"])(tt, Ze, Qe, !1, null, "1388e2e2", null))
+          , at = nt.exports
+          , rt = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                var e;
+                return Object(oe["a"])(this, n),
+                e = t.apply(this, arguments),
+                e.ranking = [],
+                e
+            }
+            return Object(ie["a"])(n, [{
+                key: "share",
+                value: function() {
+                    E(this.score),
+                    D({
+                        eventCategory: "SHARE"
+                    })
+                }
+            }, {
+                key: "restart",
+                value: function(e) {
+                    this.$emit("restart", e),
+                    D({
+                        eventCategory: "RESTART"
+                    })
+                }
+            }, {
+                key: "mounted",
+                value: function() {
+                    return Object(i["a"])(this, void 0, void 0, regeneratorRuntime.mark((function e() {
+                        var t;
+                        return regeneratorRuntime.wrap((function(e) {
+                            while (1)
+                                switch (e.prev = e.next) {
+                                case 0:
+                                    if (!this.user.id) {
+                                        e.next = 6;
+                                        break
+                                    }
+                                    return e.next = 3,
+                                    _(this.user.id, this.score);
+                                case 3:
+                                    e.t0 = e.sent,
+                                    e.next = 9;
+                                    break;
+                                case 6:
+                                    return e.next = 8,
+                                    O(this.score);
+                                case 8:
+                                    e.t0 = e.sent;
+                                case 9:
+                                    t = e.t0,
+                                    this.ranking = t.scoreRange,
+                                    this.userId = t.userId,
+                                    D({
+                                        eventCategory: "GAMEOVER"
+                                    });
+                                case 13:
+                                case "end":
+                                    return e.stop()
+                                }
+                        }
+                        ), e, this)
+                    }
+                    )))
+                }
+            }]),
+            n
+        }(Se);
+        Object(i["b"])([Object(le["b"])("user")], rt.prototype, "user", void 0),
+        Object(i["b"])([Object(ue["c"])()], rt.prototype, "theme", void 0),
+        Object(i["b"])([Object(ue["c"])()], rt.prototype, "score", void 0),
+        rt = Object(i["b"])([Object(ue["a"])({
+            components: {
+                Ranking: De,
+                Button: at,
+                Score: We
+            }
+        })], rt);
+        var ot = rt
+          , it = ot
+          , st = (n("8012"),
+        Object(ge["a"])(it, _e, Oe, !1, null, "a1004910", null))
+          , ct = st.exports
+          , lt = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("transition", {
+                attrs: {
+                    css: !1,
+                    appear: !0
+                },
+                on: {
+                    enter: e.enter,
+                    leave: e.leave
+                }
+            }, [n("div", {
+                attrs: {
+                    id: "landing"
+                }
+            }, [n("div", {
+                staticClass: "row"
+            }, [n("Heading", {
+                ref: "header",
+                attrs: {
+                    user: e.user
+                }
+            })], 1), n("div", {
+                staticClass: "row"
+            }, [n("transition", {
+                attrs: {
+                    css: !1,
+                    mode: "out-in"
+                },
+                on: {
+                    enter: e.completeEnter,
+                    leave: e.completeLeave
+                }
+            }, [e.complete ? n("Button", {
+                ref: "button",
+                on: {
+                    click: e.start
+                }
+            }, [n("span", {
+                style: {
+                    color: e.theme[3]
+                },
+                domProps: {
+                    innerHTML: e._s(e.$t("buttons.start"))
+                }
+            })]) : n("Loader", {
+                ref: "loader",
+                attrs: {
+                    progress: e.progress
+                }
+            })], 1), n("footer", {
+                ref: "footer"
+            }, [n("Logo", {
+                attrs: {
+                    color: e.theme[0]
+                }
+            })], 1)], 1)])])
+        }
+          , ut = []
+          , pt = function() {
+            var e = this
+              , t = e.$createElement
+              , a = e._self._c || t;
+            return a("div", {
+                staticClass: "heading",
+                class: {
+                    logged: e.user.name
+                }
+            }, [e.user.name ? a("h3", {
+                ref: "hello"
+            }, [e._v(e._s(e.$t("landing.hello")) + " " + e._s(e.user.name))]) : e._e(), a("h2", {
+                ref: "intro",
+                domProps: {
+                    innerHTML: e._s(e.$t("landing.intro"))
+                }
+            }), a("h1", {
+                ref: "title"
+            }, [a("img", {
+                attrs: {
+                    src: n("4e59"),
+                    alt: e.$t("landing.title")
+                }
+            })]), a("p", {
+                ref: "text"
+            }, e._l(e.$t("landing.text"), (function(t, n) {
+                return a("span", {
+                    key: "text-" + n,
+                    domProps: {
+                        innerHTML: e._s(t)
+                    }
+                })
+            }
+            )), 0)])
+        }
+          , dt = []
+          , ht = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], ht.prototype, "user", void 0),
+        ht = Object(i["b"])([ue["a"]], ht);
+        var bt = ht
+          , mt = bt
+          , ft = (n("ee5a"),
+        Object(ge["a"])(mt, pt, dt, !1, null, null, null))
+          , vt = ft.exports
+          , yt = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("svg", {
+                staticClass: "loader",
+                attrs: {
+                    viewBox: "25 25 50 50"
+                }
+            }, [n("circle", {
+                ref: "circle",
+                staticClass: "base",
+                attrs: {
+                    cx: "50",
+                    cy: "50",
+                    r: "22",
+                    fill: "none",
+                    "stroke-width": "2",
+                    "stroke-linecap": "round",
+                    transform: "rotate(-90 50 50)"
+                }
+            }), n("circle", {
+                staticClass: "line",
+                attrs: {
+                    "stroke-dasharray": 138 * e.progress + ", 138",
+                    cx: "50",
+                    cy: "50",
+                    r: "22",
+                    fill: "none",
+                    "stroke-width": "2",
+                    transform: "rotate(-90 50 50)"
+                }
+            })])
+        }
+          , gt = []
+          , kt = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], kt.prototype, "progress", void 0),
+        kt = Object(i["b"])([ue["a"]], kt);
+        var xt = kt
+          , _t = xt
+          , Ot = (n("615f"),
+        Object(ge["a"])(_t, yt, gt, !1, null, "b37b12ee", null))
+          , jt = Ot.exports
+          , wt = function() {
+            var e = this
+              , t = e.$createElement;
+            e._self._c;
+            return e._m(0)
+        }
+          , Et = [function() {
+            var e = this
+              , t = e.$createElement
+              , a = e._self._c || t;
+            return a("span", {
+                attrs: {
+                    id: "logo"
+                }
+            }, [a("img", {
+                attrs: {
+                    src: n("d54b"),
+                    alt: "Gucci Arcade"
+                }
+            })])
+        }
+        ]
+          , At = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], At.prototype, "color", void 0),
+        At = Object(i["b"])([ue["a"]], At);
+        var Ct = At
+          , St = Ct
+          , Pt = (n("c85b"),
+        Object(ge["a"])(St, wt, Et, !1, null, "97e8a7b0", null))
+          , $t = Pt.exports
+          , Lt = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return Object(ie["a"])(n, [{
+                key: "onComplete",
+                value: function(e) {
+                    return Object(i["a"])(this, void 0, void 0, regeneratorRuntime.mark((function t() {
+                        return regeneratorRuntime.wrap((function(t) {
+                            while (1)
+                                switch (t.prev = t.next) {
+                                case 0:
+                                    return t.next = 2,
+                                    this.$nextTick();
+                                case 2:
+                                    e ? me["b"].timeline().add(this.loaderLeave(), "<").add(this.buttonEnter(), "<+.3") : me["b"].timeline().add(this.buttonLeave(), "<").add(this.loaderEnter(), "<");
+                                case 3:
+                                case "end":
+                                    return t.stop()
+                                }
+                        }
+                        ), t, this)
+                    }
+                    )))
+                }
+            }, {
+                key: "start",
+                value: function() {
+                    this.$emit("start"),
+                    D({
+                        eventCategory: "PLAY"
+                    })
+                }
+            }]),
+            n
+        }(we);
+        Object(i["b"])([Object(ue["c"])()], Lt.prototype, "theme", void 0),
+        Object(i["b"])([Object(ue["c"])()], Lt.prototype, "progress", void 0),
+        Object(i["b"])([Object(ue["c"])()], Lt.prototype, "complete", void 0),
+        Object(i["b"])([Object(le["b"])("user")], Lt.prototype, "user", void 0),
+        Object(i["b"])([Object(ue["f"])("complete")], Lt.prototype, "onComplete", null),
+        Lt = Object(i["b"])([Object(ue["a"])({
+            components: {
+                Heading: vt,
+                Loader: jt,
+                Button: at,
+                Logo: $t
+            }
+        })], Lt);
+        var Rt = Lt
+          , Bt = Rt
+          , Tt = (n("af035"),
+        Object(ge["a"])(Bt, lt, ut, !1, null, "709e3dac", null))
+          , Dt = Tt.exports
+          , Vt = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                attrs: {
+                    id: "display"
+                }
+            }, [n("div", {
+                staticClass: "header"
+            }, [n("transition", {
+                attrs: {
+                    css: !1,
+                    appear: !0,
+                    mode: "out-in"
+                },
+                on: {
+                    enter: e.headerEnter,
+                    leave: e.headerLeave
+                }
+            }, [e.ready ? n("div", {
+                key: "score",
+                staticClass: "score"
+            }, [n("transition", {
+                attrs: {
+                    name: "display-score"
+                }
+            }, [n("span", {
+                key: e.scoreKey,
+                staticClass: "circle",
+                style: e.scoreStyles
+            }, [n("span", {
+                staticClass: "count"
+            }, [e._v(e._s(e.score.total))])])])], 1) : n("div", {
+                key: "ready",
+                staticClass: "ready",
+                style: {
+                    color: e.theme[3]
+                }
+            }, [n("span", [e._v(e._s(e.$t("countdown")))])])])], 1), e.combo ? n("Combo", {
+                attrs: {
+                    color: e.theme[3],
+                    checkpoint: e.checkpoint,
+                    value: e.checkpoint ? e.score.boxes + e.score.combo : e.score.combo
+                }
+            }) : e._e(), n("Tutorial", {
+                attrs: {
+                    start: e.tutorial,
+                    combo: e.combo,
+                    steps: e.steps
+                }
+            }), n("Audio", {
+                attrs: {
+                    active: !e.muted
+                },
+                on: {
+                    click: function(t) {
+                        return e.$emit("toggle-audio", t)
+                    }
+                }
+            })], 1)
+        }
+          , Gt = []
+          , Mt = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                staticClass: "tutorial"
+            }, [n("transition", {
+                attrs: {
+                    name: "display-start-tutorial",
+                    appear: !0
+                }
+            }, [e.start && e.startEnabled ? n("div", {
+                staticClass: "start"
+            }, [n("div", {
+                staticClass: "waves"
+            }, [n("span", {
+                ref: "circle1"
+            }), n("span", {
+                ref: "circle2"
+            })]), n("div", {
+                staticClass: "display"
+            }, [n("div", {
+                ref: "lottie",
+                staticClass: "lottie"
+            }), n("div", {
+                staticClass: "steps"
+            }, [n("div", {
+                ref: "step1",
+                staticClass: "step-1"
+            }, [n("h3", [n("span", {
+                domProps: {
+                    innerHTML: e._s(e.$t("tutorial.hold[" + ~~!!e.$device.mobile + "][0]"))
+                }
+            })]), n("h5", [n("span", {
+                domProps: {
+                    innerHTML: e._s(e.$t("tutorial.hold[" + ~~!!e.$device.mobile + "][1]"))
+                }
+            })])]), n("div", {
+                staticClass: "step-2"
+            }, [n("h4", {
+                ref: "step2",
+                domProps: {
+                    innerHTML: e._s(e.$t("tutorial.jump"))
+                }
+            })])])])]) : e._e()]), n("transition", {
+                attrs: {
+                    name: "display-combo-tutorial"
+                }
+            }, [e.comboEnabled ? n("div", {
+                staticClass: "combo"
+            }, [n("h4", {
+                ref: "combo",
+                domProps: {
+                    innerHTML: e._s(e.$t("combo.message"))
+                }
+            })]) : e._e()])], 1)
+        }
+          , Nt = []
+          , Ut = n("f44e")
+          , It = n("136c")
+          , Ft = n("94f1")
+          , Ht = n.n(Ft)
+          , zt = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                var e;
+                return Object(oe["a"])(this, n),
+                e = t.apply(this, arguments),
+                e.startEnabled = !0,
+                e.comboEnabled = !1,
+                e.comboPrevent = !1,
+                e.startTutorial = {
+                    enabled: !0
+                },
+                e
+            }
+            return Object(ie["a"])(n, [{
+                key: "onStart",
+                value: function(e) {
+                    return Object(i["a"])(this, void 0, void 0, regeneratorRuntime.mark((function t() {
+                        return regeneratorRuntime.wrap((function(t) {
+                            while (1)
+                                switch (t.prev = t.next) {
+                                case 0:
+                                    return t.next = 2,
+                                    this.$nextTick();
+                                case 2:
+                                    e ? this.loop() : (this.startEnabled = !1,
+                                    this.dispose());
+                                case 3:
+                                case "end":
+                                    return t.stop()
+                                }
+                        }
+                        ), t, this)
+                    }
+                    )))
+                }
+            }, {
+                key: "onCombo",
+                value: function(e) {
+                    return Object(i["a"])(this, void 0, void 0, regeneratorRuntime.mark((function t() {
+                        return regeneratorRuntime.wrap((function(t) {
+                            while (1)
+                                switch (t.prev = t.next) {
+                                case 0:
+                                    return t.next = 2,
+                                    this.$nextTick();
+                                case 2:
+                                    e && !this.comboPrevent && (this.comboEnabled = !0,
+                                    this.comboPrevent = !0);
+                                case 3:
+                                case "end":
+                                    return t.stop()
+                                }
+                        }
+                        ), t, this)
+                    }
+                    )))
+                }
+            }, {
+                key: "onMove",
+                value: function() {
+                    this.comboEnabled && (this.comboEnabled = !1)
+                }
+            }, {
+                key: "loop",
+                value: function() {
+                    if (this.startEnabled) {
+                        var e = this.$device.mobile ? Ut : It;
+                        this.animation = Ht.a.loadAnimation({
+                            container: this.$refs.lottie,
+                            renderer: "svg",
+                            autoplay: !0,
+                            loop: !0,
+                            animationData: e
+                        });
+                        var t = this.$refs
+                          , n = t.circle1
+                          , a = t.circle2
+                          , r = t.step1
+                          , o = t.step2;
+                        this.timeline = me["b"].timeline().add(me["b"].timeline({
+                            repeat: -1,
+                            defaults: {
+                                duration: 1.4,
+                                ease: "power.inOut"
+                            }
+                        }).fromTo([n, a], {
+                            scale: .3,
+                            opacity: 0
+                        }, {
+                            motionPath: {
+                                path: [{
+                                    scale: 1,
+                                    opacity: 1
+                                }, {
+                                    scale: 1.1,
+                                    opacity: 0
+                                }],
+                                curviness: 0
+                            },
+                            stagger: .3
+                        }), "<").add(me["b"].timeline({
+                            defaults: {
+                                duration: .8,
+                                ease: "power.inOut"
+                            }
+                        }).fromTo(r, {
+                            opacity: 0,
+                            scale: 1.15
+                        }, {
+                            opacity: 1,
+                            scale: 1
+                        }, "<").to(r, {
+                            opacity: 0,
+                            scale: .8
+                        }, "<+4").fromTo(o, {
+                            opacity: 0,
+                            scale: 1.15
+                        }, {
+                            opacity: 1,
+                            scale: 1
+                        }, "<+.12"), "<+.2")
+                    }
+                }
+            }, {
+                key: "dispose",
+                value: function() {
+                    var e = this;
+                    me["b"].delayedCall(.8, (function() {
+                        e.animation && e.animation.destroy(),
+                        e.timeline && e.timeline.kill()
+                    }
+                    ))
+                }
+            }, {
+                key: "destroyed",
+                value: function() {
+                    this.dispose()
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], zt.prototype, "start", void 0),
+        Object(i["b"])([Object(ue["c"])()], zt.prototype, "combo", void 0),
+        Object(i["b"])([Object(ue["c"])()], zt.prototype, "steps", void 0),
+        Object(i["b"])([Object(ue["f"])("start", {
+            immediate: !0
+        })], zt.prototype, "onStart", null),
+        Object(i["b"])([Object(ue["f"])("combo")], zt.prototype, "onCombo", null),
+        Object(i["b"])([Object(ue["f"])("steps")], zt.prototype, "onMove", null),
+        zt = Object(i["b"])([ue["a"]], zt);
+        var Yt = zt
+          , Jt = Yt
+          , qt = (n("fd1c"),
+        Object(ge["a"])(Jt, Mt, Nt, !1, null, "261b5ceb", null))
+          , Kt = qt.exports
+          , Wt = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("transition", {
+                attrs: {
+                    name: "combo",
+                    appear: !0,
+                    duration: {
+                        enter: 5e3,
+                        leave: 600
+                    }
+                }
+            }, [n("div", {
+                staticClass: "combo"
+            }, [n("transition", {
+                attrs: {
+                    name: "combo-label",
+                    appear: !0,
+                    duration: {
+                        enter: 1e3,
+                        leave: 600
+                    }
+                }
+            }, [n("div", {
+                key: e.label,
+                staticClass: "label",
+                style: e.labelStyle
+            }, [n("span", [e._v(e._s(e.label))])])]), n("transition", {
+                attrs: {
+                    name: "combo-display",
+                    appear: !0,
+                    duration: {
+                        enter: 1e3,
+                        leave: 600
+                    }
+                }
+            }, [n("div", {
+                key: e.value,
+                staticClass: "display"
+            }, [n("svg", {
+                staticClass: "circle",
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "165.84",
+                    height: "165.84",
+                    viewBox: "0 0 165.84 165.84"
+                }
+            }, [n("path", {
+                attrs: {
+                    d: "M75.19,150.38A75.19,75.19,0,1,0,0,75.19",
+                    transform: "translate(7.5, 7.5)",
+                    fill: "none",
+                    "stroke-linecap": "round",
+                    "stroke-miterlimit": "10",
+                    "stroke-width": "5"
+                }
+            })]), n("div", {
+                staticClass: "value"
+            }, [n("svg", {
+                staticClass: "plus",
+                attrs: {
+                    viewBox: "0 0 24 24",
+                    xmlns: "http://www.w3.org/2000/svg"
+                }
+            }, [n("path", {
+                attrs: {
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "stroke-width": "2",
+                    d: "M12 6v6m0 0v6m0-6h6m-6 0H6"
+                }
+            })]), n("span", {
+                style: e.valueStyle,
+                domProps: {
+                    innerHTML: e._s(e.value)
+                }
+            })])])])], 1)])
+        }
+          , Zt = []
+          , Qt = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return Object(ie["a"])(n, [{
+                key: "label",
+                get: function() {
+                    return this.checkpoint ? this.$t("bags.".concat(this.checkpoint)) : this.$t("combo.popup")
+                }
+            }, {
+                key: "labelStyle",
+                get: function() {
+                    return {
+                        color: this.checkpoint ? "#ffffff" : this.color,
+                        opacity: this.checkpoint ? 1 : .2
+                    }
+                }
+            }, {
+                key: "valueStyle",
+                get: function() {
+                    return {
+                        color: this.checkpoint ? this.color : "#ffffff"
+                    }
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], Qt.prototype, "color", void 0),
+        Object(i["b"])([Object(ue["c"])()], Qt.prototype, "value", void 0),
+        Object(i["b"])([Object(ue["c"])()], Qt.prototype, "checkpoint", void 0),
+        Qt = Object(i["b"])([ue["a"]], Qt);
+        var Xt = Qt
+          , en = Xt
+          , tn = (n("93d1"),
+        Object(ge["a"])(en, Wt, Zt, !1, null, "e8a6277c", null))
+          , nn = tn.exports
+          , an = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                staticClass: "audio",
+                class: {
+                    active: e.active
+                },
+                attrs: {
+                    "data-btn": ""
+                },
+                on: {
+                    click: function(t) {
+                        return e.$emit("click", t)
+                    }
+                }
+            }, [e._m(0)])
+        }
+          , rn = [function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("span", {
+                attrs: {
+                    "data-btn": ""
+                }
+            }, [n("span", {
+                attrs: {
+                    "data-btn": ""
+                }
+            }), n("span", {
+                attrs: {
+                    "data-btn": ""
+                }
+            }), n("span", {
+                attrs: {
+                    "data-btn": ""
+                }
+            })])
+        }
+        ]
+          , on = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], on.prototype, "active", void 0),
+        on = Object(i["b"])([ue["a"]], on);
+        var sn = on
+          , cn = sn
+          , ln = (n("0b40"),
+        Object(ge["a"])(cn, an, rn, !1, null, null, null))
+          , un = ln.exports
+          , pn = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                var e;
+                return Object(oe["a"])(this, n),
+                e = t.apply(this, arguments),
+                e.checkpointCount = 0,
+                e
+            }
+            return Object(ie["a"])(n, [{
+                key: "ready",
+                get: function() {
+                    return !0
+                }
+            }, {
+                key: "combo",
+                get: function() {
+                    return this.score.combo > 0 || !1 !== this.checkpoint
+                }
+            }, {
+                key: "scoreKey",
+                get: function() {
+                    return "".concat(this.score.total, "-").concat(this.checkpoint || "default")
+                }
+            }, {
+                key: "scoreStyles",
+                get: function() {
+                    return {
+                        backgroundColor: this.checkpoint ? this.theme[3] : "transparent",
+                        borderColor: this.checkpoint ? this.theme[3] : "#ffffff"
+                    }
+                }
+            }, {
+                key: "onCheckpoint",
+                value: function(e) {
+                    e && (++this.checkpointCount,
+                    this.setTheme(this.checkpointCount % 4))
+                }
+            }]),
+            n
+        }(Ee);
+        Object(i["b"])([Object(ue["c"])()], pn.prototype, "theme", void 0),
+        Object(i["b"])([Object(ue["c"])()], pn.prototype, "score", void 0),
+        Object(i["b"])([Object(ue["c"])()], pn.prototype, "tutorial", void 0),
+        Object(i["b"])([Object(ue["c"])()], pn.prototype, "muted", void 0),
+        Object(i["b"])([Object(ue["c"])()], pn.prototype, "steps", void 0),
+        Object(i["b"])([Object(ue["c"])()], pn.prototype, "checkpoint", void 0),
+        Object(i["b"])([Object(le["a"])("setTheme")], pn.prototype, "setTheme", void 0),
+        Object(i["b"])([Object(ue["f"])("checkpoint")], pn.prototype, "onCheckpoint", null),
+        pn = Object(i["b"])([Object(ue["a"])({
+            components: {
+                Tutorial: Kt,
+                Combo: nn,
+                Audio: un
+            }
+        })], pn);
+        var dn = pn
+          , hn = dn
+          , bn = (n("c097"),
+        Object(ge["a"])(hn, Vt, Gt, !1, null, "a667aa5c", null))
+          , mn = bn.exports
+          , fn = function() {
+            var e = this
+              , t = e.$createElement
+              , a = e._self._c || t;
+            return a("div", {
+                staticClass: "share"
+            }, [a("img", {
+                ref: "image",
+                attrs: {
+                    src: n("941a"),
+                    alt: ""
+                }
+            }), a("canvas", {
+                ref: "canvas",
+                attrs: {
+                    width: e.size.width,
+                    height: e.size.height
+                }
+            })])
+        }
+          , vn = []
+          , yn = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                var e;
+                return Object(oe["a"])(this, n),
+                e = t.apply(this, arguments),
+                e.size = {
+                    width: 1920,
+                    height: 1080
+                },
+                e
+            }
+            return Object(ie["a"])(n, [{
+                key: "onUpdate",
+                value: function(e) {
+                    e && (this.draw(),
+                    this.$share.dataURL = this.$refs.canvas.toDataURL())
+                }
+            }, {
+                key: "wrapText",
+                value: function(e, t, n, a) {
+                    for (var r = e.split(" "), o = 36, i = "", s = 0; s < r.length; s++) {
+                        var c = i + r[s] + " "
+                          , l = this.context.measureText(c)
+                          , u = l.width;
+                        u > a ? (this.context.fillText(i, t, n),
+                        s < r.length - 1 && (i = r[s] + " ",
+                        n += o)) : i = c
+                    }
+                    this.context.fillText(i, t, n)
+                }
+            }, {
+                key: "draw",
+                value: function() {
+                    var e = this.$styles.getFont();
+                    this.context.drawImage(this.image, 0, 0),
+                    this.context.fillStyle = "#5C7171",
+                    this.context.textAlign = "center",
+                    this.context.font = "700 50px ".concat(e, ", sans-serif"),
+                    this.context.fillText(this.$t("share.title", {
+                        score: this.score
+                    }), this.size.width / 2, 380),
+                    this.context.font = "400 26px ".concat(e, ", sans-serif"),
+                    this.wrapText(this.$t("share.text", {
+                        name: this.$t("landing.title")
+                    }), this.size.width / 2, 440, 400)
+                }
+            }, {
+                key: "setup",
+                value: function(e) {
+                    this.image = e,
+                    this.draw()
+                }
+            }, {
+                key: "mounted",
+                value: function() {
+                    var e = this
+                      , t = this.$refs
+                      , n = t.canvas
+                      , a = t.image
+                      , r = n.getContext("2d");
+                    this.context = r,
+                    a.onload = function() {
+                        return e.setup(a)
+                    }
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], yn.prototype, "score", void 0),
+        Object(i["b"])([Object(ue["c"])()], yn.prototype, "update", void 0),
+        Object(i["b"])([Object(ue["f"])("update")], yn.prototype, "onUpdate", null),
+        yn = Object(i["b"])([ue["a"]], yn);
+        var gn = yn
+          , kn = gn
+          , xn = (n("95da"),
+        Object(ge["a"])(kn, fn, vn, !1, null, "d30a4a5c", null))
+          , _n = xn.exports
+          , On = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                var e;
+                return Object(oe["a"])(this, n),
+                e = t.apply(this, arguments),
+                e.state = {
+                    landing: {
+                        label: "Landing",
+                        enabled: !1,
+                        type: "checkbox",
+                        props: {
+                            progress: {
+                                label: "Progress",
+                                value: !1,
+                                type: "checkbox"
+                            },
+                            complete: {
+                                label: "Complete",
+                                value: !1,
+                                type: "checkbox"
+                            }
+                        }
+                    },
+                    display: {
+                        label: "Display",
+                        enabled: !1,
+                        type: "checkbox",
+                        props: {
+                            score: {
+                                label: "Score",
+                                value: 0,
+                                type: "number"
+                            },
+                            combo: {
+                                label: "Combo",
+                                value: 0,
+                                type: "number"
+                            },
+                            checkpoint: {
+                                label: "Checkpoint",
+                                value: !1,
+                                type: "checkbox"
+                            }
+                        }
+                    },
+                    gameover: {
+                        label: "Gameover",
+                        enabled: !1,
+                        type: "checkbox",
+                        props: {
+                            score: {
+                                label: "Score",
+                                value: 47,
+                                type: "number"
+                            }
+                        }
+                    }
+                },
+                e
+            }
+            return n
+        }(ue["e"]);
+        Object(i["b"])([Object(le["b"])("theme")], On.prototype, "theme", void 0),
+        On = Object(i["b"])([Object(ue["a"])({
+            components: {
+                Background: xe,
+                GameOver: ct,
+                Landing: Dt,
+                Display: mn,
+                Share: _n
+            }
+        })], On);
+        var jn = On
+          , wn = jn
+          , En = (n("e34c"),
+        Object(ge["a"])(wn, pe, de, !1, null, null, null))
+          , An = En.exports
+          , Cn = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("transition", {
+                attrs: {
+                    css: !1,
+                    appear: !0
+                },
+                on: {
+                    enter: e.enter
+                }
+            }, [n("footer", [n("div", {
+                ref: "privacy",
+                staticClass: "privacy"
+            }, [n("a", {
+                attrs: {
+                    href: e.privacy,
+                    target: "_blank"
+                }
+            }, [n("span", [e._v(e._s(e.$t("privacy")))])])])])])
+        }
+          , Sn = []
+          , Pn = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return Object(ie["a"])(n, [{
+                key: "privacy",
+                get: function() {
+                    return "//privacy.gucci.com/"
+                }
+            }]),
+            n
+        }(je);
+        Pn = Object(i["b"])([ue["a"]], Pn);
+        var $n = Pn
+          , Ln = $n
+          , Rn = (n("cc6a"),
+        Object(ge["a"])(Ln, Cn, Sn, !1, null, null, null))
+          , Bn = Rn.exports
+          , Tn = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                attrs: {
+                    id: "game"
+                }
+            }, [n("Controller", {
+                scopedSlots: e._u([{
+                    key: "default",
+                    fn: function(t) {
+                        var a = t.currentIndex
+                          , r = t.checkpoint
+                          , o = t.countdown
+                          , i = t.direction
+                          , s = t.gameOver
+                          , c = t.started
+                          , l = t.enabled
+                          , u = t.holding
+                          , p = t.jumping
+                          , d = t.falling
+                          , h = t.player
+                          , b = t.helper
+                          , m = t.blocks
+                          , f = t.loader
+                          , v = t.center
+                          , y = t.sounds
+                          , g = t.score
+                          , k = t.moved
+                          , x = t.depth
+                          , _ = t.hold
+                          , O = t.jump
+                          , j = t.play;
+                        return [f.fetched ? n("Mixer", {
+                            attrs: {
+                                block: m[a],
+                                checkpoint: r,
+                                gameOver: s,
+                                combo: g.combo,
+                                started: c,
+                                holding: u,
+                                jumping: p,
+                                falling: d,
+                                sounds: y
+                            },
+                            scopedSlots: e._u([{
+                                key: "default",
+                                fn: function(t) {
+                                    var s = t.listener
+                                      , l = t.toggle
+                                      , y = t.muted;
+                                    return [n("Background", {
+                                        attrs: {
+                                            theme: e.theme
+                                        }
+                                    }), n("Canvas", {
+                                        attrs: {
+                                            cameraTween: k,
+                                            cameraPosition: v,
+                                            audioListener: s
+                                        },
+                                        on: {
+                                            loaded: f.finish
+                                        }
+                                    }, [n("Floor"), n("Lights", {
+                                        attrs: {
+                                            ambient: [16777215, .5]
+                                        }
+                                    }), f.complete ? n("BlocksRoot", e._l(m, (function(e, t) {
+                                        return n(e.component, {
+                                            key: "block-" + t,
+                                            tag: "component",
+                                            attrs: {
+                                                holding: u && t === a,
+                                                state: e
+                                            }
+                                        })
+                                    }
+                                    )), 1) : e._e(), f.complete ? n("Player", {
+                                        attrs: {
+                                            direction: i,
+                                            holding: u,
+                                            jumping: p,
+                                            falling: d,
+                                            position: h,
+                                            depth: x
+                                        }
+                                    }, [n("HoldParticles", {
+                                        attrs: {
+                                            active: u
+                                        }
+                                    }), n("JumpParticles", {
+                                        attrs: {
+                                            active: k && !u && !p && !d
+                                        }
+                                    }), n("ComboParticles", {
+                                        attrs: {
+                                            combo: g.combo
+                                        }
+                                    })], 1) : e._e(), n("Tutorial", {
+                                        attrs: {
+                                            state: b,
+                                            holding: u,
+                                            jumping: p
+                                        }
+                                    })], 1), c ? n("Display", {
+                                        attrs: {
+                                            muted: y,
+                                            theme: e.theme,
+                                            score: g,
+                                            steps: a,
+                                            countdown: o,
+                                            checkpoint: r,
+                                            tutorial: !u && !p && 0 === g.total
+                                        },
+                                        on: {
+                                            "toggle-audio": function(e) {
+                                                return l(!y)
+                                            }
+                                        }
+                                    }) : e._e()]
+                                }
+                            }], null, !0)
+                        }) : e._e(), c ? e._e() : n("Landing", {
+                            attrs: {
+                                theme: e.theme,
+                                progress: f.progress,
+                                complete: f.complete
+                            },
+                            on: {
+                                reveal: f.fetch,
+                                start: j
+                            }
+                        }), s ? n("GameOver", {
+                            attrs: {
+                                theme: e.theme,
+                                score: g.total
+                            },
+                            on: {
+                                restart: j
+                            }
+                        }) : e._e(), n("Share", {
+                            attrs: {
+                                update: s,
+                                score: g.total
+                            }
+                        }), n("Controls", {
+                            attrs: {
+                                enabled: l
+                            },
+                            on: {
+                                pressed: function() {
+                                    _(!0),
+                                    O(!1)
+                                },
+                                release: function() {
+                                    _(!1),
+                                    O(!0)
+                                },
+                                debounce: function() {
+                                    O(!1)
+                                }
+                            }
+                        })]
+                    }
+                }])
+            })], 1)
+        }
+          , Dn = []
+          , Vn = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                attrs: {
+                    id: "controller"
+                }
+            }, [e._t("default", null, null, Object.assign({}, e.state, {
+                enabled: e.enabled,
+                sounds: e.sounds,
+                loader: e.loader,
+                moved: e.moved,
+                depth: e.depth,
+                hold: e.hold,
+                jump: e.jump,
+                play: e.play,
+                score: e.score,
+                helper: e.helper,
+                currentIndex: e.currentIndex
+            }))], 2)
+        }
+          , Gn = []
+          , Mn = (n("4c53"),
+        n("159b"),
+        n("d34e"))
+          , Nn = n.n(Mn)
+          , Un = new Nn.a
+          , In = function(e) {
+            return Un = new Nn.a(e)
+        }
+          , Fn = function() {
+            return Un.random()
+        }
+          , Hn = function(e) {
+            var t = 0;
+            e.forEach((function(e) {
+                return t += e.prob
+            }
+            ));
+            for (var n = Math.floor(Fn() * (t + 1)), a = 0, r = 0; r < e.length; ++r)
+                if (n -= e[r].prob,
+                n <= 0) {
+                    a = r;
+                    break
+                }
+            return Object.assign({}, e[a])
+        }
+          , zn = function(e) {
+            return new Promise((function(t) {
+                return me["b"].delayedCall(e, t)
+            }
+            ))
+        }
+          , Yn = n("b012")
+          , Jn = n.n(Yn)
+          , qn = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                var e;
+                return Object(oe["a"])(this, n),
+                e = t.apply(this, arguments),
+                e.state = {
+                    started: !1,
+                    holding: !1,
+                    jumping: !1,
+                    falling: !1,
+                    gameOver: !1,
+                    checkpoint: !1,
+                    direction: new d["Cb"],
+                    player: new d["Cb"],
+                    center: new d["Cb"],
+                    helper: new d["Cb"],
+                    countdown: 3,
+                    blocks: [],
+                    steps: []
+                },
+                e.score = {
+                    total: 0,
+                    combo: 0,
+                    jumps: 0,
+                    boxes: 0
+                },
+                e.loader = {
+                    progress: 0,
+                    fetched: !1,
+                    complete: !1,
+                    fetch: e.fetch,
+                    finish: e.init
+                },
+                e.helper = {
+                    position: new d["Cb"],
+                    prevent: !1,
+                    target: !1
+                },
+                e.debounceResetCombo = Jn()(e.resetCombo, 2e3),
+                e.store = {},
+                e.clock = Date.now(),
+                e.timer = 0,
+                e
+            }
+            return Object(ie["a"])(n, [{
+                key: "enabled",
+                get: function() {
+                    var e = this.state
+                      , t = e.started
+                      , n = e.holding
+                      , a = e.jumping
+                      , r = e.falling;
+                    return t && !n && !a && !r
+                }
+            }, {
+                key: "difficulty",
+                get: function() {
+                    return 1 - Math.pow(.5, this.state.steps.length / 128)
+                }
+            }, {
+                key: "currentBlock",
+                get: function() {
+                    return this.state.blocks[this.state.blocks.length - 3]
+                }
+            }, {
+                key: "nextBlock",
+                get: function() {
+                    return this.state.blocks[this.state.blocks.length - 2]
+                }
+            }, {
+                key: "lastBlock",
+                get: function() {
+                    return this.state.blocks[this.state.blocks.length - 8]
+                }
+            }, {
+                key: "moved",
+                get: function() {
+                    return this.state.steps.length > 0
+                }
+            }, {
+                key: "currentIndex",
+                get: function() {
+                    return this.state.blocks.length - 3
+                }
+            }, {
+                key: "sounds",
+                get: function() {
+                    return this.store.sounds
+                }
+            }, {
+                key: "depth",
+                get: function() {
+                    var e = this.currentBlock && this.validate(this.currentBlock, this.state.player)
+                      , t = this.nextBlock && this.validate(this.nextBlock, this.state.player);
+                    return e ? this.currentBlock.scale : t ? this.nextBlock.scale : 1
+                }
+            }, {
+                key: "hold",
+                value: function(e) {
+                    this.state.holding = e
+                }
+            }, {
+                key: "jump",
+                value: function(e) {
+                    this.state.jumping = e
+                }
+            }, {
+                key: "tick",
+                value: function(e, t) {
+                    var n = t / 1e3 * u["h"]
+                      , a = this.state.direction.clone().multiplyScalar(n);
+                    this.helper.position.add(a),
+                    this.helper.target = this.validate(this.nextBlock, this.helper.position)
+                }
+            }, {
+                key: "onHolding",
+                value: function(e) {
+                    if (e) {
+                        this.clock = Date.now();
+                        var t = this.state.player.clone()
+                          , n = this.nextBlock.position.clone();
+                        this.state.direction = n.sub(t).setY(0).normalize(),
+                        this.helper.prevent = this.state.steps.length > u["f"],
+                        this.helper.position.copy(this.state.player),
+                        me["b"].ticker.add(this.tick)
+                    }
+                }
+            }, {
+                key: "onJumping",
+                value: function(e) {
+                    if (me["b"].ticker.remove(this.tick),
+                    e) {
+                        var t = this.clock
+                          , n = Date.now()
+                          , a = Math.min(5, (n - t) / 1e3)
+                          , r = a * u["h"]
+                          , o = this.state.direction.clone().multiplyScalar(r);
+                        this.state.player.add(o),
+                        this.state.steps.push([t, n])
+                    } else
+                        this.nextStep()
+                }
+            }, {
+                key: "validate",
+                value: function(e, t) {
+                    var n = e.position
+                      , a = e.scale
+                      , r = t.clone().sub(n).setY(0);
+                    return Math.abs(r.x) <= a / 2 && Math.abs(r.z) < a / 2
+                }
+            }, {
+                key: "reward",
+                value: function(e, t) {
+                    var n = e.position
+                      , a = e.scale
+                      , r = t.clone().sub(n).setY(0);
+                    return r.length() < u["e"] * a
+                }
+            }, {
+                key: "resetCombo",
+                value: function() {
+                    this.state.checkpoint = !1,
+                    this.score.combo = 0
+                }
+            }, {
+                key: "nextStep",
+                value: function() {
+                    return Object(i["a"])(this, void 0, void 0, regeneratorRuntime.mark((function e() {
+                        var t, n, a, r, o = this;
+                        return regeneratorRuntime.wrap((function(e) {
+                            while (1)
+                                switch (e.prev = e.next) {
+                                case 0:
+                                    this.validate(this.currentBlock, this.state.player) ? this.score.combo = 0 : this.validate(this.nextBlock, this.state.player) ? (this.reward(this.nextBlock, this.state.player) ? ++this.score.combo : this.score.combo = 0,
+                                    this.score.boxes = this.nextBlock.score,
+                                    this.score.jumps = this.state.steps.length,
+                                    this.score.total += this.score.boxes + this.score.combo,
+                                    t = this.nextBlock,
+                                    n = t.size,
+                                    a = t.bag,
+                                    r = u["c"].DOUBLE === n,
+                                    this.state.checkpoint = !!r && (a ? a.key : "checkpoint"),
+                                    this.addBlock(),
+                                    this.currentBlock.active = !0,
+                                    this.nextBlock.reveal = !0,
+                                    this.moveCamera(),
+                                    this.lastBlock && (this.lastBlock.dispose = !0),
+                                    this.debounceResetCombo()) : (this.debounceResetCombo(),
+                                    this.state.falling = !0,
+                                    me["b"].delayedCall(1, (function() {
+                                        o.state.gameOver = !0
+                                    }
+                                    )));
+                                case 1:
+                                case "end":
+                                    return e.stop()
+                                }
+                        }
+                        ), e, this)
+                    }
+                    )))
+                }
+            }, {
+                key: "moveCamera",
+                value: function() {
+                    var e = this.nextBlock.position.clone().setY(0)
+                      , t = this.currentBlock.position.clone().setY(0)
+                      , n = this.state.blocks.length >= 2 ? t.add(e).divideScalar(2) : new d["Cb"];
+                    this.state.center.copy(n)
+                }
+            }, {
+                key: "addBlock",
+                value: function() {
+                    var e = this.store.blocks
+                      , t = e.double
+                      , n = e.single
+                      , a = 0 === this.state.blocks.length
+                      , r = this.state.steps.length > 0 && (this.state.steps.length + 2) % u["d"] === 0
+                      , o = Fn() > .5 ? new d["Cb"](1,0,0) : new d["Cb"](0,0,-1)
+                      , i = r ? 0 === o.x ? t.left : t.right : n
+                      , s = a ? n[0] : Hn(i)
+                      , c = 1 - Fn() * this.difficulty * .1
+                      , l = Object.assign(Object.assign({}, s), {
+                        position: new d["Cb"],
+                        visible: !1,
+                        dispose: !1,
+                        active: !1,
+                        reveal: !1,
+                        direction: o,
+                        scale: c
+                    });
+                    if (this.state.blocks.length) {
+                        var p = this.state.blocks[this.state.blocks.length - 1]
+                          , h = p.position.clone().add(o.clone().multiplyScalar(1.2 + Fn() + 1.2 * this.difficulty)).setY(0);
+                        l.position.copy(h)
+                    } else
+                        l.position.set(0, 0, 0),
+                        l.active = !0;
+                    return this.state.blocks.push(l),
+                    l
+                }
+            }, {
+                key: "start",
+                value: function() {
+                    var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : Math.floor(16777215 * Math.random());
+                    return Object(i["a"])(this, void 0, void 0, regeneratorRuntime.mark((function t() {
+                        return regeneratorRuntime.wrap((function(t) {
+                            while (1)
+                                switch (t.prev = t.next) {
+                                case 0:
+                                    return In(e),
+                                    this.score.total = 0,
+                                    this.score.boxes = 0,
+                                    this.score.combo = 0,
+                                    this.score.jumps = 0,
+                                    this.state.steps = [],
+                                    this.state.blocks = [],
+                                    this.state.falling = !1,
+                                    this.state.gameOver = !1,
+                                    this.state.player.set(0, 1, 0),
+                                    t.next = 12,
+                                    this.$nextTick();
+                                case 12:
+                                    this.addBlock().visible = !0,
+                                    this.addBlock().reveal = !0,
+                                    this.addBlock(),
+                                    this.moveCamera();
+                                case 16:
+                                case "end":
+                                    return t.stop()
+                                }
+                        }
+                        ), t, this)
+                    }
+                    )))
+                }
+            }, {
+                key: "play",
+                value: function() {
+                    this.start(),
+                    this.state.started || (this.state.started = !0)
+                }
+            }, {
+                key: "init",
+                value: function() {
+                    return Object(i["a"])(this, void 0, void 0, regeneratorRuntime.mark((function e() {
+                        var t;
+                        return regeneratorRuntime.wrap((function(e) {
+                            while (1)
+                                switch (e.prev = e.next) {
+                                case 0:
+                                    return t = this.addBlock(),
+                                    t.active = !1,
+                                    t.reveal = !0,
+                                    this.loader.progress = 1,
+                                    e.next = 6,
+                                    zn(.8);
+                                case 6:
+                                    this.loader.complete = !0;
+                                case 7:
+                                case "end":
+                                    return e.stop()
+                                }
+                        }
+                        ), e, this)
+                    }
+                    )))
+                }
+            }, {
+                key: "fetch",
+                value: function() {
+                    return Object(i["a"])(this, void 0, void 0, regeneratorRuntime.mark((function e() {
+                        var t = this;
+                        return regeneratorRuntime.wrap((function(e) {
+                            while (1)
+                                switch (e.prev = e.next) {
+                                case 0:
+                                    return e.next = 2,
+                                    x((function(e) {
+                                        return t.loader.progress = .98 * e
+                                    }
+                                    ));
+                                case 2:
+                                    return this.store = e.sent,
+                                    e.next = 5,
+                                    zn(.6);
+                                case 5:
+                                    this.loader.fetched = !0;
+                                case 6:
+                                case "end":
+                                    return e.stop()
+                                }
+                        }
+                        ), e, this)
+                    }
+                    )))
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["f"])("state.holding")], qn.prototype, "onHolding", null),
+        Object(i["b"])([Object(ue["f"])("state.jumping")], qn.prototype, "onJumping", null),
+        qn = Object(i["b"])([ue["a"]], qn);
+        var Kn = qn
+          , Wn = Kn
+          , Zn = (n("d23d"),
+        Object(ge["a"])(Wn, Vn, Gn, !1, null, "de0282bc", null))
+          , Qn = Zn.exports
+          , Xn = n("ebb6")
+          , ea = n("5670")
+          , ta = n("6d6a")
+          , na = n("a748")
+          , aa = n("6e77")
+          , ra = n("c575")
+          , oa = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                var e;
+                return Object(oe["a"])(this, n),
+                e = t.apply(this, arguments),
+                e.prevent = !1,
+                e
+            }
+            return Object(ie["a"])(n, [{
+                key: "mounted",
+                value: function() {
+                    var e = this
+                      , t = document.querySelector("#game")
+                      , n = Object(na["a"])(Object(aa["a"])(t, "mousedown"), Object(aa["a"])(t, "touchstart")).pipe(Object(Xn["a"])((function(t) {
+                        var n = t.target;
+                        return e.prevent = null !== n.getAttribute("data-btn"),
+                        !e.prevent && e.enabled && t.preventDefault()
+                    }
+                    )))
+                      , a = Object(na["a"])(Object(aa["a"])(t, "mouseup"), Object(aa["a"])(t, "touchend")).pipe(Object(Xn["a"])((function(t) {
+                        return e.enabled && t.preventDefault()
+                    }
+                    )));
+                    this.instance = n.pipe(Object(ea["a"])((function() {
+                        return e.enabled && !e.prevent
+                    }
+                    )), Object(Xn["a"])((function() {
+                        return e.$emit("pressed")
+                    }
+                    )), Object(ta["a"])((function() {
+                        return a
+                    }
+                    )), Object(Xn["a"])((function() {
+                        return e.$emit("release")
+                    }
+                    )), Object(ta["a"])((function() {
+                        return Object(ra["a"])(1e3 * u["i"])
+                    }
+                    ))).subscribe((function() {
+                        return e.$emit("debounce")
+                    }
+                    ))
+                }
+            }, {
+                key: "destroyed",
+                value: function() {
+                    this.instance.unsubscribe()
+                }
+            }, {
+                key: "render",
+                value: function() {
+                    return null
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], oa.prototype, "enabled", void 0),
+        oa = Object(i["b"])([ue["a"]], oa);
+        var ia = oa
+          , sa = function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                attrs: {
+                    id: "mixer"
+                }
+            }, [e._t("default", null, null, {
+                listener: e.listener,
+                toggle: e.toggle,
+                muted: e.muted
+            })], 2)
+        }
+          , ca = []
+          , la = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                var e;
+                return Object(oe["a"])(this, n),
+                e = t.apply(this, arguments),
+                e.listener = new d["e"],
+                e.store = {},
+                e.muted = !1,
+                e
+            }
+            return Object(ie["a"])(n, [{
+                key: "onStarted",
+                value: function(e) {
+                    e && this.play("ambient")
+                }
+            }, {
+                key: "onHolding",
+                value: function(e) {
+                    e && this.play("hold")
+                }
+            }, {
+                key: "onJumping",
+                value: function(e) {
+                    e && (this.stop("hold"),
+                    this.play("jump"))
+                }
+            }, {
+                key: "onFalling",
+                value: function(e) {
+                    e && this.play("fall")
+                }
+            }, {
+                key: "onLanding",
+                value: function(e) {
+                    e && e.active && this.play(e.sound)
+                }
+            }, {
+                key: "onCombo",
+                value: function(e) {
+                    var t = Math.min(6, e);
+                    t > 0 && (this.play("combo-".concat(this.checkpoint ? "v1" : "v2"), t - 1),
+                    this.play("applause-v1"))
+                }
+            }, {
+                key: "onGameOver",
+                value: function(e) {
+                    e && this.play("gameover")
+                }
+            }, {
+                key: "play",
+                value: function(e) {
+                    var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 0
+                      , n = this.store[e]
+                      , a = n.userData.volume;
+                    return n.detune = 100 * t,
+                    n.setVolume(a),
+                    n.isPlaying && n.stop(),
+                    n.play(),
+                    n
+                }
+            }, {
+                key: "stop",
+                value: function(e) {
+                    var t = this.store[e]
+                      , n = t.userData;
+                    me["b"].to({
+                        volume: n.volume
+                    }, {
+                        volume: 0,
+                        duration: .5,
+                        ease: "none",
+                        onUpdate: function() {
+                            if (t.isPlaying) {
+                                var e = this.targets()[0];
+                                t.setVolume(e.volume)
+                            }
+                        },
+                        onComplete: function() {
+                            t.isPlaying && t.stop()
+                        }
+                    })
+                }
+            }, {
+                key: "setVolume",
+                value: function(e) {
+                    var t, n = this, a = arguments.length > 1 && void 0 !== arguments[1] && arguments[1], r = Object(l["a"])(this.sounds);
+                    try {
+                        var o = function() {
+                            var r = t.value
+                              , o = n.store[r.name]
+                              , i = r.volume * e;
+                            a ? me["b"].to({
+                                volume: o.userData.volume
+                            }, {
+                                volume: i,
+                                duration: .5,
+                                ease: "none",
+                                onUpdate: function() {
+                                    var e = this.targets()[0];
+                                    o.setVolume(e.volume),
+                                    o.userData.volume = i
+                                }
+                            }) : (o.setVolume(i),
+                            o.userData.volume = i)
+                        };
+                        for (r.s(); !(t = r.n()).done; )
+                            o()
+                    } catch (i) {
+                        r.e(i)
+                    } finally {
+                        r.f()
+                    }
+                }
+            }, {
+                key: "toggle",
+                value: function(e) {
+                    var t = e ? 0 : 1;
+                    this.muted = e,
+                    this.setVolume(t, !0)
+                }
+            }, {
+                key: "mute",
+                value: function() {
+                    this.setVolume(0)
+                }
+            }, {
+                key: "unmute",
+                value: function() {
+                    this.setVolume(~~!this.muted)
+                }
+            }, {
+                key: "addListeners",
+                value: function() {
+                    this.$visibility.$on("visible", this.unmute),
+                    this.$visibility.$on("hidden", this.mute)
+                }
+            }, {
+                key: "removeListeners",
+                value: function() {
+                    this.$visibility.$off("visible", this.unmute),
+                    this.$visibility.$off("hidden", this.mute)
+                }
+            }, {
+                key: "created",
+                value: function() {
+                    var e, t = Object(l["a"])(this.sounds);
+                    try {
+                        for (t.s(); !(e = t.n()).done; ) {
+                            var n = e.value
+                              , a = n.name
+                              , r = n.loop
+                              , o = n.volume
+                              , i = n.playbackRate;
+                            this.store[a] = new d["d"](this.listener),
+                            this.store[a].setBuffer(m["d"](a)),
+                            this.store[a].setPlaybackRate(i),
+                            this.store[a].setVolume(o),
+                            this.store[a].setLoop(r),
+                            this.store[a].userData = {
+                                playbackRate: i,
+                                volume: o,
+                                name: a
+                            }
+                        }
+                    } catch (s) {
+                        t.e(s)
+                    } finally {
+                        t.f()
+                    }
+                }
+            }, {
+                key: "mounted",
+                value: function() {
+                    this.addListeners()
+                }
+            }, {
+                key: "destroyed",
+                value: function() {
+                    this.removeListeners()
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Object(i["b"])([Object(ue["c"])()], la.prototype, "started", void 0),
+        Object(i["b"])([Object(ue["c"])()], la.prototype, "holding", void 0),
+        Object(i["b"])([Object(ue["c"])()], la.prototype, "jumping", void 0),
+        Object(i["b"])([Object(ue["c"])()], la.prototype, "falling", void 0),
+        Object(i["b"])([Object(ue["c"])()], la.prototype, "block", void 0),
+        Object(i["b"])([Object(ue["c"])()], la.prototype, "checkpoint", void 0),
+        Object(i["b"])([Object(ue["c"])()], la.prototype, "gameOver", void 0),
+        Object(i["b"])([Object(ue["c"])()], la.prototype, "combo", void 0),
+        Object(i["b"])([Object(ue["c"])()], la.prototype, "sounds", void 0),
+        Object(i["b"])([Object(ue["f"])("started")], la.prototype, "onStarted", null),
+        Object(i["b"])([Object(ue["f"])("holding")], la.prototype, "onHolding", null),
+        Object(i["b"])([Object(ue["f"])("jumping")], la.prototype, "onJumping", null),
+        Object(i["b"])([Object(ue["f"])("falling")], la.prototype, "onFalling", null),
+        Object(i["b"])([Object(ue["f"])("block")], la.prototype, "onLanding", null),
+        Object(i["b"])([Object(ue["f"])("combo")], la.prototype, "onCombo", null),
+        Object(i["b"])([Object(ue["f"])("gameOver")], la.prototype, "onGameOver", null),
+        la = Object(i["b"])([ue["a"]], la);
+        var ua = la
+          , pa = ua
+          , da = (n("4262"),
+        Object(ge["a"])(pa, sa, ca, !1, null, "8a137422", null))
+          , ha = da.exports
+          , ba = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return n
+        }(ue["e"]);
+        Object(i["b"])([Object(le["b"])("theme")], ba.prototype, "theme", void 0),
+        ba = Object(i["b"])([Object(ue["a"])({
+            components: {
+                ComboParticles: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "7ff9"))
+                },
+                JumpParticles: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "5f2c"))
+                },
+                HoldParticles: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "efa0"))
+                },
+                DoubleBlock: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "a1c8"))
+                },
+                SingleBlock: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "ae7c"))
+                },
+                BlocksRoot: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "1569"))
+                },
+                Tutorial: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "b350"))
+                },
+                Player: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "e0bc"))
+                },
+                Center: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "b042"))
+                },
+                Lights: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "ef5f"))
+                },
+                Floor: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "7e66"))
+                },
+                Plane: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "e3d4"))
+                },
+                Canvas: function() {
+                    return Promise.all([n.e("webgl~253ae210"), n.e("webgl~76370953")]).then(n.bind(null, "5026"))
+                },
+                Controller: Qn,
+                Background: xe,
+                Controls: ia,
+                GameOver: ct,
+                Landing: Dt,
+                Display: mn,
+                Mixer: ha,
+                Share: _n
+            }
+        })], ba);
+        var ma = ba
+          , fa = ma
+          , va = (n("8ef1"),
+        Object(ge["a"])(fa, Tn, Dn, !1, null, "c77cbcea", null))
+          , ya = va.exports
+          , ga = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                return Object(oe["a"])(this, n),
+                t.apply(this, arguments)
+            }
+            return Object(ie["a"])(n, [{
+                key: "pointer",
+                get: function() {
+                    return this.$device.mobile ? "touch" : "no-touch"
+                }
+            }, {
+                key: "mounted",
+                value: function() {
+                    this.setup()
+                }
+            }]),
+            n
+        }(ue["e"]);
+        Object(i["b"])([Object(le["b"])("fetched")], ga.prototype, "fetched", void 0),
+        Object(i["b"])([Object(le["a"])("setup")], ga.prototype, "setup", void 0),
+        ga = Object(i["b"])([Object(ue["a"])({
+            components: {
+                Dashboard: An,
+                Footer: Bn,
+                Game: ya
+            }
+        })], ga);
+        var ka = ga
+          , xa = ka
+          , _a = (n("d8a7"),
+        Object(ge["a"])(xa, ae, re, !1, null, "7999bdce", null))
+          , Oa = _a.exports
+          , ja = (n("7d32"),
+        n("a9e3"),
+        {
+            enhancedIncludes: function(e, t) {
+                if (!Array.isArray(t))
+                    return !!~e.indexOf(t);
+                for (var n = t.length - 1; n >= 0; n--)
+                    if (~e.indexOf(t[n]))
+                        return !0;
+                return !1
+            }
+        })
+          , wa = ja.enhancedIncludes
+          , Ea = function e() {
+            var t, n = this;
+            Object(oe["a"])(this, e),
+            this.agent = navigator.userAgent.toLowerCase(),
+            this.detect = function(e) {
+                return wa(n.agent, e)
+            }
+            ,
+            this.touchCapable = !!navigator.maxTouchPoints,
+            this.pixelRatio = window.devicePixelRatio,
+            this.system = {},
+            this.system.retina = window.devicePixelRatio > 1,
+            this.system.webworker = void 0 !== window.Worker,
+            this.system.webcam = !!(navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia),
+            this.system.language = function() {
+                var e = (void 0 !== navigator.languages ? navigator.languages[0] : navigator.language) || navigator.browserLanguage;
+                return e.trim().split(/-|_/)[0]
+            }(),
+            this.system.webaudio = void 0 !== window.AudioContext,
+            this.system.xr = navigator.getVRDisplays || navigator.xr,
+            this.system.exokit = this.detect("exokit");
+            try {
+                this.system.localStorage = void 0 !== window.localStorage
+            } catch (a) {
+                this.system.localStorage = !1
+            }
+            this.system.fullscreen = document.fullscreenEnabled || document.webkitFullscreenEnabled || document.mozFullScreenEnabled || document.msFullscreenEnabled,
+            this.system.os = this.detect(["exokit"]) && "linux" == navigator.platform ? "magicleap" : this.detect(["ipad", "iphone", "ios"]) || this.detect("mac") && this.touchCapable && Math.max(screen.width, screen.height) < 1370 ? "ios" : this.detect(["android", "kindle"]) ? "android" : this.detect(["blackberry"]) ? "blackberry" : this.detect(["mac os"]) ? "mac" : this.detect(["windows", "iemobile"]) ? "windows" : this.detect(["linux"]) ? "linux" : "unknown",
+            this.system.version = function() {
+                try {
+                    if ("ios" == n.system.os) {
+                        if (wa(n.agent, "intel mac")) {
+                            var e = n.agent.split("version/")[1].split(" ")[0].split(".");
+                            return Number(e[0] + "." + e[1])
+                        }
+                        var t = n.agent.split("os ")[1].split("_")
+                          , r = t[0]
+                          , o = t[1].split(" ")[0];
+                        return Number(r + "." + o)
+                    }
+                    if ("android" == n.system.os) {
+                        var i = n.agent.split("android ")[1].split(";")[0];
+                        return i.length > 3 && (i = i.slice(0, -2)),
+                        "." == i.charAt(i.length - 1) && (i = i.slice(0, -1)),
+                        Number(i)
+                    }
+                    if ("windows" == n.system.os)
+                        return wa(n.agent, "rv:11") ? 11 : Number(n.agent.split("windows phone ")[1].split(";")[0])
+                } catch (a) {}
+                return -1
+            }(),
+            this.system.browser = "ios" == this.system.os ? this.detect(["twitter", "fbios"]) ? "social" : this.detect(["crios"]) ? "chrome" : this.detect(["safari"]) ? "safari" : "unknown" : "android" == this.system.os ? this.detect(["twitter", "fb", "facebook"]) ? "social" : this.detect(["chrome"]) ? "chrome" : this.detect(["firefox"]) ? "firefox" : "browser" : this.detect(["msie"]) || this.detect(["trident"]) && this.detect(["rv:"]) || this.detect(["windows"]) && this.detect(["edge"]) ? "ie" : this.detect(["chrome"]) ? "chrome" : this.detect(["safari"]) ? "safari" : this.detect(["firefox"]) ? "firefox" : "unknown",
+            this.system.browserVersion = function() {
+                try {
+                    if ("chrome" == n.system.browser)
+                        return Number(n.agent.split("chrome/")[1].split(".")[0]);
+                    if ("firefox" == n.system.browser)
+                        return Number(n.agent.split("firefox/")[1].split(".")[0]);
+                    if ("safari" == n.system.browser)
+                        return Number(n.agent.split("version/")[1].split(".")[0].split(".")[0]);
+                    if ("ie" == n.system.browser)
+                        return n.detect(["msie"]) ? Number(n.agent.split("msie ")[1].split(".")[0]) : n.detect(["rv:"]) ? Number(n.agent.split("rv:")[1].split(".")[0]) : Number(n.agent.split("edge/")[1].split(".")[0])
+                } catch (a) {
+                    return -1
+                }
+            }(),
+            this.mobile = !(window._NODE_ || !("ontouchstart"in window) && !("onpointerdown"in window) || !wa(this.system.os, ["ios", "android", "magicleap"])) && {},
+            this.mobile && this.detect(["windows"]) && !this.detect(["touch"]) && (this.mobile = !1),
+            this.mobile && (this.mobile.tablet = Math.max(window.screen ? screen.width : window.innerWidth, window.screen ? screen.height : window.innerHeight) > 1e3,
+            this.mobile.phone = !this.mobile.tablet,
+            this.mobile.pwa = !(!window.matchMedia || !window.matchMedia("(display-mode: standalone)").matches) || !!navigator.standalone),
+            this.media = {},
+            this.media.audio = !!document.createElement("audio").canPlayType && (this.detect(["firefox", "opera"]) ? "ogg" : "mp3"),
+            this.media.video = !!(t = document.createElement("video")).canPlayType && (t.canPlayType("video/webm;") ? "webm" : "mp4"),
+            this.graphics = {},
+            this.graphics.webgl = function() {
+                var e = !1;
+                Object.defineProperty(n.graphics, "webgl", {
+                    get: function() {
+                        if (e)
+                            return !1;
+                        if (n.graphics._webglContext)
+                            return n.graphics._webglContext;
+                        try {
+                            for (var t, r = ["webgl2", "webgl", "experimental-webgl"], o = document.createElement("canvas"), i = 0; i < r.length && (t = o.getContext(r[i]),
+                            !t); i++)
+                                ;
+                            var s = t.getExtension("WEBGL_debug_renderer_info")
+                              , c = {};
+                            if (s) {
+                                var l = s.UNMASKED_RENDERER_WEBGL;
+                                c.gpu = t.getParameter(l).toLowerCase()
+                            }
+                            return c.renderer = t.getParameter(t.RENDERER).toLowerCase(),
+                            c.version = t.getParameter(t.VERSION).toLowerCase(),
+                            c.glsl = t.getParameter(t.SHADING_LANGUAGE_VERSION).toLowerCase(),
+                            c.extensions = t.getSupportedExtensions(),
+                            c.webgl2 = wa(c.version, ["webgl 2", "webgl2"]),
+                            c.canvas = o,
+                            c.context = t,
+                            c.detect = function(e) {
+                                if (c.gpu && wa(c.gpu.toLowerCase(), e))
+                                    return !0;
+                                if (c.version && wa(c.version.toLowerCase(), e))
+                                    return !0;
+                                for (var t = 0; t < c.extensions.length; t++)
+                                    if (wa(c.extensions[t].toLowerCase(), e))
+                                        return !0;
+                                return !1
+                            }
+                            ,
+                            c.webgl2 || c.detect("instance") || window.AURA || (e = !0),
+                            n.graphics._webglContext = c,
+                            c
+                        } catch (a) {
+                            return !1
+                        }
+                    },
+                    set: function(t) {
+                        !1 === t && (e = !0)
+                    }
+                })
+            }(),
+            this.graphics.metal = function() {
+                if (!window.Metal)
+                    return !1;
+                var e = {};
+                return e.gpu = window.Metal.device.getName().toLowerCase(),
+                e.detect = function(t) {
+                    return wa(e.gpu, t)
+                }
+                ,
+                e
+            }(),
+            this.graphics.gpu = function() {
+                if (!n.graphics.webgl && !n.graphics.metal)
+                    return !1;
+                var e = {};
+                return ["metal", "webgl"].forEach((function(t) {
+                    n.graphics[t] && !e.identifier && (e.detect = n.graphics[t].detect,
+                    e.identifier = n.graphics[t].gpu)
+                }
+                )),
+                e
+            }(),
+            this.graphics.canvas = !!document.createElement("canvas").getContext
+        }
+          , Aa = new Ea
+          , Ca = Aa.pixelRatio
+          , Sa = Aa.graphics
+          , Pa = Aa.system
+          , $a = Aa.mobile
+          , La = Aa.media
+          , Ra = Aa.agent
+          , Ba = Aa.detect
+          , Ta = function() {
+            return "ko" === z.locale ? "Noto Sans KR" : "ja" === z.locale ? "Noto Sans JP" : "zh" === z.locale ? "Noto Sans SC" : "Lato"
+        }
+          , Da = n("53ca")
+          , Va = n("99de")
+          , Ga = function() {
+            var e = !1;
+            try {
+                var t = Object.defineProperty({}, "passive", {
+                    get: function() {
+                        return e = !0
+                    }
+                });
+                window.addEventListener("test", (function() {}
+                ), t)
+            } catch (n) {
+                console.log(n)
+            }
+            return e
+        }
+          , Ma = {
+            passive: !!Ga() && {
+                passive: !1
+            }
+        }
+          , Na = function(e) {
+            Object(se["a"])(n, e);
+            var t = Object(ce["a"])(n);
+            function n() {
+                var e;
+                return Object(oe["a"])(this, n),
+                e = t.call(this),
+                void 0 !== Object(Da["a"])(document.hidden) ? (e.hidden = "hidden",
+                e.visibilityChange = "visibilitychange",
+                e.visibilityState = "visibilityState") : void 0 !== Object(Da["a"])(document.mozHidden) ? (e.hidden = "mozHidden",
+                e.visibilityChange = "mozvisibilitychange",
+                e.visibilityState = "mozVisibilityState") : void 0 !== Object(Da["a"])(document.msHidden) ? (e.hidden = "msHidden",
+                e.visibilityChange = "msvisibilitychange",
+                e.visibilityState = "msVisibilityState") : void 0 !== Object(Da["a"])(document.webkitHidden) && (e.hidden = "webkitHidden",
+                e.visibilityChange = "webkitvisibilitychange",
+                e.visibilityState = "webkitVisibilityState"),
+                void 0 === Object(Da["a"])(document.addEventListener) || void 0 === Object(Da["a"])(e.hidden) ? Object(Va["a"])(e) : (document.addEventListener(e.visibilityChange, (function() {
+                    switch (document[e.visibilityState]) {
+                    case "visible":
+                        e.$emit("visible");
+                        break;
+                    case "hidden":
+                        e.$emit("hidden");
+                        break
+                    }
+                }
+                ), Ma.passive),
+                e)
+            }
+            return n
+        }(o["a"])
+          , Ua = o["a"].observable({
+            dataURL: null
+        });
+        o["a"].use((function() {
+            return o["a"].prototype.$share = Ua
+        }
+        )),
+        o["a"].use((function() {
+            return o["a"].prototype.$device = a
+        }
+        )),
+        o["a"].use((function() {
+            return o["a"].prototype.$styles = r
+        }
+        )),
+        o["a"].use((function() {
+            return o["a"].prototype.$passive = Ma.passive
+        }
+        )),
+        o["a"].use((function() {
+            return o["a"].prototype.$visibility = new Na
+        }
+        ));
+        var Ia = n("9d0b");
+        me["a"].registerPlugin(Ia["a"]),
+        me["a"].config({
+            nullTargetWarn: !1
+        }),
+        o["a"].config.productionTip = !1,
+        new o["a"]({
+            store: ne,
+            i18n: z,
+            render: function(e) {
+                return e(Oa)
+            }
+        }).$mount("#app")
+    },
+    d23d: function(e, t, n) {
+        "use strict";
+        n("e679")
+    },
+    d54b: function(e, t, n) {
+        e.exports = n.p + "img/gucci-arcade-logo.2a98ce03.png"
+    },
+    d8a7: function(e, t, n) {
+        "use strict";
+        n("10de")
+    },
+    dfba: function(e, t, n) {},
+    e34c: function(e, t, n) {
+        "use strict";
+        n("15dc")
+    },
+    e502: function(e, t, n) {},
+    e679: function(e, t, n) {},
+    e850: function(e, t, n) {},
+    ee5a: function(e, t, n) {
+        "use strict";
+        n("fd4c")
+    },
+    f44e: function(e) {
+        e.exports = JSON.parse('{"v":"5.4.3","fr":25,"ip":0,"op":54,"w":100,"h":300,"nm":"_ Body Movin 02","ddd":0,"assets":[{"id":"comp_0","layers":[{"ddd":0,"ind":1,"ty":4,"nm":"Left Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[12,40,0],"ix":2},"a":{"a":0,"k":[-48,-107.25,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-51,-110.5],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Right Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[18,40,0],"ix":2},"a":{"a":0,"k":[-48,-107.25,0],"ix":1},"s":{"a":0,"k":[-100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-51,-110.5],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Main Line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[15,24.375,0],"ix":2},"a":{"a":0,"k":[-45,-121,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0]],"o":[[0,0],[0,0]],"v":[[-45,-138],[-45,-104]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":2,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":250,"st":0,"bm":0}]}],"layers":[{"ddd":0,"ind":1,"ty":4,"nm":"hand-curos Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[53.061,238.517,0],"ix":2},"a":{"a":0,"k":[237.5,237.5,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":0,"s":[21,21,100],"e":[19.791,19.791,100]},{"i":{"x":[0.833,0.833,0.833],"y":[1,1,1]},"o":{"x":[0.5,0.5,0.5],"y":[0,0,0]},"n":["0p833_1_0p5_0","0p833_1_0p5_0","0p833_1_0p5_0"],"t":3,"s":[19.791,19.791,100],"e":[19.791,19.791,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":28,"s":[19.791,19.791,100],"e":[24,24,100]},{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,1]},"o":{"x":[0.167,0.167,0.167],"y":[0,0,0]},"n":["0p833_0p833_0p167_0","0p833_0p833_0p167_0","0p833_1_0p167_0"],"t":45,"s":[24,24,100],"e":[21,21,100]},{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,0.833]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0.167]},"n":["0p833_0p833_0p167_0p167","0p833_0p833_0p167_0p167","0p833_0p833_0p167_0p167"],"t":53,"s":[21,21,100],"e":[19.791,19.791,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":81,"s":[19.791,19.791,100],"e":[24,24,100]},{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,1]},"o":{"x":[0.167,0.167,0.167],"y":[0,0,0]},"n":["0p833_0p833_0p167_0","0p833_0p833_0p167_0","0p833_1_0p167_0"],"t":98,"s":[24,24,100],"e":[21,21,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":106,"s":[21,21,100],"e":[19.791,19.791,100]},{"i":{"x":[0.833,0.833,0.833],"y":[1,1,1]},"o":{"x":[0.5,0.5,0.5],"y":[0,0,0]},"n":["0p833_1_0p5_0","0p833_1_0p5_0","0p833_1_0p5_0"],"t":109,"s":[19.791,19.791,100],"e":[19.791,19.791,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":134,"s":[19.791,19.791,100],"e":[24,24,100]},{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,1]},"o":{"x":[0.167,0.167,0.167],"y":[0,0,0]},"n":["0p833_0p833_0p167_0","0p833_0p833_0p167_0","0p833_1_0p167_0"],"t":151,"s":[24,24,100],"e":[21,21,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":159,"s":[21,21,100],"e":[19.791,19.791,100]},{"i":{"x":[0.833,0.833,0.833],"y":[1,1,1]},"o":{"x":[0.5,0.5,0.5],"y":[0,0,0]},"n":["0p833_1_0p5_0","0p833_1_0p5_0","0p833_1_0p5_0"],"t":162,"s":[19.791,19.791,100],"e":[19.791,19.791,100]},{"i":{"x":[0.5,0.5,0.5],"y":[1,1,1]},"o":{"x":[0.167,0.167,0.167],"y":[0.167,0.167,0]},"n":["0p5_1_0p167_0p167","0p5_1_0p167_0p167","0p5_1_0p167_0"],"t":187,"s":[19.791,19.791,100],"e":[24,24,100]},{"i":{"x":[0.833,0.833,0.833],"y":[0.833,0.833,1]},"o":{"x":[0.167,0.167,0.167],"y":[0,0,0]},"n":["0p833_0p833_0p167_0","0p833_0p833_0p167_0","0p833_1_0p167_0"],"t":204,"s":[24,24,100],"e":[21,21,100]},{"t":212}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.051,-38.45],[0.024,-23.808],[41.166,0],[0,0],[13.214,25.391],[0,0],[0,0],[-0.102,0.09],[-9.819,-0.644],[-6.278,-7.869],[0,0],[-3.176,1.136],[0,3.37],[0,0],[-12.235,0],[0,-13.421],[0,0],[0,-0.437],[0,-0.183],[0,0],[-4.413,0],[0,4.413],[0,0],[-11.92,0],[0,0],[0,-13.421],[0,0],[-4.413,0],[0,4.413],[0,0],[-12.31,0],[0,-13.43],[0,0],[-4.413,0],[0,4.413],[0,0],[-12.243,0],[0,0],[-0.031,-13.382]],"o":[[-0.016,14.385],[-0.042,44.412],[0,0],[-26.983,0],[0,0],[0,0],[0.104,-0.085],[7.167,-6.746],[10.04,0.769],[0,0],[2.137,2.61],[3.176,-1.135],[0,0],[0.008,-13.414],[12.236,0],[0,0],[0,0.43],[0,0.187],[0,0],[0,4.413],[4.412,0],[0,0],[0,-12.941],[0,0],[12.243,0],[0,0],[0,4.413],[4.412,0],[0,0],[0,-13.426],[12.239,0],[0,0],[0,4.413],[4.414,0],[0,0],[0,-13.425],[0,0],[12.212,0],[0.097,42.36]],"v":[[162.568,67.23],[162.506,123.237],[87.771,203.863],[-10.252,203.863],[-75.423,162.612],[-159.849,0.38],[-155.682,-3.096],[-155.374,-3.373],[-128.743,-12.939],[-103.163,0.607],[-78.704,30.368],[-69.84,32.822],[-64.542,25.304],[-64.398,-179.544],[-42.011,-203.871],[-19.631,-179.525],[-19.631,-56.013],[-19.65,-54.713],[-19.631,-54.152],[-19.631,-1.344],[-11.64,6.646],[-3.65,-1.344],[-3.65,-55.744],[18.156,-78.798],[18.866,-78.798],[41.296,-54.706],[41.296,-6.385],[49.287,1.606],[57.277,-6.385],[57.277,-44.296],[79.286,-68.642],[101.224,-44.296],[101.224,-8.531],[109.214,-0.541],[117.205,-8.531],[117.205,-27.898],[139.678,-51.83],[140.345,-51.83],[162.541,-27.762]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[20.998,0],[0,0],[6.777,-6.09],[16.328,0],[6.934,-7.222],[14.705,0],[0,0],[6.235,-4.822],[0,0],[21.057,0],[0.012,-22.219],[0,0],[0,0],[14.428,1.057],[10.379,-9.645],[0,0],[-1.736,-3.34],[0,0],[-32.964,0],[0,0],[0,0],[-0.05,53.21],[-0.016,14.381],[0.097,42.391]],"o":[[0,0],[-9.11,-0.051],[-5.485,-15.181],[-10.008,0.071],[-6.375,-12.906],[0,0],[-7.881,-0.121],[0,0],[0,-22.235],[-21.034,0],[0,0],[0,0],[-9.059,-11.28],[-14.131,-0.968],[0,0],[-2.899,2.403],[0,0],[15.981,30.701],[0,0],[0,0],[49.939,0],[0.02,-23.806],[0.05,-38.478],[-0.051,-22.184]],"v":[[140.345,-67.811],[139.678,-67.811],[114.989,-58.424],[79.235,-84.518],[52.735,-73.117],[18.866,-94.779],[18.156,-94.779],[-3.65,-87.514],[-3.65,-179.525],[-42.018,-219.848],[-80.285,-179.552],[-80.46,3.002],[-90.792,-9.545],[-127.615,-28.885],[-166.026,-15.292],[-175.015,-7.844],[-177.005,1.996],[-89.606,169.994],[-10.256,219.848],[88.24,219.848],[88.24,219.762],[178.721,123.217],[178.667,67.285],[178.581,-27.781]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[237.405,255.152],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":6,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":54,"st":-4,"bm":0},{"ddd":0,"ind":2,"ty":0,"nm":"Arrow","refId":"comp_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p167"],"t":0,"s":[0],"e":[0]},{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"n":["0p833_0p833_0p167_0p167"],"t":3,"s":[0],"e":[0]},{"i":{"x":[0.5],"y":[1]},"o":{"x":[0.167],"y":[0.167]},"n":["0p5_1_0p167_0p167"],"t":29.042,"s":[0],"e":[180]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.429],"y":[0]},"n":["0p7_1_0p429_0"],"t":32.167,"s":[180],"e":[340]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.3],"y":[0]},"n":["0p7_1_0p3_0"],"t":39.458,"s":[340],"e":[360]},{"i":{"x":[0.7],"y":[1]},"o":{"x":[0.167],"y":[0]},"n":["0p7_1_0p167_0"],"t":47.792,"s":[360],"e":[360]},{"t":53}],"ix":10,"x":"var $bm_rt;\\n$bm_rt = loopOut();"},"p":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":0,"s":[50,133.676,0],"e":[50,133.676,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":3,"s":[50,133.676,0],"e":[50,156.926,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.3,"y":1},"o":{"x":0.167,"y":0.167},"n":"0p3_1_0p167_0p167","t":29.042,"s":[50,156.926,0],"e":[50,31.926,0],"to":[0,0,0],"ti":[0,3.875,0]},{"i":{"x":0.5,"y":1},"o":{"x":0.7,"y":0},"n":"0p5_1_0p7_0","t":35.292,"s":[50,31.926,0],"e":[50,133.676,0],"to":[0,-3.875,0],"ti":[0,-16.9583339691162,0]},{"t":53}],"ix":2,"x":"var $bm_rt;\\n$bm_rt = loopOut();"},"a":{"a":0,"k":[15,25,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"w":30,"h":50,"ip":0,"op":54,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Mask","parent":1,"td":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[237.409,267.578,0],"ix":2},"a":{"a":0,"k":[3.042,94.833,0],"ix":1},"s":{"a":0,"k":[453.908,453.908,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"rc","d":1,"s":{"a":0,"k":[14.584,24.167],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"r":{"a":0,"k":20,"ix":4},"nm":"Rectangle Path 1","mn":"ADBE Vector Shape - Rect","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-5.958,58.833],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Rectangle 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":54,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Square","tt":2,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[50,183.676,0],"ix":2},"a":{"a":0,"k":[0.839,-70.661,0],"ix":1},"s":{"a":0,"k":[94,94,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":1,"k":[{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":0,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":3,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":29.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":32.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":53,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":82.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":85.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":106,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":109,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":135.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":138.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":159,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":162,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}]},{"i":{"x":0,"y":1},"o":{"x":0.167,"y":0.167},"n":"0_1_0p167_0p167","t":188.042,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.9,-3.754],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.778,-3.754],[-21.778,-11.754],[0.777,-4.307],[21.9,-11.754]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":1,"y":0},"n":"0p833_0p833_1_0","t":191.167,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"i":{"x":0.833,"y":0.833},"o":{"x":0.167,"y":0.167},"n":"0p833_0p833_0p167_0p167","t":212,"s":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}],"e":[{"i":[[0,-4.418],[0,0],[4.418,0],[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,0]],"o":[[0,0],[0,4.418],[0,0],[-4.418,0],[0,0],[0,-4.418],[0,0],[0,0],[4.418,0]],"v":[[29.839,-21.839],[29.839,21.839],[21.839,29.839],[-21.839,29.839],[-29.839,21.839],[-29.839,-21.839],[-21.839,-29.839],[0.798,-29.839],[21.839,-29.839]],"c":true}]},{"t":265}],"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":4,"ix":5},"lc":1,"lj":1,"ml":4,"ml2":{"a":0,"k":4,"ix":8},"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":30,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0.839,-70.661],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Rectangle 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":54,"st":0,"bm":0}],"markers":[]}')
+    },
+    fd1c: function(e, t, n) {
+        "use strict";
+        n("857c")
+    },
+    fd4c: function(e, t, n) {},
+    fdb4: function(e, t, n) {}
+});
 //# sourceMappingURL=app~d0ae3f07.2a94a2ea.js.map
