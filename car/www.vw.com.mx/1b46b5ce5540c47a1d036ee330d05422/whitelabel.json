@@ -1,0 +1,17 @@
+{
+  "name": "Virtual Studio",
+  "availableCars": [
+    "crosssport",
+    "jetta",
+    "taos",
+    "tcross",
+    "nuevotiguan",
+    "teramont",
+    "virtus",
+    "nivus"
+  ],
+  "hiddenCars": [
+  ],
+  "defaultCar": "crosssport",
+  "downloadAR": false
+}

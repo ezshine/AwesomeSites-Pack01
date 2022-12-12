@@ -1,0 +1,19 @@
+{
+  "trunkLoading":{
+    "boxes":"Trunk Loading Christmas Boxes",
+    "default": "boxes"
+  },
+  "environment":{
+    "extra":[
+      {"id":"Light Studio", "name":"Light Studio", "audio":"christmas-studio.mp3"},
+      {"id":"BG Winter Lake", "name":"Winter Lake", "audio":"christmas.mp3"}
+    ]
+  },
+  "geometry":[
+    {
+      "bindToEnvIDs": ["BG Winter Lake", "Light Studio"],
+      "visibilityGroup":"Christmas Tree",
+      "objects": ["Tree_Light_Orientation"]
+    }
+  ]
+}
