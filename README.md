@@ -38,3 +38,4 @@
 - au-floor.vercel.app
 - avatarbuilder
 - www.fendi.com/baguette25
+- njcb.gotin.online
